@@ -59,15 +59,15 @@ export default async function(eleventyConfig) {
 		},
 		collection: {
 			name: "posts",
-			limit: 10,
+			limit: 50,
 		},
 		metadata: {
 			language: "en",
-			title: "Blog Title",
-			subtitle: "This is a longer description about your blog.",
-			base: "https://example.com/",
+			title: "Sightless Scribbles",
+			subtitle: "A fabulously gay blind writer.",
+			base: "https://robertkingett.com/",
 			author: {
-				name: "Your Name"
+				name: "Robert Kingett"
 			}
 		}
 	});

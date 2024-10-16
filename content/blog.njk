@@ -4,7 +4,26 @@ const eleventyNavigation = {
 	order: 2
 };
 ---
-<h1>Archive</h1>
+
+<h1>Pages.</h1>
+
+<ul>
+	{%- for entry in collections.all %}
+	<li><a href="{{ entry.url }}"><code>{{ entry.url }}</code></a></li>
+	{%- endfor %}
+</ul>
+
+<h1>Tag archive</h1>
+
+<ul>
+{% for tag in collections | getKeys | filterTagList %}
+	{% set tagUrl %}/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
+
+<h1>Post Archive</h1>
 
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
+

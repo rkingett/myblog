@@ -1,9 +1,9 @@
 ---js
 const eleventyNavigation = {
-	key: "About",
+	key: "About and Contact",
 	order: 3
 };
 ---
 # About
 
-I am a person that writes stuff.
+Robert Kingett is a blind and gay writer, writing everything from novels to screenplays to fiction podcast scripts.
