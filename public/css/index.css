@@ -170,9 +170,6 @@ header {
 	font-weight: 700;
 	margin-right: 2em;
 }
-.home-link:link:not(:hover) {
-	text-decoration: none;
-}
 
 /* Nav */
 .nav {
@@ -184,12 +181,6 @@ header {
 .nav-item {
 	display: inline-block;
 	margin-right: 1em;
-}
-.nav-item a[href]:not(:hover) {
-	text-decoration: none;
-}
-.nav a[href][aria-current="page"] {
-	text-decoration: underline;
 }
 
 /* Posts list */
