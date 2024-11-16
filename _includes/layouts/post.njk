@@ -16,28 +16,18 @@ layout: layouts/base.njk
 
 {{ content | safe }}
 
-<h2>Follow future posts</h2>
+<h1>Follow future posts</h1>
 
 You can <a href="/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-<form
-  action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter"
-  method="post"
-  target="popupwindow"
-  onsubmit="window.open('https://buttondown.com/weirdwriter', 'popupwindow')"
-  class="embeddable-buttondown-form"
->
-  <label for="bd-email">Subscribe to Robert by entering your email here</label>
-  <input type="email" name="email" id="bd-email" />
-  
-  <input type="submit" value="Subscribe" />
-  <input type="hidden" name="tag" value="free" />
-  <p>
-    <a href="https://buttondown.com/refer/weirdwriter" target="_blank">Powered by Buttondown.</a>
-  </p>
+<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+<input id="bd-email" name="email" type="email">
+<label><input type="checkbox" name="tag" value="street">Join street team</label>
+<label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
+<input type="submit" value="Subscribe">
 </form>
 
-<h2>Post navigation</h2>
+<h1>Post navigation</h1>
 
 {%- if collections.posts %}
 {%- set previousPost = collections.posts | getPreviousCollectionItem %}

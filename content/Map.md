@@ -1,6 +1,8 @@
 ---
 permalink: map.html
-eleventyExcludeFromCollections: false
+const eleventyNavigation = {
+	key: "Site Map",
+	order: 9
 ---
 # Tag archive.
 
