@@ -37,19 +37,19 @@
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
 	<body>
-		<a href="#skip" class="visually-hidden">Skip to main content</a>
+		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
+
+		<nav>
+		<ul class="nav">
+			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
+			{%- for entry in collections.all | eleventyNavigation %}
+				<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
+			{%- endfor %}
+			</ul>
+		</nav>
 
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
-
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			<nav>
-			<ul class="nav">
-				{%- for entry in collections.all | eleventyNavigation %}
-					<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-				{%- endfor %}
-				</ul>
-			</nav>
 		</header>
 
 		<main id="skip">
@@ -59,7 +59,7 @@
 		</main>
 
 		<footer>
-			<p><em>Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></em></p>
+			<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></p>
 		</footer>
 
 		<!-- This page `{{ page.url | htmlBaseUrl }}` was updated on {% currentBuildDate %} -->

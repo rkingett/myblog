@@ -11,85 +11,84 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: cyanotype
 */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
 
 :root {
-    /* colour variables */
-    --foreground-colour: #ffffff;
-    --background-colour: #001f2c;
-    --placeholder-colour: #555555;
-    --input-colour: #f7f7f7;
-    --input-focus: #ffffff;
-    --input-text: #001f2c;
-	
-    --focus-colour: #001f2c;
-    --skip-colour: #001f2c;
-    --link-colour: #aaa;
-    --link-hover-color: #d1d1d1;
-    
-    /* other variables */
-    --width: 720px;
-    --font-main: Verdana, 'Open Sans', sans-serif;
-    --font-mono: Inconsolata, monospace;
-    --font-cyanotype: Karla, sans-serif;
-    --font-scale: 1.4rem;
-    --background-color: var(--background-colour);
-    --heading-color: var(--foreground-colour);
-    --text-color: var(--foreground-colour);
-    --link-color: var(--link-colour);
-    --visited-color: var(--link-colour);
-    --code-background-color: var(--foreground-colour);
-    --code-color: var(--background-colour);
-    --blockquote-color: var(--foreground-colour);
+	/* colour variables */
+	--foreground-colour: #ffffff;
+	--background-colour: #001f2c;
+	--placeholder-colour: #555555;
+	--input-colour: #f7f7f7;
+	--input-focus: #ffffff;
+	--input-text: #001f2c;
+
+	--focus-colour: #001f2c;
+	--skip-colour: #001f2c;
+	--link-colour: #aaa;
+	--link-hover-color: #d1d1d1;
+
+	/* other variables */
+	--width: 720px;
+	--font-main: Verdana, "Open Sans", sans-serif;
+	--font-mono: Inconsolata, monospace;
+	--font-cyanotype: Karla, sans-serif;
+	--font-scale: 1.4rem;
+	--background-color: var(--background-colour);
+	--heading-color: var(--foreground-colour);
+	--text-color: var(--foreground-colour);
+	--link-color: var(--link-colour);
+	--visited-color: var(--link-colour);
+	--code-background-color: var(--foreground-colour);
+	--code-color: var(--background-colour);
+	--blockquote-color: var(--foreground-colour);
 }
 
 @media (prefers-color-scheme: light) {
-:root {
-    /* colour variables */
-    --foreground-colour: #001f2c;
-    --background-colour: #ffffff;
-    --placeholder-colour: #555555;
-    --input-colour: #f7f7f7;
-    --input-focus: #ffffff;
-    --input-text: #001f2c;
-    
-    --focus-colour: #001f2c;
-    --skip-colour: #001f2c;
-    --link-colour: #545454;
-    --link-hover-color: #2d2d2d;
-} 				/* root */
-} 				/* prefers light */
+	:root {
+		/* colour variables */
+		--foreground-colour: #001f2c;
+		--background-colour: #ffffff;
+		--placeholder-colour: #555555;
+		--input-colour: #f7f7f7;
+		--input-focus: #ffffff;
+		--input-text: #001f2c;
+
+		--focus-colour: #001f2c;
+		--skip-colour: #001f2c;
+		--link-colour: #545454;
+		--link-hover-color: #2d2d2d;
+	} /* root */
+} /* prefers light */
 
 body {
-    font-family: var(--font-main);
-    font-size: var(--font-scale);
-    font-weight: 300;
-    margin: auto;
-    padding: 30px 20px;
-    max-width: var(--width);
-    text-align: left;
-    background-color: var(--background-color);
-    word-wrap: break-word;
-    overflow-wrap: break-word;
-    line-height: 1.5;
-    color: var(--text-color);
+	font-family: var(--font-main);
+	font-size: var(--font-scale);
+	font-weight: 300;
+	margin: auto;
+	text-align: left;
+	background-color: var(--background-color);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: var(--text-color);
 }
 
 .blog-posts {
-	    font-weight: 500; 	/* 700 is header weight, 500 is next lowest */
-	    font-size: var(--font-scale);
-	    line-height: 1.8;
+	font-weight: 500; /* 700 is header weight, 500 is next lowest */
+	font-size: var(--font-scale);
+	line-height: 1.8;
 }
 
-.post a, .page a, main a {
-    font-weight: 500;
+.post a,
+.page a,
+main a {
+	font-weight: 500;
 }
 
 .post time {
-    font-family: var(--font-mono);
-    text-decoration: underline;
-    font-size: 1rem;
+	font-family: var(--font-mono);
+	text-decoration: underline;
+	font-size: 1rem;
 }
 
 h1,
@@ -98,9 +97,9 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: var(--font-main);
-    color: var(--heading-color);
-    font-weight: 800;
+	font-family: var(--font-main);
+	color: var(--heading-color);
+	font-weight: 800;
 }
 
 /* Normalize (Cyanotype) */
@@ -271,13 +270,13 @@ input::-moz-focus-inner {
 }
 
 input {
-    display: block;
+	display: block;
 	line-height: normal;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-    display: inline-block;
+	display: inline-block;
 	box-sizing: border-box;
 	padding: 0;
 }
@@ -324,163 +323,155 @@ table {
 td,
 th {
 	padding: 0;
-} 				/* End of Normalize section of Cyanotype */
+} /* End of Normalize section of Cyanotype */
 
 a {
-    color: var(--link-color);
-    cursor: pointer;
-    text-decoration: underline;
-    text-decoration-thickness: 2px;
+	color: var(--link-color);
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
 }
 
-a:hover, a:focus {
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    color: var(--link-hover-color);
-}
-
-nav a, footer a, a.title, nav a:hover, nav a:focus {
-    text-decoration: none;
-}
-
-header {
-    text-align: center;
-    background: var(--background-colour);
-    padding: 30px 25px;
-    border-bottom: 4px solid var(--foreground-colour);
-    margin-bottom: 40px;
+a:hover,
+a:focus {
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	color: var(--link-hover-color);
 }
 
 nav ul li {
-    display: inline;
-    border-top: 2px solid currentColor;
-    border-bottom: 2px solid currentColor;
-  font-size: 17px;
-  font-size: 1.0625rem;
-  line-height: 1.33334;
-  padding: 13px 0px;
-  text-decoration: none;
-  white-space: nowrap;
+	display: inline;
+	border-top: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	font-size: 17px;
+	font-size: 1.0625rem;
+	line-height: 1.33334;
+	padding: 13px 0px;
+	text-decoration: none;
+	white-space: nowrap;
 }
 
 nav ul {
-        display: flex;
+	display: flex;
 	flex-wrap: wrap;
 	margin-left: 0px;
 }
 
 nav ul {
-    padding: 0px;
-    margin-bottom: -2px;
+	padding: 0px;
 }
 
 nav ul li a {
-    padding: 13px 24px;
+	padding: 13px 24px;
+	text-decoration: underline;
 }
 
 nav ul li {
-    border-left: 2px solid currentColor;
-    border-right: 2px solid currentColor;
+	border-left: 2px solid currentColor;
+	border-right: 2px solid currentColor;
 }
 
 nav p {
-    margin: 0px;
-    padding: 16px 0;
+	margin: 0px;
+	padding: 16px 0;
 }
 
 nav a {
-    font-size: .9em;
-    margin-right: 8px;
-    font-weight: 800;
-    text-transform: uppercase;
+	font-size: 0.9em;
+	margin-right: 8px;
 }
 
 nav a:last-child {
-    margin-right: 0px;
+	margin-right: 0px;
 }
 
 strong,
 b {
-    color: var(--heading-color);
+	color: var(--heading-color);
 }
 
 button {
-    margin: 0;
-    cursor: pointer;
+	margin: 0;
+	cursor: pointer;
 }
 
 main {
-    line-height: 1.6;
+	line-height: 1.6;
+	width: var(--width);
+	margin: auto;
 }
 
 content a {
-    text-decoration: underline;
-    text-decoration-style: dotted;
+	text-decoration: underline;
+	text-decoration-style: dotted;
 }
 
 table {
-    width: 100%;
+	width: 100%;
 }
 
 hr {
-    border: 0;
-    border-top: 1px dashed;
+	border: 0;
+	border-top: 1px dashed;
 }
 
 img {
-    max-width: 100%;
+	max-width: 100%;
 }
 
 code {
-    font-family: monospace;
-    padding: 2px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 0px;
+	font-family: monospace;
+	padding: 2px;
+	background-color: var(--code-background-color);
+	color: var(--code-color);
+	border-radius: 0px;
 }
 
 blockquote {
-    border-left: 5px solid var(--blockquote-color);
-    background: var(--background-colour);
-    color: var(--blockquote-color);
-    padding-left: 20px;
-    font-style: italic;
-    margin-left: 0px;
-    margin-right: 0px;
-    padding: 10px 20px;
+	border-left: 5px solid var(--blockquote-color);
+	background: var(--background-colour);
+	color: var(--blockquote-color);
+	padding-left: 20px;
+	font-style: italic;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px 20px;
 }
 
 footer {
-    margin-top: 40px;
-    border-top: 2px solid var(--foreground-colour);
-    background: var(--background-colour);
-    padding: 25px 0;
-    text-align: center;
+	border-top: 2px solid var(--foreground-colour);
+	background: var(--background-colour);
+	padding: 0;
+}
+
+footer p {
+	padding: 24px;
+	margin: 0;
 }
 
 .title:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .title h1 {
-    margin-top: 0px;
-    font-size: 1.1em;
-    color: var(--foreground-colour);
+	margin-top: 0px;
+	font-size: 1.1em;
+	color: var(--foreground-colour);
 }
 
 .inline {
-    width: auto !important;
+	width: auto !important;
 }
 
 .highlight,
 .code {
-    padding: 1px 15px;
-    background-color: var(--code-background-color);
-    color: var(--code-color);
-    border-radius: 0px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    overflow-x: auto;
+	padding: 1px 15px;
+	background-color: var(--code-background-color);
+	color: var(--code-color);
+	border-radius: 0px;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	overflow-x: auto;
 }
 
 /* blog post list */
@@ -501,35 +492,35 @@ ul.blog-posts li span {
 */
 
 ul.blog-posts li span time {
-   display: none; 
+	display: none;
 }
 
 ul.blog-posts li a:visited {
-    color: var(--visited-color);
+	color: var(--visited-color);
 }
 
 ul.blog-posts li a:visited:hover {
-    color: var(--link-hover-color);
+	color: var(--link-hover-color);
 }
 
 time {
-    font-style: normal
+	font-style: normal;
 }
 
 table {
-    border-collapse: collapse;
+	border-collapse: collapse;
 }
 
 table,
 th,
 td {
-    border: 1px dashed var(--heading-color);
-    padding: 10px;
-    font-size: .9em;
+	border: 1px dashed var(--heading-color);
+	padding: 10px;
+	font-size: 0.9em;
 }
 
 table {
-    padding: 0px;
+	padding: 0px;
 }
 
 /**
@@ -548,7 +539,7 @@ textarea {
 }
 
 input {
-    color: var(--input-text);
+	color: var(--input-text);
 }
 
 h1,
@@ -695,7 +686,7 @@ sup {
 }
 
 sub {
-	top: .5ex;
+	top: 0.5ex;
 }
 
 small {
@@ -705,7 +696,6 @@ small {
 big {
 	font-size: 125%;
 }
-
 
 /**
  * 5.0 Elements
@@ -735,7 +725,8 @@ hr {
 	margin-bottom: 24px;
 }
 
-ul, ol {
+ul,
+ol {
 	margin: 0 0 24px 20px;
 	padding: 0;
 }
@@ -804,7 +795,8 @@ td {
 	border-width: 0 2px 2px 0;
 }
 
-th, td {
+th,
+td {
 	padding: 6px;
 }
 
@@ -839,7 +831,6 @@ del {
 	color: var(--placeholder-colour);
 }
 
-
 /**
  * 6.0 Forms
  */
@@ -850,7 +841,7 @@ input[type="submit"],
 input[type="reset"],
 textarea,
 select {
-    min-height: 44px;
+	min-height: 44px;
 }
 
 button,
@@ -894,7 +885,6 @@ input[type="submit"]:active {
 	padding: 0;
 }
 
-
 input,
 select,
 textarea {
@@ -911,7 +901,10 @@ input[type="password"],
 input[type="search"],
 textarea {
 	background-color: var(--input-colour);
-	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0));
+	background-image: -webkit-linear-gradient(
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0)
+	);
 	border: 1px solid var(--foreground-colour);
 	border-radius: 0;
 	color: var(--placeholder-colour);
@@ -940,7 +933,6 @@ textarea {
 	vertical-align: top;
 }
 
-
 /* removed .post-password-form from label */
 label {
 	display: inline-block;
@@ -951,20 +943,20 @@ label {
 	font-weight: 700;
 }
 
-/* if checkboxe labels and inputs are wrapped in divs, this will style them differently */
+/* if checkbox labels and inputs are wrapped in divs, this will style them differently */
 label + div > label,
 label + div + div > label,
 label + div + div + div > label,
 label + div ~ div > label {
-    font-weight: 300;
-    margin-top: 0px;
-    margin-bottom: 8px;
-    min-height: 44px;
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	min-height: 44px;
 }
 
 label[type="checkbox"],
 label[type="radio"] {
-    display: inline-block;
+	display: inline-block;
 }
 
 /**
@@ -1031,8 +1023,16 @@ a img {
 .post a,
 .post a:hover,
 a.title:hover {
-	background-image: -webkit-linear-gradient(left, currentColor 0%, currentColor 100%);
-	background-image: linear-gradient(to right, currentColor 0%, currentColor 100%);
+	background-image: -webkit-linear-gradient(
+		left,
+		currentColor 0%,
+		currentColor 100%
+	);
+	background-image: linear-gradient(
+		to right,
+		currentColor 0%,
+		currentColor 100%
+	);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	-webkit-background-size: 100% 2px;
@@ -1044,8 +1044,8 @@ a.title:hover {
 /* remove styles from navigation bar */
 .post nav a,
 .post nav a:hover {
-    text-decoration: none;
-    text-shadow: none;
+	text-decoration: none;
+	text-shadow: none;
 }
 
 /* changed classes with focus to Bearblog ones */
@@ -1065,10 +1065,12 @@ nav > a {
 
 nav {
 	max-width: 100%;
+	margin-inline: -2px;
 }
 
 nav ul {
 	list-style: none;
+	margin: 0;
 }
 
 nav li {
@@ -1084,12 +1086,12 @@ nav > li {
 }
 
 nav ul li {
-    margin-left: -2px;
-    margin-top: -2px;
+	margin-left: -2px;
+	margin-top: -2px;
 }
 
 nav ul li:first-child {
-    margin-left: 0px;
+	margin-left: 0px;
 }
 
 nav a {
@@ -1152,8 +1154,6 @@ nav ul ul {
 	display: block;
 }
 
-
-
 /**
  * 7.3 Navigations
  */
@@ -1200,7 +1200,7 @@ body > a:first-child {
 	color: var(--skip-colour);
 	display: block;
 	position: relative;
-	font: bold 14px/normal var(--font-main);
+	font: bold 14px / normal var(--font-main);
 	left: -9999em;
 	outline: none;
 	padding: 15px 23px 14px;
@@ -1211,7 +1211,7 @@ body > a:first-child {
 
 body > a:first-child {
 	box-shadow: 0 0 2px 2px var(--focus-colour);
-	font: bold 14px/normal var(--font-main);
+	font: bold 14px / normal var(--font-main);
 }
 
 body > a:first-child:focus {
@@ -1254,19 +1254,19 @@ header img {
 
 header {
 	border-bottom: 2px solid currentColor;
+	border-top: 2px solid currentColor;
+	font-size: 1.5rem;
+	font-weight: 900;
+	line-height: 1.3333333333;
+	margin-top: -2px;
+	padding: 24px;
 	position: relative;
 	width: 100%;
 }
 
-header {
-	position: relative;
-}
-
-
 header img {
 	padding: 24px;
 }
-
 
 .title {
 	font-size: 22px;
@@ -1293,11 +1293,9 @@ header img {
 	height: auto;
 }
 
-
 /**
  * 12.2 Posts and pages
  */
-
 
 .post nav h1 {
 	clear: none;
@@ -1396,7 +1394,6 @@ header img {
 	padding-top: 24px;
 }
 
-
 .post header {
 	border-bottom: 2px solid currentColor;
 	padding: 7.6923% 0;
@@ -1430,11 +1427,9 @@ p > video {
 	margin-bottom: 0;
 }
 
-
 /**
  * 13.2 Galleries
  */
-
 
 div img {
 	margin-bottom: 24px;
@@ -1449,8 +1444,8 @@ div > img {
 }
 
 .post main div > img {
-    margin: 0 auto;
-    max-width: auto;
+	margin: 0 auto;
+	max-width: auto;
 }
 
 figure caption {
@@ -1495,7 +1490,6 @@ address {
 	font-size: inherit;
 }
 
-
 /**
  * 16.0 Media Queries
  */
@@ -1514,7 +1508,6 @@ address {
 	width: device-width;
 }
 
-
 /**
  * 16.1 >= 470px
  */
@@ -1528,7 +1521,6 @@ address {
 	}
 }
 
-
 /**
  * 16.2 >= 601px
  */
@@ -1541,7 +1533,6 @@ address {
 		line-height: 1.135135135;
 	}
 }
-
 
 /**
  * 16.3 >= 700px
@@ -1605,7 +1596,8 @@ address {
 		padding: 16px;
 	}
 
-	ul, ol {
+	ul,
+	ol {
 		margin: 0 0 32px 32px;
 	}
 
@@ -1616,7 +1608,8 @@ address {
 		margin-left: 24px;
 	}
 
-	th, td {
+	th,
+	td {
 		padding: 8px;
 	}
 
@@ -1648,8 +1641,7 @@ address {
 		margin-left: 16px;
 	}
 
-	.post header a.title
-	.page header a.title {
+	.post header a.title .page header a.title {
 		font-size: 41px;
 		font-size: 2.5625rem;
 		line-height: 1.170731707;
@@ -1689,17 +1681,18 @@ address {
 		line-height: 1.166666667;
 	}
 
-	h5, h6 {
+	h5,
+	h6 {
 		font-size: 20px;
 		font-size: 1.25rem;
 		line-height: 1.2;
 	}
-	
+
 	.post footer {
 		margin-top: 32px;
 		padding-top: 32px;
 	}
-	
+
 	.blog-posts {
 		padding: 4px 0 4px 19px;
 	}
@@ -1708,34 +1701,31 @@ address {
 		top: 1px;
 	}
 
-h2 {
+	h2 {
 		font-size: 41px;
 		font-size: 2.5625rem;
 		line-height: 1.170731707;
 		margin: 0 0 32px;
 	}
 
-p {
+	p {
 		margin: 32px 0;
 	}
 
-p + h2 {
+	p + h2 {
 		margin-top: 64px;
 	}
 
-label {
+	label {
 		line-height: 1.428571429;
 	}
-
 }
-
 
 /**
  * 16.4 >= 828px
  */
 
 @media screen and (min-width: 51.755em) {
-    
 	.blog-posts {
 		border-bottom: 0;
 		margin: 0;
@@ -1747,7 +1737,7 @@ label {
 		background-image: none;
 		text-shadow: none;
 	}
-	
+
 	.post {
 		margin-top: 11.11419486%;
 	}
@@ -1779,19 +1769,16 @@ label {
 	}
 }
 
-
 /**
  * 16.5 >= 925px
  */
 
 @media screen and (min-width: 57.8125em) {
-
-	.post, .page {
+	.post,
+	.page {
 		margin-top: 9.0909091%;
 	}
-
 }
-
 
 /**
  * 16.6 >= 1088px
@@ -1803,4 +1790,30 @@ label {
 		font-size: 3.125rem;
 		line-height: 1.12;
 	}
+}
+
+.skip-link {
+	background-color: var(--foreground-colour);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	clip: rect(1px, 1px, 1px, 1px);
+	color: #21759b;
+	display: block;
+	font: bold 14px / normal var(--font-main);
+	height: 1px;
+	left: -9999em;
+	outline: none;
+	overflow: hidden;
+	padding: 15px 23px 14px;
+	position: absolute !important;
+	top: -9999em;
+	width: 1px;
+}
+
+.skip-link:focus {
+	clip: auto;
+	height: auto;
+	left: 6px;
+	top: 7px;
+	width: auto;
+	z-index: 1000000000;
 }
