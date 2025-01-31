@@ -9,6 +9,7 @@ import pluginNavigation from "@11ty/eleventy-navigation";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
+import pluginShortcodes from "./_config/shortcodes.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -96,18 +97,13 @@ export default async function (eleventyConfig) {
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
 
+	// Shortcodes
+	eleventyConfig.addPlugin(pluginShortcodes);
+
 	eleventyConfig.addPlugin(IdAttributePlugin, {
 		// by default we use Eleventy’s built-in `slugify` filter:
 		// slugify: eleventyConfig.getFilter("slugify"),
 		// selector: "h1,h2,h3,h4,h5,h6", // default
-	});
-
-	eleventyConfig.addShortcode("currentBuildDate", () => {
-		return new Date().toISOString();
-	});
-
-	eleventyConfig.addShortcode("currentBuildYear", () => {
-		return new Date().getFullYear();
 	});
 
 	// Features to make your build faster (when you need them)
