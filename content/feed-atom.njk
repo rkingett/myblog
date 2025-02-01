@@ -2,10 +2,8 @@
 layout: false
 permalink: /feed.xml
 redirect_from: feed
-eleventyNavigation:
-  key: Feed
-  order: 4
-collection: posts
+eleventyImport:
+  collection: ["posts"]
 stylesheet: /feed/pretty-atom-feed.xsl
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -26,7 +24,7 @@ stylesheet: /feed/pretty-atom-feed.xsl
   {%- for post in collections[collection] | reverse | eleventyFeedHead(metadata.feedLimit) %}
   {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
   <entry>
-    <title>{{ post.data.title }}</title>
+    <title>{{ post.data.title | safe }}</title>
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
