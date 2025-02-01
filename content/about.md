@@ -1,9 +1,8 @@
----js
-const title = "About";
-const eleventyNavigation = {
-	key: "About and Contact",
-	order: 3
-};
+---
+title: About
+eleventyNavigation:
+  key: About and Contact
+  order: 3
 ---
 
 # About

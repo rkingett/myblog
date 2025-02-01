@@ -1,0 +1,36 @@
+---
+layout: false
+permalink: /feed.xml
+redirect_from: feed
+eleventyNavigation:
+  key: Feed
+  order: 4
+collection: posts
+stylesheet: /feed/pretty-atom-feed.xsl
+---
+<?xml version="1.0" encoding="utf-8"?>
+{%- if stylesheet %}<?xml-stylesheet href="{{ stylesheet }}" type="text/xsl"?>{% endif %}
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="{{ metadata.language or page.lang }}">
+  <title>{{ metadata.title }}</title>
+  <subtitle>{{ metadata.description }}</subtitle>
+  <link href="{{ permalink | htmlBaseUrl(metadata.url) }}" rel="self" />
+  <link href="{{ metadata.url | addPathPrefixToFullUrl }}" />
+  <updated>{{ collections[collection] | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ metadata.url | addPathPrefixToFullUrl }}</id>
+  <author>
+    <name>{{ metadata.author.name }}</name>
+    {%- if metadata.author.email %}
+    <email>{{ metadata.author.email }}</email>
+    {%- endif %}
+  </author>
+  {%- for post in collections[collection] | reverse | eleventyFeedHead(metadata.feedLimit) %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ absolutePostUrl }}" />
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ absolutePostUrl }}</id>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content>
+  </entry>
+  {%- endfor %}
+</feed>

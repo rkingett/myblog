@@ -1,21 +1,13 @@
----js
-// <script>
-const pagination = {
-	data: "collections",
-	size: 1,
-	alias: "tag",
-	filter: ["all", "posts"],
-	// addAllPagesToCollections: true,
-};
-
-const eleventyExcludeFromCollections = true;
-
-const eleventyComputed = {
-	title: "Tagged '{{ tag }}'",
-	permalink: function(data) {
-		return `/tags/${this.slugify(data.tag)}/`;
-	}
-};
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+  filters: ["all", "posts"]
+eleventyExcludeFromCollections: true
+eleventyComputed:
+  title: "Tagged '{{ tag }}"
+  permalink: "/tags/{{ tag | slugify }}/"
 ---
 <h1>Tagged “{{ tag }}”</h1>
 
