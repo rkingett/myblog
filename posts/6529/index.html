@@ -1,0 +1,2225 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Getting started with static site generators with a screen reader., Sightless Scribbles</title>
+		<meta name="description" content="A fabulously gay blind author.">
+		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		
+		<style>/**
+ * okaidia theme for JavaScript, CSS and HTML
+ * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+ * @author ocodia
+ */
+
+code[class*="language-"],
+pre[class*="language-"] {
+	color: #f8f8f2;
+	background: none;
+	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
+	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 1em;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+/* Code blocks */
+pre[class*="language-"] {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+	border-radius: 0.3em;
+}
+
+:not(pre) > code[class*="language-"],
+pre[class*="language-"] {
+	background: #272822;
+}
+
+/* Inline code */
+:not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}
+
+.token.comment,
+.token.prolog,
+.token.doctype,
+.token.cdata {
+	color: #8292a2;
+}
+
+.token.punctuation {
+	color: #f8f8f2;
+}
+
+.token.namespace {
+	opacity: .7;
+}
+
+.token.property,
+.token.tag,
+.token.constant,
+.token.symbol,
+.token.deleted {
+	color: #f92672;
+}
+
+.token.boolean,
+.token.number {
+	color: #ae81ff;
+}
+
+.token.selector,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin,
+.token.inserted {
+	color: #a6e22e;
+}
+
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string,
+.token.variable {
+	color: #f8f8f2;
+}
+
+.token.atrule,
+.token.attr-value,
+.token.function,
+.token.class-name {
+	color: #e6db74;
+}
+
+.token.keyword {
+	color: #66d9ef;
+}
+
+.token.regex,
+.token.important {
+	color: #fd971f;
+}
+
+.token.important,
+.token.bold {
+	font-weight: bold;
+}
+.token.italic {
+	font-style: italic;
+}
+
+.token.entity {
+	cursor: help;
+}
+/*
+ * New diff- syntax
+ */
+
+pre[class*="language-diff-"] {
+	--eleventy-code-padding: 1.25em;
+	padding-left: var(--eleventy-code-padding);
+	padding-right: var(--eleventy-code-padding);
+}
+.token.deleted {
+	background-color: hsl(0, 51%, 37%);
+	color: inherit;
+}
+.token.inserted {
+	background-color: hsl(126, 31%, 39%);
+	color: inherit;
+}
+
+/* Make the + and - characters unselectable for copy/paste */
+.token.prefix.unchanged,
+.token.prefix.inserted,
+.token.prefix.deleted {
+	-webkit-user-select: none;
+	user-select: none;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+.token.prefix.inserted,
+.token.prefix.deleted {
+	width: var(--eleventy-code-padding);
+	background-color: rgba(0,0,0,.2);
+}
+
+/* Optional: full-width background color */
+.token.inserted:not(.prefix),
+.token.deleted:not(.prefix) {
+	display: block;
+	margin-left: calc(-1 * var(--eleventy-code-padding));
+	margin-right: calc(-1 * var(--eleventy-code-padding));
+	text-decoration: none; /* override del, ins, mark defaults */
+	color: inherit; /* override del, ins, mark defaults */
+}
+/* This is an arbitrary CSS string added to the bundle */
+/* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
+/*
+Theme Name: Cyanotype
+Theme URI: https://wordpress.com/themes/cyanotype/
+Description: Cyanotype is a monochromatic blog theme with a bold, yet simple look that sets your blog apart from the rest. Pick your favorite background color or image to lend your personal flair.
+Version: 1.0.2
+Author: Automattic
+Author URI: https://wordpress.com/themes/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: cyanotype
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+
+:root {
+	/* colour variables */
+	--foreground-colour: #ffffff;
+	--background-colour: #001f2c;
+	--placeholder-colour: #555555;
+	--input-colour: #f7f7f7;
+	--input-focus: #ffffff;
+	--input-text: #001f2c;
+
+	--focus-colour: #001f2c;
+	--skip-colour: #001f2c;
+	--link-colour: #aaa;
+	--link-hover-color: #d1d1d1;
+
+	/* other variables */
+	--width: 720px;
+	--font-main: Verdana, "Open Sans", sans-serif;
+	--font-mono: Inconsolata, monospace;
+	--font-cyanotype: Karla, sans-serif;
+	--font-scale: 1.4rem;
+	--background-color: var(--background-colour);
+	--heading-color: var(--foreground-colour);
+	--text-color: var(--foreground-colour);
+	--link-color: var(--link-colour);
+	--visited-color: var(--link-colour);
+	--code-background-color: var(--foreground-colour);
+	--code-color: var(--background-colour);
+	--blockquote-color: var(--foreground-colour);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		/* colour variables */
+		/* Commenting out light mode for now. */
+		/* --foreground-colour: #001f2c;
+		--background-colour: #ffffff;
+		--placeholder-colour: #555555;
+		--input-colour: #f7f7f7;
+		--input-focus: #ffffff;
+		--input-text: #001f2c;
+
+		--focus-colour: #001f2c;
+		--skip-colour: #001f2c;
+		--link-colour: #545454;
+		--link-hover-color: #2d2d2d; */
+	} /* root */
+} /* prefers light */
+
+body {
+	font-family: var(--font-main);
+	font-size: var(--font-scale);
+	font-weight: 300;
+	margin: auto;
+	text-align: left;
+	background-color: var(--background-color);
+	word-wrap: break-word;
+	overflow-wrap: break-word;
+	line-height: 1.5;
+	color: var(--text-color);
+}
+
+.blog-posts {
+	font-weight: 500; /* 700 is header weight, 500 is next lowest */
+	font-size: var(--font-scale);
+	line-height: 1.8;
+}
+
+.post a,
+.page a,
+main a {
+	font-weight: 500;
+}
+
+.post time {
+	font-family: var(--font-mono);
+	text-decoration: underline;
+	font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-main);
+	color: var(--heading-color);
+	font-weight: 800;
+}
+
+/* Normalize (Cyanotype) */
+
+html {
+	font-family: var(--font-main);
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+	display: block;
+}
+
+audio,
+canvas,
+progress,
+video {
+	display: inline-block;
+	vertical-align: baseline;
+}
+
+audio:not([controls]) {
+	display: none;
+	height: 0;
+}
+
+[hidden],
+template {
+	display: none;
+}
+
+a {
+	background-color: transparent;
+}
+
+a:active,
+a:hover {
+	outline: 0;
+}
+
+abbr[title] {
+	border-bottom: 2px solid;
+}
+
+b,
+strong {
+	font-weight: bold;
+}
+
+dfn {
+	font-style: italic;
+}
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+mark,
+ins {
+	background: #ff0;
+	color: #000;
+}
+
+small {
+	font-size: 80%;
+}
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	top: -0.5em;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+img {
+	border: 0;
+}
+
+svg:not(:root) {
+	overflow: hidden;
+}
+
+figure {
+	margin: 0;
+}
+
+hr {
+	box-sizing: content-box;
+	height: 0;
+}
+
+pre {
+	overflow: auto;
+}
+
+code,
+kbd,
+pre,
+samp {
+	font-family: monospace, monospace;
+	font-size: 1em;
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	color: inherit;
+	font: inherit;
+	margin: 0;
+}
+
+button {
+	overflow: visible;
+}
+
+button,
+select {
+	text-transform: none;
+}
+
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	cursor: pointer;
+}
+
+button[disabled],
+html input[disabled],
+button[disabled]::placeholder,
+input[disabled]::placeholder {
+	cursor: default;
+	opacity: 1;
+	background-color: var(--background-color);
+	color: var(--foreground-colour);
+	border: 1px dashed var(--foreground-colour);
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+
+input {
+	display: block;
+	line-height: normal;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	display: inline-block;
+	box-sizing: border-box;
+	padding: 0;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+input[type="search"] {
+	-webkit-appearance: textfield;
+	box-sizing: border-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+fieldset {
+	border: 2px solid var(--focus-colour);
+	margin: 0 2px;
+	padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+	border: 0;
+	padding: 0;
+}
+
+textarea {
+	overflow: auto;
+}
+
+optgroup {
+	font-weight: bold;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td,
+th {
+	padding: 0;
+} /* End of Normalize section of Cyanotype */
+
+a {
+	color: var(--link-color);
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+a:hover,
+a:focus {
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+	color: var(--link-hover-color);
+}
+
+nav ul li {
+	display: inline;
+	border-top: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	font-size: 17px;
+	font-size: 1.0625rem;
+	line-height: 1.33334;
+	padding: 13px 0px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 0px;
+}
+
+nav ul {
+	padding: 0px;
+}
+
+nav ul li a {
+	padding: 13px 24px;
+	text-decoration: underline;
+}
+
+nav ul li {
+	border-left: 2px solid currentColor;
+	border-right: 2px solid currentColor;
+}
+
+nav p {
+	margin: 0px;
+	padding: 16px 0;
+}
+
+nav a {
+	font-size: 0.9em;
+	margin-right: 8px;
+}
+
+nav a:last-child {
+	margin-right: 0px;
+}
+
+strong,
+b {
+	color: var(--heading-color);
+}
+
+button {
+	margin: 0;
+	cursor: pointer;
+}
+
+main {
+	line-height: 1.6;
+	width: var(--width);
+	margin: auto;
+}
+
+content a {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+}
+
+table {
+	width: 100%;
+}
+
+hr {
+	border: 0;
+	border-top: 1px dashed;
+}
+
+img {
+	max-width: 100%;
+}
+
+code {
+	font-family: monospace;
+	padding: 2px;
+	background-color: var(--code-background-color);
+	color: var(--code-color);
+	border-radius: 0px;
+}
+
+blockquote {
+	border-left: 5px solid var(--blockquote-color);
+	background: var(--background-colour);
+	color: var(--blockquote-color);
+	padding-left: 20px;
+	font-style: italic;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px 20px;
+}
+
+footer {
+	border-top: 2px solid var(--foreground-colour);
+	background: var(--background-colour);
+	padding: 0;
+}
+
+footer p {
+	padding: 24px;
+	margin: 0;
+}
+
+.title:hover {
+	text-decoration: none;
+}
+
+.title h1 {
+	margin-top: 0px;
+	font-size: 1.1em;
+	color: var(--foreground-colour);
+}
+
+.inline {
+	width: auto !important;
+}
+
+.highlight,
+.code {
+	padding: 1px 15px;
+	background-color: var(--code-background-color);
+	color: var(--code-color);
+	border-radius: 0px;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	overflow-x: auto;
+}
+
+/* blog post list */
+/*
+ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+}
+
+ul.blog-posts li {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+ul.blog-posts li span {
+    flex: 0 0 130px;
+}
+*/
+
+ul.blog-posts li span time {
+	display: none;
+}
+
+ul.blog-posts li a:visited {
+	color: var(--visited-color);
+}
+
+ul.blog-posts li a:visited:hover {
+	color: var(--link-hover-color);
+}
+
+time {
+	font-style: normal;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+table,
+th,
+td {
+	border: 1px dashed var(--heading-color);
+	padding: 10px;
+	font-size: 0.9em;
+}
+
+table {
+	padding: 0px;
+}
+
+/**
+ * 4.0 Typography
+ */
+
+body,
+button,
+select,
+textarea {
+	color: var(--foreground-colour);
+	font-family: var(--font-main);
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+}
+
+input {
+	color: var(--input-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	clear: both;
+	font-weight: 700;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	text-rendering: optimizeLegibility;
+}
+
+p {
+	margin: 0 0 24px;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	border-left: 2px solid currentColor;
+	font-size: 18px;
+	font-size: 1.125rem;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 0 0 24px;
+	padding-left: 22px;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+}
+
+blockquote,
+q {
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+	quotes: none;
+}
+
+blockquote p {
+	margin-bottom: 27px;
+}
+
+blockquote > p:last-child {
+	margin-bottom: 0;
+}
+
+blockquote cite,
+blockquote small {
+	display: block;
+	font-family: var(--font-mono);
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.8;
+}
+
+blockquote cite:before,
+blockquote small:before {
+	content: "\2014\00a0";
+}
+
+blockquote em,
+blockquote i,
+blockquote cite {
+	font-style: normal;
+}
+
+blockquote strong,
+blockquote b {
+	font-weight: 400;
+}
+
+address {
+	font-style: italic;
+	margin: 0 0 24px;
+}
+
+code,
+kbd,
+tt,
+var,
+samp,
+pre {
+	font-family: var(--font-mono);
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre {
+	border: 2px solid currentColor;
+	line-height: 1.2;
+	margin: 0 0 24px;
+	max-width: 100%;
+	overflow: auto;
+	padding: 12px;
+	white-space: pre;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+abbr[title] {
+	border-bottom: 1px solid currentColor;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: var(--foreground-colour);
+	color: var(--background-colour);
+	text-decoration: none;
+}
+
+sup,
+sub {
+	font-size: 75%;
+	height: 0;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sup {
+	bottom: 1ex;
+}
+
+sub {
+	top: 0.5ex;
+}
+
+small {
+	font-size: 75%;
+}
+
+big {
+	font-size: 125%;
+}
+
+/**
+ * 5.0 Elements
+ */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: var(--background-colour);
+	/* Fallback for when there is no custom background color defined. */
+	border: 2px solid currentColor;
+}
+
+hr {
+	background-color: currentColor;
+	border: 0;
+	height: 2px;
+	margin-bottom: 24px;
+}
+
+ul,
+ol {
+	margin: 0 0 24px 20px;
+	padding: 0;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+}
+
+dl {
+	margin: 0 0 24px;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 0 24px;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+table,
+th,
+td {
+	border: 2px solid currentColor;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	border-width: 2px 0 0 2px;
+	margin: 0 0 24px;
+	table-layout: fixed;
+	/* Prevents HTML tables from becoming too wide */
+	width: 100%;
+}
+
+caption,
+th,
+td {
+	font-weight: normal;
+	text-align: left;
+}
+
+th {
+	border-width: 0 2px 2px 0;
+	font-weight: 700;
+}
+
+td {
+	border-width: 0 2px 2px 0;
+}
+
+th,
+td {
+	padding: 6px;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+del {
+	opacity: 0.8;
+}
+
+/* Placeholder text color -- selectors need to be separate to work. */
+::-webkit-input-placeholder {
+	color: var(--placeholder-colour);
+}
+
+:-moz-placeholder {
+	color: var(--placeholder-colour);
+}
+
+::-moz-placeholder {
+	color: var(--placeholder-colour);
+	opacity: 1;
+	/* Since FF19 lowers the opacity of the placeholder by default */
+}
+
+:-ms-input-placeholder {
+	color: var(--placeholder-colour);
+}
+
+/**
+ * 6.0 Forms
+ */
+
+button,
+input[type="button"],
+input[type="submit"],
+input[type="reset"],
+textarea,
+select {
+	min-height: 44px;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	-webkit-appearance: button;
+	-webkit-tap-highlight-color: var(--input-colour);
+	background: transparent;
+	border: 2px solid currentColor;
+	color: currentColor;
+	cursor: pointer;
+	font-size: 16px;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 1;
+	padding: 8px 16px;
+	text-transform: uppercase;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+	background: var(--foreground-colour);
+	border-color: var(--foreground-colour);
+	color: var(--background-colour);
+}
+
+/* removed custom classes from submit padding */
+.search-form input[type="submit"],
+.widget .search-form input[type="submit"] {
+	padding: 0;
+}
+
+input,
+select,
+textarea {
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+	max-width: 100%;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+textarea {
+	background-color: var(--input-colour);
+	background-image: -webkit-linear-gradient(
+		rgba(255, 255, 255, 0),
+		rgba(255, 255, 255, 0)
+	);
+	border: 1px solid var(--foreground-colour);
+	border-radius: 0;
+	color: var(--placeholder-colour);
+	padding: 3px 6px;
+	width: 100%;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+textarea:focus {
+	background-color: var(--input-focus);
+	border: 1px solid var(--input-colour);
+	color: var(--input-text);
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+	margin-right: 6px;
+}
+
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+/* removed .post-password-form from label */
+label {
+	display: inline-block;
+	margin-bottom: 8px;
+	margin-top: 16px;
+	font-weight: 500;
+	margin-right: 16px;
+	font-weight: 700;
+}
+
+/* if checkbox labels and inputs are wrapped in divs, this will style them differently */
+label + div > label,
+label + div + div > label,
+label + div + div + div > label,
+label + div ~ div > label {
+	font-weight: 300;
+	margin-top: 0px;
+	margin-bottom: 8px;
+	min-height: 44px;
+}
+
+label[type="checkbox"],
+label[type="radio"] {
+	display: inline-block;
+}
+
+/**
+ * 7.0 Navigation
+ */
+
+/**
+ * 7.1 Links
+ */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	color: currentColor;
+}
+
+a img {
+	border: 0;
+}
+
+/**
+ * 7.0 Navigation
+ */
+
+/**
+ * 7.1 Links
+ */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	color: currentColor;
+}
+
+a img {
+	border: 0;
+}
+
+/**
+ * 7.0 Navigation
+ */
+
+/**
+ * 7.1 Links
+ */
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	color: currentColor;
+}
+
+a img {
+	border: 0;
+}
+
+/* changed custom classes to Bearblog ones (e.g. .entry-content a) */
+.post a,
+.post a:hover,
+a.title:hover {
+	background-image: -webkit-linear-gradient(
+		left,
+		currentColor 0%,
+		currentColor 100%
+	);
+	background-image: linear-gradient(
+		to right,
+		currentColor 0%,
+		currentColor 100%
+	);
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	-webkit-background-size: 100% 2px;
+	background-size: 100% 2px;
+	text-decoration: none;
+	text-shadow: 2px 0 0 var(--focus-colour), -2px 0 0 var(--focus-colour);
+}
+
+/* remove styles from navigation bar */
+.post nav a,
+.post nav a:hover {
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/* changed classes with focus to Bearblog ones */
+.post a:focus,
+a.title:focus {
+	background-image: none;
+	text-shadow: none;
+}
+
+/**
+ * 7.2 Menus
+ */
+
+nav > a {
+	font-weight: 700;
+}
+
+nav {
+	max-width: 100%;
+	margin-inline: -2px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+}
+
+nav li {
+	position: relative;
+}
+
+nav > li {
+	border-top: 2px solid currentColor;
+	border-right: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	float: left;
+	margin-top: -2px;
+}
+
+nav ul li {
+	margin-left: -2px;
+	margin-top: -2px;
+}
+
+nav ul li:first-child {
+	margin-left: 0px;
+}
+
+nav a {
+	font-size: 17px;
+	font-size: 1.0625rem;
+	line-height: 1.33334;
+	padding: 13px 24px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav a:hover,
+nav a:focus {
+	background-color: var(--foreground-colour);
+	color: var(--background-colour);
+	outline: none;
+}
+
+nav > a {
+	padding-right: 41px;
+}
+
+nav > a:after {
+	content: "\f431";
+	right: 19px;
+	top: 16px;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+}
+
+nav li:hover > ul,
+nav li:focus > ul {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+nav a {
+	padding: 12px 0;
+	position: relative;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul ul {
+	margin-left: 12px;
+}
+
+nav li {
+	position: relative;
+}
+
+nav ul ul {
+	display: block;
+}
+
+/**
+ * 7.3 Navigations
+ */
+
+/* changed cyanotype classes for post-navigation to .blog-posts */
+.blog-posts {
+	border-top: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	margin: 0 7.6923% 7.6923%;
+}
+
+.blog-posts ul li {
+	display: inline;
+	font-size: 22px;
+	font-size: 1.375rem;
+	-webkit-font-variant-ligatures: common-ligatures;
+	font-variant-ligatures: common-ligatures;
+	font-weight: 700;
+	line-height: 1.227272727;
+	text-rendering: optimizeLegibility;
+}
+
+.blog-posts {
+	border-top: 2px solid currentColor;
+}
+
+.subscribe {
+	border-top: 2px solid currentColor;
+	border-bottom: 2px solid currentColor;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	margin-bottom: 24px;
+}
+
+/**
+ * 8.0 Accessibility
+ */
+
+/* changed skip link to be the first link after body */
+/* must have higher specificity than alternative color schemes inline styles */
+body > a:first-child {
+	background-color: var(--input-colour);
+	box-shadow: 0 0 1px 1px var(--focus-colour);
+	color: var(--skip-colour);
+	display: block;
+	position: relative;
+	font: bold 14px / normal var(--font-main);
+	left: -9999em;
+	outline: none;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	text-transform: none;
+	top: -9999em;
+}
+
+body > a:first-child {
+	box-shadow: 0 0 2px 2px var(--focus-colour);
+	font: bold 14px / normal var(--font-main);
+}
+
+body > a:first-child:focus {
+	clip: auto;
+	height: auto;
+	left: 6px;
+	top: 7px;
+	width: auto;
+	z-index: 1000000000;
+}
+
+/* Alignments */
+
+.blog-posts {
+	display: block;
+}
+
+/* 12. Site */
+
+/**
+ * 12.0 Site
+ */
+
+.page {
+	overflow: hidden;
+}
+
+.post {
+	margin: 0 auto;
+	max-width: var(--width);
+}
+
+/**
+ * 12.1 Header
+ */
+
+header img {
+	border-bottom: 2px solid currentColor;
+}
+
+header {
+	border-bottom: 2px solid currentColor;
+	border-top: 2px solid currentColor;
+	font-size: 1.5rem;
+	font-weight: 900;
+	line-height: 1.3333333333;
+	margin-top: -2px;
+	padding: 24px;
+	position: relative;
+	width: 100%;
+}
+
+header img {
+	padding: 24px;
+}
+
+.title {
+	font-size: 22px;
+	font-size: 1.375rem;
+	font-weight: 900;
+	line-height: 1.272727273;
+	margin: 0;
+}
+
+a.title {
+	color: inherit;
+}
+
+header a img {
+	display: block;
+}
+
+header a:focus img {
+	opacity: 0.85;
+}
+
+header img {
+	width: 100%;
+	height: auto;
+}
+
+/**
+ * 12.2 Posts and pages
+ */
+
+.post nav h1 {
+	clear: none;
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.153846154;
+	margin: 0;
+}
+
+.post {
+	margin-top: 9.09297331%;
+}
+
+.post > :last-child {
+	margin-bottom: 0;
+}
+
+.post {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+}
+
+.post main h1,
+.post main h2,
+.post main h3,
+.post main h4,
+.post main h5,
+.post main h6 {
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+
+.post main h1:first-child,
+.post main h2:first-child,
+.post main h3:first-child,
+.post main h4:first-child,
+.post main h5:first-child,
+.post main h6:first-child {
+	margin-top: 0;
+}
+
+.post main h1 {
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.153846154;
+}
+
+.post main h2 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.227272727;
+}
+
+.post main h3 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.166666667;
+}
+
+.post main h4,
+.post main h5,
+.post main h6 {
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.2;
+}
+
+.post main h4 {
+	letter-spacing: 0.13333em;
+	text-transform: uppercase;
+}
+
+.post main h6 {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.post main a img {
+	display: block;
+}
+
+.post main blockquote {
+	border-color: currentColor;
+	border-style: solid;
+	border-width: 2px 0;
+	padding: 12px 0;
+	width: 50%;
+}
+
+.post footer {
+	border-top: 2px solid currentColor;
+	margin-top: 24px;
+	padding-top: 24px;
+}
+
+.post header {
+	border-bottom: 2px solid currentColor;
+	padding: 7.6923% 0;
+}
+
+.post header .title {
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.153846154;
+	margin: 0;
+}
+
+/**
+ * 13.0 Media
+ */
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object,
+video {
+	margin-bottom: 24px;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+p > embed,
+p > iframe,
+p > object,
+p > video {
+	margin-bottom: 0;
+}
+
+/**
+ * 13.2 Galleries
+ */
+
+div img {
+	margin-bottom: 24px;
+}
+
+div > img {
+	display: inline-block;
+	padding: 1.79104477%;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.post main div > img {
+	margin: 0 auto;
+	max-width: auto;
+}
+
+figure caption {
+	display: block;
+	font-family: var(--font-mono);
+	font-size: 15px;
+	font-size: 0.9375rem;
+	padding: 6px 0 0;
+}
+
+/**
+ * 14.0 Multisite
+ */
+
+form {
+	margin-top: 0;
+}
+
+h2 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.227272727;
+	margin: 0 0 24px;
+}
+
+p {
+	margin: 24px 0;
+}
+
+p + h2 {
+	margin-top: 48px;
+}
+
+form input[type="submit"] {
+	font-size: 16px;
+	font-size: 1rem;
+	margin: 0;
+	width: 100%;
+}
+
+address {
+	font-size: inherit;
+}
+
+/**
+ * 16.0 Media Queries
+ */
+
+/*
+ * Does the same thing as <meta name="viewport" content="width=device-width">,
+ * but in the future W3C standard way. -ms- prefix is required for IE10+ to
+ * render responsive styling in Windows 8 "snapped" views; IE10+ does not honor
+ * the meta tag. See https://core.trac.wordpress.org/ticket/25888.
+ */
+@-ms-viewport {
+	width: device-width;
+}
+
+@viewport {
+	width: device-width;
+}
+
+/**
+ * 16.1 >= 470px
+ */
+
+@media screen and (min-width: 29.375em) {
+	.entry-title,
+	.page-title {
+		font-size: 31px;
+		font-size: 1.9375rem;
+		line-height: 1.161290323;
+	}
+}
+
+/**
+ * 16.2 >= 601px
+ */
+
+@media screen and (min-width: 37.5625em) {
+	.entry-title,
+	.page-title {
+		font-size: 37px;
+		font-size: 2.3125rem;
+		line-height: 1.135135135;
+	}
+}
+
+/**
+ * 16.3 >= 700px
+ */
+
+@media screen and (min-width: 43.75em) {
+	body,
+	input,
+	select,
+	textarea {
+		font-size: 20px;
+		font-size: 1.25rem;
+		line-height: 1.6;
+	}
+
+	p,
+	address,
+	pre,
+	hr,
+	dl,
+	dd,
+	table,
+	embed,
+	iframe,
+	object,
+	video {
+		margin-bottom: 32px;
+	}
+
+	nav {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		line-height: 1.411764706;
+	}
+
+	blockquote {
+		font-size: 24px;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		margin-bottom: 32px;
+		margin-left: -32px;
+		padding-left: 30px;
+	}
+
+	blockquote p {
+		margin-bottom: 36px;
+	}
+
+	blockquote cite,
+	blockquote small {
+		font-size: 20px;
+		font-size: 1.25rem;
+		line-height: 1.8;
+	}
+
+	blockquote > blockquote {
+		margin-left: 0;
+	}
+
+	pre {
+		padding: 16px;
+	}
+
+	ul,
+	ol {
+		margin: 0 0 32px 32px;
+	}
+
+	li > ul,
+	li > ol,
+	blockquote > ul,
+	blockquote > ol {
+		margin-left: 24px;
+	}
+
+	th,
+	td {
+		padding: 8px;
+	}
+
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"] {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		padding: 14px 32px 13px;
+	}
+
+	input,
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
+		padding: 7px;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		margin-right: 8px;
+	}
+
+	nav ul ul {
+		margin-left: 16px;
+	}
+
+	.post header a.title .page header a.title {
+		font-size: 41px;
+		font-size: 2.5625rem;
+		line-height: 1.170731707;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		margin-top: 64px;
+		margin-bottom: 32px;
+	}
+
+	h1 {
+		font-size: 41px;
+		font-size: 2.5625rem;
+		line-height: 1.170731707;
+	}
+
+	h2 {
+		font-size: 35px;
+		font-size: 2.1875rem;
+		line-height: 1.142857143;
+	}
+
+	h3 {
+		font-size: 29px;
+		font-size: 1.8125rem;
+		line-height: 1.24137931;
+	}
+
+	h4 {
+		font-size: 24px;
+		font-size: 1.5rem;
+		line-height: 1.166666667;
+	}
+
+	h5,
+	h6 {
+		font-size: 20px;
+		font-size: 1.25rem;
+		line-height: 1.2;
+	}
+
+	.post footer {
+		margin-top: 32px;
+		padding-top: 32px;
+	}
+
+	.blog-posts {
+		padding: 4px 0 4px 19px;
+	}
+
+	small a:before {
+		top: 1px;
+	}
+
+	h2 {
+		font-size: 41px;
+		font-size: 2.5625rem;
+		line-height: 1.170731707;
+		margin: 0 0 32px;
+	}
+
+	p {
+		margin: 32px 0;
+	}
+
+	p + h2 {
+		margin-top: 64px;
+	}
+
+	label {
+		line-height: 1.428571429;
+	}
+}
+
+/**
+ * 16.4 >= 828px
+ */
+
+@media screen and (min-width: 51.755em) {
+	.blog-posts {
+		border-bottom: 0;
+		margin: 0;
+		position: relative;
+		width: 100%;
+	}
+
+	a.title {
+		background-image: none;
+		text-shadow: none;
+	}
+
+	.post {
+		margin-top: 11.11419486%;
+	}
+
+	blockquote {
+		margin-right: -11.11419486%;
+		margin-left: 11.11419486%;
+	}
+
+	blockquote {
+		border: 0;
+		font-size: 35px;
+		font-size: 2.1875rem;
+		line-height: 1.371428571;
+		margin: 0 -11.11419486% 32px -11.11419486%;
+		padding: 32px 0;
+		max-width: 122.22838972%;
+		text-align: center;
+	}
+
+	blockquote cite,
+	blockquote small {
+		line-height: 2.4;
+	}
+
+	table {
+		margin: 0 !important;
+		max-width: 100% !important;
+	}
+}
+
+/**
+ * 16.5 >= 925px
+ */
+
+@media screen and (min-width: 57.8125em) {
+	.post,
+	.page {
+		margin-top: 9.0909091%;
+	}
+}
+
+/**
+ * 16.6 >= 1088px
+ */
+
+@media screen and (min-width: 68em) {
+	a.title {
+		font-size: 50px;
+		font-size: 3.125rem;
+		line-height: 1.12;
+	}
+}
+
+.skip-link {
+	background-color: var(--foreground-colour);
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.2);
+	clip: rect(1px, 1px, 1px, 1px);
+	color: #21759b;
+	display: block;
+	font: bold 14px / normal var(--font-main);
+	height: 1px;
+	left: -9999em;
+	outline: none;
+	overflow: hidden;
+	padding: 15px 23px 14px;
+	position: absolute !important;
+	top: -9999em;
+	width: 1px;
+}
+
+.skip-link:focus {
+	clip: auto;
+	height: auto;
+	left: 6px;
+	top: 7px;
+	width: auto;
+	z-index: 1000000000;
+}</style>
+	</head>
+	<body>
+		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
+
+		<nav>
+		<ul class="nav">
+				<li class="nav-item"><a href="/myblog/">Home</a></li>
+				<li class="nav-item"><a href="/myblog/blog/">Archive</a></li>
+				<li class="nav-item"><a href="/myblog/about/">About and Contact</a></li>
+				<li class="nav-item"><a href="/myblog/feed.xml">Feed</a></li>
+			</ul>
+		</nav>
+
+		<header>
+			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
+		</header>
+
+		<main id="skip">
+			<heading-anchors>
+				
+<h1 id="getting-started-with-static-site-generators-with-a-screen-reader">Getting started with static site generators with a screen reader.</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-04-04">04 April 2024</time></li>
+	<li><a href="/myblog/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
+</ul>
+
+<p>This post took me a very long time to write, so <a href="https://robertkingett.com/donate/">give me money</a> if you like the below post.</p>
+<p>Additional resources are below the two tutorials.</p>
+<p>I wanted to make this guide, partially so I can have something to reference myself, but also because I hope other screen reader users can get something out of this.</p>
+<h2 id="what-are-static-site-generators">What are static site generators?</h2>
+<p><a href="https://en.wikipedia.org/wiki/Static_site_generator">Wikipedia has a wonderful breakdown of static site generators,</a> but I would also like to add that it’s kind of a cross between making static website files by hand and having a generator, well, generate or publish stuff for you.</p>
+<p>A static site generator is kind of a mix mash of technologies. It’s combining static HTML files with themes and templates and styles.</p>
+<h2 id="benefits-of-static-site-generators">Benefits of static site generators.</h2>
+<p>I can already hear you thinking, why would I want to use a static site generator when WordPress is accessible and because there are a lot of website publishing avenues out there that are accessible, so why should I build my own website using a static site generator and command line/Powershell?</p>
+<p>Those are very valid points! I’d like to point out that some of these services that host websites for you already use static site generators. For example, <a href="https://micro.blog/pricing">Micro.blog</a> uses Hugo but they host everything for you for a fee. There are others, too, that host static site generators for a fee but Micro.blog is the easiest one.</p>
+<p>There’s a difference between the two types of websites I listed above. As of right now, people seem to lump these types of websites into two groups. Dynamic websites, which are websites that operate from a database. For example, WordPress is a dynamic website because it has to fetch that page from a database every time someone goes to a page on that website. The database has to be checked and rendered every time our browser goes to a page or a blog post on the website. Dynamic websites have templates with data that are then rendered to the user. It’s kind of like a stream that needs to be checked every time you want to go somewhere or do something.</p>
+<p>Static sites are just the pre made files. There’s no database to check and crawl every time we want to access a page on the website. There’s no extra things clogging up the database. Your accessing that file exclusively when you go to a page on a website.</p>
+<p>There are prose and cons for both kinds of websites. For example, dynamic websites are best if you plan to have a lot of changes happen on your website, such as adding or removing authors on a team, having interactive widgets, and more interactive things.</p>
+<p>A static website is perfect for personal blogs, small websites without a user forum or complex payment systems or landing pages, personal diary websites, things that really don’t need to change very often. If you publish the occasional blog post or news item or update, and have mostly landing pages on your website, pages that don’t change often, then a static website would be good for you because you don’t have to make sure everything in your database is updated. You could just let those static files sit there until you want to make a change to the files.</p>
+<p>If you need to change a category on multiple posts at once, a dynamic website solution like WordPress would be better for you because it operates via a database, so you could make changes in bulk.</p>
+<p>Technically speaking, a static site is more secure because there’s no database to break into. There are other differences, but you really don’t need to know this in order to get going with this guide.</p>
+<p>This guide will walk you through setting up a static website for the first time with Git and then publishing it for free on Github pages.</p>
+<h2 id="prerequisites-and-things-to-know">Prerequisites and things to know.</h2>
+<p>Unfortunately, static site generators are just not for fully non-technical people. If you’re willing to learn the basics of a few concepts, you don’t have to be a programmer to use a static site generator but they require that you know the basics of at least a few things. Mainly,</p>
+<p><a href="https://www.markdownguide.org/">Markdown,</a> which is a lightweight way of writing formatted text. Markdown is far easier to learn than HTML.</p>
+<p><a href="https://learn.microsoft.com/en-us/training/modules/introduction-to-powershell/">Powershell</a> or basic command line commands. Static site generators are interacted with through the command line. Generally, terminals and command line interfaces are more accessible for screen reader users. <a href="https://www.bookshare.org/browse/book/2350350?returnPath=L3NlYXJjaD9tb2R1bGVOYW1lPXB1YmxpYyZyZXN1bHRzVmlldz1MSVNUJmtleXdvcmQ9Q29tbWFuZCUyQmxpbmU">This command line book on Bookshare</a> helped me a lot, as well as <a href="https://www.bookshare.org/browse/book/2234162?returnPath=L3NlYXJjaD9tb2R1bGVOYW1lPXB1YmxpYyZrZXl3b3JkPVBvd2Vyc2hlbGw">this Powershell book on Bookshare.</a></p>
+<p><a href="https://git-scm.com/book/en/v2">Git concepts.</a> Why not Github specifically? Git powers this kind of environment and is used across sites similar to Github. I’d recommend learning through the command line so you can have one interface to work with in case you want to change repository providers later. <a href="https://git-scm.com/book/en/v2">Here’s a free book on Git that’s also under a Creative Commons license,</a> but also <a href="https://drive.google.com/uc?export=download&amp;id=121tZCOCRs0wJ3ohwpOrtX_RDKOkYo1Jr">Using the GitHub Command Line Interface by Luke Robinett</a> is a great introduction from a screen reader perspective.</p>
+<p><a href="https://www.bookshare.org/browse/book/3632380/Build%20Websites%20with%20Hugo">Build Websites with Hugo by Hogan, Brian P</a> is a fantastic introduction to Hugo, but my below post will get you started with making a blog. This book was recommended by a reader, so thank you!</p>
+<p><a href="https://www.bookshare.org/browse/book/4550379?returnPath=L3NlYXJjaD9tb2R1bGVOYW1lPXB1YmxpYyZrZXl3b3JkPUh1Z28lMkJJbiUyQkFjdGlvbg">Hugo in Action by Atishay Jai</a>n is another getting started resource but both I and a fellow reader thought it’s more for people that don’t mind reading about terms and jumping straight into concepts. Even so, it can really help understand some of the backbones that make up a Hugo website.</p>
+<p>For this, we’re going to be using Github and Github pages. We’re going to set up a lot of stuff so we won’t have to do a lot of setup later.</p>
+<p>First, <a href="https://github.com/signup?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F&amp;source=header-home">make a Github account here</a> and remember your username, because we will need that later.</p>
+<p>It should be noted that a lot of the concepts we use in the Hugo section will also come into play in the Zola section, so it’s best if you start with building a Hugo website first before trying Zola.</p>
+<p>First, though, Setting up our Git environment.</p>
+<h2 id="installing-git-and-github-cli">Installing Git and Github cli</h2>
+<p>We’re installing git and Github Cli firstso we can publish our websites to repositories and to Github pages.</p>
+<p>First, we need to <a href="https://git-scm.com/download/win">install git.</a> Git is a thing that lets nerds store and track projects. It’s like a version of Dropbox but without the constant syncing in the background. Nerds call it a distributed version control software system , but I can’t remember how the phrase distributed version control software system  transformed into git, so let’s just call it git. it’s main focus is keeping projects in repositories.</p>
+<p>Because I’ll be writing this static site guide from the point of view of a Windows user, everything in this guide will be ran against Windows. I have absolutely no idea which commands cary over to Macs or Linux but I’ll keep the below commands as broad as I can.</p>
+<p>The easiest way to install git on Windows is to use Microsoft’s package manager, called Winget. <a href="https://docs.microsoft.com/en-us/windows/package-manager/winget">Get Winget here</a>. Winget is a package manager that hooks into various repositories and fetches packaged downloads based on your OS and system build and upgrades for you, automatically, so you don’t have to browse complicated webpages.</p>
+<p><a href="https://git-scm.com/downloads">If you don’t have Windows, download git from this page.</a></p>
+<p>The easiest way to use Winget is in a command line/powershell window.</p>
+<p>First, open powershell as an administrator.</p>
+<p>Then, type or copy and paste the following.</p>
+<p><code>winget install --id Git.Git -e</code></p>
+<p>you will need to <a href="https://chocolatey.org/install">install another package manager called Chocolatey.</a> Chocolatey is kind of like Winget but it has more repositories and even more sources. Why am I having you download two package managers? Because one program isn’t on Winget, but another isn’t on Chocolatey, but some are available on both Winget and Chocolatey. It will save you a headache when you’re trying to find something later.</p>
+<p>For the ease of simplicity, the below lengthy code string will do three things, one after the other. It will install Chocolatey, then install git, then install Github command line version. To keep this simple, I’ll continue to bundle commands so they run back to back if needed later.</p>
+<p><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('[https://community.chocolatey.org/install.ps1](https://community.chocolatey.org/install.ps1)')); winget install --id Git.Git -e; winget install -e --id GitHub.cli</code></p>
+<p>Now we should connect the Git software we just downloaded to our Github account. There’s other Git providers, but we’re going to be using Github and Github pages for this, so we need to connect everything before we start building.</p>
+<p>After all the Git software is installed, run the following command in our powershell window. It’s going to be an interactive command, so you will want to read what will come next before entering the command.</p>
+<p>Connect our Git program with Github with the following command.</p>
+<p><code>gh auth login</code></p>
+<p>after you enter that command, you’ll be taken through a series of prompts. The easiest way to connect is with HTTPs, so we’re going to select the below options, in this order.</p>
+<p>Press enter to select GitHub account.</p>
+<p>Press enter to select HTTPS.</p>
+<p>Press Y, to say yes to connecting it with your Github cradentials.</p>
+<p>Press enter to authenticate with a web browser.</p>
+<p>Powershell is going to tell you to copy a code. Press Control, A, to copy the whole terminal window up to this point. Open up notepad and paste it in. Go back to the Powershell window and hit enter.</p>
+<p>Your web browser will open and ask you to login to Github. After logging in, it will ask you for the code. I never could get it to paste correctly when pasting from the Notepad to the box, so alt tab back and forth and just type it in manually.</p>
+<p>Hit enter, then hit the authorize or connect button. Go back to our powershell window and hit enter to complete the connection process.</p>
+<p>Now you should be good to go! Now we can download our static site generators!</p>
+<h2 id="downloading-static-site-generators">Downloading static site generators.</h2>
+<p>Now we have to pick our static site generator we want to install. Even though this tutorial will mainly focus on <a href="https://gohugo.io/">Hugo</a> and <a href="https://www.getzola.org/">Zola,</a> there are many fantastic generators like <a href="https://www.11ty.dev/">11ty.</a> <a href="https://en.wikipedia.org/wiki/Static_site_generator">Wikipedia has a good starting list of Static Site generators to check out.</a></p>
+<p><a href="https://jamstack.org/generators">You can see a whole host of static site generators here</a> if you want to try more out later.</p>
+<p>Even though <a href="https://www.11ty.dev/docs/starter/">11ty has a very wonderful place of starter projects to bounce off,</a> and they also <a href="https://github.com/11ty/eleventy-base-blog">have a great blog starter project</a> and <a href="https://www.11ty.dev/docs/starter/">easy to read getting started guide,</a> I still had some trouble with it. Because I wasn’t able to get 11ty working enough for this guide, our focus is going to be on Hugo and Zola. Both are different static site generators, but working with both will give you a good idea of what to expect when working with other static site generators.</p>
+<p>First, we’ll make a website with Hugo. Then, we’ll make a website with Zola. Then, we’ll talk about publishing both websites to Github pages.</p>
+<p>Even though this tutorial will focus on publishing to <a href="https://help.github.com/pages/">Github pages,</a> I’ll list some other fantastic hosts you can use to publish your static site below the Github pages publishing tutorials for Hugo and Zola.</p>
+<p>First, we’re going to download everything we need for Hugo and then install Zola. Some Hugo themes require extra stuff known as dependencies, so to avoid having to download more stuff later, we’re just going to download everything all in one command.</p>
+<p>The below command installs stuff from Chocolatey as well as Winget. If you didn’t install Chocolatey, the below command will fail.</p>
+<p>Just in case, the install command for Chocolatey is,</p>
+<p><code>Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('[https://community.chocolatey.org/install.ps1](https://community.chocolatey.org/install.ps1)'))</code></p>
+<p>Now that Chocolatey is installed, copy and paste the whole command below, including the semicolons. The semicolons tell powershell to run the below command sequentially, with one command immediately following the next command.</p>
+<p>The below commands will take time to run in order, so wait until you hear the terminal output your location.</p>
+<p><code>choco install sass golang -y; winget install Hugo.Hugo.Extended; choco upgrade golang -y; winget install --id=getzola.zola -e; winget upgrade --all; Choco upgrade all -y</code></p>
+<p>I included the upgrade commands because you can never be to cautious.</p>
+<p>Now that we’ve installed the static site generators we’re going to be working with today. Let’s set up our Github repositories before we start making websites.</p>
+<p>The reason we’re setting up repositories first is because it’s going to become a lot easier to navigate and push later. It’s also going to be far easier to manage when we start working with other static site generators.</p>
+<h2 id="creating-our-github-repositories">Creating our Github repositories.</h2>
+<p>Now we’re going to make our repositories for Github. It’s best to have all back end stuff in a private repository or, in this case, repositories. The public repository we will be making will be our fully published website.</p>
+<p>By keeping our back end stuff private, this will make it extra hard for someone to try and mess with your files. Even though our public repository will hold our rendered and published items in it, it’s still far safer than having everything under one repository.</p>
+<p>It’s also going to be easier to publish our websites because, if only our fully rendered stuff is in our public repository, then we will only need to point Github pages to that repository and not a special folder. It’s also going to make it far easier if we want to change static site generators later but keep our website at the same URL and the same public content all in one designated repository.</p>
+<p>For example, if we want to publish what we tried making while trying a different generator, we would just need to publish to that public repository without making a whole new repository. This will become clearer as we get to the publishing stage.</p>
+<p>After we’re all done building with our various generators, we’re going to publish them. The websites need to be published, also known as compiled and rendered, after we finish tweaking and building privately.</p>
+<p>So we’re going to build and test privately, but then we’re going to publish after we’re happy with our private tests and our private results.</p>
+<p>Having one public repository to publish to is going to be far easier in the long run in terms of future development and site rendering and troubleshooting.</p>
+<p>To create the necessary repositories, use the below command.</p>
+<p>The below command does many things in one command. It creates a folder in you’re my documents folder called Website. It then makes public and private repositories inside of that website folder, then it’s going to download the respective generators into their designated private folders, then open the public repos Github pages settings so you can make a change in here.</p>
+<p>In all the below commands, change the word, username, to your github username exactly how you created it when you made your Github account.</p>
+<p><code>New-Item -ItemType Directory -Path &quot;$home\Documents\website&quot;; CD $home\Documents\website; gh repo create Username.github.io --public --clone; gh repo create hugoprivate --private --clone; CD hugoprivate; hugo new site .; git add .; git commit -am &quot;Changed website&quot;; git push --set-upstream origin master; CD ../zolaprivate; git add .; git commit -am &quot;Changed website&quot;; git push --set-upstream origin master;; CD $home/documents/website/username.github.io; git add .; git commit -am &quot;Updated website&quot;; git push; Start-Process &quot;[https://github.com/username/username.github.io/settings/pages](https://github.com/username/username.github.io/settings/pages)&quot;</code></p>
+<p>The above code did a lot! We created a folder, went into it, made our repositories, also called repos, private and public, went into our private folders and initialized a new hugo project, backed them up to Github, and then finally navigated to our public repos github pages settings.</p>
+<p>Since we have our public repository settings open in a new tab, go down to the github pages heading. Find the next heading that says, build and deployment.</p>
+<p>Change the source to deploy from a branch.</p>
+<p>Change the branch source to be, main, and make sure to select root for that second button next to the main.</p>
+<p>Press save, and now you don’t have to touch these settings again! Now, when we publish your website, using whatever engine we want, it’s going to automatically publish our website when we push our changes later.</p>
+<p>The hard part is done! Now Let’s start building your websites!</p>
+<h2 id="building-and-editing-a-hugo-website">Building and editing a hugo website.</h2>
+<p><a href="https://gohugo.io/getting-started/">Hugo has an okay getting started guide, here,</a> but I found it just jumps you right in! My way is below, of course.</p>
+<p>In windows explorer, keeping the powershell window open, Go back to our hugo website folder we created earlier. In here, we will see a lot of folders and a lot of files. They all have different purposes, so I’d highly recommend reading <a href="https://gohugo.io/getting-started/directory-structure/">this hugo documentation about the folder structure and what the folders and files mean, as well as an overview of the site skeleton.</a></p>
+<p>We’re going to be adding and editing files in this hugo directory, then we’re going to publish our website to Github. Because we already set it up, it’s going to automatically publish our website when we push changes to our public repository.</p>
+<p>As of right now, we have a website skeleton. It needs a theme, and it needs some content.</p>
+<p>Before we make content, we’re going to change a few things in the hugo.toml file found in the root of our hugo website directory so we don’t have to edit this file again unless we’re changing themes.</p>
+<p>The hugo.TOML file is a configuration file for the website instance you just created.</p>
+<p>In windows explorer, navigate to the hugo website directory we’re building. You should see a hugo.toml file that isn’t in a folder. Open this file in notepad.</p>
+<p>Once hugo.toml is open in notepad, change the following, making sure to keep the tick marks around the words after the equal sign.</p>
+<p>Replace the base URL, example dot com, with your public repository website URL like this, making sure to put your github username in the URL instead of having it say, username.</p>
+<p><a href="https://username.github.io/">https://username.github.io/</a></p>
+<p>Next, change the site title, keeping the tick marks around your title.</p>
+<p>Save then close this settings file.</p>
+<p>You can set your theme and publish directory in here, but I’m going to do that for you in a later command.</p>
+<p>Now we can start editing our website!</p>
+<h2 id="editing-our-hugo-website">Editing our Hugo website.</h2>
+<p>First, we’re going to create some content. Then, we’re going to apply a theme.</p>
+<p>Hugo doesn’t have a built in way to make pages, yet. The only kind of content we can create straight away are blog posts.</p>
+<p>In powershell, After navigating to your hugo development directory in powershell, use the below command to create a new blog post.</p>
+<p><code>hugo new content posts/my-first-post.md</code></p>
+<p>If you got lost, use the below command to go back to your hugo development folder and then make the first blog post.</p>
+<p><code>CD $home/documents/websites/hugoprivate; hugo new content posts/my-first-post.md</code></p>
+<p>Now alt tab to your development folder, go into the content folder, and gaze upon your new blog post! Change post draft status to false, instead of true, then go all the way to the bottom, make an extra line just to be safe, type something, then save and close the document.</p>
+<p>Hugo accepts content written in Markdown, so go ahead and type some markdown to practice. Save the text file when you are done by pressing Control, S. Now You’ve saved it, you can close this post.</p>
+<p>You can use the hugo new content posts/ command to make as many blog posts as you want. Be sure to add a title of the post to the command, like this.</p>
+<p>hugo new content posts/Test-post-two.</p>
+<p>Also, be sure to change the draft statuses to false before saving the files, because they won’t render when we publish our hugo website to the world later if drafts is still set to true on a post.</p>
+<p>Now, after You’ve made some content, Let’s add a theme to your blog!</p>
+<h2 id="adding-a-theme-to-your-blog">Adding a theme to your blog.</h2>
+<p><a href="https://themes.gohugo.io/">Hugo has a huge array of themes to choose from here.</a> I’ve chosen a very simple theme. It doesn’t have bells and whistles, but once you get the hang of switching themes, you can play around with more complex themes.</p>
+<p>In powershell, navigate to your hugo directory and paste in the following command. It’s going to download the theme, then add the necessary stuff to your hugo.toml file so you don’t have to open it again unless you want to change themes later.</p>
+<p>The below command should only be used on your first time setting up a theme. Do not use the below command to switch themes.</p>
+<p><code>git submodule add [https://github.com/theNewDynamic/gohugo-theme-ananke.git](https://github.com/theNewDynamic/gohugo-theme-ananke.git) themes/ananke; echo &quot;theme = 'ananke'`npublishDir = '../username.github.io'&quot; | set-content -encoding Unicode hugo.toml</code></p>
+<p>the above code downloaded a theme, added it to our themes folder, then added the theme and publish directory in our Hugo TOML file.</p>
+<p>Every time you change a theme, you have to also change the theme name in the TOML file before rendering your website. I’d recommend downloading a few themes you like into the themes folder, then just changing the hugo TOML file as needed before rendering the website.</p>
+<p>If you want to change the theme, you need to <a href="https://themes.gohugo.io/">download another theme from the Hugo theme directory,</a> then make sure to edit the theme name in the Hugo TOML file in your hugo development folder so that Hugo knows which theme to use when publishing/rendering your website.</p>
+<p>Now that we have some content, and a theme added to our website, we’re actually ready to publish our website to the world now! first, though, Let’s test our website.</p>
+<h2 id="testing-our-hugo-website-before-publishing">Testing our hugo website before publishing.</h2>
+<p>To test our website, in a powershell window, put,</p>
+<p><code>hugo server.</code></p>
+<p>Now we can visit our website by going to the URL given in the terminal/powershell window. The URL might be different, so copy and paste the whole powershell window and reviewing in a notepad, but the URL is usually, <a href="http://localhost:1313/"></a><a href="http://localhost:1313/">http://localhost:1313/</a></p>
+<p>Now we can publish our website because we have everything set up!</p>
+<h2 id="publishing-your-hugo-website">Publishing your hugo website.</h2>
+<p>Because we set everything up before, we only need one command to publish and deploy our website to github and github pages.</p>
+<p>Use the below to first publish the hugo website, then to save all the new files in our public github repository and push it online.</p>
+<p>In a powershell window, after navigating to your hugo development folder, run the below command. The below command should be used your first time publishing a website. The second command is for all other times you want to update your website. It will publish all the changes You’ve made to hugo thus far, then push everything to Github so you have a backup, then navigate to your public repository, then push everything online.</p>
+<p><code>hugo; git add .; git commit -am &quot;Changed website&quot;; git push --set-upstream origin master; CD $home/documents/website/username.github.io; git add .; git commit -am &quot;Updated website&quot;; git push</code></p>
+<p>the above should be ran on your first time publishing the website. All other times, you’d want to use the below command to update your website.</p>
+<p><code>hugo; git add .; git commit -am &quot;Changed website&quot;; git push; CD $home/documents/website/username.github.io; git add .; git commit -am &quot;Updated website&quot;; git push</code></p>
+<p>now your website should be live at <a href="https://username.github.io/"></a><a href="https://username.github.io/">https://username.github.io/</a></p>
+<p>that’s it! you’re done! You created a Hugo website! Now You’ve created a website, now I can share some shortcut commands I use. I’d recommend keeping the below commands handy.</p>
+<p>Delete repo after it has been published to Github. Navigate to the directory in question before running the below delete command.</p>
+<p><code>gh repo delete --yes</code></p>
+<p>quickly make a brand new private hugo website with some content in the current directory and with a theme already picked out and theme name and publish directory already added to the TOML file.</p>
+<p><code>choco install hugo-extended -confirm; New-Item -ItemType Directory -Path &quot;$home\Documents\website&quot;; CD $home\Documents\website; gh repo create hugo --private --clone; CD hugo; hugo new site .; git submodule add -b main [https://github.com/1bl4z3r/hermit-V2](https://github.com/1bl4z3r/hermit-V2) themes/hermit-v2; git submodule update --remote; echo &quot;theme = 'hermit-v2'`npublishDir = '../username.github.io'&quot; | set-content -encoding Unicode hugo.toml; hugo new content posts/my-first-post.md; CD ../username.github.io; hugo; git add .; git commit -am &quot;Changed website&quot;; git push --set-upstream origin master; CD $home/documents/website/username.github.io; git add .; git commit -am &quot;Updated website&quot;; git push</code></p>
+<p>Now, we’re gonna make a Zola website.</p>
+<h2 id="making-a-zola-website">making a Zola website.</h2>
+<p>Zola is a static website generator very similar to Hugo, except for that it’s very lightweight, and it doesn’t require any special dependencies. Everything is contained in one package, making this generator extremely portable.</p>
+<p>How Zola differs from Hugo, also, is the fact it’s very minimalist. It doesn’t start you off with a lot of templating files or indexes or even starter files like Hugo does, so we’re going to be following their documentation for a lot of this section.</p>
+<p>Luckily, a lot of the same concepts carry over from Hugo to Zola, so it should be a matter of <a href="https://www.getzola.org/documentation/getting-started/overview/">closely following their documentation to learn what files they need to index your posts and how to display them</a> and similar. In some ways, though, Zola is far more advanced than Hugo, in terms of setup and publishing to Github pages, but a lot of the same concepts apply including themes and publication.</p>
+<p>First, Let’s make our Zola development environment. In powershell, paste the following to make our private Github repo, go into our repo, then make a Zola project inside of that repo with a sample theme.</p>
+<p><code>New-Item -ItemType Directory -Path &quot;$home\Documents\website&quot;; CD $home\Documents\website; gh repo create zolaprivate --private --clone; CD Zolaprivate; Zola init .; git submodule add [https://github.com/jieiku/abridge.git](https://github.com/jieiku/abridge.git) themes/abridge; git submodule update --init --recursive; git submodule update --remote --merge; git add .; git commit -am &quot;Changed website&quot;; git push --set-upstream origin master</code></p>
+<p>When it asks you what is the URL of your website, put your public github pages website we made in the Hugo setup portion. Say yes to everything, even syntax highlighting, then the theme should be downloaded and ready to go!Go into the themes folder and find the CONFIG.TOML file inside of the themes folder. Open the TOML file in a text editor, copying everything below the BaseURL and pasting it into our own Config TOML file just below our BaseURL. Hit save, then change one more line in here.</p>
+<p>Add the following below the site title.</p>
+<p><code>publishDir = '../username.github.io'</code></p>
+<p><a href="https://www.getzola.org/documentation/getting-started/cli-usage/#build">Zola also has additional ways to change the directory when building or serving.</a> In fact, you really should take time to read <a href="https://www.getzola.org/documentation/getting-started/cli-usage/">their whole documentation in addition to this command line page</a>because it is easy to understand. Still, like I said, we’re gonna use some example content.</p>
+<p>This way, the hard part is done for you! Now, you just copy some sample content, then we’ll be done.</p>
+<p>You can <a href="https://www.getzola.org/themes/">browse other Zola themes here,</a> but see below on speeding up some of this content we’re about to make.</p>
+<p>Unlike Hugo, Zola doesn’t have a native way to make posts or pages with one command, so we’ll use the themes templates instead.</p>
+<p><a href="https://www.getzola.org/documentation/getting-started/overview/">If you want to try making your own layout and starting files, Zola walks you through all the steps here.</a> It’s good practice to do so and put stuff in the right place so you have an idea of what it’s doing, where.</p>
+<p>This theme author provided us with a lot of sample content though, so <a href="https://www.getzola.org/themes/abridge/">follow the instructions given on the theme page to copy some sample content</a> into our website folders, as designated on the theme instructions.</p>
+<p>When you’re all done, you’re ready to build and publish! Use the below command to make sure your site turns out okay. Copy the URL it gives you and view it in a web browser.</p>
+<p><code>Zola build; Zola serve</code></p>
+<p>We didn’t need to set up our public repos because that was done for us during the Hugo building above. That’s why the above Zola command is somewhat different. It will still get you a basic theme but, unfortunately, you’ll need to make blog posts by hand. I’ve provided a command below that automates this process a bit, but I hope Zola makes it easier to create blog posts natively.</p>
+<p>Here’s my command for making a new blog post.</p>
+<p><code>CD $home/documents/website/zolaprivate/content; echo &quot; +++`ntitle = 'My blog post'`ndate = 2019-11-27`n+++&quot; | set-content -encoding Unicode post.md</code></p>
+<p>When you’re ready to publish to Github, use the below commands after making sure your Zola site works the way you want it to.</p>
+<p><code>CD $home/documents/website/Zolaprivate; Zola build; git add .; git commit -am &quot;Updated website&quot;; git push; CD $home/documents/website/username.github.io; git add .; git commit -am &quot;Updated website&quot;; git push</code></p>
+<h2 id="other-places-to-publish-your-static-site">Other places to publish your static site.</h2>
+<p>So now you’ve made a few websites with static site generators, but you can’t stand Github pages. Where do you host your static sites? I can recommend a few places!</p>
+<p>In almost all cases, hosting your static site will be very easy. After building your website to a particular folder, not a Github repository, you just zip that folder containing your rendered files and you are good to go with almost all of the below hosts!</p>
+<p><a href="https://www.staticwebsitehosting.org/">Find a number of places to host your static site here,</a> or check out some highlights below.</p>
+<p><a href="https://app.netlify.com/drop">11ty allows you to use their space</a> to publish your 11ty project online, for free, for now.</p>
+<p><a href="https://tiiny.host/">Tiiny Web hosting</a> offers free static site hosting.</p>
+<p><a href="https://docs.netlify.com/">Netlify</a> is very popular and makes it very easy to host many kinds of static websites.</p>
+
+
+<h1 id="follow-future-posts">Follow future posts</h1>
+
+You can <a href="feed/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
+
+<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+<input id="bd-email" name="email" type="email">
+<label><input type="checkbox" name="tag" value="street">Join street team</label>
+<label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
+<input type="submit" value="Subscribe">
+</form>
+
+<h1 id="post-navigation">Post navigation</h1>
+<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6525/">Two new books to buy from me.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6540/">Royalty statement 2023</a></li>
+</ul>
+
+			</heading-anchors>
+		</main>
+
+		<footer>
+			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
+		</footer>
+
+		<!-- This page `/myblog/posts/6529/` was updated on 2025-02-01T19:46:39.126Z -->
+		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
+	</body>
+</html>
