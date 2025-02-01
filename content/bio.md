@@ -1,8 +1,9 @@
 ---
-title: About
+title: About Robert Kingett
 eleventyNavigation:
-  key: About and Contact
-  order: 3
+  title: About Robert Kingett
+  key: About
+  order: 2
 ---
 
 # About

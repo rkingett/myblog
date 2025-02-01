@@ -7,6 +7,7 @@ export default {
 		name: "Robert Kingett",
 		email: "kingettr@gmail.com",
 		url: "https://robertkingett.com/",
+		fediverse: "@weirdwriter@tweesecake.social",
 	},
 	feedLimit: 50,
 };
