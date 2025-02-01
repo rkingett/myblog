@@ -3,7 +3,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
   <title>Sightless Scribbles</title>
   <subtitle>A fabulously gay blind writer.</subtitle>
-  <link href="https://robertkingett.com/myblog/feed/feed.xml" rel="self" />
+  <link href="https://robertkingett.com/myblog/feed.xml" rel="self" />
   <link href="https://robertkingett.com/myblog/" />
   <updated>2018-09-30T00:00:00Z</updated>
   <id>https://robertkingett.com/myblog/</id>
