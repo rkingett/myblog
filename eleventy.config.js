@@ -3,10 +3,8 @@ import {
 	InputPathToUrlTransformPlugin,
 	HtmlBasePlugin,
 } from "@11ty/eleventy";
-import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
-import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 
 import pluginFilters from "./_config/filters.js";
 import pluginShortcodes from "./_config/shortcodes.js";
@@ -51,48 +49,6 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
-
-	eleventyConfig.addPlugin(feedPlugin, {
-		type: "atom", // or "rss", "json"
-		outputPath: "/feed.xml",
-		stylesheet: "pretty-atom-feed.xsl",
-		templateData: {
-			eleventyNavigation: {
-				key: "Feed",
-				order: 4,
-			},
-		},
-		collection: {
-			name: "posts",
-			limit: 50,
-		},
-		metadata: {
-			language: "en",
-			title: "Sightless Scribbles",
-			subtitle: "A fabulously gay blind writer.",
-			base: "https://robertkingett.com/",
-			author: {
-				name: "Robert Kingett",
-			},
-		},
-	});
-
-	// Image optimization: https://www.11ty.dev/docs/plugins/image/#eleventy-transform
-	eleventyConfig.addPlugin(eleventyImageTransformPlugin, {
-		// File extensions to process in _site folder
-		extensions: "html",
-
-		// Output formats for each image.
-		formats: ["avif", "webp", "auto"],
-
-		// widths: ["auto"],
-
-		defaultAttributes: {
-			// e.g. <img loading decoding> assigned on the HTML tag will override these values.
-			loading: "lazy",
-			decoding: "async",
-		},
-	});
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);

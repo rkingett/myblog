@@ -6,6 +6,7 @@ export default {
 	author: {
 		name: "Robert Kingett",
 		email: "kingettr@gmail.com",
-		url: "https://robertkingett.com/"
-	}
-}
+		url: "https://robertkingett.com/",
+	},
+	feedLimit: 50,
+};
