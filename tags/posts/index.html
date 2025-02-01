@@ -3,11 +3,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Tags, Sightless Scribbles</title>
+		<title>Tagged &#39;posts, Sightless Scribbles</title>
 		<meta name="description" content="A fabulously gay blind author.">
 		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
 		
-		<style>/* This is an arbitrary CSS string added to the bundle */
+		<style>.postlist { counter-reset: start-from 5 }
+/* This is an arbitrary CSS string added to the bundle */
 /* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
 /*
 Theme Name: Cyanotype
@@ -1847,23 +1848,32 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="tags">Tags</h1>
+				<h1 id="tagged-posts">Tagged “posts”</h1>
 
-<ul>
 
-	
-	<li><a href="/myblog/tags/another-tag/" class="post-tag">another tag</a></li>
 
-	
-	<li><a href="/myblog/tags/number-2/" class="post-tag">number 2</a></li>
+<ul reversed="" class="postlist">
 
-	
-	<li><a href="/myblog/tags/second-tag/" class="post-tag">second tag</a></li>
+	<li class="postlist-item">
+		<a href="/myblog/blog/fourthpost/" class="postlist-link">This is my fourth post</a>
+	</li>
 
-	
-	<li><a href="/myblog/tags/posts-with-two-tags/" class="post-tag">posts with two tags</a></li>
+	<li class="postlist-item">
+		<a href="/myblog/blog/thirdpost/" class="postlist-link">This is my third post.</a>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/myblog/blog/secondpost/" class="postlist-link">This is my second post with a much longer title.</a>
+	</li>
+
+	<li class="postlist-item">
+		<a href="/myblog/blog/firstpost/" class="postlist-link">This is my first post.</a>
+	</li>
 
 </ul>
+
+
+<p>See <a href="/myblog/tags/">all tags</a>.</p>
 
 
 			</heading-anchors>
@@ -1873,7 +1883,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/tags/` was updated on 2025-02-01T19:40:51.700Z -->
+		<!-- This page `/myblog/tags/posts/` was updated on 2025-02-01T19:40:51.749Z -->
 		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
 	</body>
 </html>

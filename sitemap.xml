@@ -32,17 +32,17 @@
 	</url>
 	
 	<url>
+		<loc>https://robertkingett.netlify.app/myblog/feed.xml</loc>
+		<lastmod>2025-02-01</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://robertkingett.netlify.app/myblog/</loc>
 		<lastmod>2025-02-01</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/tags/</loc>
-		<lastmod>2025-02-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://robertkingett.netlify.app/myblog/feed.xml</loc>
 		<lastmod>2025-02-01</lastmod>
 	</url>
 </urlset>
