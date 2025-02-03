@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Writing portfolio, Sightless Scribbles</title>
 		<meta name="description" content="A fabulously gay blind author.">
-		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<link rel="alternate" href="/myblog/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<meta name="fediverse:creator" content="@weirdwriter@tweesecake.social">
+		<meta name="generator" content="Eleventy v3.0.0">
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
@@ -380,6 +382,7 @@ nav ul li a {
 nav ul li {
 	border-left: 2px solid currentColor;
 	border-right: 2px solid currentColor;
+	position: relative;
 }
 
 nav p {
@@ -389,11 +392,62 @@ nav p {
 
 nav a {
 	font-size: 0.9em;
-	margin-right: 8px;
 }
 
 nav a:last-child {
 	margin-right: 0px;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 4px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	left: -1px;
+	margin-right: -2px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	z-index: 99999;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 0;
+}
+
+.sub-menu li a {
+	background-color: var(--background-color);
+	padding: 13px 24px;
+	white-space: normal;
+	width: 100%;
+	max-width: 240px;
+	min-width: 140px;
+	display: block;
 }
 
 strong,
@@ -1832,20 +1886,53 @@ address {
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
-		<nav>
-		<ul class="nav">
-				<li class="nav-item"><a href="/myblog/map/">Site Map</a></li>
-				<li class="nav-item"><a href="/myblog/posts/">Updates</a></li>
-				<li class="nav-item"><a href="/myblog/bio/">About Robert Kingett</a></li>
-				<li class="nav-item"><a href="/myblog/follow/">Follow</a></li>
-				<li class="nav-item"><a href="/myblog/writings/" aria-current="page">Writing</a></li>
-				<li class="nav-item"><a href="/myblog/events/">Events</a></li>
-				<li class="nav-item"><a href="/myblog/support/">Donate</a></li>
-				<li class="nav-item"><a href="/myblog/contact/">Contact</a></li>
-				<li class="nav-item"><a href="/myblog/links/">Resources</a></li>
-				<li class="nav-item"><a href="/myblog/privacy/">Privacy, disclaimers, disclosures.</a></li>
-			</ul>
-		</nav>
+<nav>
+  <ul class="nav"><li class="nav-item">
+  <a href="/myblog/map/">
+    Site Map
+  </a></li><li class="nav-item">
+  <a href="/myblog/posts/">
+    Updates
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/bio/">
+    About Robert Kingett
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/resume/">
+    CV/Resume
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/follow/">
+    Follow
+  </a></li><li class="nav-item">
+  <a href="/myblog/writings/" aria-current="&quot;page&quot;">
+    Writing
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/events/">
+    Events
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/calendar/">
+    Calendar
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/support/">
+    Donate
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/contact/">
+    Contact
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/team/">
+    Street team
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/links/">
+    Resources
+  </a></li><li class="nav-item">
+  <a href="/myblog/privacy/">
+    Privacy, disclaimers, disclosures.
+  </a></li></ul>
+</nav>
+
+
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
@@ -1853,7 +1940,48 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<p>TODO</p>
+				<p><a href="/myblog/team">Beta readers or Street team information</a></p>
+<p>I’m an accomplished <a href="/myblog/books">author,</a> with <a href="/myblog/resume">experience in many different arenas of publishing.</a></p>
+<p>Favorite fiction and nonfiction is on the highlights section of this page below but <a href="https://robertkingett.com/posts/category/highlights/publishing/">you can read publishing highlights here.</a></p>
+<p><a href="/myblog/audio">View audio or video.</a></p>
+<p><a href="/myblog/events">Events information.</a></p>
+<h1 id="find-my-work">Find my work.</h1>
+<p><a href="https://robertkingett.com/posts/category/writings/">See all my writing</a> or filter below. Highlights are further down the page but <a href="https://robertkingett.com/posts/category/highlights/publishing/">writing roundups can be found here,</a> highlighting my publishing news.</p>
+<p><a href="subscribe/">Subscribe to updates by email or RSS.</a></p>
+<p><a href="archive/">Filter by format and categories.</a></p>
+<ul>
+<li><a href="/myblog/posts">All recent work.</a></li>
+<li><a href="/myblog/books">Books/anthologies.</a></li>
+<li><a href="/myblog/shorts">Short works.</a></li>
+<li><a href="/myblog/audio">Audiobooks and event recordings.</a></li>
+<li><a href="/myblog/posts/tag/drm-free/">Buy my DRM free work</a> or <a href="/myblog/posts/tag/creative-commons/">Buy work under a Creative Commons license.</a></li>
+<li><a href="https://robertkingett.com/posts/category/blog/">blog and journal.</a></li>
+<li><a href="/myblog/ad">Audio Description work.</a></li>
+</ul>
+<h2 id="writing-highlights">Writing highlights</h2>
+<p>Here’s some selections I like to brag about. In addition to the below, <a href="/myblog/archive">I published in many other publications.</a></p>
+<p>The below only shows highlights. <a href="/myblog/posts">View all writing here.</a></p>
+<ul>
+<li><a href="/myblog/posts/6380">A Deserving Conference</a></li>
+<li><a href="/myblog/posts/2808">Off the Grid: Living Blind Without the Internet</a></li>
+<li><a href="/myblog/posts/5677">I Forget You’re Blind.</a></li>
+<li><a href="/myblog/posts/6514">Introducing the BOOK</a></li>
+<li><a href="/myblog/posts/5655">About me in my own words.</a></li>
+<li><a href="/myblog/posts/6625">Trunk Writing</a></li>
+<li><a href="/myblog/posts/6517">How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace</a></li>
+<li><a href="/myblog/posts/6522">Pass the Salt</a></li>
+<li><a href="/myblog/posts/4788">Chicken Soup for the Soul: Making Me Time</a></li>
+<li><a href="/myblog/posts/6642">Thomas Was Alone PS3 review.</a></li>
+</ul>
+<h2 id="audio-and-video-highlights">Audio and video highlights.</h2>
+<p><a href="/myblog/audio/">View all audio and video here</a> or see random audio/video highlights below.</p>
+<ul>
+<li><a href="/myblog/posts/2808">Off the Grid: Living Blind Without the Internet</a></li>
+<li><a href="/myblog/posts/6380">A Deserving Conference</a></li>
+<li><a href="/myblog/posts/4788">Chicken Soup for the Soul: Making Me Time</a></li>
+<li><a href="/myblog/posts/5651">Mortified appearances</a></li>
+<li><a href="/myblog/posts/4305">Artificial Divide</a></li>
+</ul>
 
 
 			</heading-anchors>
@@ -1863,7 +1991,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/writings/` was updated on 2025-02-01T20:45:25.939Z -->
-		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
+		<!-- This page `/myblog/writings/` was updated on 2025-02-03T22:00:45.109Z -->
+		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

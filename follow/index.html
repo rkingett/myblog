@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Subscribe, Sightless Scribbles</title>
 		<meta name="description" content="A fabulously gay blind author.">
-		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<link rel="alternate" href="/myblog/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<meta name="fediverse:creator" content="@weirdwriter@tweesecake.social">
+		<meta name="generator" content="Eleventy v3.0.0">
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
@@ -380,6 +382,7 @@ nav ul li a {
 nav ul li {
 	border-left: 2px solid currentColor;
 	border-right: 2px solid currentColor;
+	position: relative;
 }
 
 nav p {
@@ -389,11 +392,62 @@ nav p {
 
 nav a {
 	font-size: 0.9em;
-	margin-right: 8px;
 }
 
 nav a:last-child {
 	margin-right: 0px;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 4px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	left: -1px;
+	margin-right: -2px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	z-index: 99999;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 0;
+}
+
+.sub-menu li a {
+	background-color: var(--background-color);
+	padding: 13px 24px;
+	white-space: normal;
+	width: 100%;
+	max-width: 240px;
+	min-width: 140px;
+	display: block;
 }
 
 strong,
@@ -1832,20 +1886,53 @@ address {
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
-		<nav>
-		<ul class="nav">
-				<li class="nav-item"><a href="/myblog/map/">Site Map</a></li>
-				<li class="nav-item"><a href="/myblog/posts/">Updates</a></li>
-				<li class="nav-item"><a href="/myblog/bio/">About Robert Kingett</a></li>
-				<li class="nav-item"><a href="/myblog/follow/" aria-current="page">Follow</a></li>
-				<li class="nav-item"><a href="/myblog/writings/">Writing</a></li>
-				<li class="nav-item"><a href="/myblog/events/">Events</a></li>
-				<li class="nav-item"><a href="/myblog/support/">Donate</a></li>
-				<li class="nav-item"><a href="/myblog/contact/">Contact</a></li>
-				<li class="nav-item"><a href="/myblog/links/">Resources</a></li>
-				<li class="nav-item"><a href="/myblog/privacy/">Privacy, disclaimers, disclosures.</a></li>
-			</ul>
-		</nav>
+<nav>
+  <ul class="nav"><li class="nav-item">
+  <a href="/myblog/map/">
+    Site Map
+  </a></li><li class="nav-item">
+  <a href="/myblog/posts/">
+    Updates
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/bio/">
+    About Robert Kingett
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/resume/">
+    CV/Resume
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/follow/" aria-current="&quot;page&quot;">
+    Follow
+  </a></li><li class="nav-item">
+  <a href="/myblog/writings/">
+    Writing
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/events/">
+    Events
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/calendar/">
+    Calendar
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/support/">
+    Donate
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/contact/">
+    Contact
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/team/">
+    Street team
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/links/">
+    Resources
+  </a></li><li class="nav-item">
+  <a href="/myblog/privacy/">
+    Privacy, disclaimers, disclosures.
+  </a></li></ul>
+</nav>
+
+
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
@@ -1863,7 +1950,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/follow/` was updated on 2025-02-01T20:45:25.938Z -->
-		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
+		<!-- This page `/myblog/follow/` was updated on 2025-02-03T22:00:45.106Z -->
+		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

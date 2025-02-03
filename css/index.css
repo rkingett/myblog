@@ -370,6 +370,7 @@ nav ul li a {
 nav ul li {
 	border-left: 2px solid currentColor;
 	border-right: 2px solid currentColor;
+	position: relative;
 }
 
 nav p {
@@ -379,11 +380,62 @@ nav p {
 
 nav a {
 	font-size: 0.9em;
-	margin-right: 8px;
 }
 
 nav a:last-child {
 	margin-right: 0px;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 4px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	left: -1px;
+	margin-right: -2px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	z-index: 99999;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 0;
+}
+
+.sub-menu li a {
+	background-color: var(--background-color);
+	padding: 13px 24px;
+	white-space: normal;
+	width: 100%;
+	max-width: 240px;
+	min-width: 140px;
+	display: block;
 }
 
 strong,

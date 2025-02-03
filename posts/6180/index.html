@@ -5,177 +5,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Why I love Insta-Love Romances., Sightless Scribbles</title>
 		<meta name="description" content="A fabulously gay blind author.">
-		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<link rel="alternate" href="/myblog/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<meta name="fediverse:creator" content="@weirdwriter@tweesecake.social">
+		<meta name="generator" content="Eleventy v3.0.0">
 		
-		<style>/**
- * okaidia theme for JavaScript, CSS and HTML
- * Loosely based on Monokai textmate theme by http://www.monokai.nl/
- * @author ocodia
- */
-
-code[class*="language-"],
-pre[class*="language-"] {
-	color: #f8f8f2;
-	background: none;
-	text-shadow: 0 1px rgba(0, 0, 0, 0.3);
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 1em;
-	text-align: left;
-	white-space: pre;
-	word-spacing: normal;
-	word-break: normal;
-	word-wrap: normal;
-	line-height: 1.5;
-
-	-moz-tab-size: 4;
-	-o-tab-size: 4;
-	tab-size: 4;
-
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
-}
-
-/* Code blocks */
-pre[class*="language-"] {
-	padding: 1em;
-	margin: .5em 0;
-	overflow: auto;
-	border-radius: 0.3em;
-}
-
-:not(pre) > code[class*="language-"],
-pre[class*="language-"] {
-	background: #272822;
-}
-
-/* Inline code */
-:not(pre) > code[class*="language-"] {
-	padding: .1em;
-	border-radius: .3em;
-	white-space: normal;
-}
-
-.token.comment,
-.token.prolog,
-.token.doctype,
-.token.cdata {
-	color: #8292a2;
-}
-
-.token.punctuation {
-	color: #f8f8f2;
-}
-
-.token.namespace {
-	opacity: .7;
-}
-
-.token.property,
-.token.tag,
-.token.constant,
-.token.symbol,
-.token.deleted {
-	color: #f92672;
-}
-
-.token.boolean,
-.token.number {
-	color: #ae81ff;
-}
-
-.token.selector,
-.token.attr-name,
-.token.string,
-.token.char,
-.token.builtin,
-.token.inserted {
-	color: #a6e22e;
-}
-
-.token.operator,
-.token.entity,
-.token.url,
-.language-css .token.string,
-.style .token.string,
-.token.variable {
-	color: #f8f8f2;
-}
-
-.token.atrule,
-.token.attr-value,
-.token.function,
-.token.class-name {
-	color: #e6db74;
-}
-
-.token.keyword {
-	color: #66d9ef;
-}
-
-.token.regex,
-.token.important {
-	color: #fd971f;
-}
-
-.token.important,
-.token.bold {
-	font-weight: bold;
-}
-.token.italic {
-	font-style: italic;
-}
-
-.token.entity {
-	cursor: help;
-}
-/*
- * New diff- syntax
- */
-
-pre[class*="language-diff-"] {
-	--eleventy-code-padding: 1.25em;
-	padding-left: var(--eleventy-code-padding);
-	padding-right: var(--eleventy-code-padding);
-}
-.token.deleted {
-	background-color: hsl(0, 51%, 37%);
-	color: inherit;
-}
-.token.inserted {
-	background-color: hsl(126, 31%, 39%);
-	color: inherit;
-}
-
-/* Make the + and - characters unselectable for copy/paste */
-.token.prefix.unchanged,
-.token.prefix.inserted,
-.token.prefix.deleted {
-	-webkit-user-select: none;
-	user-select: none;
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	padding-top: 2px;
-	padding-bottom: 2px;
-}
-.token.prefix.inserted,
-.token.prefix.deleted {
-	width: var(--eleventy-code-padding);
-	background-color: rgba(0,0,0,.2);
-}
-
-/* Optional: full-width background color */
-.token.inserted:not(.prefix),
-.token.deleted:not(.prefix) {
-	display: block;
-	margin-left: calc(-1 * var(--eleventy-code-padding));
-	margin-right: calc(-1 * var(--eleventy-code-padding));
-	text-decoration: none; /* override del, ins, mark defaults */
-	color: inherit; /* override del, ins, mark defaults */
-}
-/* This is an arbitrary CSS string added to the bundle */
+		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
 /*
 Theme Name: Cyanotype
@@ -548,6 +382,7 @@ nav ul li a {
 nav ul li {
 	border-left: 2px solid currentColor;
 	border-right: 2px solid currentColor;
+	position: relative;
 }
 
 nav p {
@@ -557,11 +392,62 @@ nav p {
 
 nav a {
 	font-size: 0.9em;
-	margin-right: 8px;
 }
 
 nav a:last-child {
 	margin-right: 0px;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 4px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	left: -1px;
+	margin-right: -2px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	z-index: 99999;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 0;
+}
+
+.sub-menu li a {
+	background-color: var(--background-color);
+	padding: 13px 24px;
+	white-space: normal;
+	width: 100%;
+	max-width: 240px;
+	min-width: 140px;
+	display: block;
 }
 
 strong,
@@ -2000,20 +1886,53 @@ address {
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
-		<nav>
-		<ul class="nav">
-				<li class="nav-item"><a href="/myblog/map/">Site Map</a></li>
-				<li class="nav-item"><a href="/myblog/posts/">Updates</a></li>
-				<li class="nav-item"><a href="/myblog/bio/">About Robert Kingett</a></li>
-				<li class="nav-item"><a href="/myblog/follow/">Follow</a></li>
-				<li class="nav-item"><a href="/myblog/writings/">Writing</a></li>
-				<li class="nav-item"><a href="/myblog/events/">Events</a></li>
-				<li class="nav-item"><a href="/myblog/support/">Donate</a></li>
-				<li class="nav-item"><a href="/myblog/contact/">Contact</a></li>
-				<li class="nav-item"><a href="/myblog/links/">Resources</a></li>
-				<li class="nav-item"><a href="/myblog/privacy/">Privacy, disclaimers, disclosures.</a></li>
-			</ul>
-		</nav>
+<nav>
+  <ul class="nav"><li class="nav-item">
+  <a href="/myblog/map/">
+    Site Map
+  </a></li><li class="nav-item">
+  <a href="/myblog/posts/">
+    Updates
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/bio/">
+    About Robert Kingett
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/resume/">
+    CV/Resume
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/follow/">
+    Follow
+  </a></li><li class="nav-item">
+  <a href="/myblog/writings/">
+    Writing
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/events/">
+    Events
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/calendar/">
+    Calendar
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/support/">
+    Donate
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/contact/">
+    Contact
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/team/">
+    Street team
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/links/">
+    Resources
+  </a></li><li class="nav-item">
+  <a href="/myblog/privacy/">
+    Privacy, disclaimers, disclosures.
+  </a></li></ul>
+</nav>
+
+
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
@@ -2021,8 +1940,7 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				
-<h1 id="why-i-love-insta-love-romances">Why I love Insta-Love Romances.</h1>
+				<h1 id="why-i-love-insta-love-romances">Why I love Insta-Love Romances.</h1>
 
 <ul class="post-metadata">
 	<li><time datetime="2023-11-05">05 November 2023</time></li>
@@ -2067,7 +1985,7 @@ You can <a href="feed/feed.xml">follow the main RSS feed,</a> <a href="https://b
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-01T20:45:25.952Z -->
-		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
+		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-03T22:00:45.121Z -->
+		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

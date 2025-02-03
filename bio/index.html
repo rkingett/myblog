@@ -5,7 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>About Robert Kingett, Sightless Scribbles</title>
 		<meta name="description" content="A fabulously gay blind author.">
-		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<link rel="alternate" href="/myblog/feed.xml" type="application/atom+xml" title="Sightless Scribbles">
+		<meta name="fediverse:creator" content="@weirdwriter@tweesecake.social">
+		<meta name="generator" content="Eleventy v3.0.0">
 		
 		<style>/* This is an arbitrary CSS string added to the bundle */
 /* Cyanotype Bearblog theme is based on the Wordpress Cyanotype theme, made to work with the BearBlog theme which is (mostly) classless. Modified by Travis Jeans 2025 */
@@ -380,6 +382,7 @@ nav ul li a {
 nav ul li {
 	border-left: 2px solid currentColor;
 	border-right: 2px solid currentColor;
+	position: relative;
 }
 
 nav p {
@@ -389,11 +392,62 @@ nav p {
 
 nav a {
 	font-size: 0.9em;
-	margin-right: 8px;
 }
 
 nav a:last-child {
 	margin-right: 0px;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 4px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	left: -1px;
+	margin-right: -2px;
+	overflow: hidden;
+	position: absolute;
+	width: 1px;
+	z-index: 99999;
+	margin-left: 0;
+	margin-top: 15px;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.sub-menu li {
+	display: block;
+	padding: 0;
+}
+
+.sub-menu li a {
+	background-color: var(--background-color);
+	padding: 13px 24px;
+	white-space: normal;
+	width: 100%;
+	max-width: 240px;
+	min-width: 140px;
+	display: block;
 }
 
 strong,
@@ -1832,20 +1886,53 @@ address {
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
-		<nav>
-		<ul class="nav">
-				<li class="nav-item"><a href="/myblog/map/">Site Map</a></li>
-				<li class="nav-item"><a href="/myblog/posts/">Updates</a></li>
-				<li class="nav-item"><a href="/myblog/bio/" aria-current="page">About Robert Kingett</a></li>
-				<li class="nav-item"><a href="/myblog/follow/">Follow</a></li>
-				<li class="nav-item"><a href="/myblog/writings/">Writing</a></li>
-				<li class="nav-item"><a href="/myblog/events/">Events</a></li>
-				<li class="nav-item"><a href="/myblog/support/">Donate</a></li>
-				<li class="nav-item"><a href="/myblog/contact/">Contact</a></li>
-				<li class="nav-item"><a href="/myblog/links/">Resources</a></li>
-				<li class="nav-item"><a href="/myblog/privacy/">Privacy, disclaimers, disclosures.</a></li>
-			</ul>
-		</nav>
+<nav>
+  <ul class="nav"><li class="nav-item">
+  <a href="/myblog/map/">
+    Site Map
+  </a></li><li class="nav-item">
+  <a href="/myblog/posts/">
+    Updates
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/bio/" aria-current="&quot;page&quot;">
+    About Robert Kingett
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/resume/">
+    CV/Resume
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/follow/">
+    Follow
+  </a></li><li class="nav-item">
+  <a href="/myblog/writings/">
+    Writing
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/events/">
+    Events
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/calendar/">
+    Calendar
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/support/">
+    Donate
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/contact/">
+    Contact
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/team/">
+    Street team
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/links/">
+    Resources
+  </a></li><li class="nav-item">
+  <a href="/myblog/privacy/">
+    Privacy, disclaimers, disclosures.
+  </a></li></ul>
+</nav>
+
+
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
@@ -1853,8 +1940,33 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="about">About</h1>
-<p>Robert Kingett is a blind and gay writer, writing everything from novels to screenplays to fiction podcast scripts.</p>
+				<p><a href="/myblog/subscribe">Subscribe to updates.</a></p>
+<blockquote>
+<p>I steal rainbow tinged cookies from unsuspecting glittering cats in my spare time.</p>
+</blockquote>
+<p><a href="/myblog/posts/5655">From about Robert in his own words.</a></p>
+<p><a href="/myblog/map">The site map</a> will help you get around this website.</p>
+<p>Robert Kingett is a totally blind author and essayist. He <a href="/myblog/writings">writes fiction and nonfiction</a> but <a href="/myblog/resume">used to wear other hats.</a></p>
+<p><a href="/myblog/writings">Kingett writes Romance fiction and personal essays</a> but still <a href="https://robertkingett.com/posts/category/blog/">occasionally blogs</a></p>
+<p><a href="https://robertkingett.com/posts/tag/roundups/">Kingett does a lot of other things such as events and more.</a></p>
+<p>Even though Kingett <a href="/myblog/shorts">publishes many short stories</a> alongside <a href="https://robertkingett.com/posts/category/anthologies/anthologies-by-me/">editing anthologies</a> he always makes time to read a book or check out a podcast. He loves audio books, fiction podcasts, and movies and TV shows <a href="http://acb.org/adp/samples.html">with audio description.</a></p>
+<p>Kingett has <a href="https://www.cdc.gov/ncbddd/cp/facts.html">Cerebral Palsy,</a> CP, in addition to his blindness. He’s had both ever since he was a baby. He has <a href="https://www.webmd.com/eye-health/retinopathy-prematurity-facts#1">Retinopathy of prematurity</a>, commonly referred to as ROP. Even though he is ambulatory, his cerebral palsy makes it difficult to walk long distances or to stand for lengthy periods of time, which is probably why writing fell right into his lap!</p>
+<p>Kingett is proudly gay and also proudly disabled. Kingett does stutter which is why <a href="https://robertkingett.com/?p=66">emails are a better way to get in touch with him than a phone call.</a></p>
+<p>Kingett loves listening to audiobooks, fiction podcasts, and <a href="https://rpgcasts.com/">RPG Podcasts.</a> He identifies as a queer man and or a gay man, interchangeably. He also identifies as a disabled person rather than a person with a disability. He believes person first language will never identify him accurately.</p>
+<p>Kingett was born in Islip, New York. He grew up in Saint Augustine FL and attended the Florida School for the Deaf and the Blind, FSDB. At an early age, he discovered that writing was an adaptive tool to combat his speech disability so he thought, I should harness this. Make my writing muscle stronger. So, he just kept writing, and writing!</p>
+<p>Even though he has a speech disability he still loves to <a href="https://robertkingett.com/events/">present at a wide array of venues,</a> including charity events and literary events. He also does keynote speaking, including motivational speaking. At literary readings, he usually asks for a reader due to his disabilities.</p>
+<p>Kingett describes himself as a very weird person. He loves Mint Chocolate Chip ice cream over chocolate ice cream, and he especially loves very dark humor and dark comedy. He loves stealing unicorn shaped cookies from rainbow tinged cookie jars and tap dancing kittens.</p>
+<p>He loves networking with other minority authors, especially authors with disabilities and writers who identify as a member of the LGBT+ community. If that’s you, <a href="https://robertkingett.com/?p=66">send him an email!</a></p>
+<h2 id="some-recent-updates">Some recent updates.</h2>
+<p>Here’s a sneak peak of recent updates. This isn’t a comprehensive list of updates. <a href="https://robertkingett.com/posts/">See all updates</a> or <a href="https://robertkingett.com/map/">check out the site map.</a></p>
+<ol>
+<li><a href="https://robertkingett.com/posts/6682/">Anti-tech and alternative media.</a></li>
+<li><a href="https://robertkingett.com/posts/6662/">So you want to be my pen pal?</a></li>
+<li><a href="https://robertkingett.com/posts/6655/">6 anthologies by Disabled authors.</a></li>
+<li><a href="https://robertkingett.com/posts/6646/">Hexodius [Xbox 360 Review]</a></li>
+<li><a href="https://robertkingett.com/posts/6644/">Nihilumbra Review (PC)</a></li>
+</ol>
+<h2 id="todo-actual-list-of-posts">TODO, actual list of posts</h2>
 
 
 			</heading-anchors>
@@ -1864,7 +1976,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/bio/` was updated on 2025-02-01T20:45:25.937Z -->
-		<script type="module" src="/myblog/dist/PQuipxb2GV.js"></script>
+		<!-- This page `/myblog/bio/` was updated on 2025-02-03T22:00:45.105Z -->
+		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

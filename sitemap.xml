@@ -452,72 +452,122 @@
 	</url>
 	
 	<url>
+		<loc>https://robertkingett.netlify.app/myblog/ad/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/archive/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/audio/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
 		<loc>https://robertkingett.netlify.app/myblog/bio/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/books/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/calendar/</loc>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/contact/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/events/</loc>
-		<lastmod>2025-02-01</lastmod>
-	</url>
-	
-	<url>
-		<loc>https://robertkingett.netlify.app/myblog/feed.xml</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/follow/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/feed.xml</loc>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/links/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/map/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/posts/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/privacy/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/reading/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/requirements/</loc>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/resume/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/shorts/</loc>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/support/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/tags/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/team/</loc>
+		<lastmod>2025-02-03</lastmod>
+	</url>
+	
+	<url>
+		<loc>https://robertkingett.netlify.app/myblog/tech/</loc>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 	
 	<url>
 		<loc>https://robertkingett.netlify.app/myblog/writings/</loc>
-		<lastmod>2025-02-01</lastmod>
+		<lastmod>2025-02-03</lastmod>
 	</url>
 </urlset>
