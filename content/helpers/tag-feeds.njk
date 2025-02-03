@@ -8,7 +8,7 @@ pagination:
 stylesheet: /feed/pretty-atom-feed.xsl
 eleventyExcludeFromCollections: true
 eleventyComputed:
-  permalink: "/tags/{{ tag | slugify }}/feed.xml"
+  permalink: "/posts/tags/{{ tag | slugify }}/feed.xml"
 ---
 <?xml version="1.0" encoding="utf-8"?>
 {%- if stylesheet %}<?xml-stylesheet href="{{ stylesheet }}" type="text/xsl"?>{% endif %}
