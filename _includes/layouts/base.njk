@@ -5,10 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ title + ", " if title }}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
-		<link rel="alternate" href="feed/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
-
-		{#- Uncomment this if you’d like folks to know that you used Eleventy to build your site!  #}
-		{#- <meta name="generator" content="{{ eleventy.generator }}"> #}
+		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+		<meta name="fediverse:creator" content="{{ metadata.author.fediverse }}">
+		<meta name="generator" content="{{ eleventy.generator }}">
 
 		{#-
 		Plain-text bundles are provided via the `eleventy-plugin-bundle` plugin:
@@ -39,14 +38,7 @@
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
-		<nav>
-		<ul class="nav">
-			{#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
-			{%- for entry in collections.all | eleventyNavigation %}
-				<li class="nav-item"><a href="{{ entry.url }}"{% if entry.url == page.url %} aria-current="page"{% endif %}>{{ entry.title }}</a></li>
-			{%- endfor %}
-			</ul>
-		</nav>
+		{%- include "../navigation.njk" %}
 
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
