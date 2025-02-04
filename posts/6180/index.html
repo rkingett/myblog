@@ -375,7 +375,7 @@ nav ul {
 }
 
 nav ul li a {
-	padding: 13px 24px;
+	padding: 14px 24px;
 	text-decoration: underline;
 }
 
@@ -407,7 +407,7 @@ nav a:last-child {
 	display: inline-block;
 	fill: currentColor;
 	height: 12px;
-	margin-left: 4px;
+	margin-left: 5px;
 	speak: none;
 	vertical-align: baseline;
 	width: 12px;
@@ -416,38 +416,37 @@ nav a:last-child {
 .menu-item-has-children ul.sub-menu {
 	clip: rect(1px, 1px, 1px, 1px);
 	height: 1px;
-	left: -1px;
-	margin-right: -2px;
+	list-style: none;
 	overflow: hidden;
+	padding: 0;
 	position: absolute;
 	width: 1px;
-	z-index: 99999;
-	margin-left: 0;
-	margin-top: 15px;
+	z-index: 1;
 }
 
 .menu-item-has-children:hover ul.sub-menu,
-.menu-item-has-children:focus ul.sub-menu,
 .menu-item-has-children:focus-within ul.sub-menu {
-	clip: inherit;
-	overflow: inherit;
-	height: inherit;
-	width: inherit;
+	background: var(--background-color);
+	clip: auto;
+	height: auto;
+	width: auto;
+	margin-left: -2px;
+	top: 99.5%;
+	border-top: 2px solid currentColor !important;
 }
 
 .sub-menu li {
 	display: block;
 	padding: 0;
+	z-index: 2;
 }
 
 .sub-menu li a {
-	background-color: var(--background-color);
 	padding: 13px 24px;
 	white-space: normal;
-	width: 100%;
-	max-width: 240px;
-	min-width: 140px;
 	display: block;
+	margin: 0;
+	width: 240px;
 }
 
 strong,
@@ -1147,7 +1146,6 @@ nav > li {
 	border-right: 2px solid currentColor;
 	border-bottom: 2px solid currentColor;
 	float: left;
-	margin-top: -2px;
 }
 
 nav ul li {
@@ -1323,7 +1321,7 @@ header {
 	font-size: 1.5rem;
 	font-weight: 900;
 	line-height: 1.3333333333;
-	margin-top: -2px;
+	margin-top: -1px;
 	padding: 24px;
 	position: relative;
 	width: 100%;
@@ -1985,7 +1983,7 @@ You can <a href="feed/feed.xml">follow the main RSS feed,</a> <a href="https://b
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-03T22:00:45.121Z -->
+		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-04T20:24:33.760Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
