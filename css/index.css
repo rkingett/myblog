@@ -1868,3 +1868,7 @@ address {
 	width: auto;
 	z-index: 1000000000;
 }
+
+.embeddable-buttondown-form {
+	margin-bottom: 3rem;
+}
