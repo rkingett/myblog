@@ -19,7 +19,7 @@ Here, you can join my beta readers team or my street team.
 5. Advanced reader copies and advanced listener copies of books.
 6. Shoutouts in panels and interviews.
 7. Shoutouts on social media.
-8. Early access to [writing news.](https://robertkingett.com/tag/writing-updates/)
+8. Early access to [writing news.](https://robertkingett.com/posts/category/writings/)
 9. Exclusive promotional items where applicable.
 
 ## Street Team links and info
@@ -61,7 +61,5 @@ I value my street team because they are using their creativity to promote me and
 5. Advanced reader copies and advanced listener copies of books.
 6. Shoutouts in panels and interviews.
 7. Shoutouts on social media.
-8. Early access to [writing news.](https://robertkingett.com/tag/writing-updates/)
+8. Early access to [writing news.](https://robertkingett.com/posts/category/writings/)
 9. Exclusive promotional items where applicable.
-
-## TODO, fix broken link
