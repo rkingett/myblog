@@ -15,14 +15,9 @@ layout: layouts/base.njk
 
 <h1>Follow future posts</h1>
 
-You can <a href="feed/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
+You can <a href="/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
-<input id="bd-email" name="email" type="email">
-<label><input type="checkbox" name="tag" value="street">Join street team</label>
-<label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
-<input type="submit" value="Subscribe">
-</form>
+{% include 'newsletter-form.njk' %}
 
 <h1>Post navigation</h1>
 
