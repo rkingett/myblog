@@ -9,6 +9,7 @@ eleventyComputed:
   title: "Tagged '{{ tag }}"
   permalink: "/posts/tags/{{ tag | slugify }}/"
 ---
+
 <h1>Tagged “{{ tag }}”</h1>
 
 {% set postslist = collections[ tag ] %}
