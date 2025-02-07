@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="submission-accessibility-guide-for-literary-agents-and-editors">Submission accessibility guide for literary agents and editors.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2021-07-12">12 July 2021</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>While browsing submission guidelines, I’ve noticed a pattern. I’ve noticed quite a few patterns, actually, and I’d like this post to be a bit more educational rather than opinionated. That will be very hard for me to do because I can’t resist <a href="https://robertkingett.com/tag/random-thoughts/">writing about thoughts I have regarding publishing</a>, but we’ll give it a shot.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5139/">
+				<time datetime="2021-07-12">12 July 2021</time>
+			</a>
+		</span>
+		<h1 id="submission-accessibility-guide-for-literary-agents-and-editors">Submission accessibility guide for literary agents and editors.</h1>
+	</header>
+	<div class="entry-content">
+		<p>While browsing submission guidelines, I’ve noticed a pattern. I’ve noticed quite a few patterns, actually, and I’d like this post to be a bit more educational rather than opinionated. That will be very hard for me to do because I can’t resist <a href="https://robertkingett.com/tag/random-thoughts/">writing about thoughts I have regarding publishing</a>, but we’ll give it a shot.</p>
 <p>First, a bit of background. When I see submission guidelines openly state that they want diverse authors and diverse writing, usually, I notice that status quo editors and literary agents want the diversity, but don’t make the submission process more welcoming to the desired groups.</p>
 <p>This is the biggest barrier. I explain more below but if you can’t get past how you think Disabled characters should act or behave, you won’t find the talent you’re looking for.</p>
 <p>Having a rigid view of <a href="https://disabilityvisibilityproject.com/tag/crip-lit/">CripLit</a> can be very confusing and off putting to divergent authors and even diverse literary agents looking to connect with you. Because I’m Disabled, in particular, totally blind, I’ll be focusing a lot on how to make the pitching and submission process easier to people with vision impairments. I’m almost certain that some of the things I mention will complement other accessibility needs for different disabilities. At the same time, some of my suggestions won’t work for, say, someone that’s on the autism spectrum.</p>
@@ -1993,22 +2076,48 @@ address {
 <hr>
 <p>Thanks for reading! If you like my work, <a href="https://robertkingett.com/subscribe/">subscribe to updates</a> or <a href="https://robertkingett.com/donate/">donate to me</a></p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5067/">Cancel culture hurts diversity</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5157/">Stereotypes deserve representation too</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5067/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Cancel culture hurts diversity</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5157/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Stereotypes deserve representation too</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -2017,7 +2126,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5139/` was updated on 2025-02-07T20:53:49.213Z -->
+		<!-- This page `/myblog/posts/5139/` was updated on 2025-02-07T23:13:44.371Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

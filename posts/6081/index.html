@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="sensitivity-reading-to-beat-writers-block">Sensitivity reading to beat writers block</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2023-09-11">11 September 2023</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I’ve got some good news, and, well, some coming soon news. But first, some good news.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6081/">
+				<time datetime="2023-09-11">11 September 2023</time>
+			</a>
+		</span>
+		<h1 id="sensitivity-reading-to-beat-writers-block">Sensitivity reading to beat writers block</h1>
+	</header>
+	<div class="entry-content">
+		<p>I’ve got some good news, and, well, some coming soon news. But first, some good news.</p>
 <p>Before I get started on the news, <a href="https://robertkingett.com/live/">I have upcoming events! Come see me and say hi!</a></p>
 <p>I’ve grown into a <a href="https://robertkingett.com/?p=5032">quite formidable sensitivity reader,</a> and even developmental editor somewhat. <a href="https://robertkingett.com/?p=5032">The sensitivity reading is a way for me to support myself while I’m having writers block,</a> which doesn’t happen often but there are days where I’m just like, I just want to lay in bed and watch old TV shows and movies because I’m low energy today! I’m actually getting a lot more work as a developmental editor and even a sensitivity reader than I initially thought. It’s great for a number of reasons.</p>
 <p>Reading others’ work actually gives me a boost in my own writing. It inspires me to read others’ work. I raised my rates too, among all companies and otherwise because I like having money. I like having a safety net. I of course, still write, but the sensitivity reading is helping to get inspiration as well as making connections. Again, it really does help with writer’s block!</p>
@@ -1959,22 +2042,48 @@ address {
 <p>Unfortunately, a lot of updates are in absolute limbo, which is why I still rely on people to <a href="https://robertkingett.com/donate/">throw money at me while I hustle</a> because publishing still doesn’t pay well, even after you hustle. Even so, I like bringing people stories and characters. I like bringing people characters I never got to see on the pages or even on screen before. That’s why I keep doing it, in the end, honestly, is because I’m stubborn, and, well, people like my work. Before I go, though,</p>
 <p>side note, I did discover <a href="https://lovelyaudiobooks.info/duet-narration/">the wonders of Duette audiobooks</a> and, well, can we just say swoon? Swoon like a glittery romantic heart because I’m having far more fun with these narrations than anybody should. I’m enjoying them too much, both straight and gay relationships and pairings.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5972/">Against Disability education</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6121/">My plain text workflow as a fiction writer.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5972/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Against Disability education</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6121/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">My plain text workflow as a fiction writer.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1983,7 +2092,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6081/` was updated on 2025-02-07T20:53:49.222Z -->
+		<!-- This page `/myblog/posts/6081/` was updated on 2025-02-07T23:13:44.380Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="we-need-bad-representation-in-books">We need bad representation in books.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-02-22">22 February 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I did one thing this past weekend, and nothing else. I stayed in bed all day to listen to <a href="https://www.graphicaudio.net/our-productions/series/a-e/the-empyrean.html">the Graphic Audio version of Fourth Wing,</a> because part two was released recently and I became so enraptured I didn’t do anything else but listen to this wonderful rendition of the novel.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6502/">
+				<time datetime="2024-02-22">22 February 2024</time>
+			</a>
+		</span>
+		<h1 id="we-need-bad-representation-in-books">We need bad representation in books.</h1>
+	</header>
+	<div class="entry-content">
+		<p>I did one thing this past weekend, and nothing else. I stayed in bed all day to listen to <a href="https://www.graphicaudio.net/our-productions/series/a-e/the-empyrean.html">the Graphic Audio version of Fourth Wing,</a> because part two was released recently and I became so enraptured I didn’t do anything else but listen to this wonderful rendition of the novel.</p>
 <p>I like it far better than <a href="https://share.libbyapp.com/title/9575397">the version made by Recorded Books.</a> I’m sorry Recorded Books, you dropped the ball on this one. It’s especially interesting because, usually, Recorded Books is one of my favorite audiobook publishers. I haven’t found a lot of <a href="https://en.wikipedia.org/wiki/Romantasy">Romantasy</a> titles on Graphic Audio, partially because Graphic Audio doesn’t have romance as a genre. They stick all their romance books under other categories, which, in my opinion, is just poor marketing because all the books I’ve found so far, including <a href="https://www.graphicaudio.net/our-productions/series/a-e/the-empyrean.html">the wonderful Empyrean series on Graphic Audio,</a> is in fact a romance book first. Its central plot involves a relationship. It has a HEA, happily ever after, or an HFN, happy for now, ending. The book can’t survive without the budding relationship, so I don’t know why Graphic Audio is so afraid of sticking romance onto a genre tag.</p>
 <p>That’s not why I’m writing today, though. I’m writing today because I spotted a blog post that caught my eye. <a href="https://geeking-by.net/ableist-narrative-of-toxic-perseverance/">Fly Or Die: The Ableist Narrative of Toxic Perseverance by HEATHER T</a> was very interesting for a number of reasons. I highly encourage you to go read the post. It was well crafted, and it laid out a lot of valid points, even though I love the series.</p>
 <p>Even so, that post got me thinking about a similar post I did, which I still hold true to this day arguing that <a href="https://robertkingett.com/posts/5157/">stereotypes should have representation too.</a> I still firmly believe this. I’d even go so far to say we need all kinds of representation now, more than ever. I’m not here to say if the post was accurate. Rebecca, the Fourth Wing author, does have the same disabilities as Violet in the book. For reference, the disability is <a href="https://en.wikipedia.org/wiki/Ehlers%E2%80%93Danlos_syndromes">Ehlers-Danlos Syndrome.</a> I don’t have her disabilities, so I’m not here to say who’s right and who’s wrong, because, frankly, I don’t care about standards of representation anymore because I believe that in order to create good representation, disabled writers need to be writing bad representation.</p>
@@ -1960,22 +2043,48 @@ address {
 <p>Did I personally find the toxic positivity in the book? No. Then again, I don’t have that particular kind of chronic illness so can’t assess hers. I can only point to other characters. Nobody pushes her beyond her limits. Xaden Riorson collaborates with her dragon to change her environment so she won’t be at a disadvantage. Xaden Riorson even says at one point that he’ll push her to the realistic limitations of her body but never beyond that point when he’s training her on the sparring mat. Then again, these are my perspectives, and I encourage you to read the above post with an open mind. It highlights that not every disability experience is the same. While I personally found Fourth Wing to be empowering, and, yes, sexy, okay, I have a huge book crush on Xaden Riorson, it’s important to understand that this is why we need more disability representation told by disabled artists. There’s few disabled artists in the mainstream art world. We need more!</p>
 <p>All in all, I guess you could say I’m not here to argue over representation, good or bad, by disabled authors. That’s a waste of my time. instead, we should be advocating, loudly, for disabled authors to get the audiences, and payments, they deserve, and we need these authors to tell the stories they want to tell, problematic and all. We need authors to tell inaccurate  narratives. We need authors to publish stereotypes, because that encourages reflections, and conversations.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6493/">How to sync Lire with Miniflux</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6510/">Finally, there&amp;#8217;s a comic book store for the blind.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6493/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">How to sync Lire with Miniflux</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6510/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Finally, there&amp;#8217;s a comic book store for the blind.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1984,7 +2093,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6502/` was updated on 2025-02-07T20:53:49.228Z -->
+		<!-- This page `/myblog/posts/6502/` was updated on 2025-02-07T23:13:44.386Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

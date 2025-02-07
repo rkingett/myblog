@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="ai-is-going-great-for-the-blind">AI is going great for the blind.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2023-11-19">19 November 2023</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>As I was looking at <a href="https://wiki.archiveteam.org/index.php?title=Deathwatch#Watchlist">the amount of times platforms died on the web</a> and I began thinking about the slow death of AI enthusiasm and what that will do to the Blind community.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6230/">
+				<time datetime="2023-11-19">19 November 2023</time>
+			</a>
+		</span>
+		<h1 id="ai-is-going-great-for-the-blind">AI is going great for the blind.</h1>
+	</header>
+	<div class="entry-content">
+		<p>As I was looking at <a href="https://wiki.archiveteam.org/index.php?title=Deathwatch#Watchlist">the amount of times platforms died on the web</a> and I began thinking about the slow death of AI enthusiasm and what that will do to the Blind community.</p>
 <p>It really is a bizarre feeling when you’re the only skeptic of a thing within your own community. <a href="https://robertkingett.com/how-to-appreciate-humans/">My first post about AI</a> has gained some attention, as well as <a href="https://robertkingett.com/ai-might-break-the-internet/">the follow up post about this topic.</a> AI is taking the blind community by storm. <a href="https://www.bemyeyes.com/blog/introducing-microsofts-ai-powered-disability-answer-desk-on-be-my-eyes">Be my Eyes has added it into their product to describe pictures,</a> Let’s not mention the fact <a href="https://techwontsave.us/episode/163_chatgpt_is_not_intelligent_w_emily_m_bender">the particular large language model, LLM called Chat GPT they chose,</a> was never the right kind of machine learning for the task of describing images. A <a href="https://en.wikipedia.org/wiki/Outline_of_machine_learning">different kind of machine learning</a> would have been better. <a href="https://www.livingblindfully.com/category/transcripts/">Blind podcasters are praising LLMs and saying they’re more accurate than human descriptions,</a> and, well, <a href="https://elevenlabs.io/">blind voiceover artists are more than willing to give places like ElevenLabs their voices</a> so they can, well, I don’t even know yet. I guess attempt to make audiobooks.</p>
 <p>I’m of two minds about this whole thing. While the stuff LLMs is giving us is incorrect information, it’s still information that the sighted world won’t or refuses to give us. While I absolutely hate the hype and even AI nonsense in general, and don’t use any LLM on any of my content, blind and visually impaired people can become audio book narrators if their Braille skills aren’t that great <a href="https://elevenlabs.io/">with ElevenLabs.</a></p>
 <p>Even though I’ll never hire a blind narrator that uses ElevenLabs to generate an audio book, am I practicing discrimination by doing this? Someone will say yes. I don’t know what will come of this wave in LLMs and dependance on AI, but I predict that once the hype dies down, well, blind and even legally blind people are probably going to be advocating for more accessibility measures but in a different way.</p>
@@ -1963,22 +2046,48 @@ address {
 <p>There are <a href="https://peertube.dair-institute.org/c/mystery_ai_hype_theater/videos">many more examples of AI going very wrong</a> and basically even <a href="https://www.youtube.com/watch?v=b843dkGnGVk">making people very angry that big tech is stealing their labor,</a> but I’ll leave you with the best podcast to debunk all the AI hype and nonsense. Well, okay, two podcasts. <a href="https://www.techwontsave.us/">Tech Won’t Save Us,</a> which is basically a podcast that detests tech and tech culture in general, and my personal favorite, <a href="https://www.buzzsprout.com/2126417">Mystery AI Hype Theater 3000,</a> a podcast that debunks all the AI hype.</p>
 <p>Meanwhile, I’ll be reading personal blogs and the small web because <a href="https://indieweb.org/">the indieweb is cozy</a> and because <a href="https://indieweb.org/site-deaths">personal websites won’t die as often nor as quickly as the rest of the web.</a> Tootles!</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6213/">Reading loudly is resistance.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6259/">Giving PeerTube a shot for podcast publishing.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6213/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Reading loudly is resistance.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6259/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Giving PeerTube a shot for podcast publishing.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1987,7 +2096,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6230/` was updated on 2025-02-07T20:53:49.224Z -->
+		<!-- This page `/myblog/posts/6230/` was updated on 2025-02-07T23:13:44.382Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

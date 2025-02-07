@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="thank-you-romance-writers">Thank you Romance writers</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2023-03-04">04 March 2023</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I have a confession to make. I used to devalue romance. I used to be among those that believed romance wasn’t actual literature. That changed, of course, and now, you could say I’m the biggest romance fan ever. At least, in my head anyway. I know there’s tons of other romance fans out there in RomanceLandia, but sometimes, when I’m reading a romance book, I sometimes think they were written especially for me, even though I’m, ironically, probably out of the target audience for most romance books.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5919/">
+				<time datetime="2023-03-04">04 March 2023</time>
+			</a>
+		</span>
+		<h1 id="thank-you-romance-writers">Thank you Romance writers</h1>
+	</header>
+	<div class="entry-content">
+		<p>I have a confession to make. I used to devalue romance. I used to be among those that believed romance wasn’t actual literature. That changed, of course, and now, you could say I’m the biggest romance fan ever. At least, in my head anyway. I know there’s tons of other romance fans out there in RomanceLandia, but sometimes, when I’m reading a romance book, I sometimes think they were written especially for me, even though I’m, ironically, probably out of the target audience for most romance books.</p>
 <p>I’m a gay, white, blind, male that still doesn’t have a stable partner. I don’t date anymore, instead, I write letters to prisoners. People tell me I’m old now  when I felt old at twelve. I can’t stand generational marketing. For example, this book has wonderful Gen alpha swordplay! I can’t stand the generational nicknames and identifiers, and, honestly, there’s just something about generational hype that really bugs me. I mean, really. Makes me grind my teeth and shake my fist at the sky yelling about marketing language. Maybe this is what it feels like to be old, older than my old soul age of sixteen? I don’t know and honestly, I think it’s all tied to ageism anyway.</p>
 <p>I have a lot of thoughts about ageism, of course, about how we spit on the elders and think the younger people are supposed to automatically change the world. Perhaps I’m just not in the right time period, but I honestly can’t stand people putting an emphasis on age, of any age. Old, young, your twisted version of old and young, all of the above. This is probably why I’ve become the biggest fan of romance books, ever. Humans are timeless, no matter what generation they are in.</p>
 <p>Back when I was younger, I devalued romance. The stories were predictable, I thought, so the stories didn’t hold as much value as other stories. I, of course, was wrong, but I’d like to stop and let you know the societal pressure I was under to think that way in the first place.</p>
@@ -1967,22 +2050,48 @@ address {
 <p>I’ve been in a romance bubble this past year and I don’t think it’s going to end any time soon. That’s not a bad thing though. The world is bad, sometimes. More times than not, these days, I want to enjoy someone else’s happiness. I want to enjoy someone’s wish fulfillment or tributes or winks and nods. I want to enjoy what makes an author feel sexy. I want to enjoy all the human elements I can enjoy while I’m alive, because it will help me listen more, and it will help me really assess what’s important in my loved ones lives.</p>
 <p>So, with that being said, I guess I’ll end this by saying thank you, Kennedy Ryan, and thank you all other romance writers out there that help us listen through happy endings. Thank you for telling me that I’m not alone. Thank you for reminding me that, eventually, everybody has joy in their lives. Keep writing joy. Keep writing sex scenes. Keep writing wish fulfillment. Keep reminding quiet readers like me that it’s groovy to enjoy each other’s joy. Just, thank you, and keep reminding us of joy, even when things are fine.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5913/">How to write a radio script in Fountain</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5926/">How to convert Markdown to Shun manuscript format</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5913/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">How to write a radio script in Fountain</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5926/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">How to convert Markdown to Shun manuscript format</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1991,7 +2100,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5919/` was updated on 2025-02-07T20:53:49.220Z -->
+		<!-- This page `/myblog/posts/5919/` was updated on 2025-02-07T23:13:44.379Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

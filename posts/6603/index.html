@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="fiction-podcasts-with-disabled-characters">Fiction podcasts with Disabled characters.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-07-18">18 July 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I love fiction podcasts, or, audio fiction, as it’s called by professionals in the industry. For real, I’m a fiction podcast guru! I’ve listened to so many <a href="https://audiodrama.directory/tag/narrated/">free audiobooks</a> and <a href="https://www.theend.fyi/collections">audio dramas</a> that I rarely watch TV or movies. There’s a vast land of indie creators telling amazing stories nobody knows about, so I’m comfortable being in the fiction podcast space. It’s a nice change from executive’s making something but then never releasing it. Even if a fiction podcast is removed from the web, I can still listen to it because I’ve downloaded every episode of fiction podcasts I enjoy and know I’ll listen to over again.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6603/">
+				<time datetime="2024-07-18">18 July 2024</time>
+			</a>
+		</span>
+		<h1 id="fiction-podcasts-with-disabled-characters">Fiction podcasts with Disabled characters.</h1>
+	</header>
+	<div class="entry-content">
+		<p>I love fiction podcasts, or, audio fiction, as it’s called by professionals in the industry. For real, I’m a fiction podcast guru! I’ve listened to so many <a href="https://audiodrama.directory/tag/narrated/">free audiobooks</a> and <a href="https://www.theend.fyi/collections">audio dramas</a> that I rarely watch TV or movies. There’s a vast land of indie creators telling amazing stories nobody knows about, so I’m comfortable being in the fiction podcast space. It’s a nice change from executive’s making something but then never releasing it. Even if a fiction podcast is removed from the web, I can still listen to it because I’ve downloaded every episode of fiction podcasts I enjoy and know I’ll listen to over again.</p>
 <p>I like to find fiction podcast by types, including romance podcasts, so I tend to stick to <a href="https://www.theend.fyi/collections">this list of collections containing audiobooks and audio dramas.</a></p>
 <p>Being a disabled creator myself, there’s a hunger to see myself in empowering stories. Even though <a href="https://www.theend.fyi/newly-added">there’s a bunch of fiction podcasts and podcast audiobooks to explore,</a> I don’t know of many that have protagonists with disabled characters. They’re out there, but I want to start cataloging them here, partly so I can have an easy repository of shows I can point people to, but also so I can go back and enjoy these stories again.</p>
 <p><a href="https://www.theend.fyi/fully-complete-series">If you want finished shows, browse this directory.</a></p>
@@ -1984,22 +2067,48 @@ address {
 <p><a href="https://www.theend.fyi/collections">The End.</a></p>
 <p><a href="https://fictionpodcasts.com/">Fiction Podcast directory.</a></p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6593/">I Will Luddite AI</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6613/">Why I left Patreon.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6593/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">I Will Luddite AI</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6613/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Why I left Patreon.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -2008,7 +2117,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6603/` was updated on 2025-02-07T20:53:49.235Z -->
+		<!-- This page `/myblog/posts/6603/` was updated on 2025-02-07T23:13:44.393Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

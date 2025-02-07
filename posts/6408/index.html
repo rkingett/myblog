@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="instead-of-comments-reply-to-me">Instead of comments, reply to me.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-01-03">03 January 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I’m starting off 2024 with a bang! <a href="https://robertkingett.com/team/">My beta readers community started,</a> I looked into <a href="https://www.w3.org/TR/webmention/">Webmentions</a> and realized <a href="https://indieweb.org/Webmention-faq">it was a kind of strange social media lite</a> so didn’t want to be notified every time someone shared a post of mine on social media, let alone display that on my own site, so, instead, <a href="https://robertkingett.com/reply/">I’m curating longform replies to my own stuff.</a></p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6408/">
+				<time datetime="2024-01-03">03 January 2024</time>
+			</a>
+		</span>
+		<h1 id="instead-of-comments-reply-to-me">Instead of comments, reply to me.</h1>
+	</header>
+	<div class="entry-content">
+		<p>I’m starting off 2024 with a bang! <a href="https://robertkingett.com/team/">My beta readers community started,</a> I looked into <a href="https://www.w3.org/TR/webmention/">Webmentions</a> and realized <a href="https://indieweb.org/Webmention-faq">it was a kind of strange social media lite</a> so didn’t want to be notified every time someone shared a post of mine on social media, let alone display that on my own site, so, instead, <a href="https://robertkingett.com/reply/">I’m curating longform replies to my own stuff.</a></p>
 <p>I’ve never been a fan of comments. Comments fill up, eventually you have a wall of one lined opinions and thoughts from people, and I have to spend time moderating and making sure all the spam stuff is up to date, and, just, no! Sorry. Doesn’t appeal to me whatsoever.</p>
 <p>I also never liked webmentions because, I guess I don’t really understand the point of showing replies to your posts from social media onto your own website. Once more, I haven’t found a way to make these, well, private. I have yet to find a service that turns webmentions into private emails and private RSS feeds. I just don’t get it, quite frankly.</p>
 <p>Every time someone replies with a webmention, that’s even more data I have to prune on my website. No thank you. The less data, the better. Plus, unlike the web at large, I actually want to respect someone’s deletion requests. If someone replies with a social media post, and then that post gets deleted later, a copy is still left on my website, which is just harvesting data to me. Why in all of the name of chocolates would I want to host external social media replies on my website, since social media replies are the lowest form of engagement. Webmentions are fantastic in theory. The problem is, they don’t seem to be private, which is honestly strange to me.</p>
@@ -1961,22 +2044,48 @@ address {
 <p>The catch is that it has to be content on a website. If someone sends me a long email, I won’t publish it. It needs to be a link to a response on your own channel or website.</p>
 <p>This way, it gives others a chance to see what people think about me and not the media. It will also allow people to get traffic. Everybody wins, and everybody can find dirt on me all on one page. A bit unconventional, yes, but I can guarantee you it will be well worth <a href="https://robertkingett.com/reply/">collecting long form replies about me.</a></p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6383/">Why I fear success and hype.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6421/">Replacing apps for websites</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6383/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Why I fear success and hype.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6421/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Replacing apps for websites</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1985,7 +2094,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6408/` was updated on 2025-02-07T20:53:49.227Z -->
+		<!-- This page `/myblog/posts/6408/` was updated on 2025-02-07T23:13:44.384Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

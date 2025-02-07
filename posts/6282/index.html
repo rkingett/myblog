@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="mabvi-has-a-free-aira-alternative">MABVI has a free Aira alternative.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2023-12-12">12 December 2023</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>Aira had a very interesting start. <a href="https://scribe.rip/aira-io/aira-nfb-partnership-flourishes-at-recent-nfb-california-convention-c512aa448493">Aira launched to much praise by the blind community</a> and then <a href="https://www.prnewswire.com/news-releases/att-aira-and-the-national-federation-of-the-blind-launch-innovative-back-to-school-program-for-blind-college-freshmen-300527044.html">continued to forge partnerships within the community.</a> It was a revolutionary service, one that popped onto the scene at the right time. While it made only a few splashes in the mainstream tech press, it took the blind and visually impaired community by storm. There’s a fully community funded approach to Aira though, and <a href="https://www.blindtech.org/2023/12/07/remote-visual-assistance/">it’s created by a former Aira agent, Shawn Welker.</a></p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6282/">
+				<time datetime="2023-12-12">12 December 2023</time>
+			</a>
+		</span>
+		<h1 id="mabvi-has-a-free-aira-alternative">MABVI has a free Aira alternative.</h1>
+	</header>
+	<div class="entry-content">
+		<p>Aira had a very interesting start. <a href="https://scribe.rip/aira-io/aira-nfb-partnership-flourishes-at-recent-nfb-california-convention-c512aa448493">Aira launched to much praise by the blind community</a> and then <a href="https://www.prnewswire.com/news-releases/att-aira-and-the-national-federation-of-the-blind-launch-innovative-back-to-school-program-for-blind-college-freshmen-300527044.html">continued to forge partnerships within the community.</a> It was a revolutionary service, one that popped onto the scene at the right time. While it made only a few splashes in the mainstream tech press, it took the blind and visually impaired community by storm. There’s a fully community funded approach to Aira though, and <a href="https://www.blindtech.org/2023/12/07/remote-visual-assistance/">it’s created by a former Aira agent, Shawn Welker.</a></p>
 <p>Someone might ask, well, why don’t you stick with Aira, and, well, I’ll still use it, certainly. I’ll use it, but I don’t feel comfortable giving them money because they are a venture backed company. They have investors. Eventually, those investors will want to have multiple returns on their investment. Investors won’t be satisfied with making a profit and just leaving it at that. They’d want to have the line go up. The line can’t go up forever though, and when you have to start squeezing money out of financially disabled users, well, pretty soon, the line will just stop growing. <a href="https://robertkingett.com/afterpatreon/">Look at what happened to Patreon, after all.</a></p>
 <p>Aira is already starting down the path of <a href="https://en.wikipedia.org/wiki/Enshittification">Enshittification</a> because they lost a lot of funding in 2020. More on that later. They did, though, before 2020, <a href="https://www.crunchbase.com/organization/aira/company_financials">according to this CrunchBase page,</a> raised millions of dollars but that’s basically a glorified loan. Even though other corporations are paying to provide professional visual interpreting services to their blind and legally blind customers <a href="https://aira.io/partners/">via Aira’s Access Offer,</a> eventually, that well will dry up as well, leaving Aira to squeeze even more money out of its users, users that are already financially disenfranchised.</p>
 <p>Enshittification hits assistive technology companies in unique ways. It’s very easy for assistive technology companies to dominate the market, partially because the market is, well, smaller than the mainstream market. Enshittification takes a different form when it comes to adaptive tech companies or services such as Aira. It’s more so the desire to, again, squeeze as much money out of it’s user base as much as possible. When Enshittification hits assistive tech companies, the impact is larger, because the company currently rolling down the Enshittification hill isn’t just selling a product. They make people’s lives better and more fulfilling and they allow Disabled people to have tools to aid them in independence. This has drastic ripple effects on anyone’s livelihood and, yes, quality of life. <a href="https://aira.io/2023-pricing/">Aira started down the Enshittification path in 2022 when they abruptly changed prices on it’s users.</a> <a href="https://aira.io/listening/">In early 2023 they bungled a price change so feverishly that this apology post had to be crafted.</a> They had such a backlash that <a href="https://doubletaponair.com/convention-coverage-aira-pricing/">they had to do a media tour</a> about how they were actually going to keep pricing as it was for a few more years. <a href="https://aira.io/minutes/">Even more strange happened when they published this confusing update about add on minute pricing.</a> Honestly, <a href="https://aira.io/newsroom/">their whole newsroom is worth a peak</a> to get an idea of how they started squeezing money out of a financially disabled customer base.</p>
@@ -1959,22 +2042,48 @@ address {
 <p>This volunteer program appears to be an extension of <a href="https://www.mabvi.org/services/volunteer-support/">this similar volunteer program provided by the association.</a> Even though I’ve only used it a few times, it’s been very freeing knowing that a free for me and community funded alternative to Aira exists. I was so impressed with all the things they could do; I immediately <a href="https://www.mabvi.org/be-my-eyes/">gave them a hefty donation.</a> <a href="https://www.mabvi.org/be-my-eyes/">You can donate to this volunteer ran interpreting service here.</a></p>
 <p>So far, I’ve had them describe book covers for me, shop for items for me and send them to my email, filled out inaccessible forms, registered for services at inaccessible websites, and had them take a picture of a business card and then email me the information. I’m sure I’m just scratching the service of what this Aira alternative can do. I’m glad I found it, and now, I’m glad I can share a more community driven approach to Aira.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6264/">I Want More Awkward in Romance Books.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6331/">Pointy Chances</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6264/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">I Want More Awkward in Romance Books.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6331/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Pointy Chances</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1983,7 +2092,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6282/` was updated on 2025-02-07T20:53:49.225Z -->
+		<!-- This page `/myblog/posts/6282/` was updated on 2025-02-07T23:13:44.382Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

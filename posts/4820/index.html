@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="we-should-rehabilitate-not-execute">We should rehabilitate, not execute.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2020-12-14">14 December 2020</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>2020 has taught many people a bunch of things they may or may not have known. For one thing, it’s taught us that power, and the rush to keep it, kills over 27,000 people as the result of ignoring experts in your ranks, warning you that a deadly pandemic is coming. It’s taught us that while there are bread lines a mile long, corporations will make trillions of dollars and pretend to understand what people have to go through. 2020 is also the year We’ve learned the value of human beings, not material items, or capital. It may seem like that’s not the case, as capitalism becomes even more of a destructive force, but it’s true. We’ve learned it, me included.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/4820/">
+				<time datetime="2020-12-14">14 December 2020</time>
+			</a>
+		</span>
+		<h1 id="we-should-rehabilitate-not-execute">We should rehabilitate, not execute.</h1>
+	</header>
+	<div class="entry-content">
+		<p>2020 has taught many people a bunch of things they may or may not have known. For one thing, it’s taught us that power, and the rush to keep it, kills over 27,000 people as the result of ignoring experts in your ranks, warning you that a deadly pandemic is coming. It’s taught us that while there are bread lines a mile long, corporations will make trillions of dollars and pretend to understand what people have to go through. 2020 is also the year We’ve learned the value of human beings, not material items, or capital. It may seem like that’s not the case, as capitalism becomes even more of a destructive force, but it’s true. We’ve learned it, me included.</p>
 <p>When I was growing up, I always heard the expression &quot;I value men that are tough and resilient against obstacles.&quot; I didn’t even know where to begin with comprehending that because I knew I didn’t fit that mold. I cried when dogs died in movies. I hugged everybody and told them I loved them. I sobbed with joy when others would finally get their well-deserved happy ending. In society’s eyes, I was, and still am, the weak one.</p>
 <p>I’ve since learned that there are many different kinds of strength and power in the world. Humans have all kinds of strengths and power, visible and invisible. It’s not about just lifting weights; humans have the ability to listen and learn.</p>
 <p>Everybody can learn something. Anything. It may just take some people longer to learn something because of a disability or similar. Still, the fault isn’t on the individual, it’s on society because society has failed the individual.</p>
@@ -1970,22 +2053,48 @@ address {
 <p>Nobody should have to end their life prematurely because of a bad decision. If there’s one thing I’ve learned in my letter writing journey, it’s that incarcerated people do something taboo. They have the grit and bravery to open up their minds and hearts to someone on the outside. They allow me to love them and they show me that love comes in all shapes, forms, and orientations. They demonstrate that love truly is a kind of magic that keeps people striving for better, even if they’ve made mistakes.</p>
 <p>Something that life changing should never be executed.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/4713/">On the Attack Helicopter story by Isabel Fall</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/4788/">Chicken Soup for the Soul: Making Me Time</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/4713/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">On the Attack Helicopter story by Isabel Fall</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/4788/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Chicken Soup for the Soul: Making Me Time</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1994,7 +2103,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/4820/` was updated on 2025-02-07T20:53:49.213Z -->
+		<!-- This page `/myblog/posts/4820/` was updated on 2025-02-07T23:13:44.370Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

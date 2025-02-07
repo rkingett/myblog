@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="the-best-serial-fiction-platform-is-your-website">The best serial fiction platform is your website</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-05-14">14 May 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>It’s a strange time on the web. Not because tech seems to get even richer than it already is without improving our lives, but in my current century, sex between consenting adults is worse than tech making money and not helping people.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6575/">
+				<time datetime="2024-05-14">14 May 2024</time>
+			</a>
+		</span>
+		<h1 id="the-best-serial-fiction-platform-is-your-website">The best serial fiction platform is your website</h1>
+	</header>
+	<div class="entry-content">
+		<p>It’s a strange time on the web. Not because tech seems to get even richer than it already is without improving our lives, but in my current century, sex between consenting adults is worse than tech making money and not helping people.</p>
 <p>When I say sex, I really do mean sex. I’ll be focusing on sex and art because I’m an artist. Erotica writers and even some romance writers are facing a backlash like you wouldn’t believe. Book bans are at an astronomical high in my country than they ever have before, platforms like Patreon and others are banning any kind of erotica. Visual. Written. You name it. They’re banning it, trying to make the web more friendly. Advertiser friendly? Sanitized? Who knows? It all boils down to the same kind of soft bans all around the tech sphere.</p>
 <p>The best place to publish serial fiction, in my opinion, is on your website. Almost all of the serial platforms out there today, and I’m not linking to one in particular because there’s a bunch of them, don’t really give you an easy way to delete your work. I’m not giving anybody else that level of access to my work. It’s mine, I should be able to delete my work and or take it elsewhere if I lose an offline copy. I should be able to logon and download the work from the server at whim because it’s my work. It doesn’t belong to the platform, it belongs to me.</p>
 <p>Unless you have your own website, like I do, it’s inevitable you will get banned from somewhere if you post erotica or the steamier side of romance for adults. Why? Because banks and payment platforms don’t like art with sex with consenting adults. Period.</p>
@@ -1960,22 +2043,48 @@ address {
 <p><a href="https://buttondown.com/weirdwriter">I’ve moved everything to my mailing list,</a> where you can pay per email just like Patreon used to do, which is fantastic for my serial fiction work!</p>
 <p><a href="https://buttondown.com/weirdwriter">After registering to my list,</a> you’ll get an email on how to financially support the mailing list. You can also <a href="/myblog/support/">support me financially in other ways, here.</a></p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6567/">On TTS audio description</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6582/">Popular Facebook posts.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6567/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">On TTS audio description</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6582/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Popular Facebook posts.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1984,7 +2093,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6575/` was updated on 2025-02-07T20:53:49.234Z -->
+		<!-- This page `/myblog/posts/6575/` was updated on 2025-02-07T23:13:44.392Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="using-indie-publishers-with-a-literary-agent">Using indie publishers with a literary agent.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2022-11-09">09 November 2022</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>Whenever I see writers talking about publishing, they always seem to lay out two pathways. Consistently, the prevailing wisdom in publishing is that there are only two pathways and nothing else. Either, you go traditional publishing, or you self-publish. Obviously, there’s more than one way to have a literary agent, and I’d like to highlight a publishing avenue nobody is talking about with an agent.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5776/">
+				<time datetime="2022-11-09">09 November 2022</time>
+			</a>
+		</span>
+		<h1 id="using-indie-publishers-with-a-literary-agent">Using indie publishers with a literary agent.</h1>
+	</header>
+	<div class="entry-content">
+		<p>Whenever I see writers talking about publishing, they always seem to lay out two pathways. Consistently, the prevailing wisdom in publishing is that there are only two pathways and nothing else. Either, you go traditional publishing, or you self-publish. Obviously, there’s more than one way to have a literary agent, and I’d like to highlight a publishing avenue nobody is talking about with an agent.</p>
 <p>This is especially on my mind today because, for now, <a href="https://www.npr.org/2022/11/01/1133375227/federal-judge-blocks-penguin-random-house-from-buying-simon-schuster">these two publishers can’t consolidate,</a> yet. I’m sure bigger publishers will consolidate in the future.</p>
 <p>First, Let’s back up and examine some incorrect assumptions writers have about literary agents. The most common one I hear is that agents are gatekeepers. It’s better to think of literary agents as author advocates, not gatekeepers. Agents can fight for you to get more money. That’s their job, after all, is to sell your book, and make sure you’re getting the rates you deserve. If they’re not advocating for you, then they are just not a good literary agent, period.</p>
 <p>While it’s true that an agent is supposed to sell your book to an editor, there’s a whole lot more things agents do, however, from contract negotiation to keeping track of your royalties, to acting as your literary contact for blurbs. You and your agent are a team. The better you do in your career, the more money they make in return. The both of you are meant to be a team and this includes working together on planning places to submit.</p>
@@ -1977,22 +2060,48 @@ address {
 <li><a href="https://publishersarchive.com/index.html#directory">Directory from Publishers Archive.</a></li>
 </ul>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5732/">Some tips for Blind Audio Description writers</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5805/">Books to understand me.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5732/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Some tips for Blind Audio Description writers</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5805/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Books to understand me.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -2001,7 +2110,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5776/` was updated on 2025-02-07T20:53:49.219Z -->
+		<!-- This page `/myblog/posts/5776/` was updated on 2025-02-07T23:13:44.377Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

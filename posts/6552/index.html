@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="maybe-we-should-sms-again">Maybe we should SMS again.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-04-29">29 April 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>A very bizarre thing happened the other day, and, no, we’re not talking about someone donating a billion dollars to me, but that would be pretty sweet. The incident began on Facebook, actually.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6552/">
+				<time datetime="2024-04-29">29 April 2024</time>
+			</a>
+		</span>
+		<h1 id="maybe-we-should-sms-again">Maybe we should SMS again.</h1>
+	</header>
+	<div class="entry-content">
+		<p>A very bizarre thing happened the other day, and, no, we’re not talking about someone donating a billion dollars to me, but that would be pretty sweet. The incident began on Facebook, actually.</p>
 <p>First of all, I know the name changed. Still though, I want to have future generations somehow stumble onto this bit of text and look in the ancient tomes of Wikipedia to learn what Facebook is. See? I’m helping research skills thrive even after I’m long gone!</p>
 <p>The incident started with a ding. It was at about 9:00 PM my time and I was just about to settle down to listen to a podcast audio book when my Facebook messenger dinged.</p>
 <p>Even though I’ve deleted all other social media and mainly use the Fediverse, and, SMS, still, I keep a Facebook around because I have people on it that refuse to give me their cell numbers. Plus, their numbers change a lot more than mine. I have one VOIP number that hooks into multiple devices and phones, so it’s actually surprisingly easy to get a hold of me, if they know where to look.</p>
@@ -1976,22 +2059,48 @@ address {
 <p>I’ve started begging my online friends to add my VOIP number to their phone. When they send me a message on Facebook, I open up my IM application, because my VOIP provider works on any device on any platform and send them an SMS back. They always ask to move to Facebook Messenger, but I tell them the truth. I dropped my Facebook.</p>
 <p>While it’s technically not a lie, still, there will come a day when Facebook truly vanishes off the internet. I know they hate me for texting them on their phones now, but I strongly think my friends are going to breathe a sigh of relief when they can get a hold of me after Facebook vanishes from the web.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6540/">Royalty statement 2023</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6555/">All 2023 highlights.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6540/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Royalty statement 2023</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6555/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">All 2023 highlights.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -2000,7 +2109,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6552/` was updated on 2025-02-07T20:53:49.232Z -->
+		<!-- This page `/myblog/posts/6552/` was updated on 2025-02-07T23:13:44.390Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="updates-only-and-author-harassment">Updates only and author harassment</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2022-03-07">07 March 2022</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>This is a follow-up to <a href="https://robertkingett.com/2021/10/11/different-literary-activism/">the post Different Literary Activism.</a></p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5541/">
+				<time datetime="2022-03-07">07 March 2022</time>
+			</a>
+		</span>
+		<h1 id="updates-only-and-author-harassment">Updates only and author harassment</h1>
+	</header>
+	<div class="entry-content">
+		<p>This is a follow-up to <a href="https://robertkingett.com/2021/10/11/different-literary-activism/">the post Different Literary Activism.</a></p>
 <p>I was reading a Trans and Disability inclusive Harry Potter fanfiction called <a href="https://archiveofourown.org/works/16269131">Basilisk Eyes.</a> I took a break from the audiobook, bookmarked <a href="https://archiveofourown.org/series/1591198">another Blind Harry Potter series,</a> and finally just turn my once active social media accounts, including Twitter, into updates only accounts. I’ll still post to social media using automation tools and human managers, but I won’t engage with users anymore. The final straw was actually two incidents I learned about in one day.</p>
 <h2 id="the-men-scenario">The Men scenario</h2>
 <p>The first incident involved a book synopsis for an upcoming book many people haven’t read yet. <a href="https://www.myfloridahouse.gov/Sections/Bills/billsdetail.aspx?BillId=76545">Just weeks after many bad things happened in politics for LGBT+ authors,</a> in addition to <a href="https://www.washingtonpost.com/opinions/2021/10/29/schools-are-banning-my-book-queer-kids-need-queer-stories/">having books by Trans writers banned in multiple states,</a> <a href="https://twitter.com/sannewman/status/1500177352420175874">Sandra Newman announced a new book on Twitter.</a> It’s called the Men.</p>
@@ -1974,22 +2057,48 @@ address {
 <p>Literary agents are very good author advocates, which is why I continue to seek traditional publishing avenues. I’m also very glad that Brandon Sanderson understands his privileges and works to lift other writers up in multiple ways. The online outrage, though, doesn’t even come close to talking about the actual barriers that are beyond Brandon’s Kickstarter.</p>
 <p>Anger drives social media engagement. Social media anger also stifles creativity and eats up my time. I’ve decided to just stop giving social media what it wants. Engagement. I now engage with art more, participate in many cooperatives, <a href="https://robertkingett.com/progress/">do lots of writing and reading offline,</a> and work on improving myself and my ideas of an inclusive society offline. I listen to people more as well when they approach me to tell me something. <a href="https://robertkingett.com/2017/04/07/off-the-grid-living-blind-without-the-internet/">In my first memoir, I was very happy to come back online after a month without it.</a> Now, though, I’ve gone back to enjoying life offline. I don’t foresee myself craving social media, or online discourse, again.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5519/">How self descriptions benefit Blind and sighted.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5619/">Fediverse for writers/readers.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5519/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">How self descriptions benefit Blind and sighted.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5619/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Fediverse for writers/readers.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1998,7 +2107,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5541/` was updated on 2025-02-07T20:53:49.217Z -->
+		<!-- This page `/myblog/posts/5541/` was updated on 2025-02-07T23:13:44.375Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="how-self-descriptions-benefit-blind-and-sighted">How self descriptions benefit Blind and sighted.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2022-02-19">19 February 2022</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>Corporations and sighted people are being criticized, by Blind and visually impaired people, for a practice many Blind and visually impaired people frown upon because they consider the information provided to them as useless fluff. Blind and visually impaired people are criticizing the practice known as self-description.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5519/">
+				<time datetime="2022-02-19">19 February 2022</time>
+			</a>
+		</span>
+		<h1 id="how-self-descriptions-benefit-blind-and-sighted">How self descriptions benefit Blind and sighted.</h1>
+	</header>
+	<div class="entry-content">
+		<p>Corporations and sighted people are being criticized, by Blind and visually impaired people, for a practice many Blind and visually impaired people frown upon because they consider the information provided to them as useless fluff. Blind and visually impaired people are criticizing the practice known as self-description.</p>
 <p>Self-description isn’t universal, but it is enough of a mainstream practice to have Blind and visually impaired people figuratively foaming at the mouth and rebelling against the practice of self-description in meetings and at events. Self-description isn’t a new practice. Every time you describe yourself to someone over a telephone call without video, you are embarking on self-description. Self-description is making its way into corporate environments, and even online videos, such as <a href="https://youtube.com/playlist?list=PLD0NeEbRY7VSi-Sc-eR2LBttNaVSt7h4k">the Accessibility series created by Laura Kate Dale on YouTube.</a></p>
 <p>This practice has received a wide array of criticism, especially in the Blind and visually impaired community. <a href="https://nfb.org/images/nfb/publications/bm/bm22/bm2201/bm220107.htm">The Braille Monitor has published articles decrying the practice.</a> I’d like to explain why I am in favor of self-description, for reasons that go beyond the individuals saying it’s a useless gesture that doesn’t advance anything, and wastes time, and, moreover, actually diminishes information in their eyes.</p>
 <p>The objections arise for corporate meetings and entertainment events. The common argument is, if your meeting is about rocket fuel, why does any Blind or visually impaired person care what you look like when there are more pressing matters to get to. The opposition comes from the belief that it’s a complete waste of time, and just useless information anyway. The final position is something that, quite honestly, baffles me to this day, that it’s diminishing and devaluing actual, useful, visual information that we could be obtaining if the person in question wouldn’t be filling our ears with junk self-descriptions. A third party, they reason, would give us more useful information because they are objective and can better choose what description gets spoken.</p>
@@ -1960,22 +2043,48 @@ address {
 <p>Of course, there are events and scenarios where it isn’t practical to do self-description, but these are very fringe cases, like a test taking session at a school. At awards ceremonies, a short, one sentence, self-description allows Blind and visually impaired people to participate in conversations regarding diversity and representation and doesn’t detract from the event. If the event is pressed for time, then self-descriptions could be provided at the end of presentations or via a written transcript later.</p>
 <p>Self-description has a lot of benefits for Blind and visually impaired employees as well as sighted employees. Self-description isn’t ideal for all events, but it’s an inclusive way to build skills and save money while incorporating inclusive practices. Lastly, it gets sighted people pondering about access and information long after the event is over. I think it’s worth encouraging self-description for that reason alone.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5419/">Online pitch events help writers and readers.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5541/">Updates only and author harassment</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5419/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Online pitch events help writers and readers.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5541/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Updates only and author harassment</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1984,7 +2093,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5519/` was updated on 2025-02-07T20:53:49.216Z -->
+		<!-- This page `/myblog/posts/5519/` was updated on 2025-02-07T23:13:44.374Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

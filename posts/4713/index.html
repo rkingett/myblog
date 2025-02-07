@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="on-the-attack-helicopter-story-by-isabel-fall">On the Attack Helicopter story by Isabel Fall</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2020-09-25">25 September 2020</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>Update: <a href="https://www.vox.com/the-highlight/22543858/isabel-fall-attack-helicopter">This article talks about what happened after the story was pulled.</a></p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/4713/">
+				<time datetime="2020-09-25">25 September 2020</time>
+			</a>
+		</span>
+		<h1 id="on-the-attack-helicopter-story-by-isabel-fall">On the Attack Helicopter story by Isabel Fall</h1>
+	</header>
+	<div class="entry-content">
+		<p>Update: <a href="https://www.vox.com/the-highlight/22543858/isabel-fall-attack-helicopter">This article talks about what happened after the story was pulled.</a></p>
 <p>Original post.</p>
 <p>I’m sitting here remembering a short story published before the pandemic this year, in 2020. My god, that seems so long ago, but the story is still in the back of my mind, even if it feels like I’m the only one that read it sometimes.</p>
 <p>Let’s back up, though. Clarkesworld Magazine, a very tough market to break into, <a href="http://clarkesworldmagazine.com/prior/issue_160/">published a short story by a trans writer, Isabel Fall.</a> It should still be available in the back issue, but, if not, <a href="https://archive.is/oXDEt">read the archived version here</a>. <a href="https://en.wikipedia.org/wiki/I_Sexually_Identify_as_an_Attack_Helicopter#cite_note-The_Outline_24_January_2020-11">The Wikipedia article on it</a> sums it up okay, but it’s definitely not the same as reading it.</p>
@@ -1969,22 +2052,48 @@ address {
 <p>Even though the story isn’t on the internet anymore, I’m happy I read it. I hope to continue learning, as, I believe education is the most powerful weapon to combat fascism and hatred.</p>
 <p>Thank you, Isabel Fall. You’ve helped me continue to grow. I hope you write again, someday, so you can teach others to do the same.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/4516/">I wrote a letter to the judge that banned LGBT flash fiction.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/4820/">We should rehabilitate, not execute.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/4516/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">I wrote a letter to the judge that banned LGBT flash fiction.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/4820/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">We should rehabilitate, not execute.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1993,7 +2102,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/4713/` was updated on 2025-02-07T20:53:49.212Z -->
+		<!-- This page `/myblog/posts/4713/` was updated on 2025-02-07T23:13:44.370Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

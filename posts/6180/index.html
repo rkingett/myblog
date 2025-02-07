@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="why-i-love-insta-love-romances">Why I love Insta-Love Romances.</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2023-11-05">05 November 2023</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>The more I dive into romance and <a href="https://en.wiktionary.org/wiki/Romancelandia">the RomanceLandia sphere,</a> the more I’m noticing a few things about the genre. <a href="https://robertkingett.com/books/">Having written a few romance books myself, most awaiting publication,</a> I’ve become quite familiar with all the nuances and conventions of the genre.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6180/">
+				<time datetime="2023-11-05">05 November 2023</time>
+			</a>
+		</span>
+		<h1 id="why-i-love-insta-love-romances">Why I love Insta-Love Romances.</h1>
+	</header>
+	<div class="entry-content">
+		<p>The more I dive into romance and <a href="https://en.wiktionary.org/wiki/Romancelandia">the RomanceLandia sphere,</a> the more I’m noticing a few things about the genre. <a href="https://robertkingett.com/books/">Having written a few romance books myself, most awaiting publication,</a> I’ve become quite familiar with all the nuances and conventions of the genre.</p>
 <p>This past week, I tried my first <a href="https://www.albanywalker.com/product/made-of-malice/">bully romance called Made in Malice.</a> It’s a kind of suspenseful bully romance with a mystery/suspense element to it. It was my first of the subgenre and I thoroughly enjoyed it. I don’t know when <a href="https://www.albanywalker.com/product-category/book/corrupt-credence/">the other books in the Corrupt Credence series</a> will be released, but I’ll be eagerly awaiting the conclusion to this story. This was my first time trying this author and, even though I’m new to the darker side of romance, I’m more than willing to try her books.</p>
 <p>I also am trying <a href="https://kennedyryanwrites.com/books/">Kennedy Ryan’s older work</a> because her older work is finally getting audio releases. When I heard that her book, <a href="https://kennedyryanwrites.com/when-you-are-mine/">When You’re Mine,</a> was an insta-love, I immediately jumped on this book because I actually love insta-love romances. The book doesn’t feature insta-love like people initially thought, but still, I had a good time reading it all the same.</p>
 <p>Why do I love books with insta-love? In my exploration of RomanceLandia, I’m finding that I’m liking books that are completely opposite from what I write. In this case, insta-love books provide a unique exploration of substance and foundation different from slow burn romances.</p>
@@ -1964,22 +2047,48 @@ address {
 <p>For me, insta-love experiences provide stability. They’re also a test of the character’s will and strength. Sure, you can fall in love super-fast, but can you maintain that zest? Can you maintain that love when things aren’t rising up to meet you like they were in the beginning? How do you find new things to love after the insta-love emotions simmered down or speed up, even. How do you stay on course? For me, insta-love is more about stability and watching characters figure out how to keep that epic connection alive. I also like seeing who initiates the insta-love experience in the beginning and who, out of the two main characters, maintains that spark the other started.</p>
 <p>One of my favorite examples of an insta-love experience is <a href="https://allauthor.com/book/35001/jeremiah-high-rise/">Jeremiah by Jayce Ellis.</a> Another is the <a href="https://kennedyryanwrites.com/flow-2/">Flow book by Kennedy Ryan.</a> Those have all the hallmarks of a fantastic insta-love experience and I hope you enjoy reading them as much as I enjoyed them!</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6158/">Refuge in blogs and the IndieWeb</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6182/">Making my own writers retreat with a travel agent.</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6158/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Refuge in blogs and the IndieWeb</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6182/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">Making my own writers retreat with a travel agent.</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1988,7 +2097,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-07T20:53:49.223Z -->
+		<!-- This page `/myblog/posts/6180/` was updated on 2025-02-07T23:13:44.381Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

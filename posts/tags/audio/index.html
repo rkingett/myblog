@@ -460,7 +460,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1882,8 +1884,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1943,9 +2020,12 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="tagged-audio">Tagged &#39;audio</h1>
-
-<h1 id="tagged-audio-2">Tagged “audio”</h1>
+				<article class="page">
+	<header class="entry-header">
+    <h1 id="tagged-audio">Tagged &#39;audio</h1>
+	</header>
+	<div class="entry-content">
+    <h1 id="tagged-audio-2">Tagged “audio”</h1>
 <ul reversed="" class="postlist">
 <p><li class="postlist-item">
 <a href="/myblog/posts/6380/" class="postlist-link">A Deserving Conference</a>
@@ -1953,6 +2033,8 @@ address {
 </ul>
 <p>See <a href="tags.njk">all tags</a>.</p>
 
+	</div>
+</article>
 
 			</heading-anchors>
 		</main>
@@ -1961,7 +2043,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/tags/audio/` was updated on 2025-02-07T20:53:49.771Z -->
+		<!-- This page `/myblog/posts/tags/audio/` was updated on 2025-02-07T23:13:44.946Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="on-tts-audio-description">On TTS audio description</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2024-05-09">09 May 2024</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>If you’re blind or partially sighted, you’ll know about text to speech. It’s in your daily life, even if you don’t want to have text to speech in your life. The smart speakers. Smart assistants, and other things that have algorithms that people call different things depending on what decade we’re in.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/6567/">
+				<time datetime="2024-05-09">09 May 2024</time>
+			</a>
+		</span>
+		<h1 id="on-tts-audio-description">On TTS audio description</h1>
+	</header>
+	<div class="entry-content">
+		<p>If you’re blind or partially sighted, you’ll know about text to speech. It’s in your daily life, even if you don’t want to have text to speech in your life. The smart speakers. Smart assistants, and other things that have algorithms that people call different things depending on what decade we’re in.</p>
 <p>Even if you’re blind or partially sighted, though, you might still not know about <a href="https://en.wikipedia.org/wiki/Audio_description">audio description.</a> Audio description is a service that brings the visual world into an audio, and sometimes, Braille medium, by <a href="https://brett.coulstock.id.au/index.html#audio-description-and-accessibility">publishing the written description script or full film transcript with the description script and timecodes included</a> along with dialog timecodes so Deaf-Blind people can read a movie with Braille. Audio description is a service that was started by blind people, for blind people.</p>
 <p>I couldn’t get a general consensus of when audio description actually started. <a href="https://en.wikipedia.org/wiki/Audio_description">Even Wikipedia has an incomplete history of audio description.</a> Some say, outside of Wikipedia, that it was in the 1910’s. Others say 1980s. Some say it was before. Some say it was <a href="https://www.npr.org/2015/04/18/400590705/after-fan-pressure-netflix-makes-daredevil-accessible-to-the-blind">when Netflix described Daredevil for the first time.</a> It changes depending on who you ask, but audio description was, and is, a service for the blind and partially sighted first. It was never meant for sighted people, but sighted people take advantage of audio description all the time. Maybe they have facial blindness, but can still, in the eyes of society, see. Maybe they have a reading disability. Audio description can read text on screen. There’s a whole host of use cases for audio description, as outlined <a href="https://reidmymind.com/tag/audio-description/">in the many episodes about audio description in the Reid my Mind podcast,</a> and <a href="https://adp.acb.org/podcasts.html">other podcasts on the subject.</a></p>
 <p>Audio description even made its way into the audiobook sphere with <a href="https://www.audible.com/pd/Winnie-the-Pooh-Audiobook/B0BT12X186?qid=1715264796&amp;sr=1-1&amp;ref_pageloadid=not_applicable&amp;ref=a_search_c3_lProduct_1_1&amp;pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&amp;pf_rd_r=S0K1JDP63Q7WWZMKH3SQ&amp;pageLoadId=9Krt62kCIxeDpIRh&amp;creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c">this accessible adaptation of Winnie the Pooh that’s an audiobook.</a></p>
@@ -1976,22 +2059,48 @@ address {
 <p>Even if there are people that see people providing vigilante audio description as amateurs and not worth paying for, the thing is, that with each subsequent crafting of the script, the tuning of the narrator voice, the polishing of the AD producer, everybody involved in this crafting of audio description has learned something new throughout the process, and, as a result, will do better next time. It’s mutual aid audio description. With TTS audio description, the only thing you’re paying for is an experience that won’t get better until someone cares enough to make the TTS better. Comparing vigilante audio description and TTS audio description is a no brainer for me. I’ll take imperfect growth over lazy scattered breadcrumbs any day of the week.</p>
 <p>I enjoy doing vigilante audio description work because it also allows me to show others how to get involved in the audio description industry. If more blind and partially sighted people become involved in the audio description industry, then a fuller picture of what we want will materialize. In my view, that’s a far better investment than a machine.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/6564/">Gig publishing is clogging up the indie publishing space.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/6575/">The best serial fiction platform is your website</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/6564/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Gig publishing is clogging up the indie publishing space.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/6575/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">The best serial fiction platform is your website</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -2000,7 +2109,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/6567/` was updated on 2025-02-07T20:53:49.233Z -->
+		<!-- This page `/myblog/posts/6567/` was updated on 2025-02-07T23:13:44.391Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>

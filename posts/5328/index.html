@@ -459,7 +459,9 @@ button {
 	cursor: pointer;
 }
 
-main {
+main .page,
+main .post,
+main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
 	width: var(--width);
 	margin: auto;
@@ -1881,8 +1883,83 @@ address {
 	z-index: 1000000000;
 }
 
+.follow-cta,
 .embeddable-buttondown-form {
 	margin-bottom: 3rem;
+}
+
+.screen-reader-text,
+.ha {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0, 0, 0, 0);
+	white-space: nowrap;
+	border-width: 0;
+}
+
+.post-navigation {
+	width: 100%;
+	border-bottom: 0;
+	position: relative;
+	display: block;
+	border-top: 2px solid var(--foreground-colour);
+}
+
+.post-navigation::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.post-navigation a {
+	display: block;
+}
+
+.post-navigation .nav-previous,
+.post-navigation .nav-next {
+	width: 50%;
+	display: block;
+}
+
+.post-navigation .meta-nav {
+	font-family: var(--font-mono);
+	display: block;
+	font-size: 1.0625rem;
+	line-height: 1.411764706;
+	margin-bottom: 16px;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.103448276;
+}
+
+.post-navigation a {
+	padding: 32px 24px;
+	white-space: initial;
+	text-decoration: underline;
+	border-left: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-colour);
+	margin-inline: -2px;
+}
+
+.post-navigation a:hover {
+	width: auto;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+}
+
+.post-navigation .nav-next {
+	float: right;
 }</style>
 	</head>
 	<body>
@@ -1942,14 +2019,20 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<h1 id="different-literary-activism">Different Literary Activism</h1>
-
-<ul class="post-metadata">
-	<li><time datetime="2021-10-12">12 October 2021</time></li>
-	<li><a href="/myblog/posts/tags/blog-and-journal/" class="post-tag">blog-and-journal</a></li>
-</ul>
-
-<p>I woke up to another controversy.</p>
+				<article class="post">
+	<header class="entry-header">
+		<span>
+			<span class="screen-reader-text">
+				Posted on
+			</span>
+			<a href="/myblog/posts/5328/">
+				<time datetime="2021-10-12">12 October 2021</time>
+			</a>
+		</span>
+		<h1 id="different-literary-activism">Different Literary Activism</h1>
+	</header>
+	<div class="entry-content">
+		<p>I woke up to another controversy.</p>
 <p>The controversy is just like any other. Right now, as I’m typing this, the internet is talking about a public figure punching down on an oppressed group. In this case, it’s Trans people. The specifics of the controversy isn’t important because it will be over by the time this gets published. A day after this gets published, someone else in some industry will punch down on LGBT+ people, BIPOC, Disabled people, or indigenous people. Take your pick. Someone will say something bigoted, the internet will rush to the defense of someone unknown without really caring about the oppressed. That outrage will end, and another cycle will start anew.</p>
 <p>Examining the current criticism that’s engulfing the internet right now, as it always does when it gets to this kind of fever pitch, made me want to log off for a while. By a while, I mean longer than a week. It’s no secret that I dislike social media. I think it’s poison. At the same time, I understand that social media is an excellent way for marginalized authors like myself to find community and perform some epic activism. I still believe, though, that my time is better spent off social media more than on it. I don’t think these two thoughts contradict each other but I don’t think they work well together either. Perhaps that’s why I’m the world’s shyest hypocrite.</p>
 <p>Bad jokes aside, I’d like to talk about previously performed literary activism before I started learning about <a href="https://youtu.be/s6wavnGIR3w">the social model of Disability</a> and evolving how I do activism.</p>
@@ -1962,22 +2045,48 @@ address {
 <p>Replacing problematic artists is far better, in my opinion, than just taking down a problematic artist. It’s far harder to rebuild and replace than to destroy but replacing problematic artists will also open up the gates for new bodies of work to thrive and do better.</p>
 <p>Reading and writing is a powerful form of protest. Disabled people have many ways we organize our own resistance. We build communities and champion thoughtful Disabled artists. That might not be a visible movement, but it does change the world. All it takes is for one more person to learn something new.</p>
 
+	</div>
+	<footer class="entry-footer">
+		<div class="author-info">
+		</div>
+		<span class="cat-links"></span>
+		<span class="tag-links"></span>
+	</footer>
+<div class="follow-cta">
+  <h2 id="follow-future-posts">Follow future posts</h2>
 
-<h1 id="follow-future-posts">Follow future posts</h1>
+  You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
 
-You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https://buttondown.com/weirdwriter/rss">follow mailing list RSS feed,</a> or follow via email with the form below.
-
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
+  <form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow"><label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email">
 <label><input type="checkbox" name="tag" value="street">Join street team</label>
 <label><input type="checkbox" name="tag" value="beta">Join beta reading team</label>
 <input type="submit" value="Subscribe">
 </form>
 
+</div> 
+</article>
 
-<h1 id="post-navigation">Post navigation</h1>
-<ul class="links-nextprev"><li class="links-nextprev-prev">← Previous<br> <a href="/myblog/posts/5299/">Stock signings help me as a Disabled author.</a></li><li class="links-nextprev-next">Next →<br><a href="/myblog/posts/5350/">How to support writers without buying books</a></li>
-</ul>
+
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
+	<div class="nav-links">
+		<div class="nav-previous">
+			<a href="/myblog/posts/5299/" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">Stock signings help me as a Disabled author.</span>
+			</a>
+		</div>
+		<div class="nav-next">
+			<a href="/myblog/posts/5350/" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">How to support writers without buying books</span>
+			</a>
+		</div>
+	</div>
+</nav>
 
 			</heading-anchors>
 		</main>
@@ -1986,7 +2095,7 @@ You can <a href="/myblog/feed.xml">follow the main RSS feed,</a> <a href="https:
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5328/` was updated on 2025-02-07T20:53:49.215Z -->
+		<!-- This page `/myblog/posts/5328/` was updated on 2025-02-07T23:13:44.373Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
