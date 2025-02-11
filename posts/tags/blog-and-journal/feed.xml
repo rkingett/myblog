@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?><?xml-stylesheet href="/feed/pretty-atom-feed.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
-  <title>Tagged 'blog-and-journal', Sightless Scribbles</title>
+  <title>Tagged 'Blog and journal.', Sightless Scribbles</title>
   <subtitle>A fabulously gay blind author.</subtitle>
   <link href="https://robertkingett.netlify.app/myblog/posts/tags/blog-and-journal/feed.xml" rel="self" />
   <link href="https://robertkingett.netlify.app/myblog/" />
@@ -722,7 +722,7 @@ Inclusion isn’t about hiding disabilities. It’s about taking the burdens awa
 </content>
   </entry>
   <entry>
-    <title>Finally, there&amp;#8217;s a comic book store for the blind.</title>
+    <title>Finally, there’s a comic book store for the blind.</title>
     <link href="/myblog/posts/6510/" />
     <updated>2024-02-29T08:19:22Z</updated>
     <id>/myblog/posts/6510/</id>
