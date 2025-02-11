@@ -6,11 +6,10 @@ pagination:
   filters: ["all", "posts"]
 eleventyExcludeFromCollections: true
 eleventyComputed:
-  title: "Tagged '{{ tag }}"
+  title: "Tagged “{{ tag }}”"
   permalink: "/posts/tags/{{ tag | slugify }}/"
+  tagFeed: "/posts/tags/{{ tag | slugify }}/feed.xml"
 ---
-
-<h1>Tagged “{{ tag }}”</h1>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}

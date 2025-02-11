@@ -8,7 +8,9 @@
 		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 		<meta name="fediverse:creator" content="{{ metadata.author.fediverse }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
-
+		{%- if tagFeed %}
+		<link rel="alternate" href="{{ tagFeed }}" type="application/atom+xml" title="{{ title + ", " if title }}{{ metadata.title }}">
+		{%- endif %}
 		{#-
 		Plain-text bundles are provided via the `eleventy-plugin-bundle` plugin:
 		1. CSS:
