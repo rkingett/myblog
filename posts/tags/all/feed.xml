@@ -4,7 +4,7 @@
   <subtitle>A fabulously gay blind author.</subtitle>
   <link href="https://robertkingett.netlify.app/myblog/posts/tags/all/feed.xml" rel="self" />
   <link href="https://robertkingett.netlify.app/myblog/" />
-  <updated>2025-02-15T02:23:10Z</updated>
+  <updated>2025-02-15T02:34:57Z</updated>
   <id>https://robertkingett.netlify.app/myblog/</id>
   <author>
     <name>Robert Kingett</name>
@@ -13,7 +13,7 @@
   <entry>
     <title>Writing portfolio</title>
     <link href="/myblog/writings/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/writings/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/team&quot;&gt;Beta readers or Street team information&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’m an accomplished &lt;a href=&quot;/myblog/books&quot;&gt;author,&lt;/a&gt; with &lt;a href=&quot;/myblog/resume&quot;&gt;experience in many different arenas of publishing.&lt;/a&gt;&lt;/p&gt;
@@ -62,7 +62,7 @@
   <entry>
     <title>Accessibility work</title>
     <link href="/myblog/tech/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/tech/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://calendly.com/weirdwriter/60min?back=1&quot;&gt;Schedule an initial meeting.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I am an expert screen reader user who has both advocated and consulted for companies making their services or products accessible.&lt;/p&gt;
@@ -90,7 +90,7 @@
   <entry>
     <title>Beta readers and Street team information</title>
     <link href="/myblog/team/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/team/</id>
     <content type="html">&lt;p&gt;Here, you can join my beta readers team or my street team.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join the beta list here&lt;/a&gt;&lt;/p&gt;
@@ -143,7 +143,7 @@
   <entry>
     <title>Tags</title>
     <link href="/myblog/posts/tags/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/posts/tags/</id>
     <content type="html">&lt;h1 id=&quot;tags&quot;&gt;Tags&lt;/h1&gt;
 &lt;ul&gt;
@@ -208,15 +208,27 @@
   <entry>
     <title>Support me</title>
     <link href="/myblog/support/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/support/</id>
-    <content type="html">&lt;p&gt;TODO&lt;/p&gt;
+    <content type="html">&lt;p&gt;There’s many ways you can support me other than &lt;a href=&quot;/myblog/writings&quot;&gt;buying my writing&lt;/a&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://en.liberapay.com/WeirdWriter/&quot;&gt;Liberapay.&lt;/a&gt; Monthly or weekly donations to fund my work with multiple ways to give. recurring.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.comradery.co/weirdwriter&quot;&gt;Comradery page&lt;/a&gt; monthly donations.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://cash.app/%24weirdwriter&quot;&gt;Cash App donation.&lt;/a&gt; One time, should work in countries where Stripe can’t work.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://tips.pinecast.com/jar/weirdwritings&quot;&gt;Donate to my podcast tip jar&lt;/a&gt; which also funds narrators.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join my street team.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://www.paypal.com/biz/fund?id=2T4ZH75BU2DF8&quot;&gt;PayPal&lt;/a&gt; one time.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;send-checks-and-or-packages&quot;&gt;Send checks and or packages.&lt;/h2&gt;
+&lt;p&gt;Robert Kingett.&lt;/p&gt;
+&lt;p&gt;1321 Upland Dr PMB 17504&lt;/p&gt;
+&lt;p&gt;Houston TX, 77043-4718&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Short works.</title>
     <link href="/myblog/shorts/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/shorts/</id>
     <content type="html">&lt;p&gt;Find all my shorter work below organized by date from newest to oldest.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;Listen to audio exclusives&lt;/a&gt;&lt;/p&gt;
@@ -237,7 +249,7 @@
   <entry>
     <title>Resume</title>
     <link href="/myblog/resume/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/resume/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/wp-content/uploads/2024/07/Robert-Kingett.htm&quot;&gt;Robert Kingett&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Besides &lt;a href=&quot;/myblog/writings&quot;&gt;my writing work&lt;/a&gt; I’ve worn many hats including accessibility consulting, expert witness, and more. Below, you will find key pages.&lt;/p&gt;
@@ -260,7 +272,7 @@
   <entry>
     <title>In person appearance requirements</title>
     <link href="/myblog/requirements/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/requirements/</id>
     <content type="html">&lt;p&gt;I’d love to visit you to speak about being a writer or otherwise. Visiting places, though, takes a lot of time away from &lt;a href=&quot;/myblog/writings&quot;&gt;my writing&lt;/a&gt; because I have to do triple the preparations non-disabled writers have to do. Also, traveling with blindness and cerebral palsy is extremely tiring, especially in the colder seasons. &lt;a href=&quot;https://en.wikipedia.org/wiki/Spoon_theory&quot;&gt;My spoons are very limited&lt;/a&gt; so read the below thoroughly before booking me.&lt;/p&gt;
 &lt;p&gt;If you’d like to &lt;a href=&quot;/myblog/live&quot;&gt;book me for an author visit&lt;/a&gt; these are my requirements.&lt;/p&gt;
@@ -287,7 +299,7 @@
   <entry>
     <title>Authenticity editing</title>
     <link href="/myblog/reading/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/reading/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSf6x6O2-COMkVhDS8uQT3badFON99s7yNCwIjtlXBBcnSxhGg/viewform?usp=sf_link&quot;&gt;For other media such as games, podcasts, films, or TV shows, get in touch with me to discuss rates.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’ve worked with many publishers, corporations, and independent creators as an authenticity editor, formerly known as sensitivity reader. I can do, either, fiction consulting or Corporate DEI Consulting.&lt;/p&gt;
@@ -333,15 +345,488 @@
   <entry>
     <title>Privacy, disclaimers, disclosures.</title>
     <link href="/myblog/privacy/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/privacy/</id>
-    <content type="html">&lt;p&gt;TODO&lt;/p&gt;
+    <content type="html">&lt;p&gt;This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.&lt;/p&gt;
+&lt;p&gt;We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.&lt;/p&gt;
+&lt;h1 id=&quot;interpretation-and-definitions&quot;&gt;Interpretation and Definitions&lt;/h1&gt;
+&lt;h2 id=&quot;interpretation&quot;&gt;Interpretation&lt;/h2&gt;
+&lt;p&gt;The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&lt;/p&gt;
+&lt;h2 id=&quot;definitions&quot;&gt;Definitions&lt;/h2&gt;
+&lt;p&gt;For the purposes of this Privacy Policy:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Account&lt;/strong&gt; means a unique account created for You to access our Service or parts of our Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Affiliate&lt;/strong&gt; means an entity that controls, is controlled by or is under common control with a party, where “control” means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Business&lt;/strong&gt;, for the purpose of CCPA/CPRA, refers to the Company as the legal entity that collects Consumers’ personal information and determines the purposes and means of the processing of Consumers’ personal information, or on behalf of which such information is collected and that alone, or jointly with others, determines the purposes and means of the processing of consumers’ personal information, that does business in the State of California.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CCPA&lt;/strong&gt; and/or &lt;strong&gt;CPRA&lt;/strong&gt; refers to the California Consumer Privacy Act (the “CCPA”) as amended by the California Privacy Rights Act of 2020 (the “CPRA”).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Company&lt;/strong&gt; (referred to as either “the Company”, “We”, “Us” or “Our” in this Agreement) refers to Robert Kingett.
+For the purpose of the GDPR, the Company is the Data Controller.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consumer&lt;/strong&gt;, for the purpose of the CCPA/CPRA, means a natural person who is a California resident. A resident, as defined in the law, includes (1) every individual who is in the USA for other than a temporary or transitory purpose, and (2) every individual who is domiciled in the USA who is outside the USA for a temporary or transitory purpose.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cookies&lt;/strong&gt; are small files that are placed on Your computer, mobile device or any other device by a website, containing the details of Your browsing history on that website among its many uses.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Country&lt;/strong&gt; refers to: Texas, United States&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Controller&lt;/strong&gt;, for the purposes of the GDPR (General Data Protection Regulation), refers to the Company as the legal person which alone or jointly with others determines the purposes and means of the processing of Personal Data.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Device&lt;/strong&gt; means any device that can access the Service such as a computer, a cellphone or a digital tablet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Do Not Track&lt;/strong&gt; (DNT) is a concept that has been promoted by US regulatory authorities, in particular the U.S. Federal Trade Commission (FTC), for the Internet industry to develop and implement a mechanism for allowing internet users to control the tracking of their online activities across websites.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GDPR&lt;/strong&gt; refers to EU General Data Protection Regulation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Personal Data&lt;/strong&gt; is any information that relates to an identified or identifiable individual.
+For the purposes of GDPR, Personal Data means any information relating to You such as a name, an identification number, location data, online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity.
+For the purposes of the CCPA/CPRA, Personal Data means any information that identifies, relates to, describes or is capable of being associated with, or could reasonably be linked, directly or indirectly, with You.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service&lt;/strong&gt; refers to the Website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service Provider&lt;/strong&gt; means any natural or legal person who processes the data on behalf of the Company. It refers to third-party companies or individuals employed by the Company to facilitate the Service, to provide the Service on behalf of the Company, to perform services related to the Service or to assist the Company in analyzing how the Service is used.&lt;br&gt;
+For the purpose of the GDPR, Service Providers are considered Data Processors.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Third-party Social Media Service&lt;/strong&gt; refers to any website or any social network website through which a User can log in or create an account to use the Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Usage Data&lt;/strong&gt; refers to data collected automatically, either generated by the use of the Service or from the Service infrastructure itself (for example, the duration of a page visit).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt; refers to Robert Kingett, accessible from &lt;a href=&quot;https://robertkingett.com/&quot;&gt;https://robertkingett.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You&lt;/strong&gt; means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
+Under GDPR, You can be referred to as the Data Subject or as the User as you are the individual using the Service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;collecting-and-using-your-personal-data&quot;&gt;Collecting and Using Your Personal Data&lt;/h1&gt;
+&lt;h2 id=&quot;types-of-data-collected&quot;&gt;Types of Data Collected&lt;/h2&gt;
+&lt;h3 id=&quot;personal-data&quot;&gt;Personal Data&lt;/h3&gt;
+&lt;p&gt;While using Our Service, We may ask You to provide Us with certain personally identifiable information that can be used to contact or identify You. Personally identifiable information may include, but is not limited to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Email address&lt;/li&gt;
+&lt;li&gt;First name and last name&lt;/li&gt;
+&lt;li&gt;Phone number&lt;/li&gt;
+&lt;li&gt;Address, State, Province, ZIP/Postal code, City&lt;/li&gt;
+&lt;li&gt;Bank account information in order to pay for products and/or services within the Service&lt;/li&gt;
+&lt;li&gt;Usage Data&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When You pay for a product and/or a service via bank transfer, We may ask You to provide information to facilitate this transaction and to verify Your identity. Such information may include, without limitation:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Date of birth&lt;/li&gt;
+&lt;li&gt;Passport or National ID card&lt;/li&gt;
+&lt;li&gt;Bank card statement&lt;/li&gt;
+&lt;li&gt;Other information linking You to an address&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;usage-data&quot;&gt;Usage Data&lt;/h3&gt;
+&lt;p&gt;Usage Data is collected automatically when using the Service.&lt;/p&gt;
+&lt;p&gt;Usage Data may include information such as Your Device’s Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.&lt;/p&gt;
+&lt;p&gt;When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.&lt;/p&gt;
+&lt;p&gt;We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.&lt;/p&gt;
+&lt;h3 id=&quot;information-from-third-party-social-media-services&quot;&gt;Information from Third-Party Social Media Services&lt;/h3&gt;
+&lt;p&gt;The Company allows You to create an account and log in to use the Service through the following Third-party Social Media Services:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Google&lt;/li&gt;
+&lt;li&gt;Facebook&lt;/li&gt;
+&lt;li&gt;Instagram&lt;/li&gt;
+&lt;li&gt;Twitter&lt;/li&gt;
+&lt;li&gt;LinkedIn&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If You decide to register through or otherwise grant us access to a Third-Party Social Media Service, We may collect Personal data that is already associated with Your Third-Party Social Media Service’s account, such as Your name, Your email address, Your activities or Your contact list associated with that account.&lt;/p&gt;
+&lt;p&gt;You may also have the option of sharing additional information with the Company through Your Third-Party Social Media Service’s account. If You choose to provide such information and Personal Data, during registration or otherwise, You are giving the Company permission to use, share, and store it in a manner consistent with this Privacy Policy.&lt;/p&gt;
+&lt;h3 id=&quot;tracking-technologies-and-cookies&quot;&gt;Tracking Technologies and Cookies&lt;/h3&gt;
+&lt;p&gt;We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cookies or Browser Cookies.&lt;/strong&gt; A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Web Beacons.&lt;/strong&gt; Certain sections of our Service and our emails may contain small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and single-pixel gifs) that permit the Company, for example, to count users who have visited those pages or opened an email and for other related website statistics (for example, recording the popularity of a certain section and verifying system and server integrity).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cookies can be “Persistent” or “Session” Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. You can learn more about cookies on &lt;a href=&quot;https://www.termsfeed.com/blog/cookies/#What_Are_Cookies&quot;&gt;TermsFeed website&lt;/a&gt; article.&lt;/p&gt;
+&lt;p&gt;We use both Session and Persistent Cookies for the purposes set out below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Necessary / Essential Cookies&lt;/strong&gt;
+Type: Session Cookies
+Administered by: Us
+Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cookies Policy / Notice Acceptance Cookies&lt;/strong&gt;
+Type: Persistent Cookies
+Administered by: Us
+Purpose: These Cookies identify if users have accepted the use of cookies on the Website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Functionality Cookies&lt;/strong&gt;
+Type: Persistent Cookies
+Administered by: Us
+Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For more information about the cookies we use and your choices regarding cookies, please visit our Cookies Policy or the Cookies section of our Privacy Policy.&lt;/p&gt;
+&lt;h2 id=&quot;use-of-your-personal-data&quot;&gt;Use of Your Personal Data&lt;/h2&gt;
+&lt;p&gt;The Company may use Personal Data for the following purposes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;To provide and maintain our Service&lt;/strong&gt;, including to monitor the usage of our Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To manage Your Account:&lt;/strong&gt; to manage Your registration as a user of the Service. The Personal Data You provide can give You access to different functionalities of the Service that are available to You as a registered user.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;For the performance of a contract:&lt;/strong&gt; the development, compliance and undertaking of the purchase contract for the products, items or services You have purchased or of any other contract with Us through the Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To contact You:&lt;/strong&gt; To contact You by email, telephone calls, SMS, or other equivalent forms of electronic communication, such as a mobile application’s push notifications regarding updates or informative communications related to the functionalities, products or contracted services, including the security updates, when necessary or reasonable for their implementation.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To provide You&lt;/strong&gt; with news, special offers and general information about other goods, services and events which we offer that are similar to those that you have already purchased or enquired about unless You have opted not to receive such information.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;To manage Your requests:&lt;/strong&gt; To attend and manage Your requests to Us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;For business transfers:&lt;/strong&gt; We may use Your information to evaluate or conduct a merger, divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or similar proceeding, in which Personal Data held by Us about our Service users is among the assets transferred.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;For other purposes&lt;/strong&gt;: We may use Your information for other purposes, such as data analysis, identifying usage trends, determining the effectiveness of our promotional campaigns and to evaluate and improve our Service, products, services, marketing and your experience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We may share Your personal information in the following situations:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;With Service Providers:&lt;/strong&gt; We may share Your personal information with Service Providers to monitor and analyze the use of our Service, for payment processing, to contact You.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;For business transfers:&lt;/strong&gt; We may share or transfer Your personal information in connection with, or during negotiations of, any merger, sale of Company assets, financing, or acquisition of all or a portion of Our business to another company.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Affiliates:&lt;/strong&gt; We may share Your information with Our affiliates, in which case we will require those affiliates to honor this Privacy Policy. Affiliates include Our parent company and any other subsidiaries, joint venture partners or other companies that We control or that are under common control with Us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With business partners:&lt;/strong&gt; We may share Your information with Our business partners to offer You certain products, services or promotions.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With other users:&lt;/strong&gt; when You share personal information or otherwise interact in the public areas with other users, such information may be viewed by all users and may be publicly distributed outside. If You interact with other users or register through a Third-Party Social Media Service, Your contacts on the Third-Party Social Media Service may see Your name, profile, pictures and description of Your activity. Similarly, other users will be able to view descriptions of Your activity, communicate with You and view Your profile.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;With Your consent&lt;/strong&gt;: We may disclose Your personal information for any other purpose with Your consent.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;retention-of-your-personal-data&quot;&gt;Retention of Your Personal Data&lt;/h2&gt;
+&lt;p&gt;The Company will retain Your Personal Data only for as long as is necessary for the purposes set out in this Privacy Policy. We will retain and use Your Personal Data to the extent necessary to comply with our legal obligations (for example, if we are required to retain your data to comply with applicable laws), resolve disputes, and enforce our legal agreements and policies.&lt;/p&gt;
+&lt;p&gt;The Company will also retain Usage Data for internal analysis purposes. Usage Data is generally retained for a shorter period of time, except when this data is used to strengthen the security or to improve the functionality of Our Service, or We are legally obligated to retain this data for longer time periods.&lt;/p&gt;
+&lt;h2 id=&quot;transfer-of-your-personal-data&quot;&gt;Transfer of Your Personal Data&lt;/h2&gt;
+&lt;p&gt;Your information, including Personal Data, is processed at the Company’s operating offices and in any other places where the parties involved in the processing are located. It means that this information may be transferred to — and maintained on — computers located outside of Your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from Your jurisdiction.&lt;/p&gt;
+&lt;p&gt;Your consent to this Privacy Policy followed by Your submission of such information represents Your agreement to that transfer.&lt;/p&gt;
+&lt;p&gt;The Company will take all steps reasonably necessary to ensure that Your data is treated securely and in accordance with this Privacy Policy and no transfer of Your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of Your data and other personal information.&lt;/p&gt;
+&lt;h2 id=&quot;delete-your-personal-data&quot;&gt;Delete Your Personal Data&lt;/h2&gt;
+&lt;p&gt;You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.&lt;/p&gt;
+&lt;p&gt;Our Service may give You the ability to delete certain information about You from within the Service.&lt;/p&gt;
+&lt;p&gt;You may update, amend, or delete Your information at any time by signing in to Your Account, if you have one, and visiting the account settings section that allows you to manage Your personal information. You may also contact Us to request access to, correct, or delete any personal information that You have provided to Us.&lt;/p&gt;
+&lt;p&gt;Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.&lt;/p&gt;
+&lt;h2 id=&quot;disclosure-of-your-personal-data&quot;&gt;Disclosure of Your Personal Data&lt;/h2&gt;
+&lt;h3 id=&quot;business-transactions&quot;&gt;Business Transactions&lt;/h3&gt;
+&lt;p&gt;If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be transferred. We will provide notice before Your Personal Data is transferred and becomes subject to a different Privacy Policy.&lt;/p&gt;
+&lt;h3 id=&quot;law-enforcement&quot;&gt;Law enforcement&lt;/h3&gt;
+&lt;p&gt;Under certain circumstances, the Company may be required to disclose Your Personal Data if required to do so by law or in response to valid requests by public authorities (e.g. a court or a government agency).&lt;/p&gt;
+&lt;h3 id=&quot;other-legal-requirements&quot;&gt;Other legal requirements&lt;/h3&gt;
+&lt;p&gt;The Company may disclose Your Personal Data in the good faith belief that such action is necessary to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Comply with a legal obligation&lt;/li&gt;
+&lt;li&gt;Protect and defend the rights or property of the Company&lt;/li&gt;
+&lt;li&gt;Prevent or investigate possible wrongdoing in connection with the Service&lt;/li&gt;
+&lt;li&gt;Protect the personal safety of Users of the Service or the public&lt;/li&gt;
+&lt;li&gt;Protect against legal liability&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;security-of-your-personal-data&quot;&gt;Security of Your Personal Data&lt;/h2&gt;
+&lt;p&gt;The security of Your Personal Data is important to Us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While We strive to use commercially acceptable means to protect Your Personal Data, We cannot guarantee its absolute security.&lt;/p&gt;
+&lt;h1 id=&quot;detailed-information-on-the-processing-of-your-personal-data&quot;&gt;Detailed Information on the Processing of Your Personal Data&lt;/h1&gt;
+&lt;p&gt;The Service Providers We use may have access to Your Personal Data. These third-party vendors collect, store, use, process and transfer information about Your activity on Our Service in accordance with their Privacy Policies.&lt;/p&gt;
+&lt;h2 id=&quot;email-marketing&quot;&gt;Email Marketing&lt;/h2&gt;
+&lt;p&gt;We may use Your Personal Data to contact You with newsletters, marketing or promotional materials and other information that may be of interest to You. You may opt-out of receiving any, or all, of these communications from Us by following the unsubscribe link or instructions provided in any email We send or by contacting Us.&lt;/p&gt;
+&lt;p&gt;We may use Email Marketing Service Providers to manage and send emails to You.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;GROUPS IO&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://groups.io/static/privacy&quot;&gt;https://groups.io/static/privacy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;payments&quot;&gt;Payments&lt;/h2&gt;
+&lt;p&gt;We may provide paid products and/or services within the Service. In that case, we may use third-party services for payment processing (e.g. payment processors).&lt;/p&gt;
+&lt;p&gt;We will not store or collect Your payment card details. That information is provided directly to Our third-party payment processors whose use of Your personal information is governed by their Privacy Policy. These payment processors adhere to the standards set by PCI-DSS as managed by the PCI Security Standards Council, which is a joint effort of brands like Visa, Mastercard, American Express and Discover. PCI-DSS requirements help ensure the secure handling of payment information.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Apple Store In-App Payments&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.apple.com/legal/privacy/en-ww/&quot;&gt;https://www.apple.com/legal/privacy/en-ww/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Google Play In-App Payments&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.google.com/policies/privacy/&quot;&gt;https://www.google.com/policies/privacy/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Stripe&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://stripe.com/us/privacy&quot;&gt;https://stripe.com/us/privacy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WePay&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://go.wepay.com/privacy-policy&quot;&gt;https://go.wepay.com/privacy-policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WorldPay&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.worldpay.com/en-gb/privacy-policy&quot;&gt;https://www.worldpay.com/en-gb/privacy-policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;PayPal&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.paypal.com/webapps/mpp/ua/privacy-full&quot;&gt;https://www.paypal.com/webapps/mpp/ua/privacy-full&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Braintree&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.braintreepayments.com/legal/braintree-privacy-policy&quot;&gt;https://www.braintreepayments.com/legal/braintree-privacy-policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FastSpring&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;http://fastspring.com/privacy/&quot;&gt;http://fastspring.com/privacy/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Authorize.net&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.authorize.net/company/privacy/&quot;&gt;https://www.authorize.net/company/privacy/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;2Checkout&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.2checkout.com/policies/privacy-policy&quot;&gt;https://www.2checkout.com/policies/privacy-policy&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;WeChat&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://www.wechat.com/en/privacy_policy.html&quot;&gt;https://www.wechat.com/en/privacy_policy.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Alipay&lt;/strong&gt;
+Their Privacy Policy can be viewed at &lt;a href=&quot;https://render.alipay.com/p/f/agreementpages/alipayglobalprivacypolicy.html&quot;&gt;https://render.alipay.com/p/f/agreementpages/alipayglobalprivacypolicy.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When You use Our Service to pay a product and/or service via bank transfer, We may ask You to provide information to facilitate this transaction and to verify Your identity.&lt;/p&gt;
+&lt;h1 id=&quot;gdpr-privacy&quot;&gt;GDPR Privacy&lt;/h1&gt;
+&lt;h2 id=&quot;legal-basis-for-processing-personal-data-under-gdpr&quot;&gt;Legal Basis for Processing Personal Data under GDPR&lt;/h2&gt;
+&lt;p&gt;We may process Personal Data under the following conditions:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Consent:&lt;/strong&gt; You have given Your consent for processing Personal Data for one or more specific purposes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance of a contract:&lt;/strong&gt; Provision of Personal Data is necessary for the performance of an agreement with You and/or for any pre-contractual obligations thereof.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legal obligations:&lt;/strong&gt; Processing Personal Data is necessary for compliance with a legal obligation to which the Company is subject.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Vital interests:&lt;/strong&gt; Processing Personal Data is necessary in order to protect Your vital interests or of another natural person.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Public interests:&lt;/strong&gt; Processing Personal Data is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Company.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Legitimate interests:&lt;/strong&gt; Processing Personal Data is necessary for the purposes of the legitimate interests pursued by the Company.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In any case, the Company will gladly help to clarify the specific legal basis that applies to the processing, and in particular whether the provision of Personal Data is a statutory or contractual requirement, or a requirement necessary to enter into a contract.&lt;/p&gt;
+&lt;h2 id=&quot;your-rights-under-the-gdpr&quot;&gt;Your Rights under the GDPR&lt;/h2&gt;
+&lt;p&gt;The Company undertakes to respect the confidentiality of Your Personal Data and to guarantee You can exercise Your rights.&lt;/p&gt;
+&lt;p&gt;You have the right under this Privacy Policy, and by law if You are within the EU, to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Request access to Your Personal Data.&lt;/strong&gt; The right to access, update or delete the information We have on You. Whenever made possible, you can access, update or request deletion of Your Personal Data directly within Your account settings section. If you are unable to perform these actions yourself, please contact Us to assist You. This also enables You to receive a copy of the Personal Data We hold about You.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Request correction of the Personal Data that We hold about You.&lt;/strong&gt; You have the right to have any incomplete or inaccurate information We hold about You corrected.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object to processing of Your Personal Data.&lt;/strong&gt; This right exists where We are relying on a legitimate interest as the legal basis for Our processing and there is something about Your particular situation, which makes You want to object to our processing of Your Personal Data on this ground. You also have the right to object where We are processing Your Personal Data for direct marketing purposes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Request erasure of Your Personal Data.&lt;/strong&gt; You have the right to ask Us to delete or remove Personal Data when there is no good reason for Us to continue processing it.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Request the transfer of Your Personal Data.&lt;/strong&gt; We will provide to You, or to a third-party You have chosen, Your Personal Data in a structured, commonly used, machine-readable format. Please note that this right only applies to automated information which You initially provided consent for Us to use or where We used the information to perform a contract with You.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Withdraw Your consent.&lt;/strong&gt; You have the right to withdraw Your consent on using your Personal Data. If You withdraw Your consent, We may not be able to provide You with access to certain specific functionalities of the Service.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;exercising-of-your-gdpr-data-protection-rights&quot;&gt;Exercising of Your GDPR Data Protection Rights&lt;/h2&gt;
+&lt;p&gt;You may exercise Your rights of access, rectification, cancellation and opposition by contacting Us. Please note that we may ask You to verify Your identity before responding to such requests. If You make a request, We will try our best to respond to You as soon as possible.&lt;/p&gt;
+&lt;p&gt;You have the right to complain to a Data Protection Authority about Our collection and use of Your Personal Data. For more information, if You are in the European Economic Area (EEA), please contact Your local data protection authority in the EEA.&lt;/p&gt;
+&lt;h1 id=&quot;ccpa-cpra-privacy-notice-california-privacy-rights&quot;&gt;CCPA/CPRA Privacy Notice (California Privacy Rights)&lt;/h1&gt;
+&lt;p&gt;This privacy notice section for California residents supplements the information contained in Our Privacy Policy and it applies solely to all visitors, users, and others who reside in the State of California.&lt;/p&gt;
+&lt;h2 id=&quot;categories-of-personal-information-collected&quot;&gt;Categories of Personal Information Collected&lt;/h2&gt;
+&lt;p&gt;We collect information that identifies, relates to, describes, references, is capable of being associated with, or could reasonably be linked, directly or indirectly, with a particular Consumer or Device. The following is a list of categories of personal information which we may collect or may have been collected from California residents within the last twelve (12) months.&lt;/p&gt;
+&lt;p&gt;Please note that the categories and examples provided in the list below are those defined in the CCPA/CPRA. This does not mean that all examples of that category of personal information were in fact collected by Us, but reflects our good faith belief to the best of Our knowledge that some of that information from the applicable category may be and may have been collected. For example, certain categories of personal information would only be collected if You provided such personal information directly to Us.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Category A: Identifiers.&lt;/strong&gt;
+Examples: A real name, alias, postal address, unique personal identifier, online identifier, Internet Protocol address, email address, account name, driver’s license number, passport number, or other similar identifiers.
+Collected: Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e)).&lt;/strong&gt;
+Examples: A name, signature, Social Security number, physical characteristics or description, address, telephone number, passport number, driver’s license or state identification card number, insurance policy number, education, employment, employment history, bank account number, credit card number, debit card number, or any other financial information, medical information, or health insurance information. Some personal information included in this category may overlap with other categories.
+Collected: Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category C: Protected classification characteristics under California or federal law.&lt;/strong&gt;
+Examples: Age (40 years or older), race, color, ancestry, national origin, citizenship, religion or creed, marital status, medical condition, physical or mental disability, sex (including gender, gender identity, gender expression, pregnancy or childbirth and related medical conditions), sexual orientation, veteran or military status, genetic information (including familial genetic information).
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category D: Commercial information.&lt;/strong&gt;
+Examples: Records and history of products or services purchased or considered.
+Collected: Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category E: Biometric information.&lt;/strong&gt;
+Examples: Genetic, physiological, behavioral, and biological characteristics, or activity patterns used to extract a template or other identifier or identifying information, such as, fingerprints, faceprints, and voiceprints, iris or retina scans, keystroke, gait, or other physical patterns, and sleep, health, or exercise data.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category F: Internet or other similar network activity.&lt;/strong&gt;
+Examples: Interaction with our Service or advertisement.
+Collected: Yes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category G: Geolocation data.&lt;/strong&gt;
+Examples: Approximate physical location.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category H: Sensory data.&lt;/strong&gt;
+Examples: Audio, electronic, visual, thermal, olfactory, or similar information.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category I: Professional or employment-related information.&lt;/strong&gt;
+Examples: Current or past job history or performance evaluations.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category J: Non-public education information (per the Family Educational Rights and Privacy Act (20 U.S.C. Section 1232g, 34 C.F.R. Part 99)).&lt;/strong&gt;
+Examples: Education records directly related to a student maintained by an educational institution or party acting on its behalf, such as grades, transcripts, class lists, student schedules, student identification codes, student financial information, or student disciplinary records.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category K: Inferences drawn from other personal information.&lt;/strong&gt;
+Examples: Profile reflecting a person’s preferences, characteristics, psychological trends, predispositions, behavior, attitudes, intelligence, abilities, and aptitudes.
+Collected: No.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Category L: Sensitive personal information.&lt;/strong&gt;
+Examples: Account login and password information, geolocation data.
+Collected: Yes.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Under CCPA/CPRA, personal information does not include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Publicly available information from government records&lt;/li&gt;
+&lt;li&gt;Deidentified or aggregated consumer information&lt;/li&gt;
+&lt;li&gt;Information excluded from the CCPA/CPRA’s scope, such as:
+&lt;ul&gt;
+&lt;li&gt;Health or medical information covered by the Health Insurance Portability and Accountability Act of 1996 (HIPAA) and the California Confidentiality of Medical Information Act (CMIA) or clinical trial data&lt;/li&gt;
+&lt;li&gt;Personal Information covered by certain sector-specific privacy laws, including the Fair Credit Reporting Act (FRCA), the Gramm-Leach-Bliley Act (GLBA) or California Financial Information Privacy Act (FIPA), and the Driver’s Privacy Protection Act of 1994&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;sources-of-personal-information&quot;&gt;Sources of Personal Information&lt;/h2&gt;
+&lt;p&gt;We obtain the categories of personal information listed above from the following categories of sources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Directly from You&lt;/strong&gt;. For example, from the forms You complete on our Service, preferences You express or provide through our Service, or from Your purchases on our Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Indirectly from You&lt;/strong&gt;. For example, from observing Your activity on our Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automatically from You&lt;/strong&gt;. For example, through cookies We or our Service Providers set on Your Device as You navigate through our Service.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;From Service Providers&lt;/strong&gt;. For example, third-party vendors for payment processing, or other third-party vendors that We use to provide the Service to You.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;use-of-personal-information&quot;&gt;Use of Personal Information&lt;/h2&gt;
+&lt;p&gt;We may use or disclose personal information We collect for “business purposes” or “commercial purposes” (as defined under the CCPA/CPRA), which may include the following examples:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;To operate our Service and provide You with Our Service.&lt;/li&gt;
+&lt;li&gt;To provide You with support and to respond to Your inquiries, including to investigate and address Your concerns and monitor and improve our Service.&lt;/li&gt;
+&lt;li&gt;To fulfill or meet the reason You provided the information. For example, if You share Your contact information to ask a question about our Service, We will use that personal information to respond to Your inquiry. If You provide Your personal information to purchase a product or service, We will use that information to process Your payment and facilitate delivery.&lt;/li&gt;
+&lt;li&gt;To respond to law enforcement requests and as required by applicable law, court order, or governmental regulations.&lt;/li&gt;
+&lt;li&gt;As described to You when collecting Your personal information or as otherwise set forth in the CCPA/CPRA.&lt;/li&gt;
+&lt;li&gt;For internal administrative and auditing purposes.&lt;/li&gt;
+&lt;li&gt;To detect security incidents and protect against malicious, deceptive, fraudulent or illegal activity, including, when necessary, to prosecute those responsible for such activities.&lt;/li&gt;
+&lt;li&gt;Other one-time uses.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that the examples provided above are illustrative and not intended to be exhaustive. For more details on how we use this information, please refer to the “Use of Your Personal Data” section.&lt;/p&gt;
+&lt;p&gt;If We decide to collect additional categories of personal information or use the personal information We collected for materially different, unrelated, or incompatible purposes, We will update this Privacy Policy.&lt;/p&gt;
+&lt;h2 id=&quot;disclosure-of-personal-information&quot;&gt;Disclosure of Personal Information&lt;/h2&gt;
+&lt;p&gt;We may use or disclose and may have used or disclosed in the last twelve (12) months the following categories of personal information for business or commercial purposes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Category A: Identifiers&lt;/li&gt;
+&lt;li&gt;Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e))&lt;/li&gt;
+&lt;li&gt;Category D: Commercial information&lt;/li&gt;
+&lt;li&gt;Category F: Internet or other similar network activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that the categories listed above are those defined in the CCPA/CPRA. This does not mean that all examples of that category of personal information were in fact disclosed, but reflects our good faith belief to the best of our knowledge that some of that information from the applicable category may be and may have been disclosed.&lt;/p&gt;
+&lt;p&gt;When We disclose personal information for a business purpose or a commercial purpose, We enter a contract that describes the purpose and requires the recipient to both keep that personal information confidential and not use it for any purpose except performing the contract.&lt;/p&gt;
+&lt;h2 id=&quot;share-of-personal-information&quot;&gt;Share of Personal Information&lt;/h2&gt;
+&lt;p&gt;We may share, and have shared in the last twelve (12) months, Your personal information identified in the above categories with the following categories of third parties:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Service Providers&lt;/li&gt;
+&lt;li&gt;Payment processors&lt;/li&gt;
+&lt;li&gt;Our affiliates&lt;/li&gt;
+&lt;li&gt;Our business partners&lt;/li&gt;
+&lt;li&gt;Third party vendors to whom You or Your agents authorize Us to disclose Your personal information in connection with products or services We provide to You&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;sale-of-personal-information&quot;&gt;Sale of Personal Information&lt;/h2&gt;
+&lt;p&gt;As defined in the CCPA/CPRA, “sell” and “sale” mean selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer’s personal information by the Business to a third party for valuable consideration. This means that We may have received some kind of benefit in return for sharing personal information, but not necessarily a monetary benefit.&lt;/p&gt;
+&lt;p&gt;We do not sell personal information as the term sell is commonly understood. We do allow Service Providers to use Your personal information for the business purposes described in Our Privacy Policy, and these may be deemed a sale under CCPA/CPRA.&lt;/p&gt;
+&lt;p&gt;We may sell and may have sold in the last twelve (12) months the following categories of personal information:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Category A: Identifiers&lt;/li&gt;
+&lt;li&gt;Category B: Personal information categories listed in the California Customer Records statute (Cal. Civ. Code § 1798.80(e))&lt;/li&gt;
+&lt;li&gt;Category D: Commercial information&lt;/li&gt;
+&lt;li&gt;Category F: Internet or other similar network activity&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Please note that the categories listed above are those defined in the CCPA/CPRA. This does not mean that all examples of that category of personal information were in fact sold, but reflects our good faith belief to the best of Our knowledge that some of that information from the applicable category may be and may have been shared for value in return.&lt;/p&gt;
+&lt;h2 id=&quot;sale-of-personal-information-of-minors-under-16-years-of-age&quot;&gt;Sale of Personal Information of Minors Under 16 Years of Age&lt;/h2&gt;
+&lt;p&gt;We do not knowingly collect personal information from minors under the age of 16 through our Service, although certain third party websites that we link to may do so. These third-party websites have their own terms of use and privacy policies and We encourage parents and legal guardians to monitor their children’s Internet usage and instruct their children to never provide information on other websites without their permission.&lt;/p&gt;
+&lt;p&gt;We do not sell the personal information of Consumers We actually know are less than 16 years of age, unless We receive affirmative authorization (the “right to opt-in”) from either the Consumer who is between 13 and 16 years of age, or the parent or guardian of a Consumer less than 13 years of age. Consumers who opt-in to the sale of personal information may opt-out of future sales at any time. To exercise the right to opt-out, You (or Your authorized representative) may submit a request to Us by contacting Us.&lt;/p&gt;
+&lt;p&gt;If You have reason to believe that a child under the age of 13 (or 16) has provided Us with personal information, please contact Us with sufficient detail to enable Us to delete that information.&lt;/p&gt;
+&lt;h2 id=&quot;your-rights-under-the-ccpa-cpra&quot;&gt;Your Rights under the CCPA/CPRA&lt;/h2&gt;
+&lt;p&gt;The CCPA/CPRA provides California residents with specific rights regarding their personal information. If You are a resident of California, You have the following rights:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;The right to notice.&lt;/strong&gt; You have the right to be notified which categories of Personal Data are being collected and the purposes for which the Personal Data is being used.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right to know/access.&lt;/strong&gt; Under CCPA/CPRA, You have the right to request that We disclose information to You about Our collection, use, sale, disclosure for business purposes and share of personal information. Once We receive and confirm Your request, We will disclose to You:
+&lt;ul&gt;
+&lt;li&gt;The categories of personal information We collected about You&lt;/li&gt;
+&lt;li&gt;The categories of sources for the personal information We collected about You&lt;/li&gt;
+&lt;li&gt;Our business or commercial purposes for collecting or selling that personal information&lt;/li&gt;
+&lt;li&gt;The categories of third parties with whom We share that personal information&lt;/li&gt;
+&lt;li&gt;The specific pieces of personal information We collected about You&lt;/li&gt;
+&lt;li&gt;If we sold Your personal information or disclosed Your personal information for a business purpose, We will disclose to You:
+&lt;ul&gt;
+&lt;li&gt;The categories of personal information categories sold&lt;/li&gt;
+&lt;li&gt;The categories of personal information categories disclosed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right to say no to the sale or sharing of Personal Data (opt-out).&lt;/strong&gt; You have the right to direct Us to not sell Your personal information. To submit an opt-out request, please see the “Do Not Sell My Personal Information” section or contact Us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right to correct Personal Data.&lt;/strong&gt; You have the right to correct or rectify any inaccurate personal information about You that We collected. Once We receive and confirm Your request, We will use commercially reasonable efforts to correct (and direct our Service Providers to correct) Your personal information, unless an exception applies.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right to limit use and disclosure of sensitive Personal Data.&lt;/strong&gt; You have the right to request to limit the use or disclosure of certain sensitive personal information We collected about You, unless an exception applies. To submit, please see the “Limit the Use or Disclosure of My Sensitive Personal Information” section or contact Us.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right to delete Personal Data.&lt;/strong&gt; You have the right to request the deletion of Your Personal Data under certain circumstances, subject to certain exceptions. Once We receive and confirm Your request, We will delete (and direct Our Service Providers to delete) Your personal information from our records, unless an exception applies. We may deny Your deletion request if retaining the information is necessary for Us or Our Service Providers to:
+&lt;ul&gt;
+&lt;li&gt;Complete the transaction for which We collected the personal information, provide a good or service that You requested, take actions reasonably anticipated within the context of our ongoing business relationship with You, or otherwise perform our contract with You.&lt;/li&gt;
+&lt;li&gt;Detect security incidents, protect against malicious, deceptive, fraudulent, or illegal activity, or prosecute those responsible for such activities.&lt;/li&gt;
+&lt;li&gt;Debug products to identify and repair errors that impair existing intended functionality.&lt;/li&gt;
+&lt;li&gt;Exercise free speech, ensure the right of another consumer to exercise their free speech rights, or exercise another right provided for by law.&lt;/li&gt;
+&lt;li&gt;Comply with the California Electronic Communications Privacy Act (Cal. Penal Code § 1546 et. seq.).&lt;/li&gt;
+&lt;li&gt;Engage in public or peer-reviewed scientific, historical, or statistical research in the public interest that adheres to all other applicable ethics and privacy laws, when the information’s deletion may likely render impossible or seriously impair the research’s achievement, if You previously provided informed consent.&lt;/li&gt;
+&lt;li&gt;Enable solely internal uses that are reasonably aligned with consumer expectations based on Your relationship with Us.&lt;/li&gt;
+&lt;li&gt;Comply with a legal obligation.&lt;/li&gt;
+&lt;li&gt;Make other internal and lawful uses of that information that are compatible with the context in which You provided it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;The right not to be discriminated against.&lt;/strong&gt; You have the right not to be discriminated against for exercising any of Your consumer’s rights, including by:
+&lt;ul&gt;
+&lt;li&gt;Denying goods or services to You&lt;/li&gt;
+&lt;li&gt;Charging different prices or rates for goods or services, including the use of discounts or other benefits or imposing penalties&lt;/li&gt;
+&lt;li&gt;Providing a different level or quality of goods or services to You&lt;/li&gt;
+&lt;li&gt;Suggesting that You will receive a different price or rate for goods or services or a different level or quality of goods or services&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;exercising-your-ccpa-cpra-data-protection-rights&quot;&gt;Exercising Your CCPA/CPRA Data Protection Rights&lt;/h2&gt;
+&lt;p&gt;Please see the “Do Not Sell My Personal Information” section and “Limit the Use or Disclosure of My Sensitive Personal Information” section for more information on how to opt out and limit the use of sensitive information collected.&lt;/p&gt;
+&lt;p&gt;Additionally, in order to exercise any of Your rights under the CCPA/CPRA, and if You are a California resident, You can contact Us:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By email: KingettWebsite@weirdwriter.anonaddy.com&lt;/li&gt;
+&lt;li&gt;By visiting this page on our website: &lt;a href=&quot;https://robertkingett.com/contact/&quot;&gt;https://robertkingett.com/contact/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;By mail: 1321 UPLAND DR PMB 17504 HOUSTON, TX 77043-4718&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Only You, or a person registered with the California Secretary of State that You authorize to act on Your behalf, may make a verifiable request related to Your personal information.&lt;/p&gt;
+&lt;p&gt;Your request to Us must:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Provide sufficient information that allows Us to reasonably verify You are the person about whom We collected personal information or an authorized representative&lt;/li&gt;
+&lt;li&gt;Describe Your request with sufficient detail that allows Us to properly understand, evaluate, and respond to it&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We cannot respond to Your request or provide You with the required information if We cannot:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verify Your identity or authority to make the request&lt;/li&gt;
+&lt;li&gt;And confirm that the personal information relates to You&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will disclose and deliver the required information free of charge within 45 days of receiving Your verifiable request. The time period to provide the required information may be extended once by an additional 45 days when reasonably necessary and with prior notice.&lt;/p&gt;
+&lt;p&gt;Any disclosures We provide will only cover the 12-month period preceding the verifiable request’s receipt.&lt;/p&gt;
+&lt;p&gt;For data portability requests, We will select a format to provide Your personal information that is readily usable and should allow You to transmit the information from one entity to another entity without hindrance.&lt;/p&gt;
+&lt;h2 id=&quot;do-not-sell-my-personal-information&quot;&gt;Do Not Sell My Personal Information&lt;/h2&gt;
+&lt;p&gt;As defined in the CCPA/CPRA, “sell” and “sale” mean selling, renting, releasing, disclosing, disseminating, making available, transferring, or otherwise communicating orally, in writing, or by electronic or other means, a Consumer’s personal information by the Business to a third party for valuable consideration. This means that We may have received some kind of benefit in return for sharing personal information, but not necessarily a monetary benefit.&lt;/p&gt;
+&lt;p&gt;We do not sell personal information as the term sell is commonly understood. We do allow Service Providers to use Your personal information for the business purposes described in Our Privacy Policy, and these may be deemed a sale under CCPA/CPRA.&lt;/p&gt;
+&lt;p&gt;You have the right to opt-out of the sale of Your personal information. Once We receive and confirm a verifiable consumer request from You, we will stop selling Your personal information. To exercise Your right to opt-out, please contact Us.&lt;/p&gt;
+&lt;h2 id=&quot;limit-the-use-or-disclosure-of-my-sensitive-personal-information&quot;&gt;Limit the Use or Disclosure of My Sensitive Personal Information&lt;/h2&gt;
+&lt;p&gt;If You are a California resident, You have the right to limit the use and disclosure of Your sensitive personal information to that use which is necessary to perform the services or provide the goods reasonably expected by an average consumer who requests such services or goods.&lt;/p&gt;
+&lt;p&gt;We collect, use and disclose sensitive personal information in ways that are necessary to provide the Service. For more information on how We use Your personal information, please see the “Use of Your Personal Data” section or contact us.&lt;/p&gt;
+&lt;h1 id=&quot;do-not-track-policy-as-required-by-california-online-privacy-protection-act-caloppa&quot;&gt;“Do Not Track” Policy as Required by California Online Privacy Protection Act (CalOPPA)&lt;/h1&gt;
+&lt;p&gt;Our Service does not respond to Do Not Track signals.&lt;/p&gt;
+&lt;p&gt;However, some third party websites do keep track of Your browsing activities. If You are visiting such websites, You can set Your preferences in Your web browser to inform websites that You do not want to be tracked. You can enable or disable DNT by visiting the preferences or settings page of Your web browser.&lt;/p&gt;
+&lt;h1 id=&quot;your-california-privacy-rights-california-s-shine-the-light-law&quot;&gt;Your California Privacy Rights (California’s Shine the Light law)&lt;/h1&gt;
+&lt;p&gt;Under California Civil Code Section 1798 (California’s Shine the Light law), California residents with an established business relationship with us can request information once a year about sharing their Personal Data with third parties for the third parties’ direct marketing purposes.&lt;/p&gt;
+&lt;p&gt;If you’d like to request more information under the California Shine the Light law, and if You are a California resident, You can contact Us using the contact information provided below.&lt;/p&gt;
+&lt;h1 id=&quot;california-privacy-rights-for-minor-users-california-business-and-professions-code-section-22581&quot;&gt;California Privacy Rights for Minor Users (California Business and Professions Code Section 22581)&lt;/h1&gt;
+&lt;p&gt;California Business and Professions Code Section 22581 allows California residents under the age of 18 who are registered users of online sites, services or applications to request and obtain removal of content or information they have publicly posted.&lt;/p&gt;
+&lt;p&gt;To request removal of such data, and if You are a California resident, You can contact Us using the contact information provided below, and include the email address associated with Your account.&lt;/p&gt;
+&lt;p&gt;Be aware that Your request does not guarantee complete or comprehensive removal of content or information posted online and that the law may not permit or require removal in certain circumstances.&lt;/p&gt;
+&lt;h1 id=&quot;children-s-privacy&quot;&gt;Children’s Privacy&lt;/h1&gt;
+&lt;p&gt;Our Service does not address anyone under the age of 13. We do not knowingly collect personally identifiable information from anyone under the age of 13. If You are a parent or guardian and You are aware that Your child has provided Us with Personal Data, please contact Us. If We become aware that We have collected Personal Data from anyone under the age of 13 without verification of parental consent, We take steps to remove that information from Our servers.&lt;/p&gt;
+&lt;p&gt;If We need to rely on consent as a legal basis for processing Your information and Your country requires consent from a parent, We may require Your parent’s consent before We collect and use that information.&lt;/p&gt;
+&lt;h1 id=&quot;links-to-other-websites&quot;&gt;Links to Other Websites&lt;/h1&gt;
+&lt;p&gt;Our Service may contain links to other websites that are not operated by Us. If You click on a third party link, You will be directed to that third party’s site. We strongly advise You to review the Privacy Policy of every site You visit.&lt;/p&gt;
+&lt;p&gt;We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.&lt;/p&gt;
+&lt;h1 id=&quot;changes-to-this-privacy-policy&quot;&gt;Changes to this Privacy Policy&lt;/h1&gt;
+&lt;p&gt;We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.&lt;/p&gt;
+&lt;p&gt;We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the “Last updated” date at the top of this Privacy Policy.&lt;/p&gt;
+&lt;p&gt;You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.&lt;/p&gt;
+&lt;h1 id=&quot;contact-us&quot;&gt;Contact Us&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Privacy Policy, You can contact us:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By email: KingettWebsite@weirdwriter.anonaddy.com&lt;/li&gt;
+&lt;li&gt;By visiting this page on our website: &lt;a href=&quot;https://robertkingett.com/contact/&quot;&gt;https://robertkingett.com/contact/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;By mail: 1321 UPLAND DR PMB 17504 HOUSTON, TX 77043-4718&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;disclaimer&quot;&gt;Disclaimer&lt;/h1&gt;
+&lt;h1 id=&quot;interpretation-and-definitions-2&quot;&gt;Interpretation and Definitions&lt;/h1&gt;
+&lt;h2 id=&quot;interpretation-2&quot;&gt;Interpretation&lt;/h2&gt;
+&lt;p&gt;The words of which the initial letter is capitalized have meanings defined under the following conditions.&lt;br&gt;
+The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.&lt;/p&gt;
+&lt;h2 id=&quot;definitions-2&quot;&gt;Definitions&lt;/h2&gt;
+&lt;p&gt;For the purposes of this Disclaimer:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Company&lt;/strong&gt; (referred to as either “the Company”, “We”, “Us” or “Our” in this Disclaimer) refers to Robert Kingett.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Service&lt;/strong&gt; refers to the Website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;You&lt;/strong&gt; means the individual accessing the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Website&lt;/strong&gt; refers to Robert Kingett, accessible from &lt;a href=&quot;https://robertkingett.com/&quot;&gt;https://robertkingett.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;disclaimer-2&quot;&gt;Disclaimer&lt;/h1&gt;
+&lt;p&gt;The information contained on the Service is for general information purposes only.&lt;/p&gt;
+&lt;p&gt;The Company assumes no responsibility for errors or omissions in the contents of the Service.&lt;/p&gt;
+&lt;p&gt;In no event shall the Company be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service. The Company reserves the right to make additions, deletions, or modifications to the contents on the Service at any time without prior notice.&lt;/p&gt;
+&lt;p&gt;The Company does not warrant that the Service is free of viruses or other harmful components.&lt;/p&gt;
+&lt;h1 id=&quot;ftc-affiliate-disclaimer&quot;&gt;FTC Affiliate Disclaimer&lt;/h1&gt;
+&lt;p&gt;The disclosure that follows is intended to fully comply with the Federal Trade Commission’s policy of the United States that requires the Company to be transparent about any and all affiliate relations the Company may have on the Service.&lt;/p&gt;
+&lt;p&gt;You should assume that some of the links are “affiliate links”, a link with a special tracking code.&lt;/p&gt;
+&lt;p&gt;This means that if You click on an affiliate link and purchase the item, the Company may receive an affiliate commission. This is a legitimate way to monetize and pay for the operation of the Service and the Company gladly reveal its affiliate relationships to You.&lt;/p&gt;
+&lt;p&gt;The price of the item is the same whether it is an affiliate link or not. Regardless, the Company only recommends products or services the Company believes will add value to users.&lt;/p&gt;
+&lt;p&gt;Affiliate advertising programs that the Service uses are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Amazon Services LLC Associates Program
+As an Amazon Associate, I earn from qualifying purchases.
+The Company is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com or endless.com, MYHABIT.com, SmallParts.com, or AmazonWireless.com.
+Pages on this Service may include affiliate links to Amazon and its affiliate sites on which the owner of this Service, Robert Kingett, will make a referral commission.&lt;/li&gt;
+&lt;li&gt;iDevAffiliate&lt;/li&gt;
+&lt;li&gt;ShareASale&lt;/li&gt;
+&lt;li&gt;ClickBank&lt;/li&gt;
+&lt;li&gt;ClickFunnels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;external-links-disclaimer&quot;&gt;External Links Disclaimer&lt;/h1&gt;
+&lt;p&gt;The Service may contain links to external websites that are not provided or maintained by or in any way affiliated with the Company.&lt;/p&gt;
+&lt;p&gt;Please note that the Company does not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.&lt;/p&gt;
+&lt;h1 id=&quot;errors-and-omissions-disclaimer&quot;&gt;Errors and Omissions Disclaimer&lt;/h1&gt;
+&lt;p&gt;The information given by the Service is for general guidance on matters of interest only. Even if the Company takes every precaution to ensure that the content of the Service is both current and accurate, errors can occur. Plus, given the changing nature of laws, rules and regulations, there may be delays, omissions or inaccuracies in the information contained on the Service.&lt;/p&gt;
+&lt;p&gt;The Company is not responsible for any errors or omissions, or for the results obtained from the use of this information.&lt;/p&gt;
+&lt;h1 id=&quot;fair-use-disclaimer&quot;&gt;Fair Use Disclaimer&lt;/h1&gt;
+&lt;p&gt;The Company may use copyrighted material which has not always been specifically authorized by the copyright owner. The Company is making such material available for criticism, comment, news reporting, teaching, scholarship, or research.&lt;/p&gt;
+&lt;p&gt;The Company believes this constitutes a “fair use” of any such copyrighted material as provided for in section 107 of the United States Copyright law.&lt;/p&gt;
+&lt;p&gt;If You wish to use copyrighted material from the Service for your own purposes that go beyond fair use, You must obtain permission from the copyright owner.&lt;/p&gt;
+&lt;h1 id=&quot;views-expressed-disclaimer&quot;&gt;Views Expressed Disclaimer&lt;/h1&gt;
+&lt;p&gt;The Service may contain views and opinions which are those of the authors and do not necessarily reflect the official policy or position of any other author, agency, organization, employer or company, including the Company.&lt;/p&gt;
+&lt;p&gt;Comments published by users are their sole responsibility and the users will take full responsibility, liability and blame for any libel or litigation that results from something written in or as a direct result of something written in a comment. The Company is not liable for any comment published by users and reserves the right to delete any comment for any reason whatsoever.&lt;/p&gt;
+&lt;h1 id=&quot;no-responsibility-disclaimer&quot;&gt;No Responsibility Disclaimer&lt;/h1&gt;
+&lt;p&gt;The information on the Service is provided with the understanding that the Company is not herein engaged in rendering legal, accounting, tax, or other professional advice and services. As such, it should not be used as a substitute for consultation with professional accounting, tax, legal or other competent advisers.&lt;/p&gt;
+&lt;p&gt;In no event shall the Company or its suppliers be liable for any special, incidental, indirect, or consequential damages whatsoever arising out of or in connection with your access or use or inability to access or use the Service.&lt;/p&gt;
+&lt;h1 id=&quot;use-at-your-own-risk-disclaimer&quot;&gt;“Use at Your Own Risk” Disclaimer&lt;/h1&gt;
+&lt;p&gt;All information in the Service is provided “as is”, with no guarantee of completeness, accuracy, timeliness or of the results obtained from the use of this information, and without warranty of any kind, express or implied, including, but not limited to warranties of performance, merchantability and fitness for a particular purpose.&lt;/p&gt;
+&lt;p&gt;The Company will not be liable to You or anyone else for any decision made or action taken in reliance on the information given by the Service or for any consequential, special or similar damages, even if advised of the possibility of such damages.&lt;/p&gt;
+&lt;h1 id=&quot;contact-us-2&quot;&gt;Contact Us&lt;/h1&gt;
+&lt;p&gt;If you have any questions about this Disclaimer, You can contact Us:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;By visiting this page on our website: &lt;a href=&quot;https://robertkingett.com/contact/&quot;&gt;https://robertkingett.com/contact/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;By mail: 1321 UPLAND DR PMB 17504 HOUSTON, TX 77043-4718&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
     <title>Recent posts</title>
     <link href="/myblog/posts/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/posts/</id>
     <content type="html">&lt;h1 id=&quot;post-archive&quot;&gt;Post Archive&lt;/h1&gt;
 &lt;ul reversed=&quot;&quot; class=&quot;postlist&quot;&gt;
@@ -621,23 +1106,368 @@
   <entry>
     <title>Site Map</title>
     <link href="/myblog/map/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/map/</id>
     <content type="html">&lt;p&gt;TODO&lt;/p&gt;
+&lt;p&gt;Pages, not posts, and tags&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/2808/&quot;&gt;Off the Grid: Living Blind Without the Internet&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4516/&quot;&gt;I wrote a letter to the judge that banned LGBT flash fiction.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4713/&quot;&gt;On the Attack Helicopter story by Isabel Fall&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4820/&quot;&gt;We should rehabilitate, not execute.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4788/&quot;&gt;Chicken Soup for the Soul: Making Me Time&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4889/&quot;&gt;The #OwnVoices Conundrum&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5067/&quot;&gt;Cancel culture hurts diversity&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5139/&quot;&gt;Submission accessibility guide for literary agents and editors.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5157/&quot;&gt;Stereotypes deserve representation too&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5186/&quot;&gt;Where Home is Not Safe&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5256/&quot;&gt;Blind submissions exclude diversity.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5273/&quot;&gt;Tools for Disabled writers&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/4305/&quot;&gt;Artificial Divide&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5295/&quot;&gt;Disability is not a bad word&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5299/&quot;&gt;Stock signings help me as a Disabled author.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5328/&quot;&gt;Different Literary Activism&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5350/&quot;&gt;How to support writers without buying books&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5390/&quot;&gt;Spoilers could empower readers&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5419/&quot;&gt;Online pitch events help writers and readers.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5519/&quot;&gt;How self descriptions benefit Blind and sighted.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5541/&quot;&gt;Updates only and author harassment&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5619/&quot;&gt;Fediverse for writers/readers.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5642/&quot;&gt;Why I read banned books.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5651/&quot;&gt;Mortified appearances&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5655/&quot;&gt;About me in my own words.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5677/&quot;&gt;I Forget You’re Blind.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5694/&quot;&gt;How plain language books increase readership&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5715/&quot;&gt;Falling into romance writing.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5732/&quot;&gt;Some tips for Blind Audio Description writers&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5776/&quot;&gt;Using indie publishers with a literary agent.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5805/&quot;&gt;Books to understand me.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5819/&quot;&gt;Writing to prisoners as a blind man.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5825/&quot;&gt;How to appreciate humans&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5836/&quot;&gt;Journalism and essays.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5913/&quot;&gt;How to write a radio script in Fountain&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5919/&quot;&gt;Thank you Romance writers&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5926/&quot;&gt;How to convert Markdown to Shun manuscript format&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5949/&quot;&gt;AI might break the internet.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5958/&quot;&gt;I participated in the 2023 writers strike.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/5972/&quot;&gt;Against Disability education&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6081/&quot;&gt;Sensitivity reading to beat writers block&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6121/&quot;&gt;My plain text workflow as a fiction writer.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6141/&quot;&gt;PEN America Writers Emergency Fund&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6158/&quot;&gt;Refuge in blogs and the IndieWeb&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6180/&quot;&gt;Why I love Insta-Love Romances.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6182/&quot;&gt;Making my own writers retreat with a travel agent.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6185/&quot;&gt;Why are writers competitive anyway?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6213/&quot;&gt;Reading loudly is resistance.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6230/&quot;&gt;AI is going great for the blind.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6259/&quot;&gt;Giving PeerTube a shot for podcast publishing.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6264/&quot;&gt;I Want More Awkward in Romance Books.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6282/&quot;&gt;MABVI has a free Aira alternative.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6331/&quot;&gt;Pointy Chances&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6348/&quot;&gt;Diversity, disability, determination&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6351/&quot;&gt;Author visit details.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6358/&quot;&gt;Library spotlight: Queer Liberation Library.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6380/&quot;&gt;A Deserving Conference&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6383/&quot;&gt;Why I fear success and hype.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6408/&quot;&gt;Instead of comments, reply to me.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6421/&quot;&gt;Replacing apps for websites&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6429/&quot;&gt;Appreciating spelling and grammar mistakes as a writer and reader.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6437/&quot;&gt;We need less objective journalism&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6481/&quot;&gt;Artificial Divide Buzz&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6493/&quot;&gt;How to sync Lire with Miniflux&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6502/&quot;&gt;We need bad representation in books.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6510/&quot;&gt;Finally, there’s a comic book store for the blind.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6514/&quot;&gt;Introducing the BOOK&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6517/&quot;&gt;How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6522/&quot;&gt;Pass the Salt&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6525/&quot;&gt;Two new books to buy from me.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6529/&quot;&gt;Getting started with static site generators with a screen reader.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6540/&quot;&gt;Royalty statement 2023&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6552/&quot;&gt;Maybe we should SMS again.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6555/&quot;&gt;All 2023 highlights.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6564/&quot;&gt;Gig publishing is clogging up the indie publishing space.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6567/&quot;&gt;On TTS audio description&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6575/&quot;&gt;The best serial fiction platform is your website&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6582/&quot;&gt;Popular Facebook posts.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6593/&quot;&gt;I Will Luddite AI&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6603/&quot;&gt;Fiction podcasts with Disabled characters.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6613/&quot;&gt;Why I left Patreon.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6617/&quot;&gt;Combating Access Trauma.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6625/&quot;&gt;Trunk Writing&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6627/&quot;&gt;A Friend Used AI to Wish me Happy Birthday.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6642/&quot;&gt;Thomas Was Alone PS3 review.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6644/&quot;&gt;Nihilumbra Review (PC)&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6646/&quot;&gt;Hexodius [Xbox 360 Review]&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6655/&quot;&gt;6 anthologies by Disabled authors.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6662/&quot;&gt;So you want to be my pen pal?&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/6682/&quot;&gt;Anti-tech and alternative media.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/ad/&quot;&gt;Audio Description work.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/archive/&quot;&gt;Archive by categories and formats.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/audio/&quot;&gt;Audio and video.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/bio/&quot;&gt;About Robert Kingett&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/books/&quot;&gt;books and anthologies&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/calendar/&quot;&gt;Upcoming events.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/contact/&quot;&gt;Contact and book&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/events/&quot;&gt;Events overview&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/follow/&quot;&gt;Subscribe&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/feed.xml&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/links/&quot;&gt;Linkage and resources&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/map/&quot;&gt;Site Map&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/&quot;&gt;Recent posts&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/privacy/&quot;&gt;Privacy, disclaimers, disclosures.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/reading/&quot;&gt;Authenticity editing&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/requirements/&quot;&gt;In person appearance requirements&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/resume/&quot;&gt;Resume&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/shorts/&quot;&gt;Short works.&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/support/&quot;&gt;Support me&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/posts/tags/&quot;&gt;Tags&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/team/&quot;&gt;Beta readers and Street team information&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/tech/&quot;&gt;Accessibility work&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&quot;https://robertkingett.netlify.app/myblog/writings/&quot;&gt;Writing portfolio&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 </content>
   </entry>
   <entry>
     <title>Linkage and resources</title>
     <link href="/myblog/links/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/links/</id>
-    <content type="html">&lt;p&gt;TODO&lt;/p&gt;
+    <content type="html">&lt;p&gt;This page has moved to &lt;a href=&quot;https://kingettlinks.bearblog.dev/&quot;&gt;https://kingettlinks.bearblog.dev/&lt;/a&gt;&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title></title>
     <link href="/myblog/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/</id>
     <content type="html">&lt;h1 id=&quot;latest-3-posts&quot;&gt;
 # Latest 3 Posts
@@ -658,7 +1488,7 @@
   <entry>
     <title></title>
     <link href="/myblog/feed.xml" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/feed.xml</id>
     <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;?xml-stylesheet href=&quot;/feed/pretty-atom-feed.xsl&quot; type=&quot;text/xsl&quot;?&gt;
 &lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot; xml:lang=&quot;en&quot;&gt;
@@ -666,7 +1496,7 @@
   &lt;subtitle&gt;A fabulously gay blind author.&lt;/subtitle&gt;
   &lt;link href=&quot;https://robertkingett.netlify.app/myblog/feed.xml&quot; rel=&quot;self&quot; /&gt;
   &lt;link href=&quot;https://robertkingett.netlify.app/myblog/&quot; /&gt;
-  &lt;updated&gt;2025-02-15T02:23:21Z&lt;/updated&gt;
+  &lt;updated&gt;2025-02-15T02:35:12Z&lt;/updated&gt;
   &lt;id&gt;https://robertkingett.netlify.app/myblog/&lt;/id&gt;
   &lt;author&gt;
     &lt;name&gt;Robert Kingett&lt;/name&gt;
@@ -678,7 +1508,7 @@
   <entry>
     <title>Subscribe</title>
     <link href="/myblog/follow/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/follow/</id>
     <content type="html">&lt;p&gt;You can subscribe by RSS or by email, and you can join my street team and otherwise below. You can learn about my street team and beta list via the headings below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join the beta and street team list here&lt;/a&gt;&lt;/p&gt;
@@ -745,7 +1575,7 @@
   <entry>
     <title>Events overview</title>
     <link href="/myblog/events/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/events/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.allamericanspeakers.com/speakers/385815/Robert-Kingett#Booknow&quot;&gt;Book me for your event&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This page holds links to learn about visits as well as watch presentations and keep up with future events.&lt;/p&gt;
@@ -770,7 +1600,7 @@
   <entry>
     <title>Contact and book</title>
     <link href="/myblog/contact/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/contact/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/subscribe&quot;&gt;Subscribe to updates.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:KingettWebsite@weirdwriter.anonaddy.com?subject=Contact%20request%20from%20website&quot;&gt;Email, KingettWebsite@weirdwriter.anonaddy.com&lt;/a&gt;&lt;/p&gt;
@@ -791,7 +1621,7 @@
   <entry>
     <title>Upcoming events.</title>
     <link href="/myblog/calendar/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/calendar/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/category/events/&quot;&gt;View past events&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Find all upcoming events below.&lt;/p&gt;
@@ -802,7 +1632,7 @@
   <entry>
     <title>books and anthologies</title>
     <link href="/myblog/books/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/books/</id>
     <content type="html">&lt;p&gt;The books listed below are organized from newest, at the top, to oldest, at the bottom.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;Read shorter works.&lt;/a&gt;&lt;/p&gt;
@@ -841,7 +1671,7 @@
   <entry>
     <title>About Robert Kingett</title>
     <link href="/myblog/bio/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/bio/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/subscribe&quot;&gt;Subscribe to updates.&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -894,7 +1724,7 @@
   <entry>
     <title>Audio and video.</title>
     <link href="/myblog/audio/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/audio/</id>
     <content type="html">&lt;p&gt;Below, you can find all of my event recordings and work in audio, both fiction and nonfiction organized by date published.&lt;/p&gt;
 &lt;p&gt;Want print versions instead? &lt;a href=&quot;/myblog/books&quot;&gt;Buy print books/anthologies&lt;/a&gt; or &lt;a href=&quot;/myblog/shorts&quot;&gt;read my short fiction.&lt;/a&gt;&lt;/p&gt;
@@ -924,15 +1754,16 @@
   <entry>
     <title>Archive by categories and formats.</title>
     <link href="/myblog/archive/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/archive/</id>
     <content type="html">&lt;p&gt;todo&lt;/p&gt;
+&lt;p&gt;Tag List&lt;/p&gt;
 </content>
   </entry>
   <entry>
     <title>Audio Description work.</title>
     <link href="/myblog/ad/" />
-    <updated>2025-02-15T02:23:10Z</updated>
+    <updated>2025-02-15T02:34:57Z</updated>
     <id>/myblog/ad/</id>
     <content type="html">&lt;p&gt;I wrote audio description for a wide array of media.&lt;/p&gt;
 &lt;h2 id=&quot;ad-updates&quot;&gt;AD updates.&lt;/h2&gt;
