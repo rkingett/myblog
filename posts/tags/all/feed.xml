@@ -4,7 +4,7 @@
   <subtitle>A fabulously gay blind author.</subtitle>
   <link href="https://robertkingett.netlify.app/myblog/posts/tags/all/feed.xml" rel="self" />
   <link href="https://robertkingett.netlify.app/myblog/" />
-  <updated>2025-02-15T02:34:57Z</updated>
+  <updated>2025-02-15T03:07:06Z</updated>
   <id>https://robertkingett.netlify.app/myblog/</id>
   <author>
     <name>Robert Kingett</name>
@@ -13,15 +13,15 @@
   <entry>
     <title>Writing portfolio</title>
     <link href="/myblog/writings/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/writings/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/team&quot;&gt;Beta readers or Street team information&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’m an accomplished &lt;a href=&quot;/myblog/books&quot;&gt;author,&lt;/a&gt; with &lt;a href=&quot;/myblog/resume&quot;&gt;experience in many different arenas of publishing.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Favorite fiction and nonfiction is on the highlights section of this page below but &lt;a href=&quot;https://robertkingett.com/posts/category/highlights/publishing/&quot;&gt;you can read publishing highlights here.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Favorite fiction and nonfiction is on the highlights section of this page below but &lt;a href=&quot;/myblog/posts/tags/publishing-or-writing-highlights&quot;&gt;you can read publishing highlights here.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;View audio or video.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/events&quot;&gt;Events information.&lt;/a&gt;&lt;/p&gt;
 &lt;h1 id=&quot;find-my-work&quot;&gt;Find my work.&lt;/h1&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;See all my writing&lt;/a&gt; or filter below. Highlights are further down the page but &lt;a href=&quot;https://robertkingett.com/posts/category/highlights/publishing/&quot;&gt;writing roundups can be found here,&lt;/a&gt; highlighting my publishing news.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;See all my writing&lt;/a&gt; or filter below. Highlights are further down the page but &lt;a href=&quot;/myblog/posts/tags/publishing-or-writing-highlights&quot;&gt;writing roundups can be found here,&lt;/a&gt; highlighting my publishing news.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;subscribe/&quot;&gt;Subscribe to updates by email or RSS.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;archive/&quot;&gt;Filter by format and categories.&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -30,7 +30,7 @@
 &lt;li&gt;&lt;a href=&quot;/myblog/shorts&quot;&gt;Short works.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;Audiobooks and event recordings.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/myblog/posts/tag/drm-free/&quot;&gt;Buy my DRM free work&lt;/a&gt; or &lt;a href=&quot;/myblog/posts/tag/creative-commons/&quot;&gt;Buy work under a Creative Commons license.&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://robertkingett.com/posts/category/blog/&quot;&gt;blog and journal.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/myblog/posts/tags/blog-and-journal&quot;&gt;blog and journal.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&quot;/myblog/ad&quot;&gt;Audio Description work.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&quot;writing-highlights&quot;&gt;Writing highlights&lt;/h2&gt;
@@ -62,12 +62,12 @@
   <entry>
     <title>Accessibility work</title>
     <link href="/myblog/tech/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/tech/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://calendly.com/weirdwriter/60min?back=1&quot;&gt;Schedule an initial meeting.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I am an expert screen reader user who has both advocated and consulted for companies making their services or products accessible.&lt;/p&gt;
 &lt;p&gt;I do extensive accessibility and usability testing. There’s a wide array of computer needs out there. Just because something is accessible does not mean everybody can use it without confusion. I take both into account when a company asks me to test for them.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/posts/category/highlights/consulting/&quot;&gt;Advocacy portfolio.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/accessibility-and-consulting-highlights&quot;&gt;Advocacy portfolio.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;expert-accessibility-witness&quot;&gt;Expert accessibility witness.&lt;/h2&gt;
 &lt;p&gt;I am often asked to contract with many lawyers and law firms to become an expert witness for accessibility related cases. Below are the firms and individuals I contract with regularly.&lt;/p&gt;
 &lt;p&gt;I’ve helped win many cases without going to trial.&lt;/p&gt;
@@ -90,7 +90,7 @@
   <entry>
     <title>Beta readers and Street team information</title>
     <link href="/myblog/team/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/team/</id>
     <content type="html">&lt;p&gt;Here, you can join my beta readers team or my street team.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join the beta list here&lt;/a&gt;&lt;/p&gt;
@@ -103,7 +103,7 @@
 &lt;li&gt;Advanced reader copies and advanced listener copies of books.&lt;/li&gt;
 &lt;li&gt;Shoutouts in panels and interviews.&lt;/li&gt;
 &lt;li&gt;Shoutouts on social media.&lt;/li&gt;
-&lt;li&gt;Early access to &lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Early access to &lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exclusive promotional items where applicable.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;street-team-links-and-info&quot;&gt;Street Team links and info&lt;/h2&gt;
@@ -135,7 +135,7 @@
 &lt;li&gt;Advanced reader copies and advanced listener copies of books.&lt;/li&gt;
 &lt;li&gt;Shoutouts in panels and interviews.&lt;/li&gt;
 &lt;li&gt;Shoutouts on social media.&lt;/li&gt;
-&lt;li&gt;Early access to &lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Early access to &lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exclusive promotional items where applicable.&lt;/li&gt;
 &lt;/ol&gt;
 </content>
@@ -143,7 +143,7 @@
   <entry>
     <title>Tags</title>
     <link href="/myblog/posts/tags/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/posts/tags/</id>
     <content type="html">&lt;h1 id=&quot;tags&quot;&gt;Tags&lt;/h1&gt;
 &lt;ul&gt;
@@ -208,7 +208,7 @@
   <entry>
     <title>Support me</title>
     <link href="/myblog/support/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/support/</id>
     <content type="html">&lt;p&gt;There’s many ways you can support me other than &lt;a href=&quot;/myblog/writings&quot;&gt;buying my writing&lt;/a&gt;.&lt;/p&gt;
 &lt;ul&gt;
@@ -228,7 +228,7 @@
   <entry>
     <title>Short works.</title>
     <link href="/myblog/shorts/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/shorts/</id>
     <content type="html">&lt;p&gt;Find all my shorter work below organized by date from newest to oldest.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;Listen to audio exclusives&lt;/a&gt;&lt;/p&gt;
@@ -249,9 +249,9 @@
   <entry>
     <title>Resume</title>
     <link href="/myblog/resume/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/resume/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/wp-content/uploads/2024/07/Robert-Kingett.htm&quot;&gt;Robert Kingett&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/Robert-Kingett.htm&quot;&gt;Robert Kingett&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Besides &lt;a href=&quot;/myblog/writings&quot;&gt;my writing work&lt;/a&gt; I’ve worn many hats including accessibility consulting, expert witness, and more. Below, you will find key pages.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/bio&quot;&gt;Read my bio page.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/contact&quot;&gt;Contact me to hire me.&lt;/a&gt;&lt;/p&gt;
@@ -264,20 +264,20 @@
 &lt;h2 id=&quot;portfolio-sample&quot;&gt;Portfolio sample.&lt;/h2&gt;
 &lt;p&gt;Aside from the above work, check out some roundup highlights below.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;https://robertkingett.com/posts/6540/&quot;&gt;Royalty statement 2023&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;https://robertkingett.com/posts/6481/&quot;&gt;Artificial Divide Buzz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/myblog/posts/6540/&quot;&gt;Royalty statement 2023&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;/myblog/posts/6481/&quot;&gt;Artificial Divide Buzz&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
   </entry>
   <entry>
     <title>In person appearance requirements</title>
     <link href="/myblog/requirements/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/requirements/</id>
     <content type="html">&lt;p&gt;I’d love to visit you to speak about being a writer or otherwise. Visiting places, though, takes a lot of time away from &lt;a href=&quot;/myblog/writings&quot;&gt;my writing&lt;/a&gt; because I have to do triple the preparations non-disabled writers have to do. Also, traveling with blindness and cerebral palsy is extremely tiring, especially in the colder seasons. &lt;a href=&quot;https://en.wikipedia.org/wiki/Spoon_theory&quot;&gt;My spoons are very limited&lt;/a&gt; so read the below thoroughly before booking me.&lt;/p&gt;
 &lt;p&gt;If you’d like to &lt;a href=&quot;/myblog/live&quot;&gt;book me for an author visit&lt;/a&gt; these are my requirements.&lt;/p&gt;
 &lt;p&gt;In addition to the below, I require CART services, captioning and subtitles, and &lt;a href=&quot;https://www.probonoasl.com/&quot;&gt;sign language interpreters&lt;/a&gt; for virtual or in person events even though I am Blind. My events must be inclusive to everyone.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/category/events/inclusive-events/&quot;&gt;I want my events to be as inclusive as possible to audiences.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/events-and-readingsinclusive-events/&quot;&gt;I want my events to be as inclusive as possible to audiences.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;in-person-requirements&quot;&gt;In person requirements.&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Event/travel tickets and accommodations for two. I always bring a PA, personal assistant.&lt;/li&gt;
@@ -299,7 +299,7 @@
   <entry>
     <title>Authenticity editing</title>
     <link href="/myblog/reading/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/reading/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://docs.google.com/forms/d/e/1FAIpQLSf6x6O2-COMkVhDS8uQT3badFON99s7yNCwIjtlXBBcnSxhGg/viewform?usp=sf_link&quot;&gt;For other media such as games, podcasts, films, or TV shows, get in touch with me to discuss rates.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I’ve worked with many publishers, corporations, and independent creators as an authenticity editor, formerly known as sensitivity reader. I can do, either, fiction consulting or Corporate DEI Consulting.&lt;/p&gt;
@@ -345,7 +345,7 @@
   <entry>
     <title>Privacy, disclaimers, disclosures.</title>
     <link href="/myblog/privacy/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/privacy/</id>
     <content type="html">&lt;p&gt;This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You.&lt;/p&gt;
 &lt;p&gt;We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.&lt;/p&gt;
@@ -826,7 +826,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Recent posts</title>
     <link href="/myblog/posts/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/posts/</id>
     <content type="html">&lt;h1 id=&quot;post-archive&quot;&gt;Post Archive&lt;/h1&gt;
 &lt;ul reversed=&quot;&quot; class=&quot;postlist&quot;&gt;
@@ -1106,7 +1106,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Site Map</title>
     <link href="/myblog/map/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/map/</id>
     <content type="html">&lt;p&gt;TODO&lt;/p&gt;
 &lt;p&gt;Pages, not posts, and tags&lt;/p&gt;
@@ -1459,7 +1459,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Linkage and resources</title>
     <link href="/myblog/links/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/links/</id>
     <content type="html">&lt;p&gt;This page has moved to &lt;a href=&quot;https://kingettlinks.bearblog.dev/&quot;&gt;https://kingettlinks.bearblog.dev/&lt;/a&gt;&lt;/p&gt;
 </content>
@@ -1467,7 +1467,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title></title>
     <link href="/myblog/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/</id>
     <content type="html">&lt;h1 id=&quot;latest-3-posts&quot;&gt;
 # Latest 3 Posts
@@ -1488,7 +1488,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title></title>
     <link href="/myblog/feed.xml" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/feed.xml</id>
     <content type="html">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;&lt;?xml-stylesheet href=&quot;/feed/pretty-atom-feed.xsl&quot; type=&quot;text/xsl&quot;?&gt;
 &lt;feed xmlns=&quot;http://www.w3.org/2005/Atom&quot; xml:lang=&quot;en&quot;&gt;
@@ -1496,7 +1496,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   &lt;subtitle&gt;A fabulously gay blind author.&lt;/subtitle&gt;
   &lt;link href=&quot;https://robertkingett.netlify.app/myblog/feed.xml&quot; rel=&quot;self&quot; /&gt;
   &lt;link href=&quot;https://robertkingett.netlify.app/myblog/&quot; /&gt;
-  &lt;updated&gt;2025-02-15T02:35:12Z&lt;/updated&gt;
+  &lt;updated&gt;2025-02-15T03:07:22Z&lt;/updated&gt;
   &lt;id&gt;https://robertkingett.netlify.app/myblog/&lt;/id&gt;
   &lt;author&gt;
     &lt;name&gt;Robert Kingett&lt;/name&gt;
@@ -1508,7 +1508,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Subscribe</title>
     <link href="/myblog/follow/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/follow/</id>
     <content type="html">&lt;p&gt;You can subscribe by RSS or by email, and you can join my street team and otherwise below. You can learn about my street team and beta list via the headings below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join the beta and street team list here&lt;/a&gt;&lt;/p&gt;
@@ -1520,7 +1520,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
 &lt;/form&gt;
 &lt;h2 id=&quot;rss-feeds&quot;&gt;RSS Feeds.&lt;/h2&gt;
 &lt;p&gt;To subscribe by RSS, copy the link location from the below sources and paste it into your feed reader of choice.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/feed/&quot;&gt;Main RSS feed.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/feed.xml&quot;&gt;Main RSS feed.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter/rss&quot;&gt;Newsletter RSS feed.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://spectra.video/feeds/videos.xml?videoChannelId=4444&quot;&gt;PeerTube RSS feed.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;beta-readers-and-street-team&quot;&gt;Beta readers and street team&lt;/h2&gt;
@@ -1535,12 +1535,12 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
 &lt;li&gt;Advanced reader copies and advanced listener copies of books.&lt;/li&gt;
 &lt;li&gt;Shoutouts in panels and interviews.&lt;/li&gt;
 &lt;li&gt;Shoutouts on social media.&lt;/li&gt;
-&lt;li&gt;Early access to &lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Early access to &lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exclusive promotional items where applicable.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id=&quot;street-team-links-and-info&quot;&gt;Street Team links and info&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://buttondown.com/weirdwriter?tag=beta&amp;amp;tag=free&amp;amp;tag=street&quot;&gt;Join my street team&lt;/a&gt; Read more about the exclusive content and duties on this page.&lt;/p&gt;
-&lt;p&gt;Joining my street team will give you the opportunity to get exclusive content while promoting me, or &lt;a href=&quot;https://robertkingett.com/?p=1113&quot;&gt;my work,&lt;/a&gt; in return.&lt;/p&gt;
+&lt;p&gt;Joining my street team will give you the opportunity to get exclusive content while promoting me, or &lt;a href=&quot;/myblog/writings&quot;&gt;my work,&lt;/a&gt; in return.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Street_team&quot;&gt;A street team is vital to an author’s success&lt;/a&gt; because it’s rare that a publisher will help writers promote their books. A street team isn’t limited by location, either, so this means you can join from anywhere in the world.&lt;/p&gt;
 &lt;p&gt;Street teams appeal to me because I get to offer many exclusive things to a supportive group of fans willing to team up and promote me or my work in their respective locations.&lt;/p&gt;
 &lt;p&gt;I love community driven PR campaigns. Aside from the exclusive content, my street team is also a good way to meet people and network with other team members near you.&lt;/p&gt;
@@ -1567,7 +1567,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
 &lt;li&gt;Advanced reader copies and advanced listener copies of books.&lt;/li&gt;
 &lt;li&gt;Shoutouts in panels and interviews.&lt;/li&gt;
 &lt;li&gt;Shoutouts on social media.&lt;/li&gt;
-&lt;li&gt;Early access to &lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Early access to &lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;writing news.&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Exclusive promotional items where applicable.&lt;/li&gt;
 &lt;/ol&gt;
 </content>
@@ -1575,7 +1575,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Events overview</title>
     <link href="/myblog/events/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/events/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;https://www.allamericanspeakers.com/speakers/385815/Robert-Kingett#Booknow&quot;&gt;Book me for your event&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;This page holds links to learn about visits as well as watch presentations and keep up with future events.&lt;/p&gt;
@@ -1600,7 +1600,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Contact and book</title>
     <link href="/myblog/contact/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/contact/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/subscribe&quot;&gt;Subscribe to updates.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;mailto:KingettWebsite@weirdwriter.anonaddy.com?subject=Contact%20request%20from%20website&quot;&gt;Email, KingettWebsite@weirdwriter.anonaddy.com&lt;/a&gt;&lt;/p&gt;
@@ -1621,9 +1621,9 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Upcoming events.</title>
     <link href="/myblog/calendar/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/calendar/</id>
-    <content type="html">&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/category/events/&quot;&gt;View past events&lt;/a&gt;&lt;/p&gt;
+    <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/events-and-readings&quot;&gt;View past events&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Find all upcoming events below.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://rk.groups.io/g/portfolio/ics/1917194/1723411309/feed.ics&quot;&gt;Subscribe to my events calendar with any application&lt;/a&gt; or &lt;a href=&quot;https://calendar.google.com/calendar/render?cid=q2419kss4euv1d55b9h2uluufpo6s74k%40import.calendar.google.com&quot;&gt;subscribe with Google Calendar&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://calendar.google.com/calendar/htmlembed?src=q2419kss4euv1d55b9h2uluufpo6s74k@import.calendar.google.com&amp;amp;ctz=America/Chicago&amp;amp;mode=AGENDA&quot;&gt;Calendar as webpage&lt;/a&gt; in agenda view.&lt;/p&gt;
@@ -1632,10 +1632,10 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>books and anthologies</title>
     <link href="/myblog/books/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/books/</id>
     <content type="html">&lt;p&gt;The books listed below are organized from newest, at the top, to oldest, at the bottom.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;Read shorter works.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;Read shorter works.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;Find audio versions of my work.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Special:BookSources/&quot;&gt;Use Wikipedia to find my books via ISBN.&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&quot;library-links&quot;&gt;Library links.&lt;/h2&gt;
@@ -1671,7 +1671,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>About Robert Kingett</title>
     <link href="/myblog/bio/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/bio/</id>
     <content type="html">&lt;p&gt;&lt;a href=&quot;/myblog/subscribe&quot;&gt;Subscribe to updates.&lt;/a&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1680,7 +1680,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
 &lt;p&gt;&lt;a href=&quot;/myblog/posts/5655&quot;&gt;From about Robert in his own words.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/map&quot;&gt;The site map&lt;/a&gt; will help you get around this website.&lt;/p&gt;
 &lt;p&gt;Robert Kingett is a totally blind author and essayist. He &lt;a href=&quot;/myblog/writings&quot;&gt;writes fiction and nonfiction&lt;/a&gt; but &lt;a href=&quot;/myblog/resume&quot;&gt;used to wear other hats.&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;/myblog/writings&quot;&gt;Kingett writes Romance fiction and personal essays&lt;/a&gt; but still &lt;a href=&quot;https://robertkingett.com/posts/category/blog/&quot;&gt;occasionally blogs&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/writings&quot;&gt;Kingett writes Romance fiction and personal essays&lt;/a&gt; but still &lt;a href=&quot;/myblog/posts/tags/blog-and-journal&quot;&gt;occasionally blogs&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;/myblog/posts/tags/highlights-and-roundups&quot;&gt;Kingett does a lot of other things such as events and more.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Even though Kingett &lt;a href=&quot;/myblog/shorts&quot;&gt;publishes many short stories&lt;/a&gt; alongside &lt;a href=&quot;/myblog/posts/tags/anthologies-by-me&quot;&gt;editing anthologies&lt;/a&gt; he always makes time to read a book or check out a podcast. He loves audio books, fiction podcasts, and movies and TV shows &lt;a href=&quot;http://acb.org/adp/samples.html&quot;&gt;with audio description.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Kingett has &lt;a href=&quot;https://www.cdc.gov/ncbddd/cp/facts.html&quot;&gt;Cerebral Palsy,&lt;/a&gt; CP, in addition to his blindness. He’s had both ever since he was a baby. He has &lt;a href=&quot;https://www.webmd.com/eye-health/retinopathy-prematurity-facts#1&quot;&gt;Retinopathy of prematurity&lt;/a&gt;, commonly referred to as ROP. Even though he is ambulatory, his cerebral palsy makes it difficult to walk long distances or to stand for lengthy periods of time, which is probably why writing fell right into his lap!&lt;/p&gt;
@@ -1724,7 +1724,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Audio and video.</title>
     <link href="/myblog/audio/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/audio/</id>
     <content type="html">&lt;p&gt;Below, you can find all of my event recordings and work in audio, both fiction and nonfiction organized by date published.&lt;/p&gt;
 &lt;p&gt;Want print versions instead? &lt;a href=&quot;/myblog/books&quot;&gt;Buy print books/anthologies&lt;/a&gt; or &lt;a href=&quot;/myblog/shorts&quot;&gt;read my short fiction.&lt;/a&gt;&lt;/p&gt;
@@ -1754,7 +1754,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Archive by categories and formats.</title>
     <link href="/myblog/archive/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/archive/</id>
     <content type="html">&lt;p&gt;todo&lt;/p&gt;
 &lt;p&gt;Tag List&lt;/p&gt;
@@ -1763,7 +1763,7 @@ Pages on this Service may include affiliate links to Amazon and its affiliate si
   <entry>
     <title>Audio Description work.</title>
     <link href="/myblog/ad/" />
-    <updated>2025-02-15T02:34:57Z</updated>
+    <updated>2025-02-15T03:07:06Z</updated>
     <id>/myblog/ad/</id>
     <content type="html">&lt;p&gt;I wrote audio description for a wide array of media.&lt;/p&gt;
 &lt;h2 id=&quot;ad-updates&quot;&gt;AD updates.&lt;/h2&gt;
@@ -2126,9 +2126,9 @@ Warm regards,&lt;/p&gt;
 &lt;p&gt;I don’t know how this shift happened to me, but I guess I just became very tired of having to create another account somewhere. I know many writers and otherwise are on Substack, and they have RSS feeds, for now, but again, that’s just another platform. I believe that, eventually, Substack will get rid of the RSS feeds and become such a paywalled nightmare that people will just stop visiting Substack publications. I honestly hope people take the time to reflect, build their own digital garden somewhere, and have us go to their own space. That’s what I’m doing, is funneling people to my own space. If you want to keep up with me, you come into &lt;em&gt;my&lt;/em&gt; space. I’m certainly not going to come to you on whatever platform you enjoy. Sorry not sorry! Besides, my website is easy to read, which is a unique feature these days. I’m just waiting on the day someone sends me an email that proclaims,&lt;/p&gt;
 &lt;p&gt;Hey! Your website is broken. Text is big, there’s no dialog box asking me to sign up anywhere, and I can actually read your content without having an experience visiting your website.&lt;/p&gt;
 &lt;p&gt;Speaking of experience, I’m starting to viscerally hate that word, especially when used by tech people. Maybe it’s because I’m an old fizzle nostril, but maybe websites don’t need to be disrupted. Maybe they don’t always have to be experiences. Maybe reading your website is enough. Then again, I strongly suspect this is why tech enthusiasts legitimately believe the book is broken and needs to be innovative. To them, the reading experience is broken because there’s nothing aiding the imagination. Imagination is all in the hands of the artist and that, to them, is incomprehensible. Your, ahem, experience, is a collaboration between the artist and your imagination. It’s symmetry that will forever last the test of time. Imagination is also just fantastic innovation! I’m sorry, I couldn’t help myself.&lt;/p&gt;
-&lt;p&gt;Until recently, I was fine with platforms, and I was also fine with paying rent. Here, have  cuts of my income and my content because you’re providing a service to me. I legitimately wouldn’t want to run everything myself. The thing is, if done well, I’d be more than happy to throw my money at you. Just provide the service you promised, never change, continue to get my agreed upon monthly rent and we’re all good. Patreon doesn’t provide that service, though. At least, not in the creator centric way it used to. This is why, well, I decided to get my own website. Is it as convenient as Patreon? Nope, because my website still doesn’t have a, pay me now, button, like Patreon does, but it does have &lt;a href=&quot;https://robertkingett.com/donate/&quot;&gt;more direct ways to give money to me.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Until recently, I was fine with platforms, and I was also fine with paying rent. Here, have  cuts of my income and my content because you’re providing a service to me. I legitimately wouldn’t want to run everything myself. The thing is, if done well, I’d be more than happy to throw my money at you. Just provide the service you promised, never change, continue to get my agreed upon monthly rent and we’re all good. Patreon doesn’t provide that service, though. At least, not in the creator centric way it used to. This is why, well, I decided to get my own website. Is it as convenient as Patreon? Nope, because my website still doesn’t have a, pay me now, button, like Patreon does, but it does have &lt;a href=&quot;/myblog/support&quot;&gt;more direct ways to give money to me.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;I legitimately love the one feature Patreon has where creators can check a box and people are charged for the thing, they just released into the world without having to wait for a monthly payment. This way, people could publish elsewhere, but still get paid for the work they do, elsewhere. The fact no other Patreon alternative offers this is mindboggling to me. Then again, all these other, ahem, alternatives, are trying to make an alternative without understanding the core audience they are targeting in the first place. Again, &lt;a href=&quot;https://siderea.dreamwidth.org/1824441.html&quot;&gt;nobody knows how to make a Patreon alternative.&lt;/a&gt; This is ironically why my website is the best Patreon alternative for myself.&lt;/p&gt;
-&lt;p&gt;My website will update with stuff by me, but I’m not beholden to an investor. Heck, I’m not even beholden to you, really. The only thing I need to keep doing is pay my web host. &lt;a href=&quot;https://robertkingett.com/donate/&quot;&gt;People can choose to help with web hosting costs or not.&lt;/a&gt; Either way, my website won’t suddenly speed towards making investors happy overnight. My website and my own web space is, quite literally, immune to &lt;a href=&quot;https://en.wikipedia.org/wiki/Enshittification&quot;&gt;Enshittification.&lt;/a&gt; It’s the best decision I ever made, and it is evergreen enough to where that, in all actuality, as platforms come and go, well, I’ll still be here in my little corner not relying on another platform to fold. Even the Fediverse, which is currently going through its highwire moment, will eventually fade as well. Personal websites will always stand tall and prosper, even as platform after platform dies. All I need to do is pay my host and, boom! You have stuff to read and more. The best part about this arrangement is, if my current hosting company decides they want hyper growth at all costs and starts doing things that harm my online presence, I can just pack up and move. I’m not at all locked in. You can come with me, no matter where I go.&lt;/p&gt;
+&lt;p&gt;My website will update with stuff by me, but I’m not beholden to an investor. Heck, I’m not even beholden to you, really. The only thing I need to keep doing is pay my web host. &lt;a href=&quot;/myblog/support&quot;&gt;People can choose to help with web hosting costs or not.&lt;/a&gt; Either way, my website won’t suddenly speed towards making investors happy overnight. My website and my own web space is, quite literally, immune to &lt;a href=&quot;https://en.wikipedia.org/wiki/Enshittification&quot;&gt;Enshittification.&lt;/a&gt; It’s the best decision I ever made, and it is evergreen enough to where that, in all actuality, as platforms come and go, well, I’ll still be here in my little corner not relying on another platform to fold. Even the Fediverse, which is currently going through its highwire moment, will eventually fade as well. Personal websites will always stand tall and prosper, even as platform after platform dies. All I need to do is pay my host and, boom! You have stuff to read and more. The best part about this arrangement is, if my current hosting company decides they want hyper growth at all costs and starts doing things that harm my online presence, I can just pack up and move. I’m not at all locked in. You can come with me, no matter where I go.&lt;/p&gt;
 &lt;p&gt;Also, I’m super curious, isn’t it a breath of fresh air knowing you can type in my website URL and have a sense of what you’re going to see when you land here as a repeat person? The layout won’t suddenly change, a new blog post might be added, but it’s familiar to you. Isn’t that comforting? I know it is to me, and I’m the one that built this thing. Imperfect, buggy sometimes, but it’s familiar and comforting, no?&lt;/p&gt;
 &lt;p&gt;All done soaping for the day. Now that I’ve had my say, I’ll go back to &lt;a href=&quot;https://en.wikipedia.org/wiki/Webring&quot;&gt;exploring Webrings&lt;/a&gt; and trying to figure out how to get that pay me now checkbox on my website. Will I ever succeed? Who knows, my garden is never perfect, but that’s ironically what I love about personal websites. None of them is perfect. It shows off what the internet used to be, a place where we all explored each other’s homes instead of, well, whatever it is now.&lt;/p&gt;
 </content>
@@ -2144,15 +2144,15 @@ Warm regards,&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.theend.fyi/fully-complete-series&quot;&gt;If you want finished shows, browse this directory.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;If you want to know why I love audio fiction so much, scroll down past the list to learn why I love independent audio fiction.&lt;/p&gt;
 &lt;p&gt;Here’s the podcasts I know about that have a disabled lead character.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.eartheclipsed.com/&quot;&gt;Earth Eclipsed.&lt;/a&gt; Blind protagonist. Note that &lt;a href=&quot;https://robertkingett.com/reading/&quot;&gt;I was a sensitivity/authenticity reader for this show.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.eartheclipsed.com/&quot;&gt;Earth Eclipsed.&lt;/a&gt; Blind protagonist. Note that &lt;a href=&quot;/myblog/reading&quot;&gt;I was a sensitivity/authenticity reader for this show.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.thebrightsessions.com/&quot;&gt;The Bright Sessions.&lt;/a&gt; Quite a bit of Neurodivergent representation.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://wherethestarsfell.com/&quot;&gt;Where the Stars Fell.&lt;/a&gt; Dyslexia and ADHD representation.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://seenandnotheardpod.carrd.co/&quot;&gt;Seen and Not Heard.&lt;/a&gt; Deaf representation.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.podchaser.com/lists/audio-fiction-with-disability-rep-107aDn5P8T&quot;&gt;this additional list has side characters with disabilities&lt;/a&gt; but still, check it out!&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://robertkingett.com/audio/&quot;&gt;My own fiction podcasts feature blind protagonists.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/myblog/audio&quot;&gt;My own fiction podcasts feature blind protagonists.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;And now learn why I love audio fiction so much!&lt;/p&gt;
 &lt;h2 id=&quot;audio-fiction-has-amazingly-free-art&quot;&gt;Audio Fiction has amazingly free art!&lt;/h2&gt;
-&lt;p&gt;Recently, as I’m &lt;a href=&quot;https://robertkingett.com/books/&quot;&gt;deep in the editing process of a few upcoming books,&lt;/a&gt; I haven’t been on Mastodon in a while. Even though Mastodon is certainly slower than Twitter was and far less sludgy, for me, at least, I still found myself very pleasantly surprised at various slow media that I enjoyed recently.&lt;/p&gt;
+&lt;p&gt;Recently, as I’m &lt;a href=&quot;/myblog/books&quot;&gt;deep in the editing process of a few upcoming books,&lt;/a&gt; I haven’t been on Mastodon in a while. Even though Mastodon is certainly slower than Twitter was and far less sludgy, for me, at least, I still found myself very pleasantly surprised at various slow media that I enjoyed recently.&lt;/p&gt;
 &lt;p&gt;When I say, slow media, I’m talking about the three hour audio podcast streams, the audio documentaries that teach me something new. The numerous RSS feeds in my RSS reader. I haven’t been on the Fediverse timeline in a while, and I’ve really enjoyed not reading shorter content.&lt;/p&gt;
 &lt;p&gt;I think I get it anyway. The shorter content means less time investment, but in a way, I still don’t really get it. Perhaps it’s because I’m Blind so just don’t find short content appealing? But that’s just me. There are tons of other Blind people that love very short snippets of content and, well, yay for them! I don’t know why sighted people enjoy short content. I was thinking about this change way back when I went &lt;a href=&quot;https://robertkingett.com/posts/2808/&quot;&gt;Off the Grid.&lt;/a&gt; I’m honestly seeing other people begin to understand things I knew decades ago. Then again, can a book foreshadow peoples perceptions? Certainly not! Well, I don’t think any of my books can, anyway. I’m not nearly as smart as philosophers or comedians or even influencers, but I do know what I’ve enjoyed, and I’ve honestly been diving into longer art lately. One such medium I’ve been thoroughly enjoying myself in is the fiction podcast space.&lt;/p&gt;
 &lt;p&gt;Even today, fiction podcasts are like the romance genres of the podcast world. Nobody takes them seriously, nobody recommends them, hardly, &lt;a href=&quot;https://podbam.com/fiction-podcasts-for-first-time-listeners/&quot;&gt;the audio drama format gets discovered at least 99 times every year&lt;/a&gt; by exclamations of &amp;quot;Gosh, it’s like a movie for your ears! We need to come up with a word for it!&amp;quot; on, and on, and on.&lt;/p&gt;
@@ -2401,7 +2401,7 @@ Inclusion isn’t about hiding disabilities. It’s about taking the burdens awa
 &lt;p&gt;&lt;a href=&quot;https://caitgordon.com/2021/05/06/in-the-cosm-podcast-s1-ep6-the-artificial-divide-between-the-blind-and-the-sighted-with-robert-kingett-and-randy-lacey/&quot;&gt;Episode webpage containing Transcript&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=6a8pg1uPgmo&amp;amp;t=350s&quot;&gt;Video containing captions&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;TV is failing visually impaired people.&lt;/p&gt;
-&lt;p&gt;In this article by the Guardian, I was heavily quoted about the use of audio description. I also talk about &lt;a href=&quot;https://robertkingett.com/tech/&quot;&gt;my other accessibility expertise.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In this article by the Guardian, I was heavily quoted about the use of audio description. I also talk about &lt;a href=&quot;/myblog/tech&quot;&gt;my other accessibility expertise.&lt;/a&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.theguardian.com/tv-and-radio/2020/apr/24/i-have-to-ask-my-girlfriend-to-narrate-is-tv-failing-visually-impaired-people&quot;&gt;TV is failing visually impaired people.&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -2452,7 +2452,7 @@ Inclusion isn’t about hiding disabilities. It’s about taking the burdens awa
 &lt;h2 id=&quot;pass-the-salt-has-been-sold&quot;&gt;Pass the Salt has been sold!&lt;/h2&gt;
 &lt;p&gt;Pass the Salt, a memoir novella chronicling my dating adventures as a Blind man has been sold to &lt;a href=&quot;https://compassivistepublishing.com/submissions/&quot;&gt;Compassivist Publishing!&lt;/a&gt; YAY! Stay tuned for more!&lt;/p&gt;
 &lt;h2 id=&quot;money-updates&quot;&gt;Money updates.&lt;/h2&gt;
-&lt;p&gt;I started &lt;a href=&quot;https://robertkingett.com/posts/category/writings/&quot;&gt;publishing every indie thing I’ve ever made,&lt;/a&gt; so I’m here to share some of the earnings with you because I need you to see why I keep begging you to buy my stuff.&lt;/p&gt;
+&lt;p&gt;I started &lt;a href=&quot;/myblog/posts/tags/writings&quot;&gt;publishing every indie thing I’ve ever made,&lt;/a&gt; so I’m here to share some of the earnings with you because I need you to see why I keep begging you to buy my stuff.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://docs.google.com/spreadsheets/d/e/2PACX-1vRovy6YEEPkvbfEN6YYVPD7rRfjrXhrWHbe-cf6ksDWKECmgaQkyQcmpO7Y2MPWIIJSL5xDC23QJ4Df/pubhtml&quot;&gt;Here is my earnings spreadsheet, broken down by tabs.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Considering I just started doing this this year, well, this is why the numbers are so low!&lt;/p&gt;
 &lt;p&gt;That’s really all for this year so I’ll end this year by talking about previous accomplishments I am quite proud of in the writing space.&lt;/p&gt;
@@ -2529,7 +2529,7 @@ Inclusion isn’t about hiding disabilities. It’s about taking the burdens awa
     <id>/myblog/posts/6540/</id>
     <content type="html">&lt;p&gt;I’d like to show you how much I made for 2023 on my published books.&lt;/p&gt;
 &lt;p&gt;In short, not so well, but you can read the table below!&lt;/p&gt;
-&lt;p&gt;It’s a good thing I have &lt;a href=&quot;https://robertkingett.com/books/&quot;&gt;other books&lt;/a&gt; and &lt;a href=&quot;https://robertkingett.com/writings/&quot;&gt;other writings&lt;/a&gt; out now, but still, sales matter. Money matters when making art of any kind.&lt;/p&gt;
+&lt;p&gt;It’s a good thing I have &lt;a href=&quot;/myblog/books&quot;&gt;other books&lt;/a&gt; and &lt;a href=&quot;https://robertkingett.com/writings/&quot;&gt;other writings&lt;/a&gt; out now, but still, sales matter. Money matters when making art of any kind.&lt;/p&gt;
 &lt;p&gt;It really is that simple. If you want artists to keep making art, give them money and buy their work. I wish I had enough money to do more writing, but I simply don’t. I have to focus on living and paying bills and eating.&lt;/p&gt;
 &lt;h2 id=&quot;the-breakdown&quot;&gt;The breakdown&lt;/h2&gt;
 &lt;p&gt;The table below breaks down &lt;a href=&quot;https://robertkingett.com/posts/4305/&quot;&gt;Artificial Divide&lt;/a&gt; sales by outlet and more.&lt;/p&gt;
@@ -2546,7 +2546,7 @@ Inclusion isn’t about hiding disabilities. It’s about taking the burdens awa
     <link href="/myblog/posts/6529/" />
     <updated>2024-04-04T08:57:55Z</updated>
     <id>/myblog/posts/6529/</id>
-    <content type="html">&lt;p&gt;This post took me a very long time to write, so &lt;a href=&quot;https://robertkingett.com/donate/&quot;&gt;give me money&lt;/a&gt; if you like the below post.&lt;/p&gt;
+    <content type="html">&lt;p&gt;This post took me a very long time to write, so &lt;a href=&quot;/myblog/support&quot;&gt;give me money&lt;/a&gt; if you like the below post.&lt;/p&gt;
 &lt;p&gt;Additional resources are below the two tutorials.&lt;/p&gt;
 &lt;p&gt;I wanted to make this guide, partially so I can have something to reference myself, but also because I hope other screen reader users can get something out of this.&lt;/p&gt;
 &lt;h2 id=&quot;what-are-static-site-generators&quot;&gt;What are static site generators?&lt;/h2&gt;
