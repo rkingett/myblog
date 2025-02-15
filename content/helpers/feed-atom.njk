@@ -5,6 +5,9 @@ redirect_from: feed
 eleventyImport:
   collection: ["posts"]
 stylesheet: /feed/pretty-atom-feed.xsl
+eleventyNavigation:
+  title: RSS
+  order: 1
 ---
 <?xml version="1.0" encoding="utf-8"?>
 {%- if stylesheet %}<?xml-stylesheet href="{{ stylesheet }}" type="text/xsl"?>{% endif %}

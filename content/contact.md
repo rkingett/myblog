@@ -2,7 +2,7 @@
 title: Contact and book
 eleventyNavigation:
   key: Contact
-  order: 7
+  order: 10
 ---
 
 [Subscribe to updates.](/subscribe)

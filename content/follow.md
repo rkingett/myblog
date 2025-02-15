@@ -2,7 +2,7 @@
 title: Subscribe
 eleventyNavigation:
   key: Follow
-  order: 3
+  order: 5
 ---
 
 You can subscribe by RSS or by email, and you can join my street team and otherwise below. You can learn about my street team and beta list via the headings below.

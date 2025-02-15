@@ -2,7 +2,7 @@
 title: Writing portfolio
 eleventyNavigation:
   key: Writing
-  order: 4
+  order: 6
 ---
 
 [Beta readers or Street team information](/team)

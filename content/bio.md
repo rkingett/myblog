@@ -3,7 +3,7 @@ title: About Robert Kingett
 eleventyNavigation:
   title: About Robert Kingett
   key: About
-  order: 2
+  order: 4
 ---
 
 [Subscribe to updates.](/subscribe)

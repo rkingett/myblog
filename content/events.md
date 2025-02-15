@@ -3,7 +3,7 @@ title: Events overview
 redirect_from: live
 eleventyNavigation:
   key: Events
-  order: 5
+  order: 7
 ---
 
 [Book me for your event](https://www.allamericanspeakers.com/speakers/385815/Robert-Kingett#Booknow)

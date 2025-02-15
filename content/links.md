@@ -2,7 +2,7 @@
 title: Linkage and resources
 eleventyNavigation:
   key: Resources
-  order: 8
+  order: 11
 ---
 
 TODO

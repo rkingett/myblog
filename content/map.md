@@ -2,7 +2,7 @@
 title: Site Map
 eleventyNavigation:
   key: Site Map
-  order: 0
+  order: 2
 ---
 
 TODO

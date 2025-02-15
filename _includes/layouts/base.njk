@@ -53,10 +53,8 @@
 		</main>
 
 		<footer>
-			<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | Built with <a href="https://www.11ty.dev/">{{ eleventy.generator }}</a></p>
+			<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | <a href="/privacy">Privacy, disclaimers, disclosures.</a></p>
 		</footer>
-
-		<!-- This page `{{ page.url | htmlBaseUrl }}` was updated on {% currentBuildDate %} -->
 		<script type="module" src="{% getBundleFileUrl "js" %}"></script>
 	</body>
 </html>
