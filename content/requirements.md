@@ -8,7 +8,7 @@ If you’d like to [book me for an author visit](/live) these are my requireme
 
 In addition to the below, I require CART services, captioning and subtitles, and [sign language interpreters](https://www.probonoasl.com/) for virtual or in person events even though I am Blind. My events must be inclusive to everyone.
 
-[I want my events to be as inclusive as possible to audiences.](/posts/tags/events-and-readingsinclusive-events/)
+[I want my events to be as inclusive as possible to audiences.](/posts/tags/events-and-readings)
 
 ## In person requirements.
 
