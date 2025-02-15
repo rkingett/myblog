@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-[View past events](https://robertkingett.com/category/events/)
+[View past events](/posts/tags/events-and-readings)
 
 Find all upcoming events below.
 

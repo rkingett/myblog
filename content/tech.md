@@ -8,7 +8,7 @@ I am an expert screen reader user who has both advocated and consulted for compa
 
 I do extensive accessibility and usability testing. There’s a wide array of computer needs out there. Just because something is accessible does not mean everybody can use it without confusion. I take both into account when a company asks me to test for them.
 
-[Advocacy portfolio.](https://robertkingett.com/posts/category/highlights/consulting/)
+[Advocacy portfolio.](/posts/tags/accessibility-and-consulting-highlights)
 
 ## Expert accessibility witness.
 

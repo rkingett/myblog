@@ -3,6 +3,7 @@ title: Support me
 eleventyNavigation:
   key: Donate
   order: 9
+redirect_from: donate
 ---
 
 There’s many ways you can support me other than [buying my writing](/writings).

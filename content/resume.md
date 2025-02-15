@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-[Robert Kingett](https://robertkingett.com/wp-content/uploads/2024/07/Robert-Kingett.htm)
+[Robert Kingett](/Robert-Kingett.htm)
 
 Besides [my writing work](/writings) I’ve worn many hats including accessibility consulting, expert witness, and more. Below, you will find key pages.
 
@@ -23,5 +23,5 @@ Besides [my writing work](/writings) I’ve worn many hats including accessibi
 
 Aside from the above work, check out some roundup highlights below.
 
-- [Royalty statement 2023](https://robertkingett.com/posts/6540/)
-- [Artificial Divide Buzz](https://robertkingett.com/posts/6481/)
+- [Royalty statement 2023](/posts/6540/)
+- [Artificial Divide Buzz](/posts/6481/)

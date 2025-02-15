@@ -16,7 +16,7 @@ eleventyNavigation:
 
 Robert Kingett is a totally blind author and essayist. He [writes fiction and nonfiction](/writings) but [used to wear other hats.](/resume)
 
-[Kingett writes Romance fiction and personal essays](/writings) but still [occasionally blogs](https://robertkingett.com/posts/category/blog/)
+[Kingett writes Romance fiction and personal essays](/writings) but still [occasionally blogs](/posts/tags/blog-and-journal)
 
 [Kingett does a lot of other things such as events and more.](/posts/tags/highlights-and-roundups)
 

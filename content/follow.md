@@ -3,6 +3,7 @@ title: Subscribe
 eleventyNavigation:
   key: Follow
   order: 5
+redirect_from: subscribe
 ---
 
 You can subscribe by RSS or by email, and you can join my street team and otherwise below. You can learn about my street team and beta list via the headings below.
@@ -15,7 +16,7 @@ You can subscribe by RSS or by email, and you can join my street team and otherw
 
 To subscribe by RSS, copy the link location from the below sources and paste it into your feed reader of choice.
 
-[Main RSS feed.](https://robertkingett.com/feed/)
+[Main RSS feed.](/feed.xml)
 
 [Newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
@@ -36,14 +37,14 @@ Here, you can join my beta readers team or my street team.
 5. Advanced reader copies and advanced listener copies of books.
 6. Shoutouts in panels and interviews.
 7. Shoutouts on social media.
-8. Early access to [writing news.](https://robertkingett.com/posts/category/writings/)
+8. Early access to [writing news.](/posts/tags/writings)
 9. Exclusive promotional items where applicable.
 
 ## Street Team links and info
 
 [Join my street team](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street) Read more about the exclusive content and duties on this page.
 
-Joining my street team will give you the opportunity to get exclusive content while promoting me, or [my work,](https://robertkingett.com/?p=1113) in return.
+Joining my street team will give you the opportunity to get exclusive content while promoting me, or [my work,](/writings) in return.
 
 [A street team is vital to an author’s success](https://en.wikipedia.org/wiki/Street_team) because it’s rare that a publisher will help writers promote their books. A street team isn’t limited by location, either, so this means you can join from anywhere in the world.
 
@@ -78,5 +79,5 @@ I value my street team because they are using their creativity to promote me and
 21. Advanced reader copies and advanced listener copies of books.
 22. Shoutouts in panels and interviews.
 23. Shoutouts on social media.
-24. Early access to [writing news.](https://robertkingett.com/posts/category/writings/)
+24. Early access to [writing news.](/posts/tags/writings)
 25. Exclusive promotional items where applicable.

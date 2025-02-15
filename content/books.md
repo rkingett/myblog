@@ -4,7 +4,7 @@ title: books and anthologies
 
 The books listed below are organized from newest, at the top, to oldest, at the bottom.
 
-[Read shorter works.](https://robertkingett.com/posts/category/writings/)
+[Read shorter works.](/posts/tags/writings)
 
 [Find audio versions of my work.](/audio)
 

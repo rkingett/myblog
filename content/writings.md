@@ -9,7 +9,7 @@ eleventyNavigation:
 
 I’m an accomplished [author,](/books) with [experience in many different arenas of publishing.](/resume)
 
-Favorite fiction and nonfiction is on the highlights section of this page below but [you can read publishing highlights here.](https://robertkingett.com/posts/category/highlights/publishing/)
+Favorite fiction and nonfiction is on the highlights section of this page below but [you can read publishing highlights here.](/posts/tags/publishing-or-writing-highlights)
 
 [View audio or video.](/audio)
 
@@ -17,7 +17,7 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 # Find my work.
 
-[See all my writing](https://robertkingett.com/posts/category/writings/) or filter below. Highlights are further down the page but [writing roundups can be found here,](https://robertkingett.com/posts/category/highlights/publishing/) highlighting my publishing news.
+[See all my writing](/posts/tags/writings) or filter below. Highlights are further down the page but [writing roundups can be found here,](/posts/tags/publishing-or-writing-highlights) highlighting my publishing news.
 
 [Subscribe to updates by email or RSS.](subscribe/)
 
@@ -28,7 +28,7 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 - [Short works.](/shorts)
 - [Audiobooks and event recordings.](/audio)
 - [Buy my DRM free work](/posts/tag/drm-free/) or [Buy work under a Creative Commons license.](/posts/tag/creative-commons/)
-- [blog and journal.](https://robertkingett.com/posts/category/blog/)
+- [blog and journal.](/posts/tags/blog-and-journal)
 - [Audio Description work.](/ad)
 
 ## Writing highlights
