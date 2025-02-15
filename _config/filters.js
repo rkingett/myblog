@@ -1,7 +1,8 @@
-import dateRfc822 from "@11ty/eleventy-plugin-rss/src/dateRfc822.js";
-import dateRfc3339 from "@11ty/eleventy-plugin-rss/src/dateRfc3339.js";
-import getNewestCollectionItemDate from "@11ty/eleventy-plugin-rss/src/getNewestCollectionItemDate.js";
 import { DateTime } from "luxon";
+import dateRfc3339 from "@11ty/eleventy-plugin-rss/src/dateRfc3339.js";
+import dateRfc822 from "@11ty/eleventy-plugin-rss/src/dateRfc822.js";
+import getNewestCollectionItemDate from "@11ty/eleventy-plugin-rss/src/getNewestCollectionItemDate.js";
+import MarkdownIt from "markdown-it";
 
 export default function (eleventyConfig) {
 	eleventyConfig.addFilter("readableDate", (dateObj, format, zone) => {
@@ -14,6 +15,11 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter("htmlDateString", (dateObj) => {
 		// dateObj input: https://html.spec.whatwg.org/multipage/common-microsyntaxes.html#valid-date-string
 		return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat("yyyy-LL-dd");
+	});
+
+	eleventyConfig.addFilter("markdown", (md) => {
+		const mit = new MarkdownIt();
+		return mit.render(md);
 	});
 
 	// Get the first `n` elements of a collection.

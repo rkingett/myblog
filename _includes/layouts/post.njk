@@ -1,9 +1,9 @@
 ---
 layout: layouts/base.njk
 ---
-<article class="post">
+<article class="post hentry">
 	<header class="entry-header">
-		<span>
+		<span class="posted-on">
 			<span class="screen-reader-text">
 				Posted on
 			</span>
@@ -11,20 +11,27 @@ layout: layouts/base.njk
 				<time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time>
 			</a>
 		</span>
-		<h1>{{ title }}</h1>
+		<h1 class="entry-title">{{ title }}</h1>
 	</header>
 	<div class="entry-content">
 		{{ content | safe }}
 	</div>
 	<footer class="entry-footer">
-		<div class="author-info">
-		</div>
-		<span class="cat-links"></span>
-		<span class="tag-links"></span>
+		{% include 'author.njk' %}
+		<span class="tag-links">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.3 4.3c-.2-.2-.4-.3-.7-.3H3c-.5 0-1 .5-1 1v6c0 .6.5 1 1 1h7.6c.3 0 .5-.1.7-.3L15 8l-3.7-3.7zM10 9c-.5 0-1-.5-1-1s.5-1 1-1 1 .5 1 1-.5 1-1 1z"/></svg>
+			<span class="screen-reader-text">Tags </span>
+			{%- set comma = joiner() %}
+			{%- for tag in tags | filterTagList %}
+				{{ comma() }}
+				<a href="/posts/tags/{{ tag | slugify }}">
+					{{ tag }}
+				</a>
+			{%- endfor %}
+		</span>
 	</footer>
 {% include 'follow.njk' %} 
 </article>
-
 
 <nav class="navigation post-navigation" aria-label="Posts">
 	<h2 class="screen-reader-text">Post navigation</h2>

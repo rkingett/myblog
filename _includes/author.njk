@@ -1,0 +1,9 @@
+<div class="author-info">
+	<h2 class="author-heading">Published by: </h2>
+	<div class="author-description">
+		<h3 class="author-title">{{ metadata.author.name }}</h3>
+		<p class="author-bio">
+      {{ metadata.author.bio | markdown | safe }}
+		</p>
+	</div>
+</div>
