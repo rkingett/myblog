@@ -100,7 +100,6 @@ main a {
 
 .post time {
 	font-family: var(--font-mono);
-	text-decoration: underline;
 	font-size: 1rem;
 }
 
@@ -163,6 +162,7 @@ a {
 a:active,
 a:hover {
 	outline: 0;
+	text-decoration-thickness: auto;
 }
 
 abbr[title] {
@@ -338,6 +338,28 @@ th {
 	padding: 0;
 } /* End of Normalize section of Cyanotype */
 
+@-webkit-keyframes slideIn {
+	from {
+		-webkit-transform: translateX(100%);
+	}
+
+	to {
+		-webkit-transform: translateX(0);
+	}
+}
+
+@keyframes slideIn {
+	from {
+		-moz-transform: translateX(100%);
+		transform: translateX(100%);
+	}
+
+	to {
+		-moz-transform: translateX(0);
+		transform: translateX(0);
+	}
+}
+
 a {
 	color: var(--link-color);
 	cursor: pointer;
@@ -463,8 +485,10 @@ main .page,
 main .post,
 main:not(:has(article.post)):not(:has(article.page)) {
 	line-height: 1.6;
-	width: var(--width);
-	margin: auto;
+	max-width: var(--width);
+	/* width: 100%; */
+	margin-left: auto;
+	margin-right: auto;
 }
 
 content a {
@@ -774,13 +798,11 @@ html {
 *,
 *:before,
 *:after {
-	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
 	box-sizing: inherit;
 }
 
 body {
 	background: var(--background-colour);
-	/* Fallback for when there is no custom background color defined. */
 	border: 2px solid currentColor;
 }
 
@@ -824,9 +846,7 @@ dd {
 
 img {
 	height: auto;
-	/* Make sure images are scaled correctly. */
 	max-width: 100%;
-	/* Adhere to container width. */
 }
 
 table,
@@ -841,7 +861,6 @@ table {
 	border-width: 2px 0 0 2px;
 	margin: 0 0 24px;
 	table-layout: fixed;
-	/* Prevents HTML tables from becoming too wide */
 	width: 100%;
 }
 
@@ -1089,21 +1108,11 @@ a img {
 .post a,
 .post a:hover,
 a.title:hover {
-	background-image: -webkit-linear-gradient(
-		left,
-		currentColor 0%,
-		currentColor 100%
-	);
-	background-image: linear-gradient(
-		to right,
-		currentColor 0%,
-		currentColor 100%
-	);
 	background-position: 0 100%;
 	background-repeat: repeat-x;
 	-webkit-background-size: 100% 2px;
 	background-size: 100% 2px;
-	text-decoration: none;
+	/* text-decoration: none; */
 	text-shadow: 2px 0 0 var(--focus-colour), -2px 0 0 var(--focus-colour);
 }
 
@@ -1309,6 +1318,27 @@ body > a:first-child:focus {
 	max-width: var(--width);
 }
 
+.entry-footer {
+	margin-bottom: 3rem;
+}
+
+.posted-on,
+.tag-links {
+	font-family: var(--font-mono);
+	font-size: 1.125rem;
+	line-height: 1.6;
+}
+
+.tag-links svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 16px;
+	margin-left: 5px;
+	speak: none;
+	vertical-align: baseline;
+	width: 16px;
+}
+
 /**
  * 12.1 Header
  */
@@ -1317,7 +1347,7 @@ header img {
 	border-bottom: 2px solid currentColor;
 }
 
-header {
+body > header {
 	border-bottom: 2px solid currentColor;
 	border-top: 2px solid currentColor;
 	font-size: 1.5rem;
@@ -1362,6 +1392,21 @@ header img {
  * 12.2 Posts and pages
  */
 
+.post,
+.page {
+	font-size: 2rem;
+	line-height: 1.6;
+}
+
+.entry-title {
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+.entry-content {
+	margin-top: 9.09297331%;
+}
+
 .post nav h1 {
 	clear: none;
 	font-size: 26px;
@@ -1371,7 +1416,7 @@ header img {
 }
 
 .post {
-	margin-top: 9.09297331%;
+	/* margin-top: 9.09297331%; */
 }
 
 .post > :last-child {
@@ -1460,8 +1505,8 @@ header img {
 }
 
 .post header {
-	border-bottom: 2px solid currentColor;
-	padding: 7.6923% 0;
+	/* border-bottom: 2px solid currentColor; */
+	padding: 7.6923% 0 0;
 }
 
 .post header .title {
@@ -1519,6 +1564,182 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
+}
+
+.hentry,
+.page.hentry,
+.post.hentry {
+	margin: 0 7.6923%;
+	padding: 7.6923% 0;
+	position: relative;
+}
+
+.hentry + .hentry {
+	border-top: 2px solid currentColor;
+}
+
+.entry-title {
+	clear: none;
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.153846154;
+	margin: 0;
+}
+
+.entry-content {
+	margin-top: 9.09297331%;
+}
+
+.entry-content > :last-child {
+	margin-bottom: 0;
+}
+
+.entry-content,
+.page-content,
+.comment-content,
+.textwidget {
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+	word-wrap: break-word;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+.comment-content h1,
+.comment-content h2,
+.comment-content h3,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6,
+.textwidget h1,
+.textwidget h2,
+.textwidget h3,
+.textwidget h4,
+.textwidget h5,
+.textwidget h6 {
+	margin-top: 48px;
+	margin-bottom: 24px;
+}
+
+.entry-content h1:first-child,
+.entry-content h2:first-child,
+.entry-content h3:first-child,
+.entry-content h4:first-child,
+.entry-content h5:first-child,
+.entry-content h6:first-child,
+.page-content h1:first-child,
+.page-content h2:first-child,
+.page-content h3:first-child,
+.page-content h4:first-child,
+.page-content h5:first-child,
+.page-content h6:first-child,
+.comment-content h1:first-child,
+.comment-content h2:first-child,
+.comment-content h3:first-child,
+.comment-content h4:first-child,
+.comment-content h5:first-child,
+.comment-content h6:first-child,
+.textwidget h1:first-child,
+.textwidget h2:first-child,
+.textwidget h3:first-child,
+.textwidget h4:first-child,
+.textwidget h5:first-child,
+.textwidget h6:first-child {
+	margin-top: 0;
+}
+
+.entry-content h1,
+.page-content h1,
+.comment-content h1,
+.textwidget h1 {
+	font-size: 26px;
+	font-size: 1.625rem;
+	line-height: 1.153846154;
+}
+
+.entry-content h2,
+.page-content h2,
+.comment-content h2,
+.textwidget h2 {
+	font-size: 22px;
+	font-size: 1.375rem;
+	line-height: 1.227272727;
+}
+
+.entry-content h3,
+.page-content h3,
+.comment-content h3,
+.textwidget h3 {
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.166666667;
+}
+
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.page-content h4,
+.page-content h5,
+.page-content h6,
+.comment-content h4,
+.comment-content h5,
+.comment-content h6,
+.textwidget h4,
+.textwidget h5,
+.textwidget h6 {
+	font-size: 2rem;
+	line-height: 1.2;
+}
+
+.entry-content h4,
+.page-content h4,
+.comment-content h4,
+.textwidget h4 {
+	letter-spacing: 0.13333em;
+	text-transform: uppercase;
+}
+
+.entry-content h6,
+.page-content h6,
+.comment-content h6,
+.textwidget h6 {
+	font-style: italic;
+	font-weight: 400;
+}
+
+.entry-content a img,
+.page-content a img,
+.comment-content a img {
+	display: block;
+}
+
+.entry-content .more-link {
+	white-space: nowrap;
+}
+
+.entry-content blockquote.alignleft,
+.entry-content blockquote.alignright {
+	border-color: currentColor;
+	border-style: solid;
+	border-width: 2px 0;
+	padding: 12px 0;
+	width: 50%;
+}
+
+.hentry .sd-content ul {
+	margin-bottom: -5px !important;
 }
 
 /**
@@ -1784,11 +2005,190 @@ address {
 	label {
 		line-height: 1.428571429;
 	}
+
+	.main-navigation,
+	.post-navigation .meta-nav,
+	.image-navigation,
+	.comment-navigation,
+	.sticky-post,
+	.posted-on,
+	.cat-links,
+	.tags-links,
+	.comments-link,
+	.edit-link,
+	.full-size-link,
+	.page-links a,
+	.page-links > span,
+	.entry-caption,
+	.comment-metadata,
+	.pingback .edit-link,
+	.comment-form label,
+	.comment-notes,
+	.comment-awaiting-moderation,
+	.logged-in-as,
+	.form-allowed-tags,
+	.site-info,
+	.wp-caption-text,
+	.gallery-caption {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		line-height: 1.411764706;
+	}
 }
 
 /**
  * 16.4 >= 828px
  */
+
+@media screen and (min-width: 43.75em) {
+	blockquote {
+		font-size: 24px;
+		font-size: 1.5rem;
+		line-height: 1.5;
+		margin-bottom: 32px;
+		margin-left: -32px;
+		padding-left: 30px;
+	}
+
+	blockquote p {
+		margin-bottom: 36px;
+	}
+
+	blockquote cite,
+	blockquote small {
+		font-size: var(--font-size);
+		line-height: 1.8;
+	}
+
+	blockquote > blockquote {
+		margin-left: 0;
+	}
+
+	pre {
+		padding: 16px;
+	}
+
+	ul,
+	ol {
+		margin: 0 0 32px 0;
+	}
+
+	li > ul,
+	li > ol,
+	blockquote > ul,
+	blockquote > ol {
+		margin-left: 24px;
+	}
+
+	th,
+	td {
+		padding: 8px;
+	}
+
+	button,
+	input[type="button"],
+	input[type="reset"],
+	input[type="submit"] {
+		font-size: 17px;
+		font-size: 1.0625rem;
+		padding: 14px 32px 13px;
+	}
+
+	input[type="text"],
+	input[type="email"],
+	input[type="url"],
+	input[type="password"],
+	input[type="search"],
+	textarea {
+		padding: 7px;
+	}
+
+	input[type="checkbox"],
+	input[type="radio"] {
+		margin-right: 8px;
+	}
+
+	.entry-content h1,
+	.entry-content h2,
+	.entry-content h3,
+	.entry-content h4,
+	.entry-content h5,
+	.entry-content h6,
+	.page-content h1,
+	.page-content h2,
+	.page-content h3,
+	.page-content h4,
+	.page-content h5,
+	.page-content h6,
+	.comment-content h1,
+	.comment-content h2,
+	.comment-content h3,
+	.comment-content h4,
+	.comment-content h5,
+	.comment-content h6,
+	.textwidget h1,
+	.textwidget h2,
+	.textwidget h3,
+	.textwidget h4,
+	.textwidget h5,
+	.textwidget h6 {
+		margin-top: 64px;
+		margin-bottom: 32px;
+	}
+
+	.entry-content h1,
+	.page-content h1,
+	.comment-content h1,
+	.textwidget h1 {
+		font-size: 41px;
+		font-size: 2.5625rem;
+		line-height: 1.170731707;
+	}
+
+	.entry-content h2,
+	.page-content h2,
+	.comment-content h2,
+	.textwidget h2 {
+		font-size: 35px;
+		font-size: 2.1875rem;
+		line-height: 1.142857143;
+	}
+
+	.entry-content h3,
+	.page-content h3,
+	.comment-content h3,
+	.textwidget h3 {
+		font-size: 29px;
+		font-size: 1.8125rem;
+		line-height: 1.24137931;
+	}
+
+	.entry-content h4,
+	.page-content h4,
+	.comment-content h4,
+	.textwidget h4 {
+		font-size: 24px;
+		font-size: 1.5rem;
+		line-height: 1.166666667;
+	}
+
+	.entry-content h5,
+	.entry-content h6,
+	.page-content h5,
+	.page-content h6,
+	.comment-content h5,
+	.comment-content h6,
+	.textwidget h5,
+	.textwidget h6 {
+		font-size: var(--font-size);
+		line-height: 1.2;
+	}
+
+	.entry-content blockquote.alignleft,
+	.entry-content blockquote.alignright {
+		padding: 16px 0;
+	}
+}
 
 @media screen and (min-width: 51.755em) {
 	.blog-posts {
@@ -1832,6 +2232,36 @@ address {
 		margin: 0 !important;
 		max-width: 100% !important;
 	}
+
+	.entry-content {
+		margin-top: 11.11419486%;
+	}
+
+	.widecolumn {
+		padding-right: 15.3846%;
+		padding-left: 15.3846%;
+	}
+
+	.entry-content blockquote.alignleft {
+		margin-right: 11.11419486%;
+		margin-left: -11.11419486%;
+	}
+
+	.entry-content blockquote.alignright {
+		margin-right: -11.11419486%;
+		margin-left: 11.11419486%;
+	}
+
+	.entry-content blockquote.aligncenter {
+		border: 0;
+		font-size: 35px;
+		font-size: 2.1875rem;
+		line-height: 1.371428571;
+		margin: 0 -11.11419486% 32px -11.11419486%;
+		padding: 32px 0;
+		max-width: 122.22838972%;
+		text-align: center;
+	}
 }
 
 /**
@@ -1840,8 +2270,39 @@ address {
 
 @media screen and (min-width: 57.8125em) {
 	.post,
-	.page {
+	.page,
+	.entry-content {
 		margin-top: 9.0909091%;
+	}
+
+	.hentry {
+		padding: 5.8824% 0;
+	}
+
+	.page-header {
+		padding: 5.8824% 0;
+	}
+
+	.page-content {
+		padding: 5.8824% 0;
+	}
+
+	.entry-content blockquote.alignleft {
+		margin-right: 9.0909091%;
+		margin-left: -18.1818182%;
+	}
+
+	.entry-content blockquote.alignright {
+		margin-right: -18.1818182%;
+		margin-left: 9.0909091%;
+	}
+
+	.entry-content blockquote.aligncenter,
+	.size-big,
+	.caption-big {
+		margin-right: -18.1818182%;
+		margin-left: -18.1818182%;
+		max-width: 136.3636364%;
 	}
 }
 
@@ -1850,6 +2311,8 @@ address {
  */
 
 @media screen and (min-width: 68em) {
+	.entry-title,
+	.page-title,
 	a.title {
 		font-size: 50px;
 		font-size: 3.125rem;
@@ -1899,6 +2362,10 @@ address {
 	clip: rect(0, 0, 0, 0);
 	white-space: nowrap;
 	border-width: 0;
+}
+
+span.ha-placeholder {
+	display: none;
 }
 
 .post-navigation {
@@ -2019,9 +2486,9 @@ address {
 
 		<main id="skip">
 			<heading-anchors>
-				<article class="post">
+				<article class="post hentry">
 	<header class="entry-header">
-		<span>
+		<span class="posted-on">
 			<span class="screen-reader-text">
 				Posted on
 			</span>
@@ -2029,7 +2496,7 @@ address {
 				<time datetime="2021-12-16">16 December 2021</time>
 			</a>
 		</span>
-		<h1 id="online-pitch-events-help-writers-and-readers">Online pitch events help writers and readers.</h1>
+		<h1 class="entry-title" id="online-pitch-events-help-writers-and-readers">Online pitch events help writers and readers.</h1>
 	</header>
 	<div class="entry-content">
 		<p>Before Covid-19 changed a lot of the publishing landscape in 2020, many writers, established and emerging, would attend writing conferences that would cost money to pitch to literary agents, hoping that being in person would give them an upper hand in the pitching process. Thankfully, COVID-19 disrupted the, what I call, conference industrial complex.</p>
@@ -2069,9 +2536,28 @@ address {
 	</div>
 	<footer class="entry-footer">
 		<div class="author-info">
-		</div>
-		<span class="cat-links"></span>
-		<span class="tag-links"></span>
+	<h2 class="author-heading" id="published-by">Published by: </h2>
+	<div class="author-description">
+		<h3 class="author-title" id="robert-kingett">Robert Kingett</h3>
+		<p class="author-bio">
+      </p><p>Robert Kingett is an award-winning Blind and gay writer. His website has all the cookies. <a href="https://robertkingett.com/posts">View all posts by Robert Kingett</a></p>
+
+		<p></p>
+	</div>
+</div>
+
+		<span class="tag-links">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.3 4.3c-.2-.2-.4-.3-.7-.3H3c-.5 0-1 .5-1 1v6c0 .6.5 1 1 1h7.6c.3 0 .5-.1.7-.3L15 8l-3.7-3.7zM10 9c-.5 0-1-.5-1-1s.5-1 1-1 1 .5 1 1-.5 1-1 1z"></path></svg>
+			<span class="screen-reader-text">Tags </span>
+				
+				<a href="/myblog/posts/tags/blog-and-journal">
+					Blog and journal.
+				</a>
+				,
+				<a href="/myblog/posts/tags/random-thoughts">
+					Random thoughts
+				</a>
+		</span>
 	</footer>
 <div class="follow-cta">
   <h2 id="follow-future-posts">Follow future posts</h2>
@@ -2087,7 +2573,6 @@ address {
 
 </div> 
 </article>
-
 
 <nav class="navigation post-navigation" aria-label="Posts">
 	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
@@ -2116,7 +2601,7 @@ address {
 			<p>&copy; Robert Kingett 2025 | Built with <a href="https://www.11ty.dev/">Eleventy v3.0.0</a></p>
 		</footer>
 
-		<!-- This page `/myblog/posts/5419/` was updated on 2025-02-11T21:36:47.952Z -->
+		<!-- This page `/myblog/posts/5419/` was updated on 2025-02-15T02:02:14.345Z -->
 		<script type="module" src="/myblog/dist/xbxy_EL6cU.js"></script>
 	</body>
 </html>
