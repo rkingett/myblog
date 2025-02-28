@@ -37,7 +37,7 @@
 		{#- Add the heading-anchors web component to the JavaScript bundle #}
 		{%- js %}{% include "node_modules/@zachleat/heading-anchors/heading-anchors.js" %}{% endjs %}
 	</head>
-	<body>
+	<body{{ ' class="' + bodyClass + '"' if bodyClass }}>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 		{%- include "../navigation.njk" %}
