@@ -481,12 +481,9 @@ button {
 	cursor: pointer;
 }
 
-main .page,
-main .post,
-main:not(:has(article.post)):not(:has(article.page)) {
+main article {
 	line-height: 1.6;
 	max-width: var(--width);
-	/* width: 100%; */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1313,8 +1310,10 @@ body > a:first-child:focus {
 	overflow: hidden;
 }
 
+.page,
 .post {
 	margin: 0 auto;
+	line-height: 1.6;
 	max-width: var(--width);
 }
 
@@ -1564,14 +1563,6 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
-}
-
-.hentry,
-.page.hentry,
-.post.hentry {
-	margin: 0 7.6923%;
-	padding: 7.6923% 0;
-	position: relative;
 }
 
 .hentry + .hentry {
@@ -2429,7 +2420,7 @@ span.ha-placeholder {
 	float: right;
 }</style>
 	</head>
-	<body>
+	<body class="&quot;page&quot;">
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 <nav>
@@ -2489,7 +2480,7 @@ span.ha-placeholder {
 
 		<main id="skip">
 			<heading-anchors>
-				<article class="page hentry">
+				<article class="hentry">
 	<header class="entry-header">
     <h1 id="beta-readers-and-street-team-information">Beta readers and Street team information</h1>
 	</header>

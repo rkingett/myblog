@@ -482,12 +482,9 @@ button {
 	cursor: pointer;
 }
 
-main .page,
-main .post,
-main:not(:has(article.post)):not(:has(article.page)) {
+main article {
 	line-height: 1.6;
 	max-width: var(--width);
-	/* width: 100%; */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1314,8 +1311,10 @@ body > a:first-child:focus {
 	overflow: hidden;
 }
 
+.page,
 .post {
 	margin: 0 auto;
+	line-height: 1.6;
 	max-width: var(--width);
 }
 
@@ -1565,14 +1564,6 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
-}
-
-.hentry,
-.page.hentry,
-.post.hentry {
-	margin: 0 7.6923%;
-	padding: 7.6923% 0;
-	position: relative;
 }
 
 .hentry + .hentry {

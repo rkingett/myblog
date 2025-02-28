@@ -481,12 +481,9 @@ button {
 	cursor: pointer;
 }
 
-main .page,
-main .post,
-main:not(:has(article.post)):not(:has(article.page)) {
+main article {
 	line-height: 1.6;
 	max-width: var(--width);
-	/* width: 100%; */
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -1313,8 +1310,10 @@ body > a:first-child:focus {
 	overflow: hidden;
 }
 
+.page,
 .post {
 	margin: 0 auto;
+	line-height: 1.6;
 	max-width: var(--width);
 }
 
@@ -1564,14 +1563,6 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
-}
-
-.hentry,
-.page.hentry,
-.post.hentry {
-	margin: 0 7.6923%;
-	padding: 7.6923% 0;
-	position: relative;
 }
 
 .hentry + .hentry {
@@ -2429,7 +2420,7 @@ span.ha-placeholder {
 	float: right;
 }</style>
 	</head>
-	<body>
+	<body class="&quot;post&quot;">
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 <nav>
@@ -2489,28 +2480,20 @@ span.ha-placeholder {
 
 		<main id="skip">
 			<heading-anchors>
-				<article class="post hentry">
+				<article class="hentry">
 	<header class="entry-header">
-		<span class="posted-on">
-			<span class="screen-reader-text">
-				Posted on
-			</span>
 			<a href="/myblog/posts/5642/">
+				<span class="screen-reader-text">
+					Posted on
+				</span>
 				<time datetime="2022-06-02">02 June 2022</time>
 			</a>
-		</span>
 		<h1 class="entry-title" id="why-i-read-banned-books">Why I read banned books.</h1>
 		<span class="tag-links">
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M11.3 4.3c-.2-.2-.4-.3-.7-.3H3c-.5 0-1 .5-1 1v6c0 .6.5 1 1 1h7.6c.3 0 .5-.1.7-.3L15 8l-3.7-3.7zM10 9c-.5 0-1-.5-1-1s.5-1 1-1 1 .5 1 1-.5 1-1 1z"></path></svg>
 			<span class="screen-reader-text">Tags </span>
-				
-				<a href="/myblog/posts/tags/blog-and-journal">
-					Blog and journal.
-				</a>
-				,
-				<a href="/myblog/posts/tags/random-thoughts">
-					Random thoughts
-				</a>
+				<a href="/myblog/posts/tags/blog-and-journal">Blog and journal.</a>,
+				<a href="/myblog/posts/tags/random-thoughts">Random thoughts</a>
 		</span>
 	</header>
 	<div class="entry-content">
