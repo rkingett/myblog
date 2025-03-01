@@ -1,0 +1,29 @@
+{%- if collections.posts %}
+{%- set previousPost = collections.posts | getPreviousCollectionItem %}
+{%- set nextPost = collections.posts | getNextCollectionItem %}
+{%- if nextPost or previousPost %}
+<nav class="navigation post-navigation" aria-label="Posts">
+	<h2 class="screen-reader-text">Post navigation</h2>
+	<div class="nav-links">
+		{%- if previousPost %}
+		<div class="nav-previous">
+			<a href="{{ previousPost.url }}" rel="prev">
+				<span class="meta-nav" aria-hidden="true">Previous</span>
+				<span class="screen-reader-text">Previous post:</span>
+				<span class="post-title">{{ previousPost.data.title }}</span>
+			</a>
+		</div>
+		{%- endif %}
+		{%- if nextPost %}
+		<div class="nav-next">
+			<a href="{{ nextPost.url }}" rel="next">
+				<span class="meta-nav" aria-hidden="true">Next</span>
+				<span class="screen-reader-text">Next post:</span>
+				<span class="post-title">{{ nextPost.data.title }}</span>
+			</a>
+		</div>
+		{%- endif %}
+	</div>
+</nav>
+{%- endif %}
+{%- endif %}
