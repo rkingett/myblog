@@ -469,7 +469,8 @@ button {
 	cursor: pointer;
 }
 
-main article {
+main article,
+main:not(.post):not(.page) {
 	line-height: 1.6;
 	max-width: var(--width);
 	margin-left: auto;
@@ -1307,6 +1308,21 @@ body > a:first-child:focus {
 
 .entry-footer {
 	margin-bottom: 3rem;
+
+	h2 {
+		font-family: var(--font-mono);
+		font-size: 1.0625rem;
+		line-height: 0;
+	}
+
+	h3 {
+		margin: 0;
+	}
+
+	p {
+		padding: 0;
+		white-space: pre-wrap;
+	}
 }
 
 .posted-on,
@@ -1380,7 +1396,8 @@ header img {
  */
 
 .post,
-.page {
+.page,
+main:not(.post):not(.page) {
 	font-size: 2rem;
 	line-height: 1.6;
 }
@@ -1400,10 +1417,6 @@ header img {
 	font-size: 1.625rem;
 	line-height: 1.153846154;
 	margin: 0;
-}
-
-.post {
-	/* margin-top: 9.09297331%; */
 }
 
 .post > :last-child {
@@ -1428,6 +1441,7 @@ header img {
 	margin-bottom: 24px;
 }
 
+.entry-header h1,
 .post main h1:first-child,
 .post main h2:first-child,
 .post main h3:first-child,
@@ -1491,11 +1505,6 @@ header img {
 	padding-top: 24px;
 }
 
-.post header {
-	/* border-bottom: 2px solid currentColor; */
-	padding: 7.6923% 0 0;
-}
-
 .post header .title {
 	font-size: 26px;
 	font-size: 1.625rem;
@@ -1551,6 +1560,11 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
+}
+
+.hentry {
+	margin: 0 7.6923%;
+	position: relative;
 }
 
 .hentry + .hentry {
@@ -2254,10 +2268,6 @@ address {
 		margin-top: 9.0909091%;
 	}
 
-	.hentry {
-		padding: 5.8824% 0;
-	}
-
 	.page-header {
 		padding: 5.8824% 0;
 	}
@@ -2406,4 +2416,53 @@ span.ha-placeholder {
 
 .post-navigation .nav-next {
 	float: right;
+}
+
+#sidebar-toggle {
+	display: none;
+	background-color: transparent;
+	border-color: currentColor;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	color: currentColor;
+	height: 50px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	place-items: center;
+	width: 50px;
+	z-index: 1;
+	line-height: 0;
+
+	&[aria-expanded] {
+		.not-expanded {
+			display: none;
+		}
+	}
+
+	&:not([aria-expanded]) {
+		.expanded {
+			display: none;
+		}
+	}
+
+	svg {
+		width: 1.125rem;
+		height: 1.125rem;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 43.75em) {
+	body > nav {
+		display: none;
+	}
+
+	#sidebar-toggle {
+		display: block;
+	}
 }

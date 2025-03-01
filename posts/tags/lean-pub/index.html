@@ -483,7 +483,8 @@ button {
 	cursor: pointer;
 }
 
-main article {
+main article,
+main:not(.post):not(.page) {
 	line-height: 1.6;
 	max-width: var(--width);
 	margin-left: auto;
@@ -1321,6 +1322,21 @@ body > a:first-child:focus {
 
 .entry-footer {
 	margin-bottom: 3rem;
+
+	h2 {
+		font-family: var(--font-mono);
+		font-size: 1.0625rem;
+		line-height: 0;
+	}
+
+	h3 {
+		margin: 0;
+	}
+
+	p {
+		padding: 0;
+		white-space: pre-wrap;
+	}
 }
 
 .posted-on,
@@ -1394,7 +1410,8 @@ header img {
  */
 
 .post,
-.page {
+.page,
+main:not(.post):not(.page) {
 	font-size: 2rem;
 	line-height: 1.6;
 }
@@ -1414,10 +1431,6 @@ header img {
 	font-size: 1.625rem;
 	line-height: 1.153846154;
 	margin: 0;
-}
-
-.post {
-	/* margin-top: 9.09297331%; */
 }
 
 .post > :last-child {
@@ -1442,6 +1455,7 @@ header img {
 	margin-bottom: 24px;
 }
 
+.entry-header h1,
 .post main h1:first-child,
 .post main h2:first-child,
 .post main h3:first-child,
@@ -1505,11 +1519,6 @@ header img {
 	padding-top: 24px;
 }
 
-.post header {
-	/* border-bottom: 2px solid currentColor; */
-	padding: 7.6923% 0 0;
-}
-
 .post header .title {
 	font-size: 26px;
 	font-size: 1.625rem;
@@ -1565,6 +1574,11 @@ figure caption {
 	font-size: 15px;
 	font-size: 0.9375rem;
 	padding: 6px 0 0;
+}
+
+.hentry {
+	margin: 0 7.6923%;
+	position: relative;
 }
 
 .hentry + .hentry {
@@ -2268,10 +2282,6 @@ address {
 		margin-top: 9.0909091%;
 	}
 
-	.hentry {
-		padding: 5.8824% 0;
-	}
-
 	.page-header {
 		padding: 5.8824% 0;
 	}
@@ -2420,9 +2430,58 @@ span.ha-placeholder {
 
 .post-navigation .nav-next {
 	float: right;
+}
+
+#sidebar-toggle {
+	display: none;
+	background-color: transparent;
+	border-color: currentColor;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	color: currentColor;
+	height: 50px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	text-align: center;
+	place-items: center;
+	width: 50px;
+	z-index: 1;
+	line-height: 0;
+
+	&[aria-expanded] {
+		.not-expanded {
+			display: none;
+		}
+	}
+
+	&:not([aria-expanded]) {
+		.expanded {
+			display: none;
+		}
+	}
+
+	svg {
+		width: 1.125rem;
+		height: 1.125rem;
+		vertical-align: middle;
+	}
+}
+
+@media screen and (max-width: 43.75em) {
+	body > nav {
+		display: none;
+	}
+
+	#sidebar-toggle {
+		display: block;
+	}
 }</style>
 	</head>
-	<body class="&quot;page&quot;">
+	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 <nav>
@@ -2474,16 +2533,32 @@ span.ha-placeholder {
   </a></li></ul>
 </nav>
 
+<button id="sidebar-toggle" aria-expanded="false">
+  <span class="expanded">
+    <span class="screen-reader-text">Close Menu</span>
+    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" d="M0 0h16v16H0z"></path><path d="m12.7 4.7-1.4-1.4L8 6.6 4.7 3.3 3.3 4.7 6.6 8l-3.3 3.3 1.4 1.4L8 9.4l3.3 3.3 1.4-1.4L9.4 8"></path></svg>
+  </span>
+  <span class="not-expanded">
+    <span class="screen-reader-text">Menu</span>
+    <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" d="M0 0h16v16H0z"></path><path d="M0 14h16v-2H0v2zM0 2v2h16V2H0zm0 7h16V7H0v2z"></path></svg>
+  </span>
+</button>
+<script>
+  const toggleEl = document.querySelector("#sidebar-toggle");
+  toggleEl.addEventListener("click", () => {
+    toggleEl.toggleAttribute("aria-expanded");
+  })
+</script>
 
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
 		</header>
 
-		<main id="skip">
+		<main id="skip" class="page">
 			<heading-anchors>
 				<article class="hentry">
-	<header class="entry-header">
+	<header>
     <h1 id="tagged-lean-pub">Tagged “Lean Pub”</h1>
 	</header>
 	<div class="entry-content">
@@ -2502,6 +2577,8 @@ span.ha-placeholder {
 
 			</heading-anchors>
 		</main>
+
+		
 
 		<footer>
 			<p>&copy; Robert Kingett 2025 | <a href="/myblog/privacy">Privacy, disclaimers, disclosures.</a></p>
