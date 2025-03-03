@@ -2469,6 +2469,68 @@ span.ha-placeholder {
 	}
 }
 
+#sidebar-nav {
+	&[aria-expanded] nav {
+		display: block;
+		line-height: 1.6;
+		margin-inline: auto;
+		padding: 1rem;
+
+		ul {
+			display: block;
+
+			li {
+				border: 0 none transparent;
+				border-bottom: 2px solid currentColor;
+				display: block;
+				margin: 0;
+				padding: 0;
+
+				a {
+					align-items: center;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+				}
+
+				&:hover ul.sub-menu li {
+					margin-left: 0;
+					border-top-width: 2px;
+				}
+
+				ul {
+					clip: initial;
+					height: initial;
+					position: initial;
+					overflow: initial;
+					width: initial;
+					background: none;
+
+					li {
+						border: 0 none transparent;
+						border-top: 2px solid currentColor;
+					}
+				}
+			}
+
+			a {
+				display: block;
+				font-size: 1.5rem;
+				margin: 0;
+			}
+		}
+	}
+
+	&:not([aria-expanded]) {
+		display: none;
+	}
+}
+
+#sidebar-nav[aria-expanded] + main,
+#sidebar-nav[aria-expanded] + main + nav {
+	display: none;
+}
+
 @media screen and (max-width: 43.75em) {
 	body > nav {
 		display: none;
@@ -2481,7 +2543,6 @@ span.ha-placeholder {
 	</head>
 	<body>
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
-
 <nav>
   <ul class="nav"><li class="nav-item">
   <a href="/myblog/">
@@ -2529,9 +2590,7 @@ span.ha-placeholder {
   <a href="/myblog/links/">
     Resources
   </a></li></ul>
-</nav>
-
-<button id="sidebar-toggle" aria-expanded="false">
+</nav><button id="sidebar-toggle">
   <span class="expanded">
     <span class="screen-reader-text">Close Menu</span>
     <svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path fill="none" d="M0 0h16v16H0z"></path><path d="m12.7 4.7-1.4-1.4L8 6.6 4.7 3.3 3.3 4.7 6.6 8l-3.3 3.3 1.4 1.4L8 9.4l3.3 3.3 1.4-1.4L9.4 8"></path></svg>
@@ -2544,14 +2603,67 @@ span.ha-placeholder {
 <script>
   const toggleEl = document.querySelector("#sidebar-toggle");
   toggleEl.addEventListener("click", () => {
-    toggleEl.toggleAttribute("aria-expanded");
+    const navEl = document.querySelector("#sidebar-nav");
+    
+    toggleEl?.toggleAttribute("aria-expanded");
+    navEl?.toggleAttribute("aria-expanded");
   })
 </script>
-
 
 		<header>
 			<a href="/myblog/" class="home-link">Sightless Scribbles</a>
 		</header>
+<div id="sidebar-nav">
+  <nav>
+    <ul><li class="nav-item">
+  <a href="/myblog/">
+    Home
+  </a></li><li class="nav-item">
+  <a href="/myblog/feed.xml">
+    RSS
+  </a></li><li class="nav-item">
+  <a href="/myblog/map/">
+    Site Map
+  </a></li><li class="nav-item">
+  <a href="/myblog/posts/">
+    Updates
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/bio/">
+    About Robert Kingett
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/resume/">
+    CV/Resume
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/follow/">
+    Follow
+  </a></li><li class="nav-item">
+  <a href="/myblog/writings/">
+    Writing
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/events/">
+    Events
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/calendar/">
+    Calendar
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/support/">
+    Donate
+  </a></li><li class="nav-item menu-item-has-children">
+  <a href="/myblog/contact/">
+    Contact
+    <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" viewBox="0 0 16 16"><path d="M8 12.7 1.3 6l1.4-1.4L8 9.9l5.3-5.3L14.7 6z"></path></svg>
+  </a><ul class="sub-menu"><li class="nav-item">
+  <a href="/myblog/team/">
+    Street team
+  </a></li></ul></li><li class="nav-item">
+  <a href="/myblog/links/">
+    Resources
+  </a></li></ul>
+  </nav>
+</div>
+
 
 		<main id="skip" class="post">
 			<heading-anchors>
@@ -2626,8 +2738,6 @@ span.ha-placeholder {
 
 			</heading-anchors>
 		</main>
-
-		
 <nav class="navigation post-navigation" aria-label="Posts">
 	<h2 class="screen-reader-text" id="post-navigation">Post navigation</h2>
 	<div class="nav-links">

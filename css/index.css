@@ -2457,6 +2457,68 @@ span.ha-placeholder {
 	}
 }
 
+#sidebar-nav {
+	&[aria-expanded] nav {
+		display: block;
+		line-height: 1.6;
+		margin-inline: auto;
+		padding: 1rem;
+
+		ul {
+			display: block;
+
+			li {
+				border: 0 none transparent;
+				border-bottom: 2px solid currentColor;
+				display: block;
+				margin: 0;
+				padding: 0;
+
+				a {
+					align-items: center;
+					display: flex;
+					flex-direction: row;
+					justify-content: space-between;
+				}
+
+				&:hover ul.sub-menu li {
+					margin-left: 0;
+					border-top-width: 2px;
+				}
+
+				ul {
+					clip: initial;
+					height: initial;
+					position: initial;
+					overflow: initial;
+					width: initial;
+					background: none;
+
+					li {
+						border: 0 none transparent;
+						border-top: 2px solid currentColor;
+					}
+				}
+			}
+
+			a {
+				display: block;
+				font-size: 1.5rem;
+				margin: 0;
+			}
+		}
+	}
+
+	&:not([aria-expanded]) {
+		display: none;
+	}
+}
+
+#sidebar-nav[aria-expanded] + main,
+#sidebar-nav[aria-expanded] + main + nav {
+	display: none;
+}
+
 @media screen and (max-width: 43.75em) {
 	body > nav {
 		display: none;
