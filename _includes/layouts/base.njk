@@ -41,18 +41,19 @@
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 		{%- include "../navigation.njk" %}
+		{%- include "sidebar-button.njk" %}
 
 		<header>
 			<a href="/" class="home-link">{{ metadata.title }}</a>
 		</header>
+		{%- include "sidebar-navigation.njk" %}
 
 		<main id="skip" {{ ' class=' + bodyClass if bodyClass }}>
 			<heading-anchors>
 				{{ content | safe }}
 			</heading-anchors>
 		</main>
-
-		{% include 'pagination.njk' %}
+		{%- include "pagination.njk" %}
 		<footer>
 			<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | <a href="/privacy">Privacy, disclaimers, disclosures.</a></p>
 		</footer>
