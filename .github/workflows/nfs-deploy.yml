@@ -27,3 +27,4 @@ jobs:
           server: ${{ secrets.HOST }}
           local_path: "./DistSite/*"
           remote_path: "/home/public/"
+          delete_remote_files: true
