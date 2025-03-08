@@ -1580,7 +1580,7 @@ figure caption {
 }
 
 .entry-content {
-	margin-top: 9.09297331%;
+	margin-bottom: 9.09297331%;
 }
 
 .entry-content > :last-child {
@@ -2262,12 +2262,6 @@ address {
  */
 
 @media screen and (min-width: 57.8125em) {
-	.post,
-	.page,
-	.entry-content {
-		margin-top: 9.0909091%;
-	}
-
 	.page-header {
 		padding: 5.8824% 0;
 	}
