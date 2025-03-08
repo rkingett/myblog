@@ -25,5 +25,5 @@ jobs:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
           server: ${{ secrets.HOST }}
-          local_path: "./DistSite/"
+          local_path: "./DistSite/*"
           remote_path: "/home/public/"
