@@ -1,5 +1,4 @@
----"\rtitle": websiteback
-date: 2025-03-08
+---date: 2025-03-08
 tags:
     - Newsletter
 title: My website is back!
