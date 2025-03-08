@@ -26,6 +26,6 @@ jobs:
           password: ${{ secrets.PASSWORD }}
           server: ${{ secrets.HOST }}
           local_path: "./DistSite"
-          remote_path: "/home/public"
+          remote_path: "/home/public/"
           sftp_only: true
           delete_remote_files: true
