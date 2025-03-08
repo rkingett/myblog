@@ -24,7 +24,7 @@ jobs:
         with:
           username: ${{ secrets.USERNAME }}
           password: ${{ secrets.PASSWORD }}
-          server: ${{ secrets.SERVER }}
+          server: ${{ secrets.HOST }}
           local_path: "./DistSite"
           remote_path: "/home/public"
           sftp_only: true
