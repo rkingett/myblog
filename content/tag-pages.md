@@ -14,4 +14,6 @@ eleventyComputed:
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
-<p>See <a href="tags.njk">all tags</a>.</p>
+See <a href="/posts/tags">all tags</a>.
+
+Subscribe to <a href="/posts/tags/{{ tag | slugify }}/feed.xml">this tag's RSS feed</a>.
