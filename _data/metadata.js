@@ -1,6 +1,6 @@
 export default {
 	title: "Sightless Scribbles",
-	url: "https://robertkingett.netlify.app/",
+	url: "https://sightlessblog.nfshost.com",
 	language: "en",
 	description: "A fabulously gay blind author.",
 	author: {

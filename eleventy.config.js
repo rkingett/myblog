@@ -5,9 +5,12 @@ import {
 } from "@11ty/eleventy";
 import pluginSyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import pluginNavigation from "@11ty/eleventy-navigation";
+import { feedPlugin } from "@11ty/eleventy-plugin-rss";
 
 import pluginFilters from "./_config/filters.js";
 import pluginShortcodes from "./_config/shortcodes.js";
+
+import metadata from "./_data/metadata.js";
 
 /** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
 export default async function (eleventyConfig) {
@@ -49,6 +52,25 @@ export default async function (eleventyConfig) {
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(HtmlBasePlugin);
 	eleventyConfig.addPlugin(InputPathToUrlTransformPlugin);
+	eleventyConfig.addPlugin(feedPlugin, {
+		type: "atom",
+		outputPath: "/feed.xml",
+		stylesheet: "/feed/pretty-atom-feed.xsl",
+		collection: {
+			name: "posts",
+			limit: metadata.feedLimit,
+		},
+		metadata: {
+			language: metadata.language,
+			title: metadata.title,
+			subtitle: metadata.description,
+			base: metadata.url,
+			author: {
+				name: metadata.author.name,
+				email: metadata.author.email,
+			},
+		},
+	});
 
 	// Filters
 	eleventyConfig.addPlugin(pluginFilters);
