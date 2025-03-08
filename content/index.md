@@ -1,10 +1,12 @@
 ---
 layout: layouts/home.njk
-numberOfLatestPostsToShow: 3
+numberOfLatestPostsToShow: 5
 eleventyNavigation:
   title: Home
   order: 0
 ---
+
+Intro coming soon.
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}
