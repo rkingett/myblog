@@ -1,4 +1,5 @@
 _site/
+DistSite/
 node_modules/
 package-lock.json
 .cache
