@@ -1,5 +1,5 @@
 ---title: BookTitle
-date: Last Modified
+date: Created
 tags: ["Books", "Fiction"]
 ---
 

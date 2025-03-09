@@ -22,7 +22,7 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 [Subscribe to updates by email or RSS.](subscribe/)
 
-[Filter by format and categories.](archive/)
+[Filter by format and categories.](map/)
 
 - [All recent work.](/posts)
 - [Books/anthologies.](/books)
