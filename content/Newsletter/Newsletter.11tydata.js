@@ -1,4 +1,4 @@
 export default {
-	tags: ["newsletter"],
+	tags: ["Newsletter", "posts"],
 	layout: "layouts/post.njk",
 };
