@@ -518,6 +518,8 @@ footer {
 	border-top: 2px solid var(--foreground-colour);
 	background: var(--background-colour);
 	padding: 0;
+	position: relative;
+	top: -2px;
 }
 
 footer p {
@@ -2377,32 +2379,21 @@ span.ha-placeholder {
 }
 
 .post-navigation {
-	width: 100%;
-	border-bottom: 0;
-	position: relative;
-	display: block;
 	border-top: 2px solid var(--foreground-colour);
-}
-
-.post-navigation::after {
-	content: "";
-	clear: both;
-	display: table;
-}
-
-.post-navigation a {
 	display: block;
+	margin-inline: 0;
+	position: relative;
+	width: 100%;
 }
 
-.post-navigation .nav-previous,
-.post-navigation .nav-next {
-	width: 50%;
-	display: block;
+.post-navigation .nav-links {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .post-navigation .meta-nav {
-	font-family: var(--font-mono);
 	display: block;
+	font-family: var(--font-mono);
 	font-size: 1.0625rem;
 	line-height: 1.411764706;
 	margin-bottom: 16px;
@@ -2417,45 +2408,41 @@ span.ha-placeholder {
 }
 
 .post-navigation a {
+	display: block;
 	padding: 32px 24px;
-	white-space: initial;
 	text-decoration: underline;
-	border-left: 2px solid var(--foreground-colour);
+	white-space: initial;
+}
+
+.post-navigation a:first-child {
 	border-right: 2px solid var(--foreground-colour);
-	margin-inline: -2px;
+	border-bottom: 2px solid var(--foreground-colour);
 }
 
-.post-navigation a:hover {
-	width: auto;
-}
-
-.post-navigation .nav-previous {
-	float: left;
-}
-
-.post-navigation .nav-next {
-	float: right;
+.post-navigation a:only-child {
+	border: 0 !important;
+	width: 100%;
 }
 
 #sidebar-toggle {
-	display: none;
 	background-color: transparent;
 	border-color: currentColor;
 	border-radius: 0;
 	border-style: solid;
 	border-width: 0 0 2px 2px;
 	color: currentColor;
+	display: none;
 	height: 50px;
+	line-height: 0;
 	overflow: hidden;
 	padding: 0;
+	place-items: center;
 	position: absolute;
-	top: 0;
 	right: 0;
 	text-align: center;
-	place-items: center;
+	top: 0;
 	width: 50px;
 	z-index: 1;
-	line-height: 0;
 
 	&[aria-expanded] {
 		.not-expanded {
@@ -2470,9 +2457,9 @@ span.ha-placeholder {
 	}
 
 	svg {
-		width: 1.125rem;
 		height: 1.125rem;
 		vertical-align: middle;
+		width: 1.125rem;
 	}
 }
 
@@ -2506,12 +2493,12 @@ span.ha-placeholder {
 				}
 
 				ul {
+					background: none;
 					clip: initial;
 					height: initial;
-					position: initial;
 					overflow: initial;
+					position: initial;
 					width: initial;
-					background: none;
 
 					li {
 						border: 0 none transparent;
