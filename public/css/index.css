@@ -1355,7 +1355,7 @@ body > a:first-child:focus {
 	margin: 0;
 }
 
-.tag-links li:not(:last-child) a::after {
+.tag-links a:not(:last-child)::after {
 	content: ",";
 	display: inline-block;
 }
