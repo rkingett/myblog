@@ -11,11 +11,11 @@ eleventyComputed:
   tagFeed: "/posts/tags/{{ tag | slugify }}/feed.xml"
 ---
 
-<a href="/posts/tags/{{ tag | slugify }}/feed.xml">Subscribe to this tag's RSS feed</a>.
+<a href="/posts/tags/{{ tag | slugify }}/feed.xml">Follow the {{ tag }} tag via RSS feed</a> or <a href="/feed.xml">Follow the main RSS feed</a>
 
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 
 See <a href="/posts/tags">all tags</a>.
 
-<a href="/posts/tags/{{ tag | slugify }}/feed.xml">Subscribe to this tag's RSS feed</a>.
+<a href="/posts/tags/{{ tag | slugify }}/feed.xml">Follow the {{ tag }} tag via RSS feed</a> or <a href="/feed.xml">Follow the main RSS feed</a>

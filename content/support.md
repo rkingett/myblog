@@ -1,5 +1,5 @@
 ---
-title: Support me
+title: Tip me
 eleventyNavigation:
   key: Donate
   order: 9
