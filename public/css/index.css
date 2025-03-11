@@ -683,6 +683,10 @@ blockquote > p:last-child {
 	margin-bottom: 0;
 }
 
+blockquote > p:first-child {
+	margin-top: 0;
+}
+
 blockquote cite,
 blockquote small {
 	display: block;
@@ -2237,9 +2241,6 @@ address {
 		font-size: 35px;
 		font-size: 2.1875rem;
 		line-height: 1.371428571;
-		margin: 0 -11.11419486% 32px -11.11419486%;
-		padding: 32px 0;
-		max-width: 122.22838972%;
 		text-align: center;
 	}
 
