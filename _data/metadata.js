@@ -1,14 +1,14 @@
 export default {
 	title: "Sightless Scribbles",
-	url: "https://sightlessblog.nfshost.com",
+	url: "https://sightlessscribbles.com",
 	language: "en",
 	description: "A fabulously gay blind author.",
 	author: {
 		name: "Robert Kingett",
 		email: "kingettr@gmail.com",
-		url: "https://robertkingett.com/",
+		url: "https://sightlessscribbles.com",
 		fediverse: "@weirdwriter@tweesecake.social",
-		bio: "Robert Kingett is an award-winning Blind and gay writer. His website has all the cookies.\n[View all posts by Robert Kingett](https://robertkingett.com/posts)",
+		bio: "Robert Kingett is an award-winning Blind and gay writer. His website has all the cookies.\n[View all posts by Robert Kingett](https://sightlessscribbles.com/posts)",
 	},
 	feedLimit: 50,
 };
