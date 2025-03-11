@@ -30,8 +30,6 @@ View upcoming events below!
 
 [Calendar as webpage](https://calendar.google.com/calendar/htmlembed?src=q2419kss4euv1d55b9h2uluufpo6s74k@import.calendar.google.com&ctz=America/Chicago&mode=AGENDA) in agenda view.
 
-## List of upcoming events
-
 ## Event recordings.
 
 You can also [find audio and video on my PeerTube channel.](https://spectra.video/c/robertkingett)

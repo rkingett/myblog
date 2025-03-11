@@ -14,3 +14,12 @@ Pages, not posts, and tags
 
 - [{{ page.data.title }}]({{ absoluteUrl }})
   {%- endfor %}
+
+<h2>All tags and categories.</h2>
+
+<ul>
+{% for tag in collections | getKeys | filterTagList %}
+	{% set tagUrl %}/posts/tags/{{ tag | slugify }}/{% endset %}
+	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a></li>
+{% endfor %}
+</ul>
