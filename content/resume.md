@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-[Robert Kingett](/Robert-Kingett.htm)
+[Download my resume](/Robert-Kingett.htm)
 
 Besides [my writing work](/writings) I’ve worn many hats including accessibility consulting, expert witness, and more. Below, you will find key pages.
 
@@ -18,10 +18,3 @@ Besides [my writing work](/writings) I’ve worn many hats including accessibi
 - [Sensitivity reading work.](/reading)
 - [Audio description work.](/ad) Learn about Audio Description writing and more.
 - [Accessibility specialist.](/tech) Learn about accessibility consulting, my expert witness portfolio, and more.
-
-## Portfolio sample.
-
-Aside from the above work, check out some roundup highlights below.
-
-- [Royalty statement 2023](/posts/6540/)
-- [Artificial Divide Buzz](/posts/6481/)

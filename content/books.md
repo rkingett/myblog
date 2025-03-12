@@ -4,7 +4,7 @@ title: books and anthologies
 
 The books listed below are organized from newest, at the top, to oldest, at the bottom.
 
-[Read shorter works.](/posts/tags/writings)
+[Read shorter works.](/shorts)
 
 [Find audio versions of my work.](/audio)
 
@@ -34,12 +34,6 @@ In the below listings, I’ve indicated where you can buy books without DRM in t
 5. [How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace](/posts/6517)
 6. [Off the Grid: Living Blind Without the Internet](/posts/2808)
 
-## Anthologies
+## Anthologies.
 
-- [Trunk Writing](/posts/6625)
-- [How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace](/posts/6517)
-- [A Deserving Conference](/posts/6380)
-- [Pointy Chances](/posts/6331)
-- [Artificial Divide](/posts/4305)
-- [Where Home is Not Safe](/posts/5186)
-- [Chicken Soup for the Soul: Making Me Time](/posts/4788)
+[See all anthologies here](/posts/tags/anthologies/)

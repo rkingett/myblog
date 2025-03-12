@@ -20,6 +20,8 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
+[Podcast RSS feed](https://pinecast.com/feed/weirdwritings)
+
 [PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?videoChannelId=4444)
 
 # Beta readers and street team
