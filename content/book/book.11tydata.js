@@ -1,4 +1,4 @@
 export default {
-	tags: ["Books", "posts"],
+	tags: ["Books", "Writings", "Ebook", "Paperback", "Hardcover", "Audiobook", "posts"],
 	layout: "layouts/post.njk",
 };
