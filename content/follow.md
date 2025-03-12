@@ -22,7 +22,7 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Podcast RSS feed](https://pinecast.com/feed/weirdwritings)
 
-[PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?videoChannelId=4444)
+[PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?accountId=400558)
 
 # Beta readers and street team
 
