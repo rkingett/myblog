@@ -9,12 +9,7 @@ eleventyNavigation:
 
 <h2>All tags and categories.</h2>
 
-<ul>
-{% for tag in collections | getKeys | filterTagList %}
-	{% set tagUrl %}/posts/tags/{{ tag | slugify }}/{% endset %}
-	<li><a href="{{ tagUrl }}" class="post-tag">{{ tag }}</a> ({{ collections[tag].length }})</li>
-{% endfor %}
-</ul>
+{% include 'tags.njk' %}
 
 <h2>All posts and pages</h2>
 
