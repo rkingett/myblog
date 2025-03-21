@@ -20,6 +20,11 @@ jobs:
       - name: Build
         run: |
           npm run build
-      - name: Deploy with Rsync
-        run: |
-          sshpass -p "${{ secrets.PASSWORD }}" rsync -avz -e "ssh -o StrictHostKeyChecking=no" --delete ./DistSite/ "${{ secrets.USERNAME }}"@"${{ secrets.HOST }}":/home/public/
+      - name: Deploy
+        uses: wlixcc/SFTP-Deploy-Action@v1.2.5
+        with:
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          server: ${{ secrets.HOST }}
+          local_path: "./DistSite/"
+          remote_path: "/home/public/"
