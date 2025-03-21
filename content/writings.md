@@ -10,7 +10,7 @@ redirect_from: /progress
 
 I’m an accomplished [author,](/books) with [experience in many different arenas of publishing.](/resume)
 
-Favorite fiction and nonfiction is on the highlights section of this page below but [you can read publishing highlights here.](/posts/tags/publishing-or-writing-highlights)
+Favorite fiction and nonfiction is on the highlights section of this page below but [you can read publishing highlights here.](/posts/tags/writings)
 
 [View audio or video.](/audio)
 
@@ -20,9 +20,9 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 [See all my writing](/posts/tags/writings) or filter below. Highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
 
-[Subscribe to updates by email or RSS.](follow/)
+[Subscribe to updates by email or RSS.](/follow)
 
-[Filter by format and categories.](map/)
+[Filter by format and categories.](/map)
 
 - [All recent work.](/posts)
 - [Books/anthologies.](/books)
@@ -36,7 +36,7 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 Here’s some selections I like to brag about. In addition to the below, [I published in many other publications.](/posts/tags/writings)
 
-The below only shows highlights. [View all writing here.](/posts)
+[View all writing here.](/posts)
 
 - [Pass the Salt](/posts/6522)
 - [Off the Grid: Living Blind Without the Internet](/posts/2808)
