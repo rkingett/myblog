@@ -6,6 +6,7 @@ RewriteRule !^/?robots\.txt$ - [F,L]
 
 # ClassicPress Redirects
 RewriteRule ^feed$ /feed.xml [R=301,L]
+RewriteRule ^feed/$ /feed.xml [R=301,L]
 RewriteRule ^tags/(.+)$ /posts/tags/$1 [R=301,L]
 RewriteCond %{QUERY_STRING} ^p=([^&]+)$
 RewriteRule ^$ /posts/%1? [R=301,L]

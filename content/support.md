@@ -1,5 +1,5 @@
 ---
-title: Support me
+title: Tip me
 eleventyNavigation:
   key: Donate
   order: 9
@@ -8,14 +8,17 @@ redirect_from: donate
 
 There’s many ways you can support me other than [buying my writing](/writings).
 
-- [Liberapay.](https://en.liberapay.com/WeirdWriter/) Monthly or weekly donations to fund my work with multiple ways to give. recurring.
-- [Comradery page](https://www.comradery.co/weirdwriter) monthly donations.
-- [Cash App donation.](https://cash.app/%24weirdwriter) One time, should work in countries where Stripe can’t work.
-- [Donate to my podcast tip jar](https://tips.pinecast.com/jar/weirdwritings) which also funds narrators.
-- [Join my street team.](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
-- [PayPal](https://www.paypal.com/biz/fund?id=2T4ZH75BU2DF8) one time.
+<ul>
+<li><a href="https://buttondown.com/weirdwriter">My newsletter has pay per email and other support options,</a> or <a href="https://buy.stripe.com/00g8A88Aw9cSgda144">Pay what you want annually via Stripe directly,</a> recurring.</li>
+<li><a href="https://en.liberapay.com/WeirdWriter/">Liberapay.</a> Monthly or weekly donations to fund my work with multiple ways to give. recurring.</li>
+<li><a href="https://www.comradery.co/weirdwriter">Comradery page</a> monthly donations.</li>
+<li><a href="https://cash.app/$weirdwriter">Cash App donation.</a> One time, should work in countries where Stripe can't work.</li> 
+	<li><a href="https://tips.pinecast.com/jar/weirdwritings">Donate to my podcast tip jar</a> which also funds narrators.</li>
+<li><a href="https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street">Join my street team.</a></li>
+<li><a href="https://www.paypal.com/biz/fund?id=2T4ZH75BU2DF8">PayPal</a> one time.</li>
+</ul>
 
-## Send checks and or packages.
+<h2>Send checks and or packages.</h2>
 
 Robert Kingett.
 

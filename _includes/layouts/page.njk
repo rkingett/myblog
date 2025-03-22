@@ -6,6 +6,9 @@ bodyClass: page
 	<header>
     <h1>{{ title }}</h1>
 	</header>
+	<div>
+		<a href="/">{{ metadata.title }}</a> &gt; {{ title }}
+	</div>
 	<div class="entry-content">
     {{ content | safe }}
 	</div>

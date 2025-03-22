@@ -11,7 +11,7 @@ eleventyNavigation:
 
 Due to my speech disability, I will never have phone calls except for accessibility work and other special cases.
 
-## Mail or packages.
+# Mail or packages.
 
 Robert Kingett
 
@@ -19,7 +19,7 @@ Robert Kingett
 
 HOUSTON, TX, 77043-4718
 
-## Forms and emails.
+# Forms and emails.
 
 [Email, KingettWebsite@weirdwriter.anonaddy.com](mailto:KingettWebsite@weirdwriter.anonaddy.com?subject=Contact%20request%20from%20website)
 
@@ -29,6 +29,6 @@ HOUSTON, TX, 77043-4718
 
 [Schedule consulting meeting.](https://calendly.com/weirdwriter/60min)
 
-## social media links.
+# social media links.
 
-[Find me in the Fediverse](https://tweesecake.social/@weirdwriter)
+[Find me in the Fediverse](https://tweesecake.social/@weirdwriter) or [find me on BlueSky](https://bsky.app/profile/WeirdWriter.caneandable.social.ap.brid.gy)

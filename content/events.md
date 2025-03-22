@@ -10,6 +10,8 @@ eleventyNavigation:
 
 This page holds links to learn about visits as well as watch presentations and keep up with future events.
 
+[View past events](/posts/tags/events)
+
 I can have virtual or in person events. All of my events must have Live human captioning, CART services, and sign language interpretation.
 
 I love doing events, even though I have a stutter. I’m available for live lit events, especially charity live lit shows, keynote speaking, or doing an author visit.
@@ -30,10 +32,8 @@ View upcoming events below!
 
 [Calendar as webpage](https://calendar.google.com/calendar/htmlembed?src=q2419kss4euv1d55b9h2uluufpo6s74k@import.calendar.google.com&ctz=America/Chicago&mode=AGENDA) in agenda view.
 
-## List of upcoming events
-
 ## Event recordings.
 
 You can also [find audio and video on my PeerTube channel.](https://spectra.video/c/robertkingett)
 
-- [Mortified appearances](/posts/5651)
+[View past events](/posts/tags/events)

@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 1
 ---
 
-[View past events](/posts/tags/events-and-readings)
+[View past events](/posts/tags/events)
 
 Find all upcoming events below.
 

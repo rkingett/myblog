@@ -2,6 +2,6 @@
 title: Archive by categories and formats.
 ---
 
-todo
+<h1>Tags and categories<h1>
 
-Tag List
+{% include 'tags.njk' %}

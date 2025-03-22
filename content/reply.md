@@ -1,13 +1,19 @@
 ---
-title: Replies.
+title: My wish list.
 ---
 
-Below, you will find replies to the various posts and stories I’ve done.
+<h1>Wish list</h1>
 
-I chose to only show long form replies on this page. I’ve included text, video, and audio replies below.
+Here is a place where you can buy me things I either need or want. Ship any item to,
 
-To get your reply in the below list, [send a link to your response via email.](https://robertkingett.com/contact/)
+Robert Kingett.
 
-[Reply to replacing apps with websites](https://www.lqdev.me/feed/replacing-apps-websites-kingett/)
+1321 Upland Dr PMB 17504
 
-[Webmentions are just a way to say I linked to you](https://sarajaksa.eu/2024/01/webmentions-are-just-a-way-to-say-i-linked-to-you-you-dont-have-to-use-them-as-comments/)
+Houston TX, 77043-4718
+
+<h2>Hardware</h2>
+
+
+
+<digital wishes</h2>

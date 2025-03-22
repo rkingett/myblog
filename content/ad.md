@@ -12,17 +12,6 @@ To see past highlights, scroll down.
 
 [View the full SADC portfolio here](https://adcomrade.wordpress.com/tag/robert-kingett/) or browse the most recent items below.
 
-- [Godzilla Minus One](https://socialaudiodescription.com/2024/12/02/godzilla-minus-one/)
-- [Anderson Collection at Stanford University](https://socialaudiodescription.com/2024/10/07/anderson-collection-at-stanford-university/)
-- [Renegades: Disabled Icons in October on PBS](https://socialaudiodescription.com/2024/09/24/renegades-disabled-icons-in-october-on-pbs/)
-- [After the Bomb](https://socialaudiodescription.com/2024/07/13/after-the-bomb/)
-- [Easterseals Disability Film Challenge](https://socialaudiodescription.com/2024/05/16/easterseals-disability-film-challenge/)
-- [The Ride Ahead](https://socialaudiodescription.com/2024/03/19/the-ride-ahead/)
-- [Negro Mountain](https://socialaudiodescription.com/2023/09/20/negro-mountain/)
-- [National Park Service 2023](https://socialaudiodescription.com/2023/08/02/national-park-service-2023/)
-- [NINA](https://socialaudiodescription.com/2023/05/07/nina/)
-- [Think Higher Think College](https://socialaudiodescription.com/2023/04/29/think-higher-think-college/)
-
 ## Past AD highlights.
 
 ]The Audio Description Network Alliance captured some of my portfolio,]([https://theadna.org/robert-kingett-writer/](https://theadna.org/robert-kingett-writer/)) but [I primarily worked with Social Audio Description](https://socialaudiodescription.com/tag/robert-kingett/) but the below can serve as a portfolio of past AD highlights.

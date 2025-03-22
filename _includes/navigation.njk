@@ -1,7 +1,9 @@
-{%- from "macros.njk" import renderNavListItem %}
-{%- set navPages = collections.all | eleventyNavigation %}
+{%- from "macros.njk" import renderNavListItem -%}
+{%- set navPages = collections.all | eleventyNavigation -%}
+{%- set rssFeedEntry = { title: "RSS Feed", url: "/feed.xml" } -%}
 <nav>
   <ul class="nav">
-{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+	{{ renderNavListItem(rssFeedEntry) }}
+	{%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
   </ul>
 </nav>

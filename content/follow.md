@@ -1,5 +1,5 @@
 ---
-title: Subscribe
+title: Follow
 eleventyNavigation:
   key: Follow
   order: 5
@@ -12,7 +12,7 @@ You can subscribe by RSS or by email, and you can join my street team and otherw
 
 {% include 'newsletter-form.njk' %}
 
-## RSS Feeds.
+# RSS Feeds.
 
 To subscribe by RSS, copy the link location from the below sources and paste it into your feed reader of choice.
 
@@ -20,9 +20,11 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
-[PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?videoChannelId=4444)
+[Podcast RSS feed](https://pinecast.com/feed/weirdwritings)
 
-## Beta readers and street team
+[PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?accountId=400558)
+
+# Beta readers and street team
 
 Here, you can join my beta readers team or my street team.
 

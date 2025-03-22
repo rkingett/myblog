@@ -5,12 +5,18 @@ eleventyNavigation:
   order: 2
 ---
 
-TODO
+<a href="/feed.xml">Follow the main RSS feed</a> or find posts, pages, and categories/tags below.
 
-Pages, not posts, and tags
+<h2>All tags and categories.</h2>
 
-{%- for page in collections.all %}
-{% set absoluteUrl %}{{ page.url | htmlBaseUrl(metadata.url) }}{% endset %}
+{% include 'tags.njk' %}
 
-- [{{ page.data.title }}]({{ absoluteUrl }})
-  {%- endfor %}
+<h2>All posts and pages</h2>
+
+This section is organized by last modified. The latest modified post or page will appear at the top.
+
+<ul>
+{%- for post in collections.all | reverse -%}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
