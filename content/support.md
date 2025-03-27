@@ -8,8 +8,11 @@ redirect_from: donate
 
 There’s many ways you can support me other than [buying my writing](/writings).
 
+In addition to the below, <a href="https://buttondown.com/weirdwriter">My newsletter has pay per email and other support options,</a> or <a href="https://buy.stripe.com/00g8A88Aw9cSgda144">Pay what you want annually via Stripe directly,</a>
+
+<a href="/wish">My wish list is here if you want to get me an item.</a>
+
 <ul>
-<li><a href="https://buttondown.com/weirdwriter">My newsletter has pay per email and other support options,</a> or <a href="https://buy.stripe.com/00g8A88Aw9cSgda144">Pay what you want annually via Stripe directly,</a> recurring.</li>
 <li><a href="https://en.liberapay.com/WeirdWriter/">Liberapay.</a> Monthly or weekly donations to fund my work with multiple ways to give. recurring.</li>
 <li><a href="https://www.comradery.co/weirdwriter">Comradery page</a> monthly donations.</li>
 <li><a href="https://cash.app/$weirdwriter">Cash App donation.</a> One time, should work in countries where Stripe can't work.</li> 
