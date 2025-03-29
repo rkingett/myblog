@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 0
 ---
 
-</1>Hi there</h1>
+<h1>Hi there</h1>
 
 <a href="/map">The site map has navigation on one page.</a>
 
