@@ -1,7 +1,7 @@
 ---
 title: I'm back online after an outage!
 date: Created
-tags: ["Blog and journal"]
+tags: ["News"]
 ---
 
 And yes, we're back!
