@@ -6,6 +6,8 @@ eleventyNavigation:
   order: 0
 ---
 
+</1>Hi there</h1>
+
 <a href="/map">The site map has navigation on one page.</a>
 
 Meow. This is my blog and website. I'm scared of being famous but I love people sharing my work.
@@ -21,7 +23,7 @@ Below will be some quick links and then the recent posts.
 <h1>Key pages.</h1>
 
 * [View everything on one page](/map)
-* ]Read all updates](/posts)
+* [Read all updates](/posts)
 * [Learn about my writing](/writings)
 * [Financially support me](/support)
 * [Learn about my accessibility consulting](/tech)
