@@ -1,5 +1,5 @@
 ---
-title: Recent posts
+title: All posts.
 eleventyNavigation:
   key: Updates
   order: 3

@@ -1,6 +1,7 @@
 ---
-title: My website is back.
-date: Last Modified
+title: I'm back online after an outage!
+date: Created
+tags: ["Blog and journal"]
 ---
 
 And yes, we're back!
