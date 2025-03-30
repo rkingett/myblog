@@ -2,8 +2,6 @@
 title: Accessibility work
 ---
 
-# Accessibility work.
-
 [Schedule an initial meeting.](https://calendly.com/weirdwriter/60min?back=1)
 
 I am an expert screen reader user who has both advocated and consulted for companies making their services or products accessible.
@@ -33,7 +31,7 @@ Below, you will find a sample of some firms I’ve worked with. I consult with p
 
 [My Github outlines the open source work I did, including technical writing,](https://github.com/rkingett) but below are some project highlights.
 
-* ]Buttondown](https://buttondown.com/refer/weirdwriter)
+* [Buttondown](https://buttondown.com/refer/weirdwriter)
 * [Bookwyrm. A Fediverse Goodreads alternative.](https://joinbookwyrm.com/instances/)
 * [GoToSocial](https://gotosocial.org/)
 * [Bandwagon, a Fediverse alternative to BandCamp](https://bandwagon.fm/)
