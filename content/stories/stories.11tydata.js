@@ -1,4 +1,4 @@
 export default {
-	tags: ["Short story", "Fiction", "posts"],
+	tags: ["short story", "writings", "fiction", "posts"],
 	layout: "layouts/post.njk",
 };
