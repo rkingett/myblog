@@ -2,13 +2,15 @@
 title: Accessibility work
 ---
 
+# Accessibility work.
+
 [Schedule an initial meeting.](https://calendly.com/weirdwriter/60min?back=1)
 
 I am an expert screen reader user who has both advocated and consulted for companies making their services or products accessible.
 
 I do extensive accessibility and usability testing. There’s a wide array of computer needs out there. Just because something is accessible does not mean everybody can use it without confusion. I take both into account when a company asks me to test for them.
 
-[Advocacy portfolio.](/posts/tags/accessibility-and-consulting-highlights)
+[Advocacy portfolio.](/posts/tags/highlights)
 
 ## Expert accessibility witness.
 
@@ -29,6 +31,10 @@ Below, you will find a sample of some firms I’ve worked with. I consult with p
 
 ## Consulting samples.
 
-The below will show some highlights from my portfolio.
+[My Github outlines the open source work I did, including technical writing,](https://github.com/rkingett) but below are some project highlights.
 
-- [All 2023 highlights.](/posts/6555/)
+* ]Buttondown](https://buttondown.com/refer/weirdwriter)
+* [Bookwyrm. A Fediverse Goodreads alternative.](https://joinbookwyrm.com/instances/)
+* [GoToSocial](https://gotosocial.org/)
+* [Bandwagon, a Fediverse alternative to BandCamp](https://bandwagon.fm/)
+* [PeerTube](https://joinpeertube.org/)
