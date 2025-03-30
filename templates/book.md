@@ -1,7 +1,7 @@
 ---
 title: BookTitle
 date: Created
-tags: ["Nonfiction", "DRM free", "Fiction", "Anthologies", "Standalone", "SeriesName"]
+tags: ["nonfiction", "drm-free", "fiction", "anthologies", "standalone", "SeriesName"]
 ---
 
 Post content goes here.

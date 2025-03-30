@@ -1,7 +1,7 @@
 ---
 title: EventTitle
 date: Created
-tags: "Event audio and video"
+tags: "event audio and video"
 ---
 
 Put description and video here.

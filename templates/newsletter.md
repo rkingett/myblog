@@ -1,6 +1,6 @@
 ---title: NewsletterTitle
 date: Created
-tags: ["News"]
+tags: ["news"]
 ---
 
 Post content goes here.
