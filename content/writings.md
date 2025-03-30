@@ -18,16 +18,16 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 # Find my work.
 
-[See all my writing](/posts/tags/writings) or filter below. Highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
+[See all my writing](/posts/tags/writings) or filter below. highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
 
 [Subscribe to updates by email or RSS.](/follow)
 
 [Filter by format and categories.](/map)
 
 - [All recent work.](/posts)
-- [Books/anthologies.](/books)
+- [books/anthologies.](/books)
 - [Short works.](/shorts)
-- [Audiobooks and event recordings.](/audio)
+- [audiobooks and event recordings.](/audio)
 - [Buy my DRM free work](/posts/tag/drm-free/)
 - [blog and journal.](/posts/tags/blog-and-journal)
 - [Audio Description work.](/ad)

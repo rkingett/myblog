@@ -20,7 +20,7 @@ Corporate Consulting rates: Determined by on size and scope of the project. Mini
 
 [Contact me to discuss Corporate Day Consulting.](/contact)
 
-## Fiction Expertise.
+## fiction Expertise.
 
 These are the subjects I can accurately consult for fiction works.
 
@@ -48,7 +48,7 @@ Corporate Consulting rates: Determined by on size and scope of the project. Mini
 
 [Contact me to discuss Corporate Day Consulting.](/contact)
 
-## Fiction Expertise.
+## fiction Expertise.
 
 These are the subjects I can accurately consult for fiction works.
 

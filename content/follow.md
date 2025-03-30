@@ -18,7 +18,7 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Main RSS feed.](/feed.xml)
 
-[Newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
+[newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
 [Podcast RSS feed](https://pinecast.com/feed/weirdwritings)
 

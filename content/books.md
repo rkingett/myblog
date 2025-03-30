@@ -16,24 +16,24 @@ The books listed below are organized from newest, at the top, to oldest, at the 
 
 [Browse Hoopla titles](https://www.hoopladigital.com/artist/11645750187) or [browse Overdrive titles.](https://www.overdrive.com/creators/1071868/robert-kingett)
 
-## Audiobook store links.
+## audiobook store links.
 
 [Buy DRM free audiobooks on Libro FM](https://libro.fm/search?q=Robert+Kingett&searchby=authors) or [buy audiobooks from Audible](https://www.audible.com/search?searchAuthor=Robert+Kingett&ref=a_search_c3_lAuthor_1_1_2&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JXD9R4XKDMCBK402ZPQG)
 
 In the below listings, I’ve indicated where you can buy books without DRM in the below links.
 
-## Fiction books.
+## fiction books.
 
 1. [Trunk Writing](/posts/6625)
 2. [Pointy Chances](/posts/6331)
 3. [Artificial Divide](/posts/4305)
 
-## Nonfiction books.
+## nonfiction books.
 
 4. [Pass the Salt](/posts/6522)
 5. [How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace](/posts/6517)
 6. [Off the Grid: Living Blind Without the Internet](/posts/2808)
 
-## Anthologies.
+## anthologies.
 
 [See all anthologies here](/posts/tags/anthologies/)
