@@ -31,6 +31,7 @@ Below, you will find a sample of some firms I’ve worked with. I consult with p
 
 [My Github outlines the open source work I did, including technical writing,](https://github.com/rkingett) but below are some project highlights.
 
+* [NANTUCKET E-BOOKS](https://nantucketebooks.com/)
 * [Buttondown](https://buttondown.com/refer/weirdwriter)
 * [Bookwyrm. A Fediverse Goodreads alternative.](https://joinbookwyrm.com/instances/)
 * [GoToSocial](https://gotosocial.org/)
