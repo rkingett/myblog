@@ -26,13 +26,13 @@ eleventyComputed:
     {%- endif %}
   </author>
   {%- for post in collections[tag] | reverse | eleventyFeedHead(metadata.feedLimit) %}
-  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.base) }}{% endset %}
+  {%- set absolutePostUrl %}{{ post.url | htmlBaseUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="{{ absolutePostUrl }}" />
     <updated>{{ post.date | dateToRfc3339 }}</updated>
     <id>{{ absolutePostUrl }}</id>
-    <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.base) }}</content>
+    <content type="html">{{ post.content | renderTransforms(post.data.page, metadata.url) }}</content>
   </entry>
   {%- endfor %}
 </feed>
