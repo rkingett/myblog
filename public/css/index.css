@@ -1046,14 +1046,17 @@ header img {
 	border-bottom: 2px solid currentColor;
 }
 
-body > header {
+/* main header element in base layout */
+.site-header {
+	align-items: center;
 	border-bottom: 2px solid currentColor;
 	border-top: 2px solid currentColor;
+	display: flex;
 	font-size: 1.5rem;
 	font-weight: 900;
-	line-height: 1.3333333333;
+	line-height: 1.333;
 	margin-top: -1px;
-	padding: 24px;
+	padding: 0.75rem 1.5rem;
 	position: relative;
 	width: 100%;
 }

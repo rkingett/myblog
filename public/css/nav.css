@@ -220,23 +220,16 @@ a.title:focus {
 
 #sidebar-toggle {
 	background-color: transparent;
-	border-color: currentColor;
+	border: 2px solid currentColor;
 	border-radius: 0;
-	border-style: solid;
-	border-width: 0 0 2px 2px;
 	color: currentColor;
 	display: none;
-	height: 50px;
-	line-height: 0;
-	overflow: hidden;
+	height: 40px;
 	padding: 0;
 	place-items: center;
 	position: absolute;
-	right: 0;
 	text-align: center;
-	top: 0;
-	width: 50px;
-	z-index: 1;
+	width: 40px;
 }
 
 #sidebar-toggle svg {

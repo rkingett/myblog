@@ -45,10 +45,10 @@
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 		{%- include "../navigation.njk" %}
-		{%- include "sidebar-button.njk" %}
 
-		<header>
+		<header class="site-header">
 			<a href="/" class="home-link">{{ metadata.title }}</a>
+			{%- include "sidebar-button.njk" %}
 		</header>
 		{%- include "sidebar-navigation.njk" %}
 
