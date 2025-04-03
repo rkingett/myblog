@@ -11,6 +11,7 @@
 		{%- if tagFeed %}
 		<link rel="alternate" href="{{ tagFeed }}" type="application/atom+xml" title="{{ title + ", " if title }}{{ metadata.title }}">
 		{%- endif %}
+		<link rel="stylesheet" href="/fonts/fonts.css" />
 		{#-
 		Plain-text bundles are provided via the `eleventy-plugin-bundle` plugin:
 		1. CSS:
@@ -25,7 +26,10 @@
 		{#- Add an arbitrary string to the bundle #}
 		{%- css %}/* This is an arbitrary CSS string added to the bundle */{% endcss %}
 		{#- Add the contents of a file to the bundle #}
-		{%- css %}{% include "public/css/index.css" %}{% endcss %}
+		{%- css %}
+			{% include "public/css/index.css" %}
+			{% include "public/css/nav.css" %}
+		{% endcss %}
 		{#- Or you can add from node_modules #}
 		{# {%- css %}{% include "node_modules/prismjs/themes/prism-okaidia.css" %}{% endcss %} #}
 
@@ -41,10 +45,10 @@
 		<a href="#skip" class="visually-hidden skip-link">Skip to main content</a>
 
 		{%- include "../navigation.njk" %}
-		{%- include "sidebar-button.njk" %}
 
-		<header>
+		<header class="site-header">
 			<a href="/" class="home-link">{{ metadata.title }}</a>
+			{%- include "sidebar-button.njk" %}
 		</header>
 		{%- include "sidebar-navigation.njk" %}
 
