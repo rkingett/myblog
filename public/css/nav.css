@@ -1,0 +1,323 @@
+/**
+* Styles for various site navigation elements, including anchor tags
+*/
+a {
+	color: var(--link-color);
+	cursor: pointer;
+	text-decoration: underline;
+	text-decoration-thickness: 2px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited {
+	color: currentColor;
+}
+
+a:hover,
+a:focus {
+	color: var(--link-hover-color);
+	text-decoration: underline;
+	text-decoration-thickness: 4px;
+}
+
+a img {
+	border: 0;
+}
+
+/**
+  * Menus
+  */
+nav {
+	font-size: 1.125rem;
+	max-width: 100%;
+}
+
+nav ul {
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin-left: 0px;
+	margin: -1px 0;
+	padding: 0px;
+}
+
+nav ul li {
+	border: 2px solid currentColor;
+	margin: -1px;
+	position: relative;
+	position: relative;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+nav ul li a {
+	display: block;
+	font-size: 1em;
+	line-height: 1.3;
+	padding: 0.75em 1.5em;
+	position: relative;
+	text-decoration: none;
+	text-decoration: underline;
+	white-space: nowrap;
+}
+
+/* nav sub-menu */
+nav ul ul {
+	border: 2px solid currentColor;
+	display: flex;
+	flex-direction: column;
+	margin-left: 12px;
+}
+
+/* atom feed style */
+nav p {
+	margin: 0px;
+	padding: 16px 0;
+}
+
+nav a:hover,
+nav a:focus {
+	background-color: var(--foreground-colour);
+	color: var(--background-colour);
+	outline: none;
+}
+
+nav li:hover > ul,
+nav li:focus > ul {
+	clip: inherit;
+	overflow: inherit;
+	height: inherit;
+	width: inherit;
+}
+
+.nav-item:has([aria-current]) > a,
+.nav-item a[aria-current] {
+	font-weight: bold;
+}
+
+.menu-item-has-children svg {
+	display: inline-block;
+	fill: currentColor;
+	height: 12px;
+	margin-left: 5px;
+	speak: none;
+	vertical-align: baseline;
+	width: 12px;
+}
+
+.menu-item-has-children ul.sub-menu {
+	clip: rect(1px, 1px, 1px, 1px);
+	height: 1px;
+	list-style: none;
+	margin-inline: -2px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	z-index: 1;
+}
+
+.menu-item-has-children:hover ul.sub-menu,
+.menu-item-has-children:focus-within ul.sub-menu {
+	background: var(--background-color);
+	border-left: 2px solid currentColor;
+	border-top: 2px solid currentColor;
+	clip: auto;
+	height: auto;
+	top: calc(100% + 1px);
+	width: auto;
+}
+
+.sub-menu li {
+	border: 0;
+	display: block;
+	padding: 0;
+	z-index: 2;
+}
+
+.sub-menu li a {
+	display: block;
+	margin: 0;
+	padding: 0.75em 1.5em;
+	white-space: normal;
+	width: 240px;
+}
+
+/* changed custom classes to Bearblog ones (e.g. .entry-content a) */
+.post a,
+.post a:hover,
+a.title:hover {
+	background-position: 0 100%;
+	background-repeat: repeat-x;
+	-webkit-background-size: 100% 2px;
+	background-size: 100% 2px;
+	text-shadow: 2px 0 0 var(--focus-colour), -2px 0 0 var(--focus-colour);
+}
+
+/* remove styles from navigation bar */
+.post nav a,
+.post nav a:hover {
+	text-decoration: none;
+	text-shadow: none;
+}
+
+/* changed classes with focus to Bearblog ones */
+.post a:focus,
+a.title:focus {
+	background-image: none;
+	text-shadow: none;
+}
+
+
+.post-navigation {
+	border-top: 2px solid var(--foreground-colour);
+	display: block;
+	margin-inline: 0;
+	position: relative;
+	width: 100%;
+}
+
+.post-navigation .nav-links {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.post-navigation .meta-nav {
+	display: block;
+	font-family: var(--font-mono);
+	font-size: 1em;
+	line-height: 1.4;
+	margin-bottom: 0.8em;
+}
+
+.post-navigation .post-title {
+	display: block;
+	font-family: var(--font-main);
+	font-size: 1.8125rem;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.post-navigation a {
+	display: block;
+	padding: 32px 24px;
+	text-decoration: underline;
+	white-space: initial;
+}
+
+.post-navigation a:first-child {
+	border-right: 2px solid var(--foreground-colour);
+	border-bottom: 2px solid var(--foreground-colour);
+}
+
+.post-navigation a:only-child {
+	border: 0 !important;
+	width: 100%;
+}
+
+#sidebar-toggle {
+	background-color: transparent;
+	border-color: currentColor;
+	border-radius: 0;
+	border-style: solid;
+	border-width: 0 0 2px 2px;
+	color: currentColor;
+	display: none;
+	height: 50px;
+	line-height: 0;
+	overflow: hidden;
+	padding: 0;
+	place-items: center;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 50px;
+	z-index: 1;
+}
+
+#sidebar-toggle svg {
+	height: 1.125rem;
+	vertical-align: middle;
+	width: 1.125rem;
+}
+
+#sidebar-toggle[aria-expanded] .not-expanded {
+	display: none;
+}
+
+#sidebar-toggle:not([aria-expanded]) .expanded {
+	display: none;
+}
+
+#sidebar-nav[aria-expanded] nav {
+	display: block;
+	line-height: 1.6;
+	margin-inline: auto;
+	padding: 1rem;
+}
+
+#sidebar-nav[aria-expanded] nav ul {
+	display: block;
+}
+
+#sidebar-nav nav ul li {
+	border: 0 none transparent;
+	border-bottom: 2px solid currentColor;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar-nav nav ul li:hover ul.sub-menu li {
+	margin-left: 0;
+	border-top-width: 2px;
+}
+
+#sidebar-nav ul.sub-menu {
+	background: none;
+	border: 0;
+	clip: initial;
+	height: initial;
+	overflow: initial;
+	position: initial;
+	width: initial;
+}
+
+#sidebar-nav ul.sub-menu li {
+	border-top: 2px solid currentColor;
+	padding-left: 2em;
+}
+
+#sidebar-nav nav a {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	display: block;
+	font-size: 1.5rem;
+	margin: 0;
+	width: 100%;
+}
+
+#sidebar-nav:not([aria-expanded]) {
+	display: none;
+}
+
+#sidebar-nav[aria-expanded] + main,
+#sidebar-nav[aria-expanded] + main + nav {
+	display: none;
+}
+
+@media screen and (max-width: 43.75em) {
+	body > nav {
+		display: none;
+	}
+
+	#sidebar-toggle {
+		display: block;
+	}
+}
