@@ -441,8 +441,8 @@ nav a:last-child {
 	height: auto;
 	width: auto;
 	margin-left: -2px;
-	top: 99%;
-	border-top: 2px solid currentColor !important;
+	top: 99.9%;
+	border-top: 2px solid currentColor;
 }
 
 .sub-menu li {
@@ -2482,14 +2482,25 @@ span.ha-placeholder {
 		margin-inline: auto;
 		padding: 1rem;
 
+		.menu-item-has-children:hover ul.sub-menu,
+		.menu-item-has-children:focus-within ul.sub-menu {
+			border: 0 none;
+		}
+
 		ul {
 			display: block;
+			ul {
+				margin: 0;
+				padding-left: 1rem;
+				a {
+					width: 100%;
+				}
+			}
 
 			li {
 				border: 0 none transparent;
 				border-bottom: 2px solid currentColor;
 				display: block;
-				margin: 0;
 				padding: 0;
 
 				a {
@@ -2497,11 +2508,6 @@ span.ha-placeholder {
 					display: flex;
 					flex-direction: row;
 					justify-content: space-between;
-				}
-
-				&:hover ul.sub-menu li {
-					margin-left: 0;
-					border-top-width: 2px;
 				}
 
 				ul {
