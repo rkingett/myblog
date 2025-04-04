@@ -1,6 +1,6 @@
 ---
 title: I'm back online after an outage!
-date: Created
+date: 2025-02-20
 ---
 
 And yes, we're back!
