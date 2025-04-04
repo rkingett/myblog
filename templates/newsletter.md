@@ -3,4 +3,4 @@ date: Created
 tags: ["news"]
 ---
 
-Post content goes here.
+Post content.
