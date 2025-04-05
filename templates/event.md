@@ -1,6 +1,5 @@
 ---
 title: EventTitle
-date: Created
 tags: "event audio and video"
 ---
 
