@@ -13,6 +13,7 @@ In addition to the below, <a href="https://buttondown.com/weirdwriter">My newsle
 <a href="/wish">My wish list is here if you want to get me an item.</a>
 
 <ul>
+<li><a href="https://www.nearlyfreespeech.net/contribute/sightlessblog.nfshost.com">Contribute to web hosting. $50 limit.</a> One time donation link sponsoring the hosting costs.</li>
 <li><a href="https://en.liberapay.com/WeirdWriter/">Liberapay.</a> Monthly or weekly donations to fund my work with multiple ways to give. recurring.</li>
 <li><a href="https://www.comradery.co/weirdwriter">Comradery page</a> monthly donations.</li>
 <li><a href="https://cash.app/$weirdwriter">Cash App donation.</a> One time, should work in countries where Stripe can't work.</li> 
