@@ -1,5 +1,6 @@
 ---
 title: EventTitle
+date: "git Created"
 tags: "event audio and video"
 ---
 

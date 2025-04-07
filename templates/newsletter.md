@@ -1,5 +1,5 @@
 ---title: NewsletterTitle
-tags: ["news"]
+date: "git Created"tags: ["news"]
 ---
 
 Post content.
