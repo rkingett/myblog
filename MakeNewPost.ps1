@@ -6,8 +6,8 @@ $templateFolder = "templates"
 $templateFile = "template.md"
 $templateFilePath = Join-Path -Path $projectDirectory -ChildPath (Join-Path -Path $templateFolder -ChildPath $templateFile)
 
-# Set the path to the drafts folder
-$draftsFolder = "drafts"
+# Set the path to the output folder
+$draftsFolder = "content"
 $draftsFolderPath = Join-Path -Path $projectDirectory -ChildPath $draftsFolder
 
 # Check if the drafts folder exists, if not create it
@@ -16,7 +16,7 @@ if (!(Test-Path -Path $draftsFolderPath)) {
 }
 
 # Ask the user for the title of the post
-$title = Read-Host "Please enter the title of your Eleventy post"
+$title = Read-Host "Now type the title of your Eleventy post and then press enter"
 
 # Get the current date
 $currentDate = Get-Date
