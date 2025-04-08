@@ -1,0 +1,15 @@
+CD $home/documents/myblog
+
+Make new blog post from blog template in the templates folder.
+
+CD $home/documents/myblog; Add-Content -Path .\content\posts\"$(Get-Date -Format yyyyMMddHHmmss)".md -Value (Get-Content -Path .\templates\blog.md)
+
+Make a new newsletter post in the newsletter folder in 11ty post based off a template in the templates folder.
+
+CD $home/documents/myblog; Add-Content -Path .\content\newsletter\"$(Get-Date -Format yyyyMMddHHmmss)".md -Value (Get-Content -Path .\templates\newsletter.md)
+
+Add-Content -Path .\content\newsletter\NewFile.md -Value (Get-Content -Path .\templates\newsletter.md)
+
+make new file template code.
+
+Add-Content -Path .\content\posts\NewFile.md -Value (Get-Content -Path .\CopyFromFile.md)

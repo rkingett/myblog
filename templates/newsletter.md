@@ -1,5 +1,5 @@
 ---title: NewsletterTitle
-date: "git Created"tags: ["news"]
+date: 2025-04-30tags: ["news"]
 ---
 
 Post content.

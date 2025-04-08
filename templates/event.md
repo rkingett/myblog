@@ -1,6 +1,6 @@
 ---
 title: EventTitle
-date: "git Created"
+date: 2025-04-30
 tags: "event audio and video"
 ---
 

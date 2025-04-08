@@ -1,6 +1,6 @@
 ---
 title: BookTitle
-date: "git Created"
+date: 2025-04-30
 tags: ["nonfiction", "drm-free", "fiction", "anthologies", "standalone", "SeriesName"]
 ---
 
