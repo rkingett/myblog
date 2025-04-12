@@ -1,6 +1,6 @@
 ---
-title: EventTitle
-date: 2025-04-30
+title: {{TITLE}}
+date: {{DATE}}
 tags: "event audio and video"
 ---
 

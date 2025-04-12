@@ -1,6 +1,6 @@
 ---
-title: BlogTitle
-date: 2025-04-30
+title: {{TITLE}}
+date: {{DATE}}
 tags: ["blog and journal", "news", "highlights", "rants"]
 ---
 

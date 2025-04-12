@@ -1,5 +1,5 @@
----title: NewsletterTitle
-date: 2025-04-30tags: ["news"]
+---title: {{TITLE}}
+date: {{DATE}}tags: ["news"]
 ---
 
 Post content.

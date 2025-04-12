@@ -1,6 +1,6 @@
 ---
-title: BookTitle
-date: 2025-04-30
+title: {{TITLE}}
+date: {{DATE}}
 tags: ["nonfiction", "drm-free", "fiction", "anthologies", "standalone", "SeriesName"]
 ---
 
