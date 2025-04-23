@@ -1,618 +1,689 @@
 #Requires -Version 5.1
+
 <#
 .SYNOPSIS
-Automates common Eleventy blog tasks like creating posts, moving drafts, and deploying.
+A PowerShell script to manage an Eleventy blog project, including creating posts,
+managing drafts, testing, and deploying.
 
 .DESCRIPTION
-Presents a menu of choices to the user:
+This script provides a menu-driven interface for common Eleventy workflow tasks:
 1. Draft a new post in a specific content category folder.
-2. Create a new draft in the 'drafts' folder.
-3. Move existing drafts to content folders and publish.
+2. Create a new draft in a dedicated 'drafts' folder.
+3. Move drafts to content folders and publish the website.
 4. Test the Eleventy site locally.
-5. Build and deploy the site via GitHub.
-6. Build and deploy the site without GitHub (direct sync).
+5. Build and deploy the site using Git and Rclone.
+6. Build and deploy the site using Rclone only (no Git).
 
-The script handles finding content directories, creating files with YAML front matter,
-user input for titles and tags, confirmation prompts, opening files, and running
-build/deploy commands.
+The script handles user input, confirmations, file creation with YAML front matter,
+directory scanning, and execution of external commands like git, npx, and rclone.
 
 .NOTES
 - Assumes the script is run from the root directory of the Eleventy project.
-- Requires Node.js, npm/npx, Eleventy (@11ty/eleventy), Git, and rclone to be installed and configured.
-- The deployment commands (rclone paths, git commands) might need adjustment based on your specific setup.
-- Assumes your default text editor for .md files correctly handles the -Wait parameter for Start-Process.
-- The script uses specific folder names like 'content', 'drafts', 'feed', 'feeds', 'helper', 'helpers'. Adjust if needed.
-- Ensure the ssh-agent service can be started by the script runner.
+- Requires Git, Node.js (for npx), Eleventy (@11ty/eleventy), and Rclone to be installed and configured.
+- The 'rclone delete' and 'rclone sync' commands use specific paths ($home/documents/myblog/DistSite and nfs:).
+  Modify the $rcloneLocalPath and $rcloneRemotePath variables if needed.
+- The script attempts to open files in the default text editor using 'Start-Process -Wait'.
+  This might not wait correctly for all editors. If issues arise, consider specifying an editor,
+  e.g., 'Start-Process notepad.exe $FilePath -Wait'.
+- Error handling for external commands is basic. Check console output for detailed errors.
 #>
 
 # --- Configuration ---
-# Adjust these paths and names if your project structure is different
-$ProjectRoot = (Get-Location).Path
-$ContentFolderName = "content"
-$DraftsFolderName = "drafts"
-$ExcludedContentFolders = @("feed", "feeds", "helper", "helpers") # Folders to exclude from category choices
-$RcloneDistPath = Join-Path $HOME "documents/myblog/DistSite" # Local path for rclone source/delete
-$RcloneRemoteName = "nfs:" # Name of your rclone remote
-$DeployGitCommitMessage = "Added posts and updated posts"
-$DeploySiteUrl = "https://sightlessblog.nfshost.com" # URL to open after deployment
+$ProjectRoot = Get-Location
+$ContentDirectoryName = "content"
+$DraftsDirectoryName = "drafts"
+$ExcludedContentDirs = @("feed", "feeds", "helper", "helpers") # Lowercase for case-insensitive comparison
+
+# Rclone paths (MODIFY IF NEEDED)
+$rcloneLocalPath = Join-Path $HOME "documents/myblog/DistSite"
+$rcloneRemoteName = "nfs:" # Your configured rclone remote name
+
+# Deployment Website URL (MODIFY IF NEEDED)
+$deployedSiteUrl = "https://sightlessblog.nfshost.com"
 
 # --- Helper Functions ---
 
 # Function to get user confirmation (1=Yes, 2=No)
-function Get-UserConfirmation($PromptMessage) {
+function Get-UserConfirmation {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$PromptMessage
+    )
     while ($true) {
-        Write-Host "$PromptMessage" -ForegroundColor Yellow
-        Write-Host "1: Yes"
-        Write-Host "2: No"
-        $confirmation = Read-Host "Enter your choice (1 or 2)"
-        if ($confirmation -eq '1') {
-            return $true
-        } elseif ($confirmation -eq '2') {
-            return $false
-        } else {
-            Write-Warning "Invalid input. Please enter 1 for Yes or 2 for No."
-        }
+        $input = Read-Host "$PromptMessage (1 = Yes, 2 = No)"
+        if ($input -eq '1') { return $true }
+        if ($input -eq '2') { return $false }
+        Write-Warning "Invalid input. Please enter 1 for Yes or 2 for No."
     }
 }
 
-# Function to present numbered choices and get validated input
-function Get-NumberedChoice($PromptMessage, $Choices) {
-    if (-not $Choices -or $Choices.Count -eq 0) {
-        Write-Error "No choices provided to Get-NumberedChoice function."
-        return $null
+# Function to present numbered choices and get validated user input
+function Get-UserChoice {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$PromptMessage,
+        [Parameter(Mandatory=$true)]
+        [array]$Options
+    )
+    Write-Host $PromptMessage
+    for ($i = 0; $i -lt $Options.Count; $i++) {
+        Write-Host ("{0}. {1}" -f ($i + 1), $Options[$i])
     }
 
     while ($true) {
-        Write-Host $PromptMessage -ForegroundColor Cyan
-        for ($i = 0; $i -lt $Choices.Count; $i++) {
-            Write-Host "$($i + 1): $($Choices[$i])"
+        $input = Read-Host "Enter your choice (number)"
+        if ($input -match '^\d+$' -and [int]$input -ge 1 -and [int]$input -le $Options.Count) {
+            return [int]$input
         }
-        $userInput = Read-Host "Enter the number of your choice (1-$($Choices.Count))"
+        Write-Warning "Invalid input. Please enter a number between 1 and $($Options.Count)."
+    }
+}
 
-        if ($userInput -match '^\d+$' -and [int]$userInput -ge 1 -and [int]$userInput -le $Choices.Count) {
-            return [int]$userInput # Return the selected number (1-based index)
+# Function to select a directory, with confirmation and optional creation
+function Select-Directory {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$ParentDirectoryPath,
+        [Parameter(Mandatory=$true)]
+        [array]$ExcludedFolders,
+        [Parameter(Mandatory=$false)]
+        [switch]$AllowNew = $false,
+        [Parameter(Mandatory=$true)]
+        [string]$ChoicePrompt
+    )
+
+    $selectedDirectoryPath = $null
+    do {
+        $confirmationMet = $false
+        $availableDirs = Get-ChildItem -Path $ParentDirectoryPath -Directory | Where-Object { $ExcludedFolders -notcontains $_.Name.ToLower() } | Select-Object -ExpandProperty Name
+        $options = @($availableDirs)
+        if ($AllowNew) {
+            $options += "Create a new directory"
+        }
+
+        if ($options.Count -eq 0 -and !$AllowNew) {
+            Write-Error "No valid subdirectories found in '$ParentDirectoryPath' (excluding specified folders)."
+            return $null
+        }
+        if ($options.Count -eq 0 -and $AllowNew) {
+             Write-Host "No existing valid subdirectories found. Only option is to create a new one."
+             # Force selection of 'Create New' conceptually
+             $choiceIndex = 1 # Only one option presented below
+             $options = @("Create a new directory") # Reset options for clarity
         } else {
-            Write-Warning "Invalid input. Please enter a number between 1 and $($Choices.Count)."
+             $choiceIndex = Get-UserChoice -PromptMessage $ChoicePrompt -Options $options
         }
-    }
+
+
+        $chosenOption = $options[$choiceIndex - 1]
+
+        if ($chosenOption -eq "Create a new directory") {
+            $newDirName = ""
+            while ([string]::IsNullOrWhiteSpace($newDirName)) {
+                $newDirName = Read-Host "Enter the name for the new directory"
+                # Basic validation for invalid characters
+                if ($newDirName -match '[\\/:*?"<>|]') {
+                    Write-Warning "Directory name contains invalid characters. Please avoid \ / : * ? "" < > |"
+                    $newDirName = "" # Reset to loop again
+                }
+            }
+            $targetPath = Join-Path -Path $ParentDirectoryPath -ChildPath $newDirName
+            if (Test-Path $targetPath) {
+                 Write-Warning "Directory '$newDirName' already exists."
+                 # Loop again to re-select or re-try creation name
+                 continue
+            }
+
+            if (Get-UserConfirmation "Confirm creating directory '$newDirName' inside '$ParentDirectoryPath'?") {
+                try {
+                    $null = New-Item -Path $targetPath -ItemType Directory -ErrorAction Stop
+                    Write-Host "Directory '$newDirName' created successfully." -ForegroundColor Green
+                    $selectedDirectoryPath = $targetPath
+                    $confirmationMet = $true
+                } catch {
+                    Write-Error "Failed to create directory '$newDirName'. Error: $($_.Exception.Message)"
+                    # Loop again
+                    continue
+                }
+            } else {
+                # User chose No on confirmation, loop back to show choices
+                continue
+            }
+        } else {
+            # User chose an existing directory
+            $targetPath = Join-Path -Path $ParentDirectoryPath -ChildPath $chosenOption
+            if (Get-UserConfirmation "Confirm using directory '$chosenOption'?") {
+                $selectedDirectoryPath = $targetPath
+                $confirmationMet = $true
+            } else {
+                 # User chose No on confirmation, loop back to show choices
+                 continue
+            }
+        }
+
+    } until ($confirmationMet)
+
+    return $selectedDirectoryPath
 }
 
-# Function to get content directories, excluding specified ones
-function Get-ContentSubdirectories($ContentPath, $Exclusions) {
-    if (-not (Test-Path -Path $ContentPath -PathType Container)) {
-        Write-Warning "Content directory not found at '$ContentPath'."
-        return @()
-    }
-    Get-ChildItem -Path $ContentPath -Directory | Where-Object { $_.Name -notin $Exclusions }
-}
+# Function to create the Markdown file content
+function Create-MarkdownContent {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$Title,
+        [Parameter(Mandatory=$true)]
+        [string]$IsoDateTime,
+        [Parameter(Mandatory=$true)]
+        [array]$Tags
+    )
 
-# Function to format tags into YAML list string
-function Format-TagsToYaml($TagsInput) {
-    if ([string]::IsNullOrWhiteSpace($TagsInput)) {
-        return "[]" # Return empty YAML array if no tags provided
+    # Format tags for YAML array: ["tag1", "tag2"]
+    $yamlTags = "[]" # Default for no tags
+    if ($Tags.Count -gt 0) {
+        $quotedTags = $Tags | ForEach-Object { "`"$_`"" }
+        $yamlTags = "[" + ($quotedTags -join ", ") + "]"
     }
-    # Split by comma, trim whitespace from each tag, filter out empty strings, enclose in quotes
-    $formattedTags = $TagsInput.Split(',') | ForEach-Object { $_.Trim() } | Where-Object { -not [string]::IsNullOrWhiteSpace($_) } | ForEach-Object { "`"$_`"" }
-    return "[$($formattedTags -join ', ')]" # Join with comma+space and wrap in brackets
-}
 
-# Function to create the markdown file content
-function Create-MarkdownContent($Title, $TagsYaml, $IsoDateTime) {
-    $yamlFrontMatter = @"
+    # YAML Front Matter using a Here-String
+    $frontMatter = @"
 ---
 title: "$Title"
 date: "$IsoDateTime"
-tags: $TagsYaml
+tags: $yamlTags
 ---
 
 Write your post content here...
 "@
-    return $yamlFrontMatter
+    return $frontMatter
 }
 
-# Function to run deployment steps
-function Run-DeploymentSteps($UseGit) {
-    Write-Host "Starting deployment process..." -ForegroundColor Green
+# Function to run standard deployment commands (Eleventy build, Git, Rclone)
+function Invoke-DeployCommands {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$LocalSitePath,
+        [Parameter(Mandatory=$true)]
+        [string]$RemotePath,
+        [Parameter(Mandatory=$true)]
+        [string]$SiteUrl
+    )
+    Write-Host "Starting deployment process..."
     try {
-        # Ensure ssh-agent is running (often needed for git push with SSH keys)
-        Write-Host "Ensuring ssh-agent service is started..."
-        Start-Service ssh-agent -ErrorAction SilentlyContinue # Continue if already running or fails slightly
+        Write-Host "Ensuring ssh-agent service is running..."
+        Start-Service ssh-agent -ErrorAction SilentlyContinue # Might not be needed or fail gracefully
 
-        # Clean destinations
-        Write-Host "Cleaning local distribution directory: $RcloneDistPath"
-        rclone delete $RcloneDistPath --rmdirs -v --ErrorAction Stop
-        Write-Host "Cleaning remote destination: $RcloneRemoteName"
-        rclone delete $RcloneRemoteName --rmdirs -v --ErrorAction Stop
+        Write-Host "Cleaning local distribution directory: $LocalSitePath"
+        rclone delete $LocalSitePath --rmdirs -v --ErrorAction Stop
 
-        # Build Eleventy site
+        Write-Host "Cleaning remote directory: $RemotePath"
+        rclone delete $RemotePath --rmdirs -v --ErrorAction Stop
+
         Write-Host "Building Eleventy site..."
-        # Use Invoke-Expression to ensure npx runs correctly in the current shell context
-        Invoke-Expression "npx @11ty/eleventy --quiet"
-        if ($LASTEXITCODE -ne 0) {
-            throw "Eleventy build failed. Exit code: $LASTEXITCODE"
-        }
-        Write-Host "Eleventy build successful." -ForegroundColor Green
+        npx @11ty/eleventy --quiet --ErrorAction Stop # Stop if build fails
 
-        if ($UseGit) {
-            # Git steps
-            Write-Host "Adding changes to Git..."
-            git add . -A # Use -A to stage deletions as well
-            Write-Host "Committing changes..."
-            git commit -am $DeployGitCommitMessage
-            Write-Host "Pushing changes to remote repository..."
-            git push
-            Write-Host "Git push successful." -ForegroundColor Green
+        Write-Host "Adding changes to Git..."
+        git add . --ErrorAction Stop
 
-            # Optionally open the deployed site URL
-            if (-not [string]::IsNullOrWhiteSpace($DeploySiteUrl)) {
-                Write-Host "Opening deployed site: $DeploySiteUrl"
-                Start-Process $DeploySiteUrl
-            }
-        } else {
-            # Direct sync without Git involvement for deployment artifact
-             Write-Host "Syncing built site to remote destination..."
-             # Ensure ssh-agent is running again if needed for rclone backend
-             Start-Service ssh-agent -ErrorAction SilentlyContinue
-             rclone sync $RcloneDistPath $RcloneRemoteName -v --ErrorAction Stop
-             Write-Host "Rclone sync successful." -ForegroundColor Green
-        }
+        Write-Host "Committing changes..."
+        # Use a default commit message or prompt user? Using default for now.
+        $commitMessage = "Added posts and updated posts (automated script)"
+        git commit -am $commitMessage --ErrorAction Stop
 
-        Write-Host "Deployment process completed successfully." -ForegroundColor Green
-        return $true # Indicate success
+        Write-Host "Pushing changes to Git remote..."
+        git push --ErrorAction Stop
+
+        Write-Host "Deployment successful!" -ForegroundColor Green
+        Write-Host "Opening deployed site: $SiteUrl"
+        Start-Process $SiteUrl
+
     } catch {
-        Write-Error "Deployment failed: $($_.Exception.Message)"
-        Write-Warning "Opening project folder for troubleshooting: $ProjectRoot"
+        Write-Error "Deployment failed at step '$($_.InvocationInfo.MyCommand)': $($_.Exception.Message)"
+        Write-Warning "Check the console output for details. Opening project folder for troubleshooting."
         Invoke-Item $ProjectRoot
-        return $false # Indicate failure
+        # Consider pausing here or exiting differently if needed
+        Read-Host "Press Enter to return to the main menu..."
     }
 }
 
+# Function to run deployment commands without Git (Eleventy build, Rclone sync)
+function Invoke-DeployCommandsNoGit {
+    param(
+        [Parameter(Mandatory=$true)]
+        [string]$LocalSitePath,
+        [Parameter(Mandatory=$true)]
+        [string]$RemotePath,
+        [Parameter(Mandatory=$true)]
+        [string]$SiteUrl
+    )
+     Write-Host "Starting deployment process (No Git)..."
+    try {
+        Write-Host "Ensuring ssh-agent service is running..."
+        Start-Service ssh-agent -ErrorAction SilentlyContinue
+
+        Write-Host "Cleaning local distribution directory: $LocalSitePath"
+        rclone delete $LocalSitePath --rmdirs -v --ErrorAction Stop
+
+        Write-Host "Cleaning remote directory: $RemotePath"
+        rclone delete $RemotePath --rmdirs -v --ErrorAction Stop
+
+        Write-Host "Building Eleventy site..."
+        npx @11ty/eleventy --quiet --ErrorAction Stop # Stop if build fails
+
+        Write-Host "Syncing local site to remote..."
+        # Ensure ssh-agent is running again if needed for rclone auth via ssh
+        Start-Service ssh-agent -ErrorAction SilentlyContinue
+        rclone sync $LocalSitePath $RemotePath -v --ErrorAction Stop
+
+        Write-Host "Deployment successful!" -ForegroundColor Green
+        Write-Host "Opening deployed site: $SiteUrl"
+        Start-Process $SiteUrl
+
+    } catch {
+        Write-Error "Deployment failed at step '$($_.InvocationInfo.MyCommand)': $($_.Exception.Message)"
+        Write-Warning "Check the console output for details. Opening project folder for troubleshooting."
+        Invoke-Item $ProjectRoot
+        # Consider pausing here or exiting differently if needed
+        Read-Host "Press Enter to return to the main menu..."
+    }
+}
+
+
 # --- Main Script Logic ---
 
-$ContentPath = Join-Path $ProjectRoot $ContentFolderName
-$DraftsPath = Join-Path $ProjectRoot $DraftsFolderName
+# Check if running in the project root (basic check for content dir)
+$ContentDirectoryPath = Join-Path -Path $ProjectRoot -ChildPath $ContentDirectoryName
+if (-not (Test-Path $ContentDirectoryPath -PathType Container)) {
+    Write-Warning "Could not find the '$ContentDirectoryName' directory in the current location ($ProjectRoot)."
+    Write-Warning "Please run this script from the root of your Eleventy project."
+    Read-Host "Press Enter to exit."
+    exit
+}
 
-# Main Menu Loop
+# Main menu loop
 while ($true) {
     Clear-Host
-    Write-Host "---------------------------------" -ForegroundColor Magenta
-    Write-Host " Eleventy Blog Helper Script " -ForegroundColor Magenta
-    Write-Host "---------------------------------" -ForegroundColor Magenta
-    Write-Host "Select an action:"
-    Write-Host "1: Draft a new post in a category folder"
-    Write-Host "2: Make a new draft in the drafts folder"
-    Write-Host "3: Move drafts to post categories and publish"
-    Write-Host "4: Test Eleventy locally"
-    Write-Host "5: Build and deploy via GitHub"
-    Write-Host "6: Build and deploy without GitHub (direct sync)"
-    Write-Host "7: Exit"
+    Write-Host "---------------------------------"
+    Write-Host " Eleventy Project Manager Menu   "
+    Write-Host "---------------------------------"
+    $mainMenuOptions = @(
+        "Draft a new post in a category folder."
+        "Make a new draft in the drafts folder."
+        "Move my drafts to post categories and then publish my website."
+        "Test Eleventy locally."
+        "Build and deploy via Github."
+        "Build and deploy without Github."
+        "Exit"
+    )
+    $mainChoice = Get-UserChoice -PromptMessage "Select an action:" -Options $mainMenuOptions
 
-    $mainChoice = Read-Host "Enter your choice (1-7)"
-
+    # --- Process Main Menu Choice ---
     switch ($mainChoice) {
-        # --- Choice 1: Draft a new post in a category folder ---
-        '1' {
-            Write-Host "`n--- Draft a new post in a category folder ---" -ForegroundColor Green
+        # 1. Draft a new post in a category folder
+        1 {
+            Write-Host "`n--- Choice 1: Draft New Post in Category ---"
 
-            # Select Output Directory
-            $chosenDirectoryPath = $null
-            while ($true) { # Loop for directory selection and confirmation
-                $availableDirs = Get-ContentSubdirectories -ContentPath $ContentPath -Exclusions $ExcludedContentFolders
-                $dirNames = $availableDirs | ForEach-Object { $_.Name }
-                $choices = @($dirNames) + "Create a new directory" # Add create new option
-                $choicePrompt = "`nChoose the category (directory) for the new post:"
-
-                $dirChoiceIndex = Get-NumberedChoice -PromptMessage $choicePrompt -Choices $choices
-                $chosenItem = $choices[$dirChoiceIndex - 1]
-
-                if ($chosenItem -eq "Create a new directory") {
-                    # Create new directory
-                    $newDirName = ""
-                    while ([string]::IsNullOrWhiteSpace($newDirName) -or $newDirName -match '[\\/:\*\?"<>\|]' -or (Test-Path (Join-Path $ContentPath $newDirName))) {
-                         $newDirName = Read-Host "Enter the name for the new directory (cannot contain invalid characters or already exist)"
-                         if ([string]::IsNullOrWhiteSpace($newDirName)) { Write-Warning "Directory name cannot be empty."; continue }
-                         if ($newDirName -match '[\\/:\*\?"<>\|]') { Write-Warning "Directory name contains invalid characters."; continue }
-                         if (Test-Path (Join-Path $ContentPath $newDirName)) { Write-Warning "Directory '$newDirName' already exists."; continue }
-                    }
-                    try {
-                        $chosenDirectoryPath = New-Item -Path $ContentPath -Name $newDirName -ItemType Directory -Force -ErrorAction Stop
-                        Write-Host "Created directory: $($chosenDirectoryPath.FullName)" -ForegroundColor Green
-                    } catch {
-                        Write-Error "Failed to create directory '$newDirName'. Error: $($_.Exception.Message)"
-                        # Go back to directory selection
-                        continue
-                    }
-                } else {
-                    # Existing directory chosen
-                    $chosenDirectoryPath = $availableDirs[$dirChoiceIndex - 1].FullName
-                }
-
-                Write-Host "`nYou have selected: '$($chosenDirectoryPath | Split-Path -Leaf)'"
-                if (Get-UserConfirmation -PromptMessage "Confirm this directory choice?") {
-                    break # Exit the directory selection loop
-                }
-                # If No (returns false), the loop continues and choices are shown again
-            } # End directory selection loop
-
-            # Get Post Details
-            $postTitle = Read-Host "Enter the post title"
-            while ([string]::IsNullOrWhiteSpace($postTitle)) {
-                 Write-Warning "Title cannot be empty."
-                 $postTitle = Read-Host "Enter the post title"
-            }
-            $tagsInput = Read-Host "Enter tags, separated by commas (e.g., tech, blog, eleventy)"
-            $tagsYaml = Format-TagsToYaml $tagsInput
-
-            # Generate Date/Time and Filename
-            $currentDateTime = Get-Date
-            $isoDateTime = $currentDateTime.ToUniversalTime().ToString("o") # ISO 8601 Round-trip format (UTC)
-            $fileNameDatePart = $currentDateTime.ToString("yyyyMMdd")
-            $newFileName = "$($fileNameDatePart).md"
-            $newFilePath = Join-Path $chosenDirectoryPath $newFileName
-
-             # Handle potential filename collision (optional but good practice)
-             $counter = 1
-             while (Test-Path $newFilePath) {
-                 $newFileName = "$($fileNameDatePart)_$($counter).md"
-                 $newFilePath = Join-Path $chosenDirectoryPath $newFileName
-                 $counter++
-             }
-
-            # Create File Content
-            $fileContent = Create-MarkdownContent -Title $postTitle -TagsYaml $tagsYaml -IsoDateTime $isoDateTime
-
-            # Write the file
-            try {
-                Set-Content -Path $newFilePath -Value $fileContent -Encoding UTF8 -ErrorAction Stop
-                Write-Host "`nSuccessfully created post:" -ForegroundColor Green
-                Write-Host $newFilePath
-            } catch {
-                Write-Error "Failed to create file '$newFilePath'. Error: $($_.Exception.Message)"
-                Read-Host "Press Enter to return to the main menu."
+            # Select destination directory within content folder
+            $chosenContentDir = Select-Directory -ParentDirectoryPath $ContentDirectoryPath -ExcludedFolders $ExcludedContentDirs -AllowNew -ChoicePrompt "Select the category (directory) for the new post:"
+            if (-not $chosenContentDir) {
+                Write-Warning "Directory selection cancelled or failed. Returning to main menu."
+                Read-Host "Press Enter to continue..."
                 continue # Go back to main menu
             }
 
-            # Ask to open the file
-            if (Get-UserConfirmation -PromptMessage "`nDo you want to open the new file '$newFileName' in your default editor?") {
-                Write-Host "Opening file... Please save and close the editor when you are finished editing."
+            # Get Title
+            $postTitle = ""
+            while ([string]::IsNullOrWhiteSpace($postTitle)) {
+                $postTitle = Read-Host "Enter the post title"
+            }
+
+            # Get Tags
+            $tagsString = Read-Host "Enter tags, separated by commas (e.g., tech, blog, update)"
+            $tagsArray = $tagsString.Split(',') | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }
+
+            # Generate Date/Time and Filename
+            $currentDateTime = Get-Date
+            $isoDateTime = $currentDateTime.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") # ISO 8601 UTC
+            $fileNameDate = $currentDateTime.ToString("yyyyMMdd")
+            $newFilePath = Join-Path -Path $chosenContentDir -ChildPath "$($fileNameDate).md"
+
+            # Check if file exists
+            if (Test-Path $newFilePath) {
+                Write-Warning "A file named '$($fileNameDate).md' already exists in '$chosenContentDir'."
+                if (-not (Get-UserConfirmation "Overwrite existing file?")) {
+                     Write-Warning "Operation cancelled. Returning to main menu."
+                     Read-Host "Press Enter to continue..."
+                     continue
+                }
+            }
+
+            # Create Content
+            $markdownContent = Create-MarkdownContent -Title $postTitle -IsoDateTime $isoDateTime -Tags $tagsArray
+
+            # Write File
+            try {
+                Set-Content -Path $newFilePath -Value $markdownContent -Encoding UTF8 -ErrorAction Stop
+                Write-Host "Successfully created post: $newFilePath" -ForegroundColor Green
+            } catch {
+                Write-Error "Failed to create file '$newFilePath'. Error: $($_.Exception.Message)"
+                Read-Host "Press Enter to return to the main menu..."
+                continue
+            }
+
+            # Ask to open file
+            if (Get-UserConfirmation "Do you want to open the new file '$($fileNameDate).md' now?") {
+                Write-Host "Opening file... Please save and close the editor when finished to continue."
                 try {
-                    # Use -Wait to pause the script until the editor is closed
-                    Start-Process -FilePath $newFilePath -Wait -ErrorAction Stop
+                    # Attempt to use Start-Process -Wait with the default handler
+                    Start-Process $newFilePath -Wait -ErrorAction Stop
                     Write-Host "Editor closed."
 
-                    # Ask to Build and Deploy
-                    if (Get-UserConfirmation -PromptMessage "`nDo you want to build and deploy the website now (using GitHub workflow)?") {
-                       Run-DeploymentSteps -UseGit $true
+                    # Ask to build/deploy
+                    if (Get-UserConfirmation "Do you want to build and deploy the website now (via Git)?") {
+                        Invoke-DeployCommands -LocalSitePath $rcloneLocalPath -RemotePath $rcloneRemoteName -SiteUrl $deployedSiteUrl
                     } else {
-                        Write-Host "Okay, skipping deployment. You can deploy later using option 5."
+                        Write-Host "Skipping deployment. Returning to main menu."
+                        Read-Host "Press Enter to continue..."
                     }
+
                 } catch {
-                    Write-Error "Failed to open file '$newFilePath' or wait for editor. Error: $($_.Exception.Message)"
-                    Write-Warning "Please manually edit the file if needed."
-                    # Still ask about deployment
-                    if (Get-UserConfirmation -PromptMessage "`nDo you want to build and deploy the website now (using GitHub workflow), assuming you've finished editing?") {
-                       Run-DeploymentSteps -UseGit $true
-                    } else {
-                        Write-Host "Okay, skipping deployment."
-                    }
+                    Write-Error "Could not open '$newFilePath' or wait for editor. Error: $($_.Exception.Message)"
+                    Write-Warning "Please open the file manually if needed."
+                    Read-Host "Press Enter to return to the main menu..."
                 }
             } else {
-                # Didn't open the file
-                Write-Host "Okay, file not opened. Opening the project folder."
+                # Don't open file, open project folder and close script
+                Write-Host "Opening project folder '$ProjectRoot'..."
                 Invoke-Item $ProjectRoot
                 Write-Host "Exiting script."
                 exit # Exit PowerShell as requested
             }
-            Read-Host "`nPress Enter to return to the main menu."
         } # End Choice 1
 
-        # --- Choice 2: Make a new draft in the drafts folder ---
-        '2' {
-             Write-Host "`n--- Make a new draft in the drafts folder ---" -ForegroundColor Green
+        # 2. Make a new draft in the drafts folder
+        2 {
+            Write-Host "`n--- Choice 2: Make New Draft ---"
+            $DraftsDirectoryPath = Join-Path -Path $ProjectRoot -ChildPath $DraftsDirectoryName
 
-            # Ensure Drafts Directory Exists
-            if (-not (Test-Path -Path $DraftsPath -PathType Container)) {
-                Write-Host "Drafts directory '$DraftsFolderName' not found. Creating it..."
+            # Ensure drafts directory exists
+            if (-not (Test-Path $DraftsDirectoryPath -PathType Container)) {
+                Write-Host "'$DraftsDirectoryName' directory not found. Creating it..."
                 try {
-                    New-Item -Path $ProjectRoot -Name $DraftsFolderName -ItemType Directory -Force -ErrorAction Stop | Out-Null
-                    Write-Host "Drafts directory created successfully." -ForegroundColor Green
+                    $null = New-Item -Path $DraftsDirectoryPath -ItemType Directory -ErrorAction Stop
+                    Write-Host "'$DraftsDirectoryName' directory created." -ForegroundColor Green
                 } catch {
-                    Write-Error "Failed to create drafts directory '$DraftsPath'. Error: $($_.Exception.Message)"
-                    Read-Host "Press Enter to return to the main menu."
-                    continue # Go back to main menu
+                    Write-Error "Failed to create '$DraftsDirectoryName' directory. Error: $($_.Exception.Message)"
+                    Read-Host "Press Enter to return to the main menu..."
+                    continue
                 }
             }
 
-            # Get Post Details (same as Choice 1)
-            $postTitle = Read-Host "Enter the draft title"
-             while ([string]::IsNullOrWhiteSpace($postTitle)) {
-                 Write-Warning "Title cannot be empty."
-                 $postTitle = Read-Host "Enter the draft title"
+            # Get Title
+            $draftTitle = ""
+            while ([string]::IsNullOrWhiteSpace($draftTitle)) {
+                $draftTitle = Read-Host "Enter the draft title"
             }
-            $tagsInput = Read-Host "Enter tags, separated by commas (e.g., draft, idea, todo)"
-            $tagsYaml = Format-TagsToYaml $tagsInput
 
-            # Generate Date/Time and Filename (same as Choice 1)
+            # Get Tags
+            $draftTagsString = Read-Host "Enter tags, separated by commas (e.g., draft, idea, todo)"
+            $draftTagsArray = $draftTagsString.Split(',') | ForEach-Object { $_.Trim() } | Where-Object { $_ -ne '' }
+
+            # Generate Date/Time and Filename
             $currentDateTime = Get-Date
-            $isoDateTime = $currentDateTime.ToUniversalTime().ToString("o") # ISO 8601 Round-trip format (UTC)
-            $fileNameDatePart = $currentDateTime.ToString("yyyyMMdd")
-            $newFileName = "$($fileNameDatePart)_draft.md" # Add _draft suffix for clarity
-            $newFilePath = Join-Path $DraftsPath $newFileName
+            $isoDateTime = $currentDateTime.ToUniversalTime().ToString("yyyy-MM-ddTHH:mm:ssZ") # ISO 8601 UTC
+            $fileNameDate = $currentDateTime.ToString("yyyyMMdd")
+            $newDraftFilePath = Join-Path -Path $DraftsDirectoryPath -ChildPath "$($fileNameDate).md"
 
-             # Handle potential filename collision
-             $counter = 1
-             while (Test-Path $newFilePath) {
-                 $newFileName = "$($fileNameDatePart)_draft_$($counter).md"
-                 $newFilePath = Join-Path $DraftsPath $newFileName
-                 $counter++
-             }
-
-            # Create File Content
-            $fileContent = Create-MarkdownContent -Title $postTitle -TagsYaml $tagsYaml -IsoDateTime $isoDateTime
-
-            # Write the file
-            try {
-                Set-Content -Path $newFilePath -Value $fileContent -Encoding UTF8 -ErrorAction Stop
-                Write-Host "`nSuccessfully created draft:" -ForegroundColor Green
-                Write-Host $newFilePath
-            } catch {
-                Write-Error "Failed to create file '$newFilePath'. Error: $($_.Exception.Message)"
-                Read-Host "Press Enter to return to the main menu."
-                continue # Go back to main menu
+             # Check if file exists
+            if (Test-Path $newDraftFilePath) {
+                Write-Warning "A file named '$($fileNameDate).md' already exists in '$DraftsDirectoryPath'."
+                if (-not (Get-UserConfirmation "Overwrite existing file?")) {
+                     Write-Warning "Operation cancelled. Returning to main menu."
+                     Read-Host "Press Enter to continue..."
+                     continue
+                }
             }
 
-             # Ask to open the file
-            if (Get-UserConfirmation -PromptMessage "`nDo you want to open the new draft '$newFileName' in your default editor?") {
-                Write-Host "Opening file... Please save and close the editor when you are finished editing."
+            # Create Content
+            $markdownContent = Create-MarkdownContent -Title $draftTitle -IsoDateTime $isoDateTime -Tags $draftTagsArray
+
+            # Write File
+            try {
+                Set-Content -Path $newDraftFilePath -Value $markdownContent -Encoding UTF8 -ErrorAction Stop
+                Write-Host "Successfully created draft: $newDraftFilePath" -ForegroundColor Green
+            } catch {
+                Write-Error "Failed to create file '$newDraftFilePath'. Error: $($_.Exception.Message)"
+                Read-Host "Press Enter to return to the main menu..."
+                continue
+            }
+
+            # Ask to open file
+            if (Get-UserConfirmation "Do you want to open the new draft file '$($fileNameDate).md' now?") {
+                 Write-Host "Opening file... Please save and close the editor when finished to continue."
                 try {
-                    # Use -Wait to pause the script until the editor is closed
-                    Start-Process -FilePath $newFilePath -Wait -ErrorAction Stop
+                    Start-Process $newDraftFilePath -Wait -ErrorAction Stop
                     Write-Host "Editor closed."
 
-                     # Ask to Move the file
-                     if (Get-UserConfirmation -PromptMessage "`nDo you want to move this draft to a content folder now?") {
-                         # Select Destination Directory
-                         $moveDestinationPath = $null
-                         while ($true) { # Loop for directory selection and confirmation
-                             $availableDirs = Get-ContentSubdirectories -ContentPath $ContentPath -Exclusions $ExcludedContentFolders
-                             if ($availableDirs.Count -eq 0) {
-                                 Write-Warning "No suitable content directories found to move the draft to."
-                                 $moveDestinationPath = $null # Ensure it's null if no dirs
-                                 break # Exit selection loop
-                             }
-                             $dirNames = $availableDirs | ForEach-Object { $_.Name }
-                             # Do NOT add "Create New" here, just moving to existing
-                             $choicePrompt = "`nChoose the destination category (directory) for the draft:"
-
-                             $dirChoiceIndex = Get-NumberedChoice -PromptMessage $choicePrompt -Choices $dirNames
-                             $chosenDirInfo = $availableDirs[$dirChoiceIndex - 1]
-
-                             Write-Host "`nYou have selected: '$($chosenDirInfo.Name)'"
-                             if (Get-UserConfirmation -PromptMessage "Confirm this destination directory?") {
-                                 $moveDestinationPath = $chosenDirInfo.FullName
-                                 break # Exit the directory selection loop
-                             }
-                             # If No (returns false), the loop continues and choices are shown again
-                         } # End destination directory selection loop
-
-                         # Execute the move if a destination was chosen
-                         if ($moveDestinationPath) {
-                             $finalFilePath = Join-Path $moveDestinationPath $newFileName
-                              # Handle potential filename collision in destination
-                             $counter = 1
-                             while (Test-Path $finalFilePath) {
-                                 $baseName = [System.IO.Path]::GetFileNameWithoutExtension($newFileName)
-                                 $extension = [System.IO.Path]::GetExtension($newFileName)
-                                 $finalFilePath = Join-Path $moveDestinationPath "$($baseName)_$($counter)$($extension)"
-                                 $counter++
-                             }
-
-                             try {
-                                 Move-Item -Path $newFilePath -Destination $finalFilePath -Force -ErrorAction Stop
-                                 Write-Host "Successfully moved '$newFileName' to '$($moveDestinationPath | Split-Path -Leaf)'" -ForegroundColor Green
-                                 $newFilePath = $finalFilePath # Update path for consistency
-                             } catch {
-                                 Write-Error "Failed to move file. Error: $($_.Exception.Message)"
-                                 Write-Warning "The draft remains in the '$DraftsFolderName' folder."
-                             }
-                         } else {
-                              Write-Host "Move cancelled or no destination available."
-                         }
-                     } else {
-                         # User chose not to move the file
-                         Write-Host "Okay, the draft remains in the '$DraftsFolderName' folder."
-                         Write-Host "Opening the drafts folder for manual moving if needed."
-                         Invoke-Item $DraftsPath
-                     }
+                    # Ask to move file
+                    if (Get-UserConfirmation "Do you want to move this draft to a content category folder now?") {
+                        $moveToDir = Select-Directory -ParentDirectoryPath $ContentDirectoryPath -ExcludedFolders $ExcludedContentDirs -AllowNew:$false -ChoicePrompt "Select the destination category for the draft:"
+                        if ($moveToDir) {
+                            $destinationPath = Join-Path $moveToDir $newDraftFilePath.Split('\')[-1] # Keep original filename
+                             # Check if destination file exists
+                            if (Test-Path $destinationPath) {
+                                Write-Warning "A file with the same name already exists in '$moveToDir'."
+                                if (Get-UserConfirmation "Overwrite existing file at destination?") {
+                                     try {
+                                        Move-Item -Path $newDraftFilePath -Destination $destinationPath -Force -ErrorAction Stop
+                                        Write-Host "Draft moved successfully to $destinationPath" -ForegroundColor Green
+                                    } catch {
+                                        Write-Error "Failed to move draft. Error: $($_.Exception.Message)"
+                                    }
+                                } else {
+                                    Write-Warning "Move cancelled. Draft remains in '$DraftsDirectoryName'."
+                                    Invoke-Item $DraftsDirectoryPath # Open drafts folder
+                                }
+                            } else {
+                                # Destination does not exist, proceed with move
+                                try {
+                                    Move-Item -Path $newDraftFilePath -Destination $destinationPath -ErrorAction Stop
+                                    Write-Host "Draft moved successfully to $destinationPath" -ForegroundColor Green
+                                } catch {
+                                    Write-Error "Failed to move draft. Error: $($_.Exception.Message)"
+                                }
+                            }
+                        } else {
+                            Write-Warning "Move cancelled because no destination was selected. Draft remains in '$DraftsDirectoryName'."
+                            Invoke-Item $DraftsDirectoryPath # Open drafts folder
+                        }
+                    } else {
+                        Write-Host "Draft will remain in the '$DraftsDirectoryName' folder."
+                        Invoke-Item $DraftsDirectoryPath # Open drafts folder for manual moving
+                    }
 
                 } catch {
-                    Write-Error "Failed to open file '$newFilePath' or wait for editor. Error: $($_.Exception.Message)"
-                    Write-Warning "Please manually edit the file if needed. The draft remains in '$DraftsFolderName'."
-                    # Skip move prompt if editor failed
-                    Write-Host "Opening the drafts folder."
-                    Invoke-Item $DraftsPath
+                    Write-Error "Could not open '$newDraftFilePath' or wait for editor. Error: $($_.Exception.Message)"
+                    Write-Warning "Please open the file manually if needed. Draft remains in '$DraftsDirectoryName'."
+                    Invoke-Item $DraftsDirectoryPath # Open drafts folder
                 }
 
-                # Ask about main menu or exit
-                if (Get-UserConfirmation -PromptMessage "`nReturn to the main menu?") {
-                    continue # Go to start of the while loop
+                # Ask to return to main menu or exit
+                if (Get-UserConfirmation "Return to the main menu?") {
+                    continue # Loop back to the start of the while loop
                 } else {
                     Write-Host "Exiting script."
                     exit
                 }
 
             } else {
-                # Didn't open the file
-                Write-Host "Okay, file not opened. Opening the project folder."
+                 # Don't open file, open project folder and close script
+                Write-Host "Opening project folder '$ProjectRoot'..."
                 Invoke-Item $ProjectRoot
                 Write-Host "Exiting script."
                 exit # Exit PowerShell as requested
             }
         } # End Choice 2
 
-        # --- Choice 3: Move drafts to post categories and publish ---
-        '3' {
-            Write-Host "`n--- Move drafts to post categories and publish ---" -ForegroundColor Green
+        # 3. Move drafts to post categories and publish
+        3 {
+            Write-Host "`n--- Choice 3: Move Drafts and Publish ---"
+            $DraftsDirectoryPath = Join-Path -Path $ProjectRoot -ChildPath $DraftsDirectoryName
 
-            # Check if Drafts folder exists and has files
-             if (-not (Test-Path -Path $DraftsPath -PathType Container)) {
-                Write-Warning "Drafts directory '$DraftsFolderName' not found. Nothing to move."
-                Read-Host "Press Enter to return to the main menu."
+            if (-not (Test-Path $DraftsDirectoryPath -PathType Container)) {
+                Write-Warning "Drafts directory '$DraftsDirectoryName' not found. Nothing to move."
+                Read-Host "Press Enter to return to the main menu..."
                 continue
             }
-            $draftFiles = Get-ChildItem -Path $DraftsPath -Filter *.md -File
-             if ($draftFiles.Count -eq 0) {
-                 Write-Warning "No markdown files found in the drafts folder '$DraftsFolderName'."
-                 Read-Host "Press Enter to return to the main menu."
+
+            $draftFiles = Get-ChildItem -Path $DraftsDirectoryPath -Filter "*.md" -File
+            if ($draftFiles.Count -eq 0) {
+                Write-Warning "No Markdown files found in the drafts directory."
+                Read-Host "Press Enter to return to the main menu..."
+                continue
+            }
+
+            Write-Host "Found $($draftFiles.Count) draft(s) to move."
+
+            # Get available destination directories ONCE
+            $availableDestDirs = Get-ChildItem -Path $ContentDirectoryPath -Directory | Where-Object { $ExcludedContentDirs -notcontains $_.Name.ToLower() }
+            $destDirNames = $availableDestDirs | Select-Object -ExpandProperty Name
+
+            if ($destDirNames.Count -eq 0) {
+                 Write-Error "No valid destination directories found in '$ContentDirectoryName' (excluding specified folders)."
+                 Write-Warning "Cannot move drafts. Please create category folders first."
+                 Read-Host "Press Enter to return to the main menu..."
                  continue
-             }
+            }
 
-             Write-Host "Found $($draftFiles.Count) draft(s) to process."
+            $movePlan = @{} # Hashtable to store [DraftFilePath] = DestinationPath
 
-             # Get available destination directories
-             $availableDirs = Get-ContentSubdirectories -ContentPath $ContentPath -Exclusions $ExcludedContentFolders
-             if ($availableDirs.Count -eq 0) {
-                 Write-Warning "No suitable content directories found to move drafts into."
-                 Write-Warning "Please create category folders inside '$ContentFolderName' first."
-                 Read-Host "Press Enter to return to the main menu."
-                 continue
-             }
-             $dirNames = $availableDirs | ForEach-Object { $_.Name }
-             $choicePrompt = "Choose the destination category (directory):"
+            # Determine destinations for all drafts first
+            $cancelAll = $false
+            foreach ($draftFile in $draftFiles) {
+                Write-Host "`nProcessing draft: $($draftFile.Name)"
+                $chosenDestDirInfo = $null
+                do {
+                    $destChoiceIndex = Get-UserChoice -PromptMessage "Select destination category for '$($draftFile.Name)':" -Options $destDirNames
+                    $chosenDestName = $destDirNames[$destChoiceIndex - 1]
+                    $chosenDestDirInfo = $availableDestDirs | Where-Object {$_.Name -eq $chosenDestName} | Select-Object -First 1
 
-             # Plan the moves
-             $movePlan = @() # Array to store planned moves {SourcePath, DestinationPath, OriginalFileName}
+                    if (Get-UserConfirmation "Confirm moving '$($draftFile.Name)' to '$($chosenDestName)'?") {
+                        $movePlan[$draftFile.FullName] = $chosenDestDirInfo.FullName
+                        break # Confirmation received, move to next draft
+                    } else {
+                        # Confirmation denied, ask to re-select for this file or cancel all
+                        if (-not (Get-UserConfirmation "Choose a different destination for this file? (No = Cancel entire operation)")) {
+                            $cancelAll = $true
+                            break # Break inner loop
+                        }
+                        # If Yes, the outer do..while loop continues for this file
+                    }
+                } while ($true) # Loop until confirmed or cancelled all
 
-             foreach ($draftFile in $draftFiles) {
-                 Write-Host "`nProcessing draft: $($draftFile.Name)" -ForegroundColor Yellow
+                if ($cancelAll) { break } # Break outer foreach loop
+            } # End foreach draftFile
 
-                 $destinationDirInfo = $null
-                 while ($true) { # Loop for directory selection and confirmation for this file
-                     $dirChoiceIndex = Get-NumberedChoice -PromptMessage $choicePrompt -Choices $dirNames
-                     $chosenDirInfo = $availableDirs[$dirChoiceIndex - 1]
+            if ($cancelAll) {
+                Write-Warning "Operation cancelled by user. No drafts were moved."
+                Read-Host "Press Enter to return to the main menu..."
+                continue
+            }
 
-                     Write-Host "`nYou have selected destination: '$($chosenDirInfo.Name)' for file '$($draftFile.Name)'"
-                     if (Get-UserConfirmation -PromptMessage "Confirm this destination?") {
-                         $destinationDirInfo = $chosenDirInfo
-                         break # Confirmed for this file
+            # Execute the move plan
+            Write-Host "`nExecuting move plan..."
+            $moveSuccess = $true
+            foreach ($draftPath in $movePlan.Keys) {
+                $destFolderPath = $movePlan[$draftPath]
+                $draftFileName = Split-Path $draftPath -Leaf
+                $finalDestPath = Join-Path $destFolderPath $draftFileName
+
+                Write-Host "Moving '$draftFileName' to '$destFolderPath'..."
+                try {
+                     # Check for overwrite
+                     if (Test-Path $finalDestPath) {
+                         Write-Warning "File '$draftFileName' already exists in '$destFolderPath'."
+                         if (Get-UserConfirmation "Overwrite?") {
+                             Move-Item -Path $draftPath -Destination $finalDestPath -Force -ErrorAction Stop
+                             Write-Host "Moved (overwrite)." -ForegroundColor Green
+                         } else {
+                             Write-Warning "Skipped moving '$draftFileName' due to existing file."
+                             # Decide if this counts as a failure? For now, just warn.
+                         }
+                     } else {
+                         Move-Item -Path $draftPath -Destination $finalDestPath -ErrorAction Stop
+                         Write-Host "Moved successfully." -ForegroundColor Green
                      }
-                     # If No, loop again to re-select for this file
-                 }
+                } catch {
+                    Write-Error "Failed to move '$draftFileName'. Error: $($_.Exception.Message)"
+                    $moveSuccess = $false
+                    # Optionally break here or continue trying others
+                }
+            }
 
-                 # Add to move plan
-                 $movePlan += [PSCustomObject]@{
-                     SourcePath       = $draftFile.FullName
-                     DestinationPath  = $destinationDirInfo.FullName
-                     OriginalFileName = $draftFile.Name
-                 }
-             } # End foreach draft file
-
-             # Optional: Confirm all planned moves
-             Write-Host "`n--- Move Plan ---" -ForegroundColor Cyan
-             $movePlan | ForEach-Object {
-                 Write-Host "$($_.OriginalFileName) => $(Split-Path $_.DestinationPath -Leaf)"
-             }
-             if (-not (Get-UserConfirmation -PromptMessage "`nProceed with moving these files?")) {
-                 Write-Host "Move operation cancelled."
-                 Read-Host "Press Enter to return to the main menu."
-                 continue
-             }
-
-             # Execute the moves
-             Write-Host "`nMoving files..."
-             $moveSuccess = $true
-             foreach ($move in $movePlan) {
-                 $targetFilePath = Join-Path $move.DestinationPath $move.OriginalFileName
-                 # Handle potential filename collision in destination
-                 $counter = 1
-                 while (Test-Path $targetFilePath) {
-                     $baseName = [System.IO.Path]::GetFileNameWithoutExtension($move.OriginalFileName)
-                     $extension = [System.IO.Path]::GetExtension($move.OriginalFileName)
-                     $targetFilePath = Join-Path $move.DestinationPath "$($baseName)_$($counter)$($extension)"
-                     $counter++
-                 }
-
-                 try {
-                     Move-Item -Path $move.SourcePath -Destination $targetFilePath -Force -ErrorAction Stop
-                     Write-Host "Moved '$($move.OriginalFileName)' to '$(Split-Path $move.DestinationPath -Leaf)'" -ForegroundColor Green
-                 } catch {
-                     Write-Error "Failed to move '$($move.OriginalFileName)'. Error: $($_.Exception.Message)"
-                     $moveSuccess = $false
-                     # Decide whether to continue with other files or stop? Let's continue.
-                 }
-             }
-
-             if (-not $moveSuccess) {
-                 Write-Warning "Some files failed to move. Please check the errors above."
-                 # Don't automatically deploy if moves failed
-                 Read-Host "Press Enter to return to the main menu."
-                 continue
-             }
-
-             Write-Host "`nAll selected drafts moved successfully." -ForegroundColor Green
-
-             # Proceed to Deploy
-             Write-Host "`nProceeding to build and deploy the website (using GitHub workflow)..."
-             Run-DeploymentSteps -UseGit $true
-
-             Read-Host "Press Enter to return to the main menu."
-
+            if ($moveSuccess) {
+                Write-Host "`nAll selected drafts moved successfully." -ForegroundColor Green
+                Write-Host "Proceeding with website build and deployment..."
+                Invoke-DeployCommands -LocalSitePath $rcloneLocalPath -RemotePath $rcloneRemoteName -SiteUrl $deployedSiteUrl
+            } else {
+                Write-Warning "`nSome drafts failed to move. Deployment cancelled."
+                Read-Host "Press Enter to return to the main menu..."
+            }
         } # End Choice 3
 
-        # --- Choice 4: Test Eleventy locally ---
-        '4' {
-            Write-Host "`n--- Test Eleventy locally ---" -ForegroundColor Green
+        # 4. Test Eleventy locally
+        4 {
+            Write-Host "`n--- Choice 4: Test Eleventy Locally ---"
             Write-Host "Starting local development server..."
-            Write-Host "Access the site at http://localhost:8080/ (usually)"
-            Write-Host "Press CTRL+C in the terminal window where Eleventy is running to stop the server."
+            Write-Host "Access at: http://localhost:8080/ (usually)"
+            Write-Host "Press CTRL+C in the new window/tab where Eleventy runs to stop the server."
             try {
-                # Open the browser first
-                Start-Process "http://localhost:8080/" -ErrorAction SilentlyContinue
-                # Then run the serve command, which will block this script until stopped
-                Invoke-Expression "npx @11ty/eleventy --serve"
-                 # Code here will run only after npx command is stopped (Ctrl+C)
-                 Write-Host "`nEleventy serve process stopped."
+                # Start browser first, then the blocking server command
+                Start-Process "http://localhost:8080/"
+                npx @11ty/eleventy --serve # This command will block until stopped
+                # Code here might not be reached until server is stopped
+                Write-Host "Eleventy server stopped."
             } catch {
-                 Write-Error "Failed to start Eleventy serve process. Is Node.js/npm/Eleventy installed and in PATH?"
-                 Write-Error $_.Exception.Message
+                 Write-Error "Failed to start Eleventy server. Error: $($_.Exception.Message)"
+                 Write-Warning "Is Node.js/npm/npx installed and in PATH? Is Eleventy installed (`npm install @11ty/eleventy`)?"
             }
-            Read-Host "Press Enter to return to the main menu."
+            Read-Host "Press Enter to return to the main menu..."
         } # End Choice 4
 
-        # --- Choice 5: Build and deploy via GitHub ---
-        '5' {
-            Write-Host "`n--- Build and deploy via GitHub ---" -ForegroundColor Green
-            if (Get-UserConfirmation -PromptMessage "Are you sure you want to build and deploy using the GitHub workflow?") {
-                Run-DeploymentSteps -UseGit $true
+        # 5. Build and deploy via Github
+        5 {
+            Write-Host "`n--- Choice 5: Build and Deploy via Github ---"
+            if (Get-UserConfirmation "Confirm build and deploy using Git?") {
+                Invoke-DeployCommands -LocalSitePath $rcloneLocalPath -RemotePath $rcloneRemoteName -SiteUrl $deployedSiteUrl
             } else {
                 Write-Host "Deployment cancelled."
+                Read-Host "Press Enter to return to the main menu..."
             }
-            Read-Host "Press Enter to return to the main menu."
         } # End Choice 5
 
-        # --- Choice 6: Build and deploy without GitHub ---
-        '6' {
-             Write-Host "`n--- Build and deploy without GitHub (direct sync) ---" -ForegroundColor Green
-             if (Get-UserConfirmation -PromptMessage "Are you sure you want to build and deploy using direct rclone sync (no git push)?") {
-                 Run-DeploymentSteps -UseGit $false
+        # 6. Build and deploy without Github
+        6 {
+             Write-Host "`n--- Choice 6: Build and Deploy without Github ---"
+             if (Get-UserConfirmation "Confirm build and deploy WITHOUT Git?") {
+                Invoke-DeployCommandsNoGit -LocalSitePath $rcloneLocalPath -RemotePath $rcloneRemoteName -SiteUrl $deployedSiteUrl
              } else {
-                 Write-Host "Deployment cancelled."
-             }
-             Read-Host "Press Enter to return to the main menu."
+                Write-Host "Deployment cancelled."
+                Read-Host "Press Enter to return to the main menu..."
+            }
         } # End Choice 6
 
-        # --- Choice 7: Exit ---
-        '7' {
-            Write-Host "Exiting script. Goodbye!"
-            break # Exit the main while loop
-        }
+        # 7. Exit
+        7 {
+            Write-Host "Exiting script."
+            exit # Exit the script
+        } # End Choice 7
 
-        # --- Default: Invalid Choice ---
-        default {
-            Write-Warning "Invalid choice. Please select a number from 1 to 7."
-            Read-Host "Press Enter to continue."
+        Default {
+            # Should not happen with Get-UserChoice validation, but good practice
+            Write-Warning "Invalid selection. Please try again."
+            Read-Host "Press Enter to continue..."
         }
     } # End Switch
-} # End While Loop
 
-# --- Script End ---
+    # Pause at the end of an action before showing the menu again (unless exited)
+    # Some actions have their own pauses or exit points.
+
+} # End While True (Main Loop)

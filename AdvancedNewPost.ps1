@@ -1,184 +1,232 @@
+#Requires -Version 5.1
+
 <#
-.ForWhenIGetOld
-Creates a new Markdown file with YAML front matter for Eleventy projects,
-using templates found in a 'templates' directory.
+.SYNOPSIS
+Creates a new Markdown file with YAML front matter for Eleventy projects.
 
 .DESCRIPTION
-This script automates the creation of new content files for Eleventy.
-It finds Markdown templates (.md) in a 'templates' folder relative to the script's location.
-
-- If no templates are found, it exits with an error.
-- If one template is found, it automatically uses it.
-- If multiple templates are found, it prompts the user to choose one.
-
-The script prompts the user for a post title.
-It generates a Markdown file with YAML front matter including:
-  - title: The user-provided title.
-  - date: The current date and time in an ISO 8601 format compatible with Luxon's DateTime.fromISO.
-
-The filename is the current date in YYYYMMDD format (e.g., 20231027.md).
-
-Output Destination:
-- If a specific template was chosen (multiple templates existed), the file is placed in 'content/<template_name>/'.
-- If the single template was automatically chosen, the file is placed in 'content/Drafts/'.
-- The 'content', 'content/Drafts', or 'content/<template_name>' directories are created if they don't exist.
-
-Placeholders in the template file:
-- {{TITLE}} : Replaced with the user-provided title.
-- {{DATETIME_ISO}} : Replaced with the current date/time in ISO 8601 format.
+This script scans the project for a 'content' directory (configurable).
+It lists the subdirectories within 'content' (excluding 'feed', 'helper', 'helpers')
+as potential locations for the new file. Users can select an existing directory
+or choose to create a new one.
+The script prompts for a title and tags, then generates an .md file named
+with the current date (YYYYMMDD.md) in the chosen location.
+The YAML front matter includes the title, current date/time in ISO 8601 format,
+and the provided tags formatted as a YAML list.
+Finally, it opens the newly created file in the default text editor.
 
 .NOTES
-Place this script in the root of your Eleventy project or adjust paths accordingly.
-Assumes a standard project structure with 'templates' and 'content' directories
-at the same level as the script (or where PowerShell is run from).
-Requires PowerShell 3.0 or later for $PSScriptRoot.
-
-.EXAMPLE
-.\AdvancedNewPost.ps1
-# Follow the prompts to select a template (if applicable) and enter a title.
+Author: Me
+Date:   (Get-Date).ToString('yyyy-MM-dd')
+Ensure you run this script from within your Eleventy project directory or one of its subdirectories.
+The script searches upwards for the content directory.
+ISO 8601 format used: yyyy-MM-ddTHH:mm:ss.fffzzz (compatible with Luxon's DateTime.fromISO)
 #>
 
-[CmdletBinding()]
-param()
-
 # --- Configuration ---
-$templatesFolderName = "templates"
-$contentFolderName = "content"
-$draftsFolderName = "Drafts" # Used only when a single template is found
+$contentDirectoryName = "content" # The name of your main content directory (e.g., "src", "posts", "content")
+$excludedDirs = @("feed", "helper", "helpers") # Directories inside $contentDirectoryName to exclude from choices
 
-# --- Get Base Paths ---
-# Use PSScriptRoot if the script is run directly, otherwise use current directory
-if ($PSScriptRoot) {
-    $projectRoot = $PSScriptRoot
-} else {
-    $projectRoot = Get-Location
-    Write-Warning "PSScriptRoot not available. Using current directory '$projectRoot' as project root. Run the script directly (.\script.ps1) for best results."
+# --- Script Start ---
+Clear-Host
+Write-Host "Starting Eleventy Post Creator..." -ForegroundColor Cyan
+
+# --- Find Project Root and Content Directory ---
+$currentPath = $PWD.Path
+$contentDirPath = $null
+
+# Search upwards for the content directory
+$searchPath = $currentPath
+while ($searchPath -ne $null -and $searchPath -ne (Split-Path $searchPath -Parent)) {
+    $potentialContentPath = Join-Path -Path $searchPath -ChildPath $contentDirectoryName
+    if (Test-Path $potentialContentPath -PathType Container) {
+        $contentDirPath = $potentialContentPath
+        Write-Host "Found content directory at: $contentDirPath"
+        break
+    }
+    $searchPath = Split-Path $searchPath -Parent
 }
 
-$templatesDir = Join-Path -Path $projectRoot -ChildPath $templatesFolderName
-$contentDir = Join-Path -Path $projectRoot -ChildPath $contentFolderName
-
-# --- Get Current Date/Time ---
-$currentDateTime = Get-Date
-# ISO 8601 format with timezone offset, compatible with Luxon's DateTime.fromISO
-# Example: 2023-10-27T15:30:00+01:00
-$dateTimeIso = $currentDateTime.ToString("yyyy-MM-ddTHH:mm:sszzz")
-# Filename format YYYYMMDD
-$fileNameDate = $currentDateTime.ToString("yyyyMMdd")
-
-# --- Find Templates ---
-Write-Host "Scanning for templates in '$templatesDir'..."
-
-if (-not (Test-Path -Path $templatesDir -PathType Container)) {
-    Write-Error "Template directory not found: '$templatesDir'. Please create it and add template .md files."
-    exit 1
+if (-not $contentDirPath) {
+    Write-Error "Could not find a '$contentDirectoryName' directory searching up from '$currentPath'. Please run the script from within your project."
+    Exit 1
 }
 
-# Look for Markdown files in the templates directory
-$templateFiles = Get-ChildItem -Path $templatesDir -Filter *.md -File
+# --- Directory Selection Loop ---
+$chosenDirPath = $null
+$chosenDirName = $null
+$confirmed = $false
 
-# --- Handle Template Selection ---
-$chosenTemplateFile = $null
-$outputSubFolder = $null
-
-switch ($templateFiles.Count) {
-    0 {
-        Write-Error "No template (.md) files found in '$templatesDir'."
-        exit 1
+do {
+    # --- Get Available Directories ---
+    try {
+        $availableDirs = Get-ChildItem -Path $contentDirPath -Directory -ErrorAction Stop | Where-Object { $_.Name -notin $excludedDirs }
+    } catch {
+        Write-Error "Error accessing directories within '$contentDirPath': $($_.Exception.Message)"
+        Exit 1
     }
-    1 {
-        $chosenTemplateFile = $templateFiles[0]
-        $outputSubFolder = $draftsFolderName
-        Write-Host "Found one template: '$($chosenTemplateFile.Name)'. Using it automatically."
-        Write-Host "Output will be placed in '$contentFolderName\$outputSubFolder'."
-    }
-    default {
-        # More than one template
-        Write-Host "Multiple templates found. Please choose one:"
-        for ($i = 0; $i -lt $templateFiles.Count; $i++) {
-            Write-Host ("[{0}] {1}" -f ($i + 1), $templateFiles[$i].Name)
-        }
 
-        [int]$choice = 0
-        while ($choice -lt 1 -or $choice -gt $templateFiles.Count) {
-            $inputChoice = Read-Host -Prompt "Enter the number of the template to use"
-            if ($inputChoice -match '^\d+$') {
-                $choice = [int]$inputChoice
-                if ($choice -lt 1 -or $choice -gt $templateFiles.Count) {
-                    Write-Warning "Invalid selection. Please enter a number between 1 and $($templateFiles.Count)."
-                }
+    # --- Display Choices ---
+    Clear-Host
+    Write-Host "Available Content Directories (inside '$contentDirectoryName'):" -ForegroundColor Yellow
+    $i = 1
+    $dirMap = @{} # Map choice number to directory object
+    foreach ($dir in $availableDirs) {
+        Write-Host "[$i] $($dir.Name)"
+        $dirMap[$i] = $dir
+        $i++
+    }
+    $newDirOption = $i
+    Write-Host "[$newDirOption] ** Create New Directory **"
+
+    # --- Get User Choice ---
+    $choice = $null
+    while ($choice -eq $null) {
+        $inputChoice = Read-Host "Enter the number for the destination directory"
+        if ($inputChoice -match '^\d+$') {
+            $numericChoice = [int]$inputChoice
+            if ($numericChoice -ge 1 -and $numericChoice -le $newDirOption) {
+                $choice = $numericChoice
             } else {
-                Write-Warning "Invalid input. Please enter a number."
+                Write-Warning "Invalid choice. Please enter a number between 1 and $newDirOption."
             }
+        } else {
+            Write-Warning "Wrong key! Now enter a number."
         }
-        $chosenTemplateFile = $templateFiles[$choice - 1]
-        # Output subfolder matches the template name without extension
-        $outputSubFolder = $chosenTemplateFile.BaseName
-        Write-Host "You selected: '$($chosenTemplateFile.Name)'."
-        Write-Host "Output will be placed in '$contentFolderName\$outputSubFolder'."
     }
-}
 
-# --- Get Title Input ---
-$postTitle = ""
-while ([string]::IsNullOrWhiteSpace($postTitle)) {
-    $postTitle = Read-Host -Prompt "Enter the title for the new post"
-    if ([string]::IsNullOrWhiteSpace($postTitle)) {
+    # --- Process Choice ---
+    $createNewDir = $false
+    if ($choice -eq $newDirOption) {
+        # Create New Directory
+        $newDirName = ""
+        while (-not $newDirName.Trim()) {
+             $newDirName = Read-Host "Enter the name for the new directory (inside '$contentDirectoryName')"
+             if (-not $newDirName.Trim()) {
+                 Write-Warning "Directory name cannot be empty."
+             }
+             # Basic validation for invalid characters (optional, can be more robust)
+             if ($newDirName -match '[\\/:*?"<>|]') {
+                 Write-Warning "Directory name contains invalid characters (\ / : * ? "" < > |)."
+                 $newDirName = "" # Reset to re-prompt
+             }
+        }
+        $chosenDirName = $newDirName.Trim()
+        $chosenDirPath = Join-Path -Path $contentDirPath -ChildPath $chosenDirName
+        $createNewDir = $true
+        Write-Host "Will create new directory: $chosenDirPath"
+
+    } else {
+        # Existing Directory
+        $chosenDirObject = $dirMap[$choice]
+        $chosenDirName = $chosenDirObject.Name
+        $chosenDirPath = $chosenDirObject.FullName
+        Write-Host "You selected existing directory: $chosenDirName"
+    }
+
+    # --- Confirm Choice ---
+    $confirmation = $null
+    while ($confirmation -notin @('1', '2')) {
+        $confirmation = Read-Host "Confirm selection '$chosenDirName'? [1] Yes [2] No (choose again)"
+        if ($confirmation -eq '1') {
+            $confirmed = $true
+        } elseif ($confirmation -eq '2') {
+            $confirmed = $false
+            Write-Host "Okay, let's choose again."
+            Start-Sleep -Seconds 1
+        } else {
+            Write-Warning "Invalid input. Please enter 1 for Yes or 2 for No."
+        }
+    }
+
+} until ($confirmed)
+
+# --- Get Post Details ---
+Write-Host "`n--- Post Details ---" -ForegroundColor Yellow
+
+# Get Title
+$title = ""
+while (-not $title.Trim()) {
+    $title = Read-Host "Enter the post title"
+    if (-not $title.Trim()) {
         Write-Warning "Title cannot be empty."
     }
 }
+$title = $title.Trim()
 
-# --- Prepare Output ---
-# Ensure the base content directory exists
-if (-not (Test-Path -Path $contentDir -PathType Container)) {
-    Write-Host "Creating content directory: '$contentDir'"
-    New-Item -Path $contentDir -ItemType Directory -Force | Out-Null
+# Get Tags
+$tagsInput = Read-Host "Enter tags, separated by commas (e.g., tech, blog, eleventy)"
+$tagsArray = $tagsInput -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ } # Split, trim, remove empty
+
+# Format tags for YAML list
+$yamlTags = $tagsArray | ForEach-Object { "`"$_`"" } | Join-String -Separator ', ' # Enclose each tag in quotes and join
+
+# --- Prepare File Content ---
+$currentDateTime = Get-Date
+$isoDateTime = $currentDateTime.ToString("o") # ISO 8601 format (e.g., 2023-10-27T15:30:00.1234567+01:00) - Luxon handles this
+$fileNameDate = $currentDateTime.ToString("yyyyMMdd")
+$fileName = "$($fileNameDate).md"
+
+# Escape double quotes in title for YAML safety
+$yamlTitle = $title.Replace('"', '\"')
+
+# Define YAML Front Matter and basic content using a Here-String
+$fileContent = @"
+---
+title: "$yamlTitle"
+date: $isoDateTime
+tags: [$yamlTags]
+---
+
+# $title
+
+Start writing your content here...
+"@
+
+# --- Create Directory and File ---
+
+# Create the directory if requested
+if ($createNewDir) {
+    if (-not (Test-Path $chosenDirPath -PathType Container)) {
+        try {
+            Write-Host "Creating directory: $chosenDirPath"
+            New-Item -Path $chosenDirPath -ItemType Directory -Force -ErrorAction Stop | Out-Null
+        } catch {
+            Write-Error "Failed to create directory '$chosenDirPath': $($_.Exception.Message)"
+            Exit 1
+        }
+    } else {
+         Write-Host "Directory '$chosenDirPath' already exists. Using it." -ForegroundColor Yellow
+    }
 }
 
-# Define and ensure the specific output directory exists
-$outputDir = Join-Path -Path $contentDir -ChildPath $outputSubFolder
-if (-not (Test-Path -Path $outputDir -PathType Container)) {
-    Write-Host "Creating output directory: '$outputDir'"
-    New-Item -Path $outputDir -ItemType Directory -Force | Out-Null
-}
-
-# Construct the full output file path
-$outputFileName = "$($fileNameDate).md"
-$outputFilePath = Join-Path -Path $outputDir -ChildPath $outputFileName
+# Define the full file path
+$filePath = Join-Path -Path $chosenDirPath -ChildPath $fileName
 
 # Check if file already exists (optional, but good practice)
-if (Test-Path -Path $outputFilePath -PathType Leaf) {
-    Write-Warning "File '$outputFilePath' already exists. Overwriting..."
-    # Or uncomment the next two lines to prevent overwrite and exit
-    # Write-Error "File '$outputFilePath' already exists. Aborting."
-    # exit 1
+if (Test-Path $filePath) {
+    Write-Warning "File '$filePath' already exists. Overwriting is not implemented in this script. Please rename or delete the existing file."
+    # Or implement overwrite confirmation logic here
+    # Read-Host "File exists. Overwrite? (y/n)" ... etc.
+    Exit 1
 }
 
-# --- Process Template and Create File ---
-Write-Host "Reading template '$($chosenTemplateFile.FullName)'..."
-$templateContent = Get-Content -Path $chosenTemplateFile.FullName -Raw
-
-Write-Host "Generating content for '$postTitle'..."
-# Replace placeholders (case-sensitive)
-$outputContent = $templateContent -replace '\{\{TITLE\}\}', $postTitle
-$outputContent = $outputContent -replace '\{\{DATETIME_ISO\}\}', $dateTimeIso
-
-Write-Host "Writing output file to '$outputFilePath'..."
+# Create and write the file
 try {
-    # Use UTF8 encoding without BOM, common for web files
-    # Requires PowerShell 5.1+ for -Encoding UTF8NoBOM with Set-Content
-    # For older PS versions, you might need different encoding handling.
-    if ($PSVersionTable.PSVersion.Major -ge 5 -and $PSVersionTable.PSVersion.Minor -ge 1) {
-         Set-Content -Path $outputFilePath -Value $outputContent -Encoding UTF8NoBOM -Force
-    } else {
-         # Fallback for older PowerShell (might include BOM)
-         Write-Warning "PowerShell version less than 5.1. Using default UTF8 encoding (may include BOM)."
-         Set-Content -Path $outputFilePath -Value $outputContent -Encoding UTF8 -Force
-    }
-    Write-Host ("Successfully created file: '{0}'" -f $outputFilePath) -ForegroundColor Green
+    Write-Host "Creating file: $filePath"
+    Set-Content -Path $filePath -Value $fileContent -Encoding UTF8 -ErrorAction Stop
+    Write-Host "Successfully created file!" -ForegroundColor Green
 } catch {
-    Write-Error "Failed to write output file: $($_.Exception.Message)"
-    exit 1
+    Write-Error "Failed to create file '$filePath': $($_.Exception.Message)"
+    Exit 1
 }
 
-Write-Host "Script finished."
+# --- Open File in Default Editor ---
+Write-Host "Opening file in default editor..."
+try {
+    Invoke-Item $filePath
+} catch {
+    Write-Warning "Could not automatically open the file. Please open it manually: $filePath"
+}
+
+Write-Host "`nScript finished." -ForegroundColor Cyan

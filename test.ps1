@@ -2,195 +2,231 @@
 
 <#
 .SYNOPSIS
-Creates a new Markdown file with YAML front matter for an Eleventy project.
+Creates a new Markdown file with YAML front matter for Eleventy projects.
+
 .DESCRIPTION
-This script scans the current project directory for a 'content' folder.
+This script scans the project for a 'content' directory (configurable).
 It lists the subdirectories within 'content' (excluding 'feed', 'helper', 'helpers')
-as potential locations for the new file, plus an option to create a new directory.
-The user selects a location, provides a title, and the script generates an .md file.
-The filename is the current date (YYYYMMDD.md).
-The YAML front matter includes the user-provided title and the current date/time
-in an ISO 8601 format compatible with Luxon's DateTime.fromISO.
+as potential locations for the new file. Users can select an existing directory
+or choose to create a new one.
+The script prompts for a title and tags, then generates an .md file named
+with the current date (YYYYMMDD.md) in the chosen location.
+The YAML front matter includes the title, current date/time in ISO 8601 format,
+and the provided tags formatted as a YAML list.
+Finally, it opens the newly created file in the default text editor.
+
 .NOTES
-Author: Assistant
-Date:   (Will be set during execution)
-Assumes the script is run from the root of the Eleventy project or a location
-where a './content' directory can be found.
+Author: Your Name/AI Assistant
+Date:   (Get-Date).ToString('yyyy-MM-dd')
+Ensure you run this script from within your Eleventy project directory or one of its subdirectories.
+The script searches upwards for the content directory.
+ISO 8601 format used: yyyy-MM-ddTHH:mm:ss.fffzzz (compatible with Luxon's DateTime.fromISO)
 #>
 
 # --- Configuration ---
-$contentFolderName = "content"
-$excludedDirs = @("feed", "helper", "helpers") # Directories to exclude from choices
+$contentDirectoryName = "content" # The name of your main content directory (e.g., "src", "posts", "content")
+$excludedDirs = @("feed", "helper", "helpers") # Directories inside $contentDirectoryName to exclude from choices
 
 # --- Script Start ---
+Clear-Host
 Write-Host "Starting Eleventy Post Creator..." -ForegroundColor Cyan
 
-# 1. Find the Content Directory
-$projectRoot = $PSScriptRoot # Use script's directory if run as .ps1
-if (-not $projectRoot) {
-    $projectRoot = $PWD # Use current working directory if run interactively
-}
-$contentDir = Join-Path -Path $projectRoot -ChildPath $contentFolderName
+# --- Find Project Root and Content Directory ---
+$currentPath = $PWD.Path
+$contentDirPath = $null
 
-if (-not (Test-Path -Path $contentDir -PathType Container)) {
-    Write-Error "Error: Could not find the '$contentFolderName' directory at '$contentDir'. Please run this script from your project root."
-    Exit 1 # Exit script if content directory isn't found
-}
-
-Write-Host "Found content directory: $contentDir"
-
-# 2. Scan for Subdirectories and Prepare Choices
-Write-Host "Scanning for available content subdirectories..."
-try {
-    $subDirs = Get-ChildItem -Path $contentDir -Directory -Exclude $excludedDirs -ErrorAction Stop | Sort-Object Name
-}
-catch {
-    Write-Warning "Could not list subdirectories in '$contentDir'. Error: $($_.Exception.Message)"
-    $subDirs = @() # Ensure $subDirs is an empty array if Get-ChildItem fails
-}
-
-$options = @{}
-$counter = 1
-
-Write-Host "`nAvailable Post Locations:" -ForegroundColor Yellow
-if ($subDirs.Count -gt 0) {
-    foreach ($dir in $subDirs) {
-        Write-Host "  $counter. $($dir.Name)"
-        $options[$counter] = $dir # Store the directory object
-        $counter++
+# Search upwards for the content directory
+$searchPath = $currentPath
+while ($searchPath -ne $null -and $searchPath -ne (Split-Path $searchPath -Parent)) {
+    $potentialContentPath = Join-Path -Path $searchPath -ChildPath $contentDirectoryName
+    if (Test-Path $potentialContentPath -PathType Container) {
+        $contentDirPath = $potentialContentPath
+        Write-Host "Found content directory at: $contentDirPath"
+        break
     }
-} else {
-    Write-Host "  No existing subdirectories found (excluding specified ones)."
+    $searchPath = Split-Path $searchPath -Parent
 }
 
-$newDirOptionNumber = $counter
-Write-Host "  $newDirOptionNumber. Create New Directory"
-$options[$newDirOptionNumber] = "CREATE_NEW" # Special value for new directory
+if (-not $contentDirPath) {
+    Write-Error "Could not find a '$contentDirectoryName' directory searching up from '$currentPath'. Please run the script from within your project."
+    Exit 1
+}
 
-# 3. Get User Choice for Directory
-$chosenDirInfo = $null
-$finalDirPath = $null
-$chosenOptionName = ""
+# --- Directory Selection Loop ---
+$chosenDirPath = $null
+$chosenDirName = $null
+$confirmed = $false
 
 do {
-    $validChoice = $false
-    $confirmationChoice = $null
-    $dirChoiceInput = Read-Host "`nEnter the number for the desired post location (1-$newDirOptionNumber)"
-
-    if ($dirChoiceInput -match '^\d+$' -and $options.ContainsKey([int]$dirChoiceInput)) {
-        $chosenDirNumber = [int]$dirChoiceInput
-        $chosenDirInfo = $options[$chosenDirNumber]
-
-        if ($chosenDirInfo -eq "CREATE_NEW") {
-            $chosenOptionName = "Create New Directory"
-        } else {
-            # It's a directory object
-            $chosenOptionName = $chosenDirInfo.Name
-            $finalDirPath = $chosenDirInfo.FullName # Pre-set path for existing dir
-        }
-
-        # 4. Confirm Choice
-        Write-Host "`nYou selected: '$chosenOptionName'" -ForegroundColor Green
-        while ($confirmationChoice -notin @('1', '2')) {
-            $confirmationChoice = Read-Host "Confirm selection? (1 = Yes, 2 = Choose Again)"
-            if ($confirmationChoice -eq '1') {
-                $validChoice = $true
-            } elseif ($confirmationChoice -eq '2') {
-                Write-Host "Okay, let's choose again."
-                # Loop will restart directory selection
-            } else {
-                Write-Warning "Invalid input. Please enter 1 or 2."
-            }
-        }
-    } else {
-        Write-Warning "Invalid input. Please enter a number between 1 and $newDirOptionNumber."
-    }
-
-} while (-not $validChoice)
-
-# 5. Handle "Create New Directory" if selected
-if ($chosenDirInfo -eq "CREATE_NEW") {
-    $newDirName = ""
-    while ([string]::IsNullOrWhiteSpace($newDirName)) {
-        $newDirName = Read-Host "Enter the name for the new directory inside '$contentFolderName'"
-        # Basic validation for invalid characters (optional but recommended)
-        if ($newDirName -match '[\\/:*?"<>|]') {
-            Write-Warning "Directory name contains invalid characters. Please avoid \ / : * ? "" < > |"
-            $newDirName = "" # Reset to loop
-        }
-        # You could add more validation here (e.g., check if it conflicts with excluded names)
-    }
-
-    $finalDirPath = Join-Path -Path $contentDir -ChildPath $newDirName
-    Write-Host "Attempting to create directory: $finalDirPath"
+    # --- Get Available Directories ---
     try {
-        if (-not (Test-Path -Path $finalDirPath)) {
-            $null = New-Item -Path $finalDirPath -ItemType Directory -ErrorAction Stop
-            Write-Host "Successfully created directory '$newDirName'." -ForegroundColor Green
-        } else {
-            Write-Warning "Directory '$finalDirPath' already exists. Using existing directory."
-            # Check if it's actually a directory, not a file
-            if (-not (Test-Path -Path $finalDirPath -PathType Container)) {
-                 Write-Error "Error: '$finalDirPath' exists but is not a directory. Cannot proceed."
-                 Exit 1
-            }
-        }
+        $availableDirs = Get-ChildItem -Path $contentDirPath -Directory -ErrorAction Stop | Where-Object { $_.Name -notin $excludedDirs }
     } catch {
-        Write-Error "Failed to create directory '$finalDirPath'. Error: $($_.Exception.Message)"
+        Write-Error "Error accessing directories within '$contentDirPath': $($_.Exception.Message)"
         Exit 1
     }
-}
 
-# At this point, $finalDirPath should hold the valid full path to the target directory
+    # --- Display Choices ---
+    Clear-Host
+    Write-Host "Available Content Directories (inside '$contentDirectoryName'):" -ForegroundColor Yellow
+    $i = 1
+    $dirMap = @{} # Map choice number to directory object
+    foreach ($dir in $availableDirs) {
+        Write-Host "[$i] $($dir.Name)"
+        $dirMap[$i] = $dir
+        $i++
+    }
+    $newDirOption = $i
+    Write-Host "[$newDirOption] ** Create New Directory **"
 
-# 6. Get Post Title
-$postTitle = ""
-while ([string]::IsNullOrWhiteSpace($postTitle)) {
-    $postTitle = Read-Host "`nEnter the title for your post"
-    if ([string]::IsNullOrWhiteSpace($postTitle)) {
+    # --- Get User Choice ---
+    $choice = $null
+    while ($choice -eq $null) {
+        $inputChoice = Read-Host "Enter the number for the destination directory"
+        if ($inputChoice -match '^\d+$') {
+            $numericChoice = [int]$inputChoice
+            if ($numericChoice -ge 1 -and $numericChoice -le $newDirOption) {
+                $choice = $numericChoice
+            } else {
+                Write-Warning "Invalid choice. Please enter a number between 1 and $newDirOption."
+            }
+        } else {
+            Write-Warning "Invalid input. Please enter a number."
+        }
+    }
+
+    # --- Process Choice ---
+    $createNewDir = $false
+    if ($choice -eq $newDirOption) {
+        # Create New Directory
+        $newDirName = ""
+        while (-not $newDirName.Trim()) {
+             $newDirName = Read-Host "Enter the name for the new directory (inside '$contentDirectoryName')"
+             if (-not $newDirName.Trim()) {
+                 Write-Warning "Directory name cannot be empty."
+             }
+             # Basic validation for invalid characters (optional, can be more robust)
+             if ($newDirName -match '[\\/:*?"<>|]') {
+                 Write-Warning "Directory name contains invalid characters (\ / : * ? "" < > |)."
+                 $newDirName = "" # Reset to re-prompt
+             }
+        }
+        $chosenDirName = $newDirName.Trim()
+        $chosenDirPath = Join-Path -Path $contentDirPath -ChildPath $chosenDirName
+        $createNewDir = $true
+        Write-Host "Will create new directory: $chosenDirPath"
+
+    } else {
+        # Existing Directory
+        $chosenDirObject = $dirMap[$choice]
+        $chosenDirName = $chosenDirObject.Name
+        $chosenDirPath = $chosenDirObject.FullName
+        Write-Host "You selected existing directory: $chosenDirName"
+    }
+
+    # --- Confirm Choice ---
+    $confirmation = $null
+    while ($confirmation -notin @('1', '2')) {
+        $confirmation = Read-Host "Confirm selection '$chosenDirName'? [1] Yes [2] No (choose again)"
+        if ($confirmation -eq '1') {
+            $confirmed = $true
+        } elseif ($confirmation -eq '2') {
+            $confirmed = $false
+            Write-Host "Okay, let's choose again."
+            Start-Sleep -Seconds 1
+        } else {
+            Write-Warning "Invalid input. Please enter 1 for Yes or 2 for No."
+        }
+    }
+
+} until ($confirmed)
+
+# --- Get Post Details ---
+Write-Host "`n--- Post Details ---" -ForegroundColor Yellow
+
+# Get Title
+$title = ""
+while (-not $title.Trim()) {
+    $title = Read-Host "Enter the post title"
+    if (-not $title.Trim()) {
         Write-Warning "Title cannot be empty."
     }
 }
+$title = $title.Trim()
 
-# 7. Generate Date/Time and Filename
+# Get Tags
+$tagsInput = Read-Host "Enter tags, separated by commas (e.g., tech, blog, eleventy)"
+$tagsArray = $tagsInput -split ',' | ForEach-Object { $_.Trim() } | Where-Object { $_ } # Split, trim, remove empty
+
+# Format tags for YAML list
+$yamlTags = $tagsArray | ForEach-Object { "`"$_`"" } | Join-String -Separator ', ' # Enclose each tag in quotes and join
+
+# --- Prepare File Content ---
 $currentDateTime = Get-Date
-$isoDateTime = $currentDateTime.ToUniversalTime().ToString("o") # 'o' format: yyyy-MM-ddTHH:mm:ss.fffffffZ (UTC is common for consistency)
-# Alternative: Local time with offset: $currentDateTime.ToString("yyyy-MM-ddTHH:mm:ss.fffzzz") # e.g., 2023-10-27T15:30:00.123+01:00
-$fileNameDatePart = $currentDateTime.ToString("yyyyMMdd")
-$fileName = "$($fileNameDatePart).md"
-$fullFilePath = Join-Path -Path $finalDirPath -ChildPath $fileName
+$isoDateTime = $currentDateTime.ToString("o") # ISO 8601 format (e.g., 2023-10-27T15:30:00.1234567+01:00) - Luxon handles this
+$fileNameDate = $currentDateTime.ToString("yyyyMMdd")
+$fileName = "$($fileNameDate).md"
 
-Write-Host "Generated Filename: $fileName"
-Write-Host "Generated ISO DateTime: $isoDateTime"
+# Escape double quotes in title for YAML safety
+$yamlTitle = $title.Replace('"', '\"')
 
-# 8. Check if file already exists
-if (Test-Path -Path $fullFilePath) {
-    Write-Error "Error: A file named '$fileName' already exists in '$finalDirPath'. Please create the post manually or try again later."
+# Define YAML Front Matter and basic content using a Here-String
+$fileContent = @"
+---
+title: "$yamlTitle"
+date: $isoDateTime
+tags: [$yamlTags]
+---
+
+# $title
+
+Start writing your content here...
+"@
+
+# --- Create Directory and File ---
+
+# Create the directory if requested
+if ($createNewDir) {
+    if (-not (Test-Path $chosenDirPath -PathType Container)) {
+        try {
+            Write-Host "Creating directory: $chosenDirPath"
+            New-Item -Path $chosenDirPath -ItemType Directory -Force -ErrorAction Stop | Out-Null
+        } catch {
+            Write-Error "Failed to create directory '$chosenDirPath': $($_.Exception.Message)"
+            Exit 1
+        }
+    } else {
+         Write-Host "Directory '$chosenDirPath' already exists. Using it." -ForegroundColor Yellow
+    }
+}
+
+# Define the full file path
+$filePath = Join-Path -Path $chosenDirPath -ChildPath $fileName
+
+# Check if file already exists (optional, but good practice)
+if (Test-Path $filePath) {
+    Write-Warning "File '$filePath' already exists. Overwriting is not implemented in this script. Please rename or delete the existing file."
+    # Or implement overwrite confirmation logic here
+    # Read-Host "File exists. Overwrite? (y/n)" ... etc.
     Exit 1
 }
 
-# 9. Create YAML Front Matter and Content
-# Using double quotes within the here-string allows variable expansion.
-# Escape any literal $ signs if needed with backtick `$
-$yamlFrontMatter = @"
----
-title: "$($postTitle)"
-date: "$($isoDateTime)"
----
-
-"@ # Important: Ensure a blank line follows the closing '---'
-
-$fileContent = $yamlFrontMatter + "`nWrite your content here..." # Add placeholder text
-
-# 10. Write the File
-Write-Host "Creating file at: $fullFilePath"
+# Create and write the file
 try {
-    Set-Content -Path $fullFilePath -Value $fileContent -Encoding UTF8 -ErrorAction Stop
-    Write-Host "`nSuccessfully created post!" -ForegroundColor Green
-    Write-Host "File Path: $fullFilePath"
+    Write-Host "Creating file: $filePath"
+    Set-Content -Path $filePath -Value $fileContent -Encoding UTF8 -ErrorAction Stop
+    Write-Host "Successfully created file!" -ForegroundColor Green
 } catch {
-    Write-Error "Failed to write file '$fullFilePath'. Error: $($_.Exception.Message)"
+    Write-Error "Failed to create file '$filePath': $($_.Exception.Message)"
     Exit 1
+}
+
+# --- Open File in Default Editor ---
+Write-Host "Opening file in default editor..."
+try {
+    Invoke-Item $filePath
+} catch {
+    Write-Warning "Could not automatically open the file. Please open it manually: $filePath"
 }
 
 Write-Host "`nScript finished." -ForegroundColor Cyan
