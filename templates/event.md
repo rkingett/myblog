@@ -1,6 +1,6 @@
 ---
 title: {{TITLE}}
-date: {{DATE}}
+date: {{DATETIME_ISO}}
 tags: "event audio and video"
 ---
 

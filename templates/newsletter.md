@@ -1,5 +1,5 @@
 ---title: {{TITLE}}
-date: {{DATE}}tags: ["news"]
+date: {{DATETIME_ISO}}tags: ["news"]
 ---
 
 Post content.

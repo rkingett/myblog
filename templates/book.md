@@ -1,6 +1,6 @@
 ---
 title: {{TITLE}}
-date: {{DATE}}
+date: {{DATETIME_ISO}}
 tags: ["nonfiction", "drm-free", "fiction", "anthologies", "standalone", "SeriesName"]
 ---
 
