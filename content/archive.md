@@ -1,7 +1,11 @@
 ---
-title: Archive by categories and formats.
+title: Archive by last updated.
 ---
 
-<h1>Tags and categories<h1>
+<h1>Posts and pages, last modified.<h1>
 
-{% include 'tags.njk' %}
+<ul>
+{%- for post in collections.all | reverse -%}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
