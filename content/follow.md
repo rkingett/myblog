@@ -2,7 +2,7 @@
 title: Follow
 eleventyNavigation:
   key: Follow
-  order: 5
+  order: 2
 redirect_from: subscribe
 ---
 

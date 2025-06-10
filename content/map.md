@@ -2,7 +2,7 @@
 title: Site Map
 eleventyNavigation:
   key: Site Map
-  order: 2
+  order: 5
 ---
 
 <a href="/feed.xml">Follow the main RSS feed</a> or find posts, pages, and categories/tags below.
