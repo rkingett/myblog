@@ -8,7 +8,7 @@ redirect_from: donate
 
 There’s many ways you can support me other than [buying my writing](/writings).
 
-In addition to the below, <a href="https://buttondown.com/weirdwriter">My newsletter has pay per email and other support options,</a> or <a href="https://buy.stripe.com/00g8A88Aw9cSgda144">Pay what you want annually via Stripe directly,</a>
+In addition to the below links, you can send me a check directly or <a href="https://buttondown.com/weirdwriter">My newsletter has pay per email and other support options,</a> or <a href="https://buy.stripe.com/00g8A88Aw9cSgda144">Pay what you want annually via Stripe directly,</a>
 
 <a href="/wish">My wish list is here if you want to get me an item.</a>
 

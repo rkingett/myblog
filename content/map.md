@@ -16,6 +16,16 @@ eleventyNavigation:
 This section is organized by last modified. The latest modified post or page will appear at the top.
 
 <ul>
+{%- for post in collections.all -%}
+ <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
+
+<h2>Backup list</h2>
+
+This is just in case the above breaks, and is orgonized from earliest to latest.
+
+<ul>
 {%- for post in collections.all | reverse -%}
 <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {%- endfor -%}
