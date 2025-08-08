@@ -4,6 +4,8 @@ title: books and anthologies
 
 The books listed below are organized from newest, at the top, to oldest, at the bottom.
 
+[Sean Crisden narrates my blog posts for his Backstage Pass](https://seancrisden.com/pages/backstage-pass)
+
 [Read shorter works.](/shorts)
 
 [Find audio versions of my work.](/audio)
