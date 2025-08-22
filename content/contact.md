@@ -7,7 +7,7 @@ eleventyNavigation:
 
 [Subscribe to updates.](/subscribe)
 
-[Email, KingettWebsite@weirdwriter.anonaddy.com](mailto:KingettWebsite@weirdwriter.anonaddy.com?subject=Contact%20request%20from%20website)
+<a href="mailto:&#107;&#105;&#110;&#103;&#101;&#116;&#116;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=SPAM&body=DELETE%20THE%20SUBJECT%20LINE%20BEFORE%20SENDING.%20ALSO%20DELETE%20THIS%20TOO.">Send me an email.</a>
 
 Due to my speech disability, I will never have phone calls except for accessibility work and other special cases.
 
@@ -21,7 +21,7 @@ HOUSTON, TX, 77043-4718
 
 # Forms and emails.
 
-[Email, KingettWebsite@weirdwriter.anonaddy.com](mailto:KingettWebsite@weirdwriter.anonaddy.com?subject=Contact%20request%20from%20website)
+<a href="mailto:&#107;&#105;&#110;&#103;&#101;&#116;&#116;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=SPAM&body=DELETE%20THE%20SUBJECT%20LINE%20BEFORE%20SENDING.%20ALSO%20DELETE%20THIS%20TOO.">Send me an email.</a>
 
 [Book me for an event.](/events)
 

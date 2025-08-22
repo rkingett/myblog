@@ -24,18 +24,14 @@ The books listed below are organized from newest, at the top, to oldest, at the 
 
 In the below listings, I’ve indicated where you can buy books without DRM in the below links.
 
-## fiction books.
+## All books.
 
-1. [Trunk Writing](/posts/6625)
-2. [Pointy Chances](/posts/6331)
-3. [Artificial Divide](/posts/4305)
+Check the tags of the below posts to find things such as audiobooks and eBooks and series links.
 
-## nonfiction books.
-
-4. [Pass the Salt](/posts/6522)
-5. [How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace](/posts/6517)
-6. [Off the Grid: Living Blind Without the Internet](/posts/2808)
+{% set postslist = collections.books%}
+{% include "postslist.njk" %}
 
 ## anthologies.
 
-[See all anthologies here](/posts/tags/anthologies/)
+{% set postslist = collections.anthologies%}
+{% include "postslist.njk" %}

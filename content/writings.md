@@ -18,7 +18,9 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 # Find my work.
 
-[See all my writing](/posts/tags/writings) or filter below. highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
+[See all my writing](/posts) or filter below. highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
+
+[Find my podcast with audio highlights here](https://weirdwritings.pinecast.co/) and [View all video here.](/audio/)
 
 [Subscribe to updates by email or RSS.](/follow)
 
@@ -38,13 +40,5 @@ Here’s some selections I like to brag about. In addition to the below, [I pub
 
 [View all writing here.](/posts)
 
-- [Pass the Salt](/posts/6522)
-- [Off the Grid: Living Blind Without the Internet](/posts/2808)
-- [Introducing the BOOK](/posts/6514)
-- [How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace](/posts/6517)
-- [Chicken Soup for the Soul: Making Me Time](/posts/4788)
-- [Artificial Divide](/posts/4305)
-
-## Audio and video highlights.
-
-[Find my podcast with audio highlights here](https://weirdwritings.pinecast.co/) and [View all video here.](/audio/)
+{% set postslist = collections.writings %}
+{% include "postslist.njk" %}

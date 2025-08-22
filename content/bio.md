@@ -43,4 +43,4 @@ The links below can help you find places to go on this website. This isn’t a c
 1. [The site map has everything](/map)
 1. [Read my books](/books)
 1. [See all events](/events)
-1. ]Read other writing including short stories and more](/writings)
+1. [Read other writing including short stories and more](/writings)
