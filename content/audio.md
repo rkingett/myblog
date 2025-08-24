@@ -12,7 +12,7 @@ Learn about my audio and video offerings below, including how to get bonus episo
 
 ## My podcast.
 
-[My podcast, Also called Sightless Scribbles,](https://weirdwritings.pinecast.co/) has my blog posts narrated for people that cannot or choose not to read them. It also has audiobook excerpts, audio recordings of events, and more audio goodies.
+[My podcast called Sightless Scribbles](https://weirdwritings.pinecast.co/) has my blog posts narrated for people that cannot or choose not to read them. It also has audiobook excerpts, audio recordings of events, and more audio goodies.
 
 While most episodes are open for everyone to listen, I do sometimes offer bonus episodes that can only be accessed via a recurring subscription.
 

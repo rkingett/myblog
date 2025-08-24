@@ -23,6 +23,7 @@ Below will be some quick links and then the recent posts.
 <h1>Key pages.</h1>
 
 * [View everything on one page](/map)
+* [Follow me everywhere](/follow)
 * [Read all updates](/posts)
 * [Learn about my writing](/writings)
 * [Financially support me](/support)

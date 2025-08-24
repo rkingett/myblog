@@ -13,11 +13,11 @@ eleventyNavigation:
 
 <h2>All posts and pages</h2>
 
-This section is organized by last modified. The latest modified post or page will appear at the top.
+The below list will list all the pages first, then it will list the posts.
 
 <ul>
-{%- for post in collections.all -%}
- <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- for post in collections.all | reverse -%}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {%- endfor -%}
 </ul>
 
@@ -26,7 +26,7 @@ This section is organized by last modified. The latest modified post or page wil
 This is just in case the above breaks, and is orgonized from earliest to latest.
 
 <ul>
-{%- for post in collections.all | reverse -%}
-<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- for post in collections.all -%}
+ <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
 {%- endfor -%}
 </ul>

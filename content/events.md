@@ -6,6 +6,10 @@ eleventyNavigation:
   order: 7
 ---
 
+# Events.
+
+[Find event recordings via my podcast or Peertube channel](/audio)
+
 [Book me for your event](https://www.allamericanspeakers.com/speakers/385815/Robert-Kingett#Booknow)
 
 This page holds links to learn about visits as well as watch presentations and keep up with future events.
@@ -34,6 +38,6 @@ View upcoming events below!
 
 ## Event recordings.
 
-You can also [find audio and video on my PeerTube channel.](https://spectra.video/c/robertkingett)
+[Read my audio/video page](/audio) to get the most recent audio and video.
 
 [View past events](/posts/tags/events)
