@@ -7,6 +7,8 @@ redirect_from: free
 
 Even though you can <a href="/feed.xml">Follow the main RSS feed</a> not everyone uses RSS, so I offer a newsletter.
 
+<a href="/follow">Other ways to follow me</a>
+
 My newsletter has two kinds of emails.
 
 1. Singular emails. These are usually announcements, things I found fun or interesting in one update every month or so, and or calls to beta read or get one of my things to review. They'll also include podcast releases.

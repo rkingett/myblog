@@ -16,11 +16,13 @@ You can subscribe by RSS or by email, and you can join my street team and otherw
 
 To subscribe by RSS, copy the link location from the below sources and paste it into your feed reader of choice.
 
+[How to follow my podcast](https://pnc.st/s/weirdwritings?align=center)
+
 [Main RSS feed.](/feed.xml)
 
 [newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
-[Podcast RSS feed](https://pinecast.com/feed/weirdwritings)
+[Podcast RSS feed](https://pinecast.com/feed/weirdwritings) or [how to follow the podcast with apps](https://pnc.st/s/weirdwritings?align=center)
 
 [PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?accountId=400558)
 
