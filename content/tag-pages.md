@@ -13,6 +13,8 @@ eleventyComputed:
 
 <a href="/posts/tags/{{ tag | slugify }}/feed.xml">Follow the {{ tag }} tag via RSS feed</a> or <a href="/feed.xml">Follow the main RSS feed</a>
 
+[Or follow via email here.](/follow)
+
 {% set postslist = collections[ tag ] %}
 {% include "postslist.njk" %}
 

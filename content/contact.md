@@ -33,4 +33,4 @@ HOUSTON, TX, 77043-4718
 
 [Find me in the Fediverse](https://caneandable.social/@WeirdWriter)
 
-[find me on BlueSky](https://bsky.app/profile/WeirdWriter.caneandable.social.ap.brid.gy)
+[Follow me on Bluesky](https://bsky.app/profile/weirdwriter.caneandable.social.ap.brid.gy)
