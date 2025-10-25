@@ -4,7 +4,7 @@ title: Short works.
 
 Find all my shorter work below organized by date from newest to oldest.
 
-[Listen to audio exclusives](/audio)
+[Listen to audio exclusives](https://weirdwritings.pinecast.co/)
 
 [Read books and anthologies for longer works](/books).
 

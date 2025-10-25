@@ -18,9 +18,9 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 # Find my work.
 
-[See all my writing](/posts) or filter below. highlights are further down the page but [writing roundups can be found here,](/posts/tags/highlights) highlighting my publishing news.
+[See all my writing](/posts) or filter below. highlights are further down the page but [writing news can be found here,](/posts/tags/news) highlighting my publishing news.
 
-[Find my podcast with audio highlights here](https://weirdwritings.pinecast.co/) and [View all video here.](/audio/)
+[My podcast has my audiobooks, serialized, as well as narrated writings.](https://weirdwritings.pinecast.co/) and [View all video here.](/audio/)
 
 [Subscribe to updates by email or RSS.](/follow)
 
@@ -28,10 +28,8 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 - [All recent work.](/posts)
 - [books/anthologies.](/books)
-- [Short works.](/shorts)
+- [Fiction work.](/tags/fiction)
 - [audiobooks and event recordings.](/audio)
-- [Buy my DRM free work](/posts/tag/drm-free/)
-- [blog and journal.](/posts/tags/blog-and-journal)
 - [Audio Description work.](/ad)
 
 ## Writing highlights

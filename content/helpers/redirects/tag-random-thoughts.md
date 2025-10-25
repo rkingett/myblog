@@ -4,4 +4,4 @@ eleventyExcludeFromCollections: true
 permalink: /tag/random-thoughts/
 ---
 
-{%- redirectTo "/posts/tags/random-thoughts" -%}
+{%- redirectTo "/posts/tags/rants" -%}

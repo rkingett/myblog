@@ -6,7 +6,7 @@ eleventyNavigation:
   order: 4
 ---
 
-[Subscribe to updates.](/subscribe)
+[Subscribe to updates.](/follow)
 
 > I steal rainbow tinged cookies from unsuspecting glittering cats in my spare time.
 
@@ -20,7 +20,7 @@ Robert Kingett is a totally blind author and essayist. He [writes fiction and n
 
 [Kingett does a lot of other things such as events and more.](/posts/tags/events)
 
-Even though Kingett [publishes many short stories](/shorts) alongside [editing anthologies](/books) he always makes time to read a book or check out a podcast. He loves audio books, fiction podcasts, and movies and TV shows [with audio description.](http://acb.org/adp/samples.html)
+Even though Kingett [publishes many short stories](/writings) alongside [editing anthologies](/books) he always makes time to read a book or check out a podcast. He loves audio books, fiction podcasts, and movies and TV shows [with audio description.](http://acb.org/adp/samples.html)
 
 Kingett has [Cerebral Palsy,](https://www.cdc.gov/ncbddd/cp/facts.html) CP, in addition to his blindness. He’s had both ever since he was a baby. He has [Retinopathy of prematurity](https://www.webmd.com/eye-health/retinopathy-prematurity-facts#1), commonly referred to as ROP. Even though he is ambulatory, his cerebral palsy makes it difficult to walk long distances or to stand for lengthy periods of time, which is probably why writing fell right into his lap!
 
