@@ -1,0 +1,9 @@
+Normal post list. Change category to have posts show latest to earliest.
+
+{% set postslist = collections.writings %}
+{% include "postslist.njk" %}
+
+Chapter code. Change category in the below for whatever category.
+
+{% set chapterlist = collections.scribes-hope %}
+{% include "chapters.njk" %}
