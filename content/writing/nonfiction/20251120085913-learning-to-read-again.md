@@ -1,7 +1,7 @@
 ---
 title: "Learning to Read Again"
 date: '2025-11-20T14:59:13.149709+00:00'
-tags: [nonfiction]
+tags: [syndicate, nonfiction]
 permalink: /learning-to-read-again/
 ---
 
