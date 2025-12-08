@@ -47,7 +47,7 @@ He's explaining to the group how to get the most out of large language models. L
 
 "Yeah," Leo says,
 
-"Great! Alright, creators," Brad announces. The word 'creators' sounds slippery in his mouth, like he's selling a subscription service. "Let's optimize the workflow tonight. Who's ready to output?"
+"Great! Alright, creators," Brad announces. The word 'creators' sounds slippery in his mouth, like he's selling a subscription service. "Let's synergize the workflow tonight. Go on, Leo."
 
 I have to suppress the urge to violently groan about his word choice. Instead, I turn my head towards Leo. I can't wait to hear this.
 
@@ -105,7 +105,7 @@ I walk home, my cane tapping a furious rhythm against the concrete.
 
 I fucking hate them.
 
-I fucking hate the Tech Bros. I hate the venture capitalists in their Patagonia vests who talk about "disruption" while they burn down the library of human experience. I hate them with the specific, intricate hatred of a survivor who knows exactly how the grift works.
+I fucking hate the Tech Bros. I hate the hype. I hate the Bros wrongly claiming LLM's will turn us all into toast. I hate their never-ending quest to make their investments have a return. I hate the venture capitalists in their Patagonia vests who talk about "disruption" while they burn down the library of human experience and fuck over workers. I hate them with the specific, intricate hatred of a survivor who knows exactly how the grift works.
 
 I hate LLMs. My hatred knows no bounds. I love the small web, the clean web. I hate tech bloat.
 
@@ -113,17 +113,17 @@ And LLMs are the ultimate bloat.
 
 They didn't build these things to help us. I know this.
 
-Why do LLMs exist? They say it's to "democratize creativity." Bullshit. You don't democratize creativity by automating the act of creation. You democratize it by funding arts education, by supporting libraries, by paying writers a living wage.
+Why do LLMs exist? They exist to harm workers. They say it's to "democratize creativity." Bullshit. You don't democratize creativity by automating the act of creation. You democratize it by funding arts education, by supporting libraries, by paying writers a living wage.
 
 No, they created LLMs to solve a supply chain problem.
 
-The "problem" was that creating content—real, human, meaningful writing—is slow. It is expensive. It is unpredictable. And it is diverse. It requires dealing with *people*. People with traumas, people with political opinions, people with voices that don't fit into a corporate style guide. Minority writers, specifically, are "high friction." We talk about queerness and transphobia and racism, and We talk about disability. We make the advertisers uncomfortable.
+The "problem" was that creating art—real, human, meaningful writing—is slow. It is expensive. It is unpredictable. And it is diverse. It requires dealing with *people*. People with traumas, people with political opinions, people with voices that don't fit into a corporate style guide. Minority writers, specifically, are "high friction." We talk about queerness and transphobia and racism, and We talk about disability. We make the advertisers uncomfortable.
 
 So the Tech Bros, in their infinite mediocrity, decided to bypass the human element entirely. They built a machine that scrapes our work—our pain, our joy, our very souls—without consent, grinds it into a mathematical slurry, and extrudes it as a flavorless, inoffensive paste that can be sold by the bucket.
 
 They built a machine to gentrify the English language.
 
-and the horror of watching my friend lose his soul almost eats me alive.
+And the horror of watching my friend lose his soul almost eats me alive.
 
 ***
 
@@ -295,11 +295,11 @@ Leo doesn't move. He stands up, sad, resigned. He grabs his coat and walks out. 
 
 "I can't write, Rob!" Leo screams. It is a terrifying sound, a man ripping his own throat open. "I feel so stupid! I look at my words and they look like trash! I can't do it! I'm done! I hate everything I do without the AI!"
 
-I have Mo idea what to say. Leo comes closer, his hands grasping mine. The force of his grip breaks my heart.
+I have no idea what to say. Leo comes closer, his hands grasping mine. The force of his grip breaks my heart.
 
 "Rob," he says, and his voice shakes with tears. "I hate this. I hate this."
 
-"I know, buddy. I know! I'm here. I'm right here, with you. I'm here."
+"I know, buddy. I know! I'm here."
 
 As I let go for now, I don't know what to do to help him since my writing exercises didn't work. I told him to write fun Fanfiction. I told him to just write something bad. It's okay. I told him he didn't have to be marketable, but nothing is working, and he hates his own writing more as the days pass.
 
@@ -529,4 +529,4 @@ And that, I realize as the tears unapologetically spill onto my cheeks, is somet
 
 ***
 
-If you enjoyed this story, support artists and art. But for real, if you enjoyed this story, you might enjoy [Frindle by Andrew Clements's](https://bookshop.org/a/77/9780689818769)
+If you enjoyed this story, support artists and art. But for real, if you enjoyed this story, you might enjoy [Frindle by Andrew Clements](https://bookshop.org/a/77/9780689818769)
