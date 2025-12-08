@@ -1,8 +1,11 @@
 ---
 title: "Third Grade Letter to Santa"
-date: '2025-08-24T10:22:54.078285+00:00'
-tags: [blog and journal, syndicate, nonfiction]
+date: '2025-12-08T04:12:30.429612+00:00'
+tags: [nonfiction, throwbacks]
+permalink: /third-grade-letter-to-santa/
 ---
+
+[Listen to Third Grade Letter to Santa](https://weirdwritings.pinecast.co/)
 
 Hi everyone. Some context before we begin. This was a writing assignment by my then third grade teacher. Obviously, I took the assignment a tad too seriously. All the same, even if you don't celibrate Christmas, never snuff out a child's imagination. Besides, that imagination could give way to empathy in the future.
 
