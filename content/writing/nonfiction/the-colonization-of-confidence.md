@@ -203,7 +203,7 @@ He pulls his arm away from me. I hear the frantic clicking of keys.
 
 "Listen to this email," he says. His voice sounds like he's chewing glass as he reads it to me.
 
-*> "Dear Leo, we were impressed by the fluidity of your metaphors. Usually, your work feels a bit... disjointed. But this piece sang. The line about the 'tapestry of fate' was particularly moving."*
+> "Dear Leo, we were impressed by the fluidity of your metaphors. Usually, your work feels a bit... disjointed. But this piece sang. The line about the 'tapestry of fate' was particularly moving."
 
 "Tapestry of fate," Leo spits. The words sound like poison in his mouth. "I hate that phrase. I would never write that phrase. It's a cliché. It's slop. But they *liked* it better, Rob. They liked the machine better than me."
 
