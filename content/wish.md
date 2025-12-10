@@ -17,17 +17,19 @@ Houston TX, 77043-4718
 
 Most desired at the top.
 
+[Any Oral B Pro Electric Toothbrush](https://oralb.com/en-us/products/electric-toothbrushes/pro-series/)
+
 [Anti-dandruf shampoo](https://www.walgreens.com/store/c/shampoo-and-conditioner/ID=360481-tier3)
 
 [Physical Omni Hotels & Resorts gift card.](https://www.omnihotels.com/shop/gift-cards)
 
-[Any one of these Thinkpad P Laptops](https://www.lenovo.com/us/en/c/laptops/thinkpad/thinkpadp/)
-
-[Razer Kraken V4 X](https://www.razer.com/gaming-headsets/razer-kraken-v4-x)
-
 [Physical Marriot gift cards](https://gifts.marriott.com/gift-cards/)
 
-[Pre built Framework laptop](https://frame.work/products/laptop13-intel-ultra-1)
+[Any one of these Thinkpad P Laptops](https://www.lenovo.com/us/en/c/laptops/thinkpad/thinkpadp/)
+
+[Any of these Bose noise canceling headphones for audiobooks](https://www.bose.com/c/headphones)
+
+[Any of these USB headsets](https://www.bestbuy.com/site/computer-accessories/headsets-microphones/pcmcat304600050012.c?id=pcmcat304600050012)
 
 <h2>Digital wishes</h2>
 

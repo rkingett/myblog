@@ -1,7 +1,7 @@
 ---
 title: "The Colonization of Confidence."
 date: '2025-12-07T16:00:47.756861+00:00'
-tags: [syndicate, nonfiction]
+tags: [syndicate, ai, nonfiction]
 permalink: /the-colonization-of-confidence/
 ---
 
@@ -261,7 +261,7 @@ A woman in the front row murmurs, "Oh, that is much nicer. It feels more... lite
 
 "Exactly!" Chad says. "I fixed it."
 
-"Chad," I say, my voice calm, the voice of a teacher correcting a slow student. "Why did it choose 'stone' for the throat metaphor?"
+"Chad," I say, my voice calm, the voice of a teacher correcting an unwilling student. "Why did it choose 'stone' for the throat metaphor?"
 
 "What? Because it's intelligent. It's smart. It knows. Because it fits."
 
