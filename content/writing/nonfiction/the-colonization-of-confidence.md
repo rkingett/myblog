@@ -1,7 +1,7 @@
 ---
 title: "The Colonization of Confidence."
 date: '2025-12-07T16:00:47.756861+00:00'
-tags: [syndicate, ai, nonfiction]
+tags: [syndicate, blog and journal, nonfiction]
 permalink: /the-colonization-of-confidence/
 ---
 
