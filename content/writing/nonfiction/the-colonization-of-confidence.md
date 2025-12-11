@@ -33,7 +33,7 @@ Leo sits next to me. I can hear the nervous rhythm of his breathing. Leo is a Bl
 
 Leo is a writer of immense, jagged power. He is a powerful man with a voice that sounds like gravel crunching under heavy tires, deep and resonant and full of a history that refuses to be smoothed over. When he reads his work aloud, the air in the room changes pressure. His prose is not "clean." It does not flow like water; it flows like molasses, thick and sweet and slow, or sometimes like lava, burning everything it touches. He tells more than he shows, a stylistic choice that critics hate but which I find profoundly honest. He doesn't invite you to watch; he commands you to listen.
 
-and I love everything he writes.
+And I love everything he writes.
 
 Today, the writers in this group aren't buzzing with typing. They're listening to Chad, a white tech bro that sounds like his larynx is constantly massaging his speech for a pamphlet instead of talking to people.
 
@@ -445,7 +445,7 @@ I walk up to the microphone. I tap my cane against the stand to gauge the distan
 
 The microphone hums and pops before me. None of us are audio technicians, and it shows. It's the most goddamn beautiful thing in the world. It's the sound of electricity trying to speak.
 
-"Thank, uh, thank you all for coming," I say, and the microphone squeaks with a high-pitched feedback whine that makes a few people wince. I smile. I love that wine. It means the gain is too high. It means we are pushing the limits.
+"Thank, uh, thank you all for coming," I say, and the microphone squeaks with a high-pitched feedback whine that makes a few people wince. I smile. I love that whine. It means the gain is too high. It means we are pushing the limits.
 
 "You might notice our manifesto on the door," I say, my voice booming through the cheap PA system. "These writers... some of them have used LLMs before. Or what the venture capitalists call 'AI.' I think we can all agree, fuck AI, right?"
 
