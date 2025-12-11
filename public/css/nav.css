@@ -309,7 +309,11 @@ a.title:focus {
 	body > nav {
 		display: none;
 	}
-
+	
+	.home-link {
+		margin-left: 2em;
+	}
+	
 	#sidebar-toggle {
 		display: block;
 	}

@@ -25,11 +25,11 @@ Text Domain: cyanotype
 	--link-hover-color: #d1d1d1;
 
 	/* other variables */
-	--width: 720px;
+	--width: 35em;
 	--font-main: Verdana, "Open Sans", sans-serif;
 	--font-mono: Inconsolata, monospace;
 	--font-cyanotype: Karla, sans-serif;
-	--font-scale: 1.4rem;
+	--font-scale: 1.4em;
 	--background-color: var(--background-colour);
 	--heading-color: var(--foreground-colour);
 	--text-color: var(--foreground-colour);
