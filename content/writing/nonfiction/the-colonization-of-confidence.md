@@ -53,7 +53,7 @@ I have to suppress the urge to violently groan about his word choice. Instead, I
 
 Leo reads. It's a piece about his grandmother's kitchen. He describes the smell of collard greens as *a heavy, green blanket that wrestled the air into submission.* He describes her laugh as *a rusted hinge that still worked perfectly.*
 
-It is beautiful. It is jagged. It stops me cold.
+It is beautiful. It is imperfect. It stops me cold.
 
 When he finishes, there is a silence. Not the reverent silence of a shared emotional impact, but the uncomfortable, shifting silence of a boardroom that has just been shown a graph with a downward trend.
 
@@ -91,9 +91,9 @@ I feel Leo shrink beside me. I can sense the physical collapse of his posture, t
 
 "Oh, go power down somewhere. This isn't adaptation," I say, gripping the edge of the table until my knuckles ache. "It's lobotomy."
 
-Nobody agrees with me, though. I am outcast in a gaggle of readers and writers that seem to prefer LLM writing to the jagged edges.
+Nobody agrees with me, though. I am an outcast in a gaggle of readers and writers that seem to prefer LLM writing to the jagged edges.
 
-"And this is why," Chad practically yells, "why you don't listen to Luddites! Work smarter, not harder," Chad beams. The smile in his voice is audible, a stretching of wet skin. "That's the future. Why churn butter when you can buy margarine, right?"
+"And this is why," Chad practically yells, "why you don't listen to Luddites! Work smarter, not harder," Chad beams. The smile in his voice is audible, a smile I want to deck. "That's the future. Why churn butter when you can buy margarine, right?"
 
 I sit there, gripping my cane until my knuckles pop, feeling the beginning of a horror story that has nothing to do with ghosts and everything to do with the slow, methodical erasure of a human soul.
 
@@ -141,7 +141,7 @@ Chad chooses that exact moment to colonize the conversation.
 
 "Leo sent me his last draft," Chad announces.
 
-I freeze. NO!
+I freeze. NO! Not. Fucking. Again!
 
 "And," Chad continues, "I ran it through the new 'Literary Fiction' AI I've been working on. Listen to the difference."
 
@@ -197,7 +197,7 @@ Leo doesn't move. "I got into *Fiction Magazine*," he says softly.
 
 "You used the LLM again?"
 
-"I used it for the whole thing," he whispers. "I fed it my draft. My messy, ugly, jagged draft. And it spit out... it spit out this smooth, perfect thing. And the editors loved it. They said it was 'refreshing.' They said the prose was 'elegant.'"
+"I used it for the whole thing," he whispers. "I fed it my draft. My messy, ugly draft. And it spit out... it spit out this smooth, perfect thing. And the editors loved it. They said it was 'refreshing.' They said the prose was 'elegant.'"
 
 He pulls his arm away from me. I hear the frantic clicking of keys.
 
@@ -239,7 +239,7 @@ Days later, it's my turn. we're back at that fucking writers' group. Although, t
 
 I decided to read something. I usually don't. I keep my work for my blog, for the people who understand that a screen reader isn't a constraint but an instrument. But I needed to show Leo that imperfection was power. I needed to prove that raw data hits harder than processed data.
 
-I read a piece about my mother. It is raw. It is angry. It describes the sound of her voice as "a serrated knife cutting through warm butter." It describes the smell of the trailer park as "wet cardboard and ambition gone sour." It is jagged. It has no tapestries. It has no symphonies. It is a piece of writing that demands you look at the ugly thing and call it by its name. It's imperfect, but it's everything me.
+I read a piece about my mother. It is raw. It is angry. It describes the sound of her voice as "a serrated knife cutting through warm butter." It describes the smell of the trailer park as "wet cardboard and ambition gone sour." It is disjointed. It has no tapestries. It has no symphonies. It is a piece of writing that demands you look at the ugly thing and call it by its name. It's imperfect, but it's everything me.
 
 When I finish, the room is silent.
 
@@ -427,9 +427,9 @@ As the night of our first live reading is under way, just before the event, thre
 
 Brittany laughs. It is a musical sound, telling me everything is fine with the world. "Honey, I don't want your money. Do you know what I've been reading for the last six months? AI-generated litRPG novels. Thousands of pages of slop. I am dying of thirst. I am drowning in slop. I sit in my booth, and I read sentences that mean nothing, written by nobody, for an algorithm."
 
-"We never seen a space for recovering prompt writers. This is such a cool idea. We want to lend our skills. We want to help. We heard there was grit here," David says. His voice is a deep baritone. "We heard there were jagged edges. We want to read them. For free. Just let us chew on something real. Let us narrate something that's growing into itself."
+"We never seen a space for recovering prompt writers. This is such a cool idea. We want to lend our skills. We want to help. We heard there was grit here," David says. His voice is a deep baritone. "We heard there were unpolished artists. We want to read them. For free. Just let us chew on something real. Let us narrate something that's growing into itself."
 
-"We have plenty of jagged edges," I say. "Welcome to the writer's garden."
+"We have plenty of unpolished artists," I say. "Welcome to the writer's garden."
 
 ***
 
@@ -445,7 +445,7 @@ I walk up to the microphone. I tap my cane against the stand to gauge the distan
 
 The microphone hums and pops before me. None of us are audio technicians, and it shows. It's the most goddamn beautiful thing in the world. It's the sound of electricity trying to speak.
 
-"Thank, uh, thank you all for coming," I say, and the microphone squeaks with a high-pitched feedback whine that makes a few people wince. I smile. I love that whine. It means the gain is too high. It means we are pushing the limits.
+"Thank, uh, thank you all for coming," I say, and the microphone squeaks with a high-pitched feedback whine that makes a few people wince. I smile. I love that whine.
 
 "You might notice our manifesto on the door," I say, my voice booming through the cheap PA system. "These writers... some of them have used LLMs before. Or what the venture capitalists call 'AI.' I think we can all agree, fuck AI, right?"
 
