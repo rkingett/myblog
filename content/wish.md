@@ -35,6 +35,8 @@ Most desired at the top.
 
 Most desired at the top.
 
+[Send digital gifts to the email address on this page](/contact)
+
 [Digital Marriot hotel gift cards](https://gifts.marriott.com/e-gifts/)
 
 [Digital Omni Hotels & Resorts gift card.](https://www.omnihotels.com/shop/gift-cards)

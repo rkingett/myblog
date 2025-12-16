@@ -237,7 +237,7 @@ But he can't hear me. The Zersetzung is working. He is taking himself apart, pie
 
 Days later, it's my turn. we're back at that fucking writers' group. Although, today, it feels like it's a uniquely crafted torture chamber.
 
-I decided to read something. I usually don't. I keep my work for my blog, for the people who understand that a screen reader isn't a constraint but an instrument. But I needed to show Leo that imperfection was power. I needed to prove that raw data hits harder than processed data.
+I decided to read something. I usually don't. I keep my work for my blog, for the people who understand that a screen reader isn't a constraint but an instrument. But I needed to show Leo that imperfection was power. I needed to prove that raw writing hits harder than processed data.
 
 I read a piece about my mother. It is raw. It is angry. It describes the sound of her voice as "a serrated knife cutting through warm butter." It describes the smell of the trailer park as "wet cardboard and ambition gone sour." It is disjointed. It has no tapestries. It has no symphonies. It is a piece of writing that demands you look at the ugly thing and call it by its name. It's imperfect, but it's everything me.
 
