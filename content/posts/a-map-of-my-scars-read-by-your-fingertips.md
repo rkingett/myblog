@@ -5,6 +5,8 @@ tags: [blog and journal]
 permalink: /a-map-of-my-scars-read-by-your-fingertips/
 ---
 
+[Listen to A Map of My Scars, Read by Your Fingertips.](https://weirdwritings.pinecast.co/episode/83bdefd7/a-map-of-my-scars-read-by-your-fingertips-)
+
 My body is a secret atlas. Beneath my clothes, my skin is a map of a war I survived, with its topography etched in scars. There are small, circular burns, like angry, faded constellations. There are thin, silvery lines from the edges of things that were sharper than they should have been. They are a hidden geography of pain, a record of another man’s rage written on my flesh. I have spent my life keeping this atlas closed, hidden away, terrified of anyone ever seeing it. Because to see it is to ask questions, and the answers have always been too heavy to speak.
 
 I have a recurring waking nightmare about it. The moment of discovery. A man’s hand, moving across my back or my arm in a moment of intimacy, and then stopping. The sudden stillness. The change in the texture of his touch as his fingertips find a ridge of raised, unnatural skin.
