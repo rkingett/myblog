@@ -47,7 +47,7 @@ That is the dream, anyway.
 
 But even when I am slow, I am here. I write because this is my soul. This is my safe space on the internet. Here, I reclaim power through words. I examine the confusing, emotional toll of existing in this temporary video game we call life, and I offer it up to you.
 
-I translate the complicated emotions so you can understand what life is like for me. If you want to [understand the reverence of having a man stand still as I worshipfully read the history of his life via the callouses on his open palm,](the-cartography-of-an-open-palm/) or what I imagine when a partner holds my face to block out the noise of the world,](/posts/20251025) this blog is your key.
+I translate the complicated emotions so you can understand what life is like for me. If you want to [understand the reverence of having a man stand still as I worshipfully read the history of his life via the callouses on his open palm,](/the-cartography-of-an-open-palm) or [what I imagine when a partner holds my face to block out the noise of the world,](/posts/20251025) this blog is your key.
 
 I do not make money on this blog. I do not take sponsored posts. I do not run advertisements that track your data. I never will. You are my only patron. If you want to ensure I can keep writing, keep paying narrators, and keep buying the heating pads that get me through harsh winters, [I need your financial support.](/support/)
 
