@@ -25,4 +25,6 @@ This is my personal nemesis. You know the central poles on the bus or train? The
 
 Navigating this ecosystem is a daily exercise in sensory warfare. My only comfort is in quiet classification, turning my frustration into a silent, internal documentary narrated by a very tired David Attenborough. It’s that, or start screaming. The documentary is quieter.
 
+[Listen to A Field Guide to the Personal Space Violations of Public Transit](https://weirdwritings.pinecast.co/episode/22b7a0fd/a-field-guide-to-the-personal-space-violations-of-public-transit)
+
 If you enjoyed this essay, you might enjoy [If I Were You, I'd Kill Myself by Imani Barbarin](https://www.simonandschuster.com/books/If-I-Were-You-Id-Kill-Myself/Imani-Barbarin/9781668009451)

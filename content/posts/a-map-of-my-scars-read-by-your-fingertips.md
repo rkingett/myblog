@@ -29,4 +29,6 @@ The act of being touched and the act of telling would become one. His gentle con
 
 With every scar he would trace and every story I'd tell, the geography would change. They would cease to be just monuments to  The perpetrator's cruelty. They would become markers of my own survival. And his touch, his quiet, unwavering, non-judgmental presence, would make them something more. They would become the place where his love and my history finally met. A map of a brutal war, finally being read by a gentle peace.
 
+[Listen to A Map of My Scars, Read by Your Fingertips.](https://weirdwritings.pinecast.co/episode/83bdefd7/a-map-of-my-scars-read-by-your-fingertips-)
+
 If you enjoyed this essay, you might enjoy [Long Shot by Kennedy Ryan](https://bookshop.org/a/77/9781728284965)

@@ -21,4 +21,6 @@ Even the sun has a sound, in a way. On a clear, hot, sunny day, sounds become sh
 
 I don’t look out the window to see what the day is like. I stand still and I listen. I listen to the language the world is speaking. And sometimes, in the middle of a rainstorm, with that complex percussion playing on every surface around me, I feel like I understand it more clearly than anyone.
 
+[Listen to The Acoustic Signature of Weather.](https://weirdwritings.pinecast.co/episode/04ad6e0f/the-acoustic-signature-of-weather)
+
 If you enjoyed this essay, you might enjoy reading, [The Misfits by James Howe.](https://bookshop.org/a/77/9780689839566)
