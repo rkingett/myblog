@@ -1,5 +1,6 @@
 ---
 title: Site Map
+redirect_from: archive
 eleventyNavigation:
   key: Site Map
   order: 5

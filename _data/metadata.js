@@ -8,7 +8,7 @@ export default {
 		email: "kingettr@gmail.com",
 		url: "https://sightlessscribbles.com",
 		fediverse: "@weirdwriter@caneandable.social",
-		bio: "Robert Kingett is an award-winning Blind and gay writer. His website has all the cookies.\n[View all posts by Robert Kingett](https://sightlessscribbles.com/posts)",
+		bio: "Robert Kingett is an award-winning Blind and gay writer. His website has all the cookies.\n[View all posts by Robert Kingett](/posts)",
 	},
 	feedLimit: 50,
 };
