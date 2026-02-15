@@ -1,7 +1,8 @@
 ---
 title: "Chicken Soup for the Soul: Making Me Time"
 date: 2021-02-16T16:00:45.000Z
-tags: ["books", "writings", "ebook", "paperback", "hardcover", "audiobook", "nonfiction", "anthologies",]
+tags: ["nonfiction", "anthology",]
+redirect_from: "/posts/4788"
 ---
 
 ![Book cover. A top view of a teal cup of coffee with Making Me Time in white letters superimposed over the foam. The title reads Chicken Soup for the Soul](/img/chicken-soup-for-the-soul-making-me-time.jpeg)

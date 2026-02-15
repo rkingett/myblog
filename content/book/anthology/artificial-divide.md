@@ -1,7 +1,8 @@
 ---
 title: Artificial Divide
 date: 2021-08-30T22:13:00.000Z
-tags: ["books", "writings", "ebook", "paperback", "hardcover", "audiobook", "fiction", "anthologies"]
+tags: ["fiction", "audiobook", "anthology"]
+redirect_from: "/posts/4305"
 ---
 
 [![Black background with white text at the top reads Artificial Divide. The white text has been cut through the middle going left to right. In the word, divide, the, I, is a white cane that starts at the bottom and goes all the way to the top.](/img/artificial-divide-cover.jpeg)](/img/artificial-divide-cover.jpeg)

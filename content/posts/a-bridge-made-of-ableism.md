@@ -5,6 +5,8 @@ tags: [blog and journal, nonfiction, writings, syndicate]
 permalink: /a-bridge-made-of-ableism/
 ---
 
+[Listen to A Bridge Made of Ableism](https://weirdwritings.pinecast.co/episode/35b20ee1/a-bridge-made-of-ableism)
+
 The air in the bank was thick with the scent of old money and new anxiety. It's a smell I know well. But today, another element was added to the mix: fear. It wasn't my fear. It was coming from the teller's window, and it was pointed, like a weapon, at a man whose only crime was his refusal to be invisible.
 
 I couldn’t see him, but I could hear him. He was a presence. A tall, solid man, I guessed, from the way his sounds filled the space. He was Deaf and he was trying, with every fiber of his being, to communicate a problem. His sounds were not words. They were a raw, powerful, and deeply human expression of frustration—a series of sharp, guttural noises from deep in his chest. They were the sound of a man trying to tear a hole in the wall of silence that stood between him and the world.
@@ -70,5 +72,7 @@ I typed back. **I know. But today, we made them.**
 Even though Orientation and Mobility training always says, grab the elbow, lately, I've been tossing out all social norms and just doing what feels right in the moment. I didn't grab his elbow. I took his hand, then, his large hand enveloping mine in a brief, powerful squeeze. It was a gesture of solidarity, a pact forged in a moment of shared frustration and mutual respect.
 
 We walked out of the bank together, two men who moved through the world in profoundly different ways. But for a few crucial moments, in a cold place that was built to misunderstand us, we had spoken the same language. And our solidarity, together, had been a crescendo of comradery that was a testimony all by itself.
+
+[Listen to A Bridge Made of Ableism](https://weirdwritings.pinecast.co/episode/35b20ee1/a-bridge-made-of-ableism)
 
 If you enjoyed this story, you might enjoy, [The Silence Between Us by Alison Gervais](https://alisongervais.com/books/)

@@ -2,7 +2,8 @@
 title: >-
   How to Save the World- The Compassiviste Anthology: Volume One: Visions for Peace
 date: 2024-03-11T19:41:02.000Z
-tags: ["books", "writings", "nonfiction", "ebook", "paperback", "hardcover", "audiobook", "anthologies"]
+redirect_from: "/posts/6517"
+tags: ["nonfiction", "anthology"]
 ---
 
 ![It has the title "How to Change the World- The Compassiviste Anthology" in white text on a grey background, running vertically down the left-hand side of the cover. Across the top, in black block letters, it reads "Volume One: Visions for Peace." In the centre of the cover, there is an abstract group of figures holding each other. It's unclear whether they are male or female, or what race they are. The image is mostly black and white, with an orange streak circling the figures. The Compassiviste logo (an orange C) is in the bottom left-hand corner.](/img/how-to-change-the-world-cover.jpeg)

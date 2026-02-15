@@ -1,8 +1,8 @@
 ---
 title: "Off the Grid: Living Blind Without the Internet"
 date: 2017-04-08T02:55:56.000Z
-tags: ["books", "writings", "ebook", "paperback", "hardcover", "audiobook", "nonfiction"]
-redirect_from: /2017/04/07/off-the-grid-living-blind-without-the-internet
+tags: ["nonfiction", "audiobook"]
+redirect_from: ['/posts/2808', '/2017/04/07/off-the-grid-living-blind-without-the-internet']
 ---
 
 ## Synopsis.

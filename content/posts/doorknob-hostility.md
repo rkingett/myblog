@@ -2,6 +2,7 @@
 title: "On the Architectural Hostility of Doorknobs"
 date: '2025-06-26T10:49:38.237564+00:00'
 tags: [nonfiction, syndicate, blog and journal]
+redirect_from: "/writing/nonfiction/20250626"
 ---
 
 [Listen to On the Architectural Hostility of Doorknobs](https://weirdwritings.pinecast.co/episode/7e8b7700/on-the-architectural-hostility-of-doorknobs)

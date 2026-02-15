@@ -8,7 +8,7 @@ redirect_from: /progress
 
 [Beta readers or Street team information](/team)
 
-I’m an accomplished [author,](/books) with [experience in many different arenas of publishing.](/resume)
+I’m an [accomplished author,](/books) with [experience in many different arenas of publishing.](/about)
 
 Favorite fiction and nonfiction is on the highlights section of this page below but [you can read publishing highlights here.](/posts/tags/writings)
 
@@ -28,7 +28,7 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 - [All recent work.](/posts)
 - [books/anthologies.](/books)
-- [Fiction work.](/tags/fiction)
+- [Fiction work.](/posts/tags/fiction)
 - [audiobooks and event recordings.](/audio)
 - [Audio Description work.](/ad)
 

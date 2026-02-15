@@ -1,7 +1,8 @@
 ---
 title: Pass the Salt
 date: 2024-03-24T18:30:29.000Z
-tags: ["books", "writings", "ebook", "paperback", "hardcover", "nonfiction", "audiobook"]
+redirect_from: "/posts/6522"
+tags: ["nonfiction", "audiobook"]
 ---
 
 Publisher: [Compassiviste Publishing.](https://compassiviste.com/initiative/compassiviste-publishing/)

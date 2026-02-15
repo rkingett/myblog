@@ -1,3 +1,52 @@
+Redirect example.
+
+single redirect.
+
+redirect_from: /articles/my-old-url
+
+redirect_from: /old-page
+
+redirect_from: /fav-books/
+
+multiple redirects.
+
+redirectFrom: ['/explore/', '/explore/buttonwall/', '/explore/webrings/', '/explore/blogroll/', '/explore/links/']
+
+Permalink tips.
+
+https://www.11ty.dev/docs/permalinks/#put-quotes-around-template-syntax-in-yaml
+
+# Permalink examples.
+
+title: This is a New Path
+permalink: "subdir/{{ title | slugify }}/index.html"
+
+example 2.
+
+---
+date: "2016-01-01T06:00-06:00"
+permalink: "/{{ page.date | date: '%Y/%m/%d' }}/index.html"
+---
+
+# Other permalink examples.
+
+permalink: /posts/why-happy-ever-after-is-radical-restorative-justice/
+
+Eleventy Navigation main menu, non child example.
+
+eleventyNavigation:
+  key: Writing
+  order: 6
+redirect_from: /progress
+
+Eleventy Navigation child example.
+
+redirect_from: /progress
+eleventyNavigation:
+  title: Street team
+  parent: Contact
+  order: 1
+
 [Download my resume](/Robert-Kingett.htm)
 
 Normal post list. Change category to have posts show latest to earliest.

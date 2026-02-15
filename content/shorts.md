@@ -2,19 +2,10 @@
 title: Short works.
 ---
 
-Find all my shorter work below organized by date from newest to oldest.
+[Find all my shorter work here organized by date from newest to oldest.](/posts/tags/writings/)
 
 [Listen to audio exclusives](https://weirdwritings.pinecast.co/)
 
 [Read books and anthologies for longer works](/books).
 
-## Short stories.
-
-- [Trunk Writing](/posts/6625)
-- [A Deserving Conference](/posts/6380)
-- [Pointy Chances](/posts/6331)
-- [I Forget You’re Blind.](/posts/5677)
-
-## Novellas.
-
-- [Off the Grid: Living Blind Without the Internet](/posts/2808)
+[Again, go here to see all my writings.](/posts/tags/writings/)

@@ -30,4 +30,4 @@ I am not a video person. With me being blind, [I gravitate to my podcast more th
 
 All of my videos are hosted on PeerTube. [browse all videos on PeerTube](https://spectra.video/a/weirdwriter/videos) or [narrow down videos by playlists.](https://spectra.video/c/robertkingett/video-playlists)
 
-My video offerings can also work in all podcast apps as well. Just stick [this video RSS feed in your favorite podcast app and it should play the video.](https://spectra.video/feeds/videos.xml?accountId=400558)
+My video offerings can also work in all podcast apps as well. [Just stick this video RSS feed in your favorite podcast app and it should play the video.](https://spectra.video/feeds/videos.xml?accountId=400558)

@@ -43,7 +43,7 @@ class Config:
     EXCLUDE_DIRS = {'feed', 'feeds', 'helper', 'helpers'}
     # Defines the URL structure. {slug} is replaced by the sanitized post title.
     # Example: "/posts/{slug}/" or "/{slug}.html"
-    PERMALINK_STYLE = "/{slug}/"
+    PERMALINK_STYLE = "/posts/{slug}/"
 
     # --- Deployment Settings ---
     DEPLOY_CLEAN_REMOTE = True
@@ -284,7 +284,7 @@ def choice_1_new_post_category(project_root: Path, content_dir: Path):
     slug = slugify(post_title) or "untitled-post"
     permalink = Config.PERMALINK_STYLE.format(slug=slug)
     
-    base_filename = f"{datetime.datetime.now().strftime('%Y%m%d%H%M%S')}-{slug}"
+    base_filename = f"{slug}"
     filepath = target_dir / f"{base_filename}.md"
     counter = 1
     while filepath.exists():
