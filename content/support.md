@@ -3,7 +3,7 @@ title: Tip me
 eleventyNavigation:
 key: Tip me
 order: 9
-redirectFrom: ['/support', '/donate']
+redirect_from: donate
 ---
 
 There’s many ways you can support me other than [buying my writing](/writings).
