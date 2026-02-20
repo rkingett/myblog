@@ -61,7 +61,7 @@ Why would they spend millions of dollars and decades of effort trying to stop yo
 
 They are building walls around the ballot box because they know it is a point of failure for their power. They know that if we actually used the leverage we have, the machine would jam.
 
-When I vote, I am not "blindly checking a box." I am engaging in a quiet, boring, essential act of Systemic Judo.
+When I vote, I am not "blindly checking a box." I am engaging in a quiet, boring, essential act of strategy and self-defense.
 
 I am using the system's own bureaucracy to clog its worst impulses. I am finding the person who will speak to—or at least not actively silence—my disability needs. I am looking for the candidate who acknowledges that the Americans with Disabilities Act exists, even if they don't fund it enough.
 
