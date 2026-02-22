@@ -1,7 +1,7 @@
 ---
 title: "The Ballot is a Doorstop, Not a Love Letter"
 date: '2026-02-19T23:39:48.523708+00:00'
-tags: [blog and journal, rant, syndicate]
+tags: [blog and journal, rants, syndicate]
 permalink: /posts/the-ballot-is-a-doorstop-not-a-love-letter/
 ---
 

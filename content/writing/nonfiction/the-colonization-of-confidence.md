@@ -1,8 +1,9 @@
 ---
 title: "The Colonization of Confidence."
 date: '2025-12-07T16:00:47.756861+00:00'
-tags: [syndicate, blog and journal, nonfiction]
-permalink: /the-colonization-of-confidence/
+tags: [syndicate, narrative, blog and journal, nonfiction]
+redirect_from: "/the-colonization-of-confidence"
+permalink: /posts/the-colonization-of-confidence/
 ---
 
 There's a texture to grief very few examine. People talk about the loud grief—the kind of grief that shatters your soul and rattles your cage of will—but there's another kind of grief that's rarely explored. Watching and listening to your friends losing who they are.
