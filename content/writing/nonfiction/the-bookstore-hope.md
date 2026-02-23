@@ -1,8 +1,9 @@
 ---
-title: "The Bookstore Battle"
+title: "The Bookstore Hope"
 date: '2026-02-22T20:42:57.533188+00:00'
 tags: [syndicate, nonfiction, blog and journal, narrative]
-permalink: /posts/the-bookstore-battle/
+redirect_from: /posts/the-bookstore-battle
+permalink: /posts/the-bookstore-hope/
 ---
 
 The world always has a unique way of slapping me when I least expect it. Things go really well, and then, SMACK. The universe has plans for me. I can't decide if spirits read *Sightless Scribbles* and my life is a tragic vat of content they love to consume, or if they have joyous fun making sure things happen to me when I least expect them. It happens at Jarvis’s bookstore.
@@ -205,7 +206,7 @@ The silence in the room is heavy now. I can feel the eyes of every man in the sh
 
 I take a breath, letting the rage coalesce into a diamond-hard point.
 
-"You saw a quiet little bookstore, just here, just being a bookstore, and thought, 'Hmm! I can innovate them! I can innovate those poor, primitive folk,' right? Why? Because they read better than you? Is it because they—*we*—can actually imagine things without the aid of some generation technology? Are you pissed off that people around you actually engage with the author and make a connection to the writer instead of engaging with you or your useless technology Are you mad because people *aren't* treating your tech like it's necessary?"
+"You saw a quiet little bookstore, just here, just being a bookstore, and thought, 'Hmm! I can innovate them! I can innovate those poor, primitive folk,' right? Why? Because they read better than you? Is it because they—*we*—can actually imagine things without the aid of some generation technology? Are you pissed off that people around you actually engage with the author and make a connection to the writer instead of engaging with you or your useless technology? Are you mad because people *aren't* treating your tech like it's necessary?"
 
 "By the way, who the hell invited you?" I ask, leaning in. "Nobody. I sure as shit didn't hear anyone invite you in. You just stomped in here without a care in the world that maybe this space can just be left alone. But that's what you people do, isn't it? You just love to colonize spaces. You can't just leave people alone! You have to invade spaces."
 
