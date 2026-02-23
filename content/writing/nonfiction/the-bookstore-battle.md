@@ -11,9 +11,9 @@ The floorboards of Jarvis’s bookstore sing in B-flat.
 
 It is a comforting, resonant note, a deep, woody hum that travels up through the soles of my shoes and settles into my bones. It’s not a creak of age, but of settlement—the sound of heavy, sturdy ebony and mahogany adjusting to the weight of stories. Here, the air is scrubbed clean of the city’s exhaust and anxiety. It smells of steeping chamomile, the rich, oily scent of cocoa butter, and the faint, dusty vanilla of old paper.
 
-I am safe here.
+I am safe here. I love it here. I write in here when I can make it down here.
 
-I sit at my usual table. My mechanical keyboard clatters rhythmically, a rapid-fire percussion that usually blends perfectly with the hushed murmurs of the other patrons.
+Today, I sit at my usual table. My mechanical keyboard clatters rhythmically, a rapid-fire percussion that usually blends perfectly with the hushed murmurs of the other patrons.
 
 "Robert," a familiar voice rumbles from above me.
 
@@ -25,7 +25,7 @@ He places a mug on the table. The heat radiates against my cheek before I even r
 
 "You’re enabling my addiction," I say, finding the handle by the heat signature alone.
 
-"I am curating your joy," he corrects, and I can hear the smile in his voice. He smells of vanilla today, and something sharper… pomegranate, maybe? It’s a warm, expansive scent that makes the space feel smaller, safer.
+"Not addiction. Joy," he corrects, and I can hear the smile in his voice. He smells of vanilla today, and something sharper… pomegranate, maybe? It’s a warm, expansive scent that makes the space feel smaller, safer.
 
 "You’re too good to me," I whisper.
 
@@ -43,7 +43,7 @@ The bell above the door doesn’t just jingle; it screams. It’s followed immed
 
 Footsteps. Hard, rapid, leather-soled shoes striking the floor with no rhythm, just destination.
 
-The air pressure shifts. A new scent invades the quiet—the distinct, dusty heat of overheating electronics.
+The air pressure shifts. A new scent invades the quiet among the already invading out of place scents—the distinct, dusty heat of overheating electronics.
 
 I try to ignore it, but I can't ignore it for long, because a voice slices through the air.
 
@@ -77,7 +77,7 @@ Then I hear it. A faint, high-pitched whine. A cooling fan. Small, struggling, s
 
 "So, look," the Tech Bro continues, pressing in on someone I do not know by name, only by voice. "It also links to the cloud. You hit a word you don’t know? Boom. Definition floats in your retina. No need to pause. No cognitive load. It’s optimizing the imagination."
 
-"Sir," Jarvis’s voice booms. It’s calm, but it carries the weight of a thunderhead. "We are reading here. Please lower your voice."
+"Sir," Jarvis’s voice booms. It’s calm, but it carries the weight of an approaching thunderstorm. "We are reading here. Please lower your voice."
 
 God, I love that voice. It’s a geological event. He doesn’t shout—he never has to—but his diaphragm pushes the air with enough force to rattle the books on the shelves.
 
@@ -107,11 +107,11 @@ The anger starts in my stomach, hot and sharp. It’s not just the rudeness. It�
 
 I am tired.
 
-I am so profoundly tired. I deal with this online every day. My inbox is a graveyard of "accessibility solutions" pitched by people who have never met a disabled person. I navigate a web that is broken by LLM-generated slop, alt-text written by hallucinations, and "innovations" that break my screen reader. I came here to write. I came here for the silence.
+I am so profoundly tired. I deal with this online every day. My inbox is a graveyard of "accessibility solutions" pitched by people who have never met a disabled person. I navigate a web that is broken by LLM-generated slop, alt-text written by hallucinations, and "innovations" that break my screen reader. I came here to write. I came here for the peaceful offline silence.
 
 And he just has to invade my offline life, too!
 
-I push my keyboard away. My cane is hooked on the edge of the table. I grab it, the grip familiar and grounding.
+I push my keyboard away. My cane is hooked on the edge of the table. I grab it, the grip familiar, helping me calm myself before I act.
 
 I stand up.
 
@@ -157,7 +157,7 @@ I take a step toward the whine. I feel a massive heat source move behind me—Ja
 
 "Look, DareDevil. It’s a custom OS," he snaps, defensive now.
 
-"It’s trash," I say. "I can hear the latency in your voice commands. You’re using Snap packages, aren't you? Or maybe you’re struggling with the Wayland compositor because you prioritized your flashy VR graphics over the actual input stability. You’re asking people to strap a kernel panic to their face and call it literacy."
+"It’s trash," I snap. "I can hear the latency in your voice commands. You’re using Snap packages, aren't you? Or maybe you’re struggling with the Wayland compositor because you prioritized your flashy VR graphics over the actual input stability. You’re asking people to strap a kernel panic to their face and call it literacy."
 
 A low chuckle ripples through the room. I feel Jarvis’s chest rumble against my back.
 
@@ -165,11 +165,11 @@ A low chuckle ripples through the room. I feel Jarvis’s chest rumble against m
 
 "You’re blind," the Tech Bro sneers. "What would you know about VR visuals?"
 
-"I know that you’re selling data, not books," I counter, stepping closer. "You can’t open-source that code, can you? Because if we looked at the root, we’d see the telemetry. You aren't tracking eyes to help people read; you’re tracking saccades to sell ad impressions. You’re harvesting the cognitive struggle of a reader and packaging it as a user metric."
+"I know that you’re selling data, not books," I counter, stepping closer. "You can’t open-source that code, can you? Because if we looked at the root, we’d see the telemetry. You aren't tracking eyes to help people read; you’re tracking people to sell ad impressions. You’re harvesting the cognitive struggle of a reader and packaging it as a user metric."
 
 "It helps people imagine!" he shouts. "It generates images so you don't have to!"
 
-"Look, Detective Dipshit, That is the exact opposite of reading!" I slam my cane tip against the floor, the sound cracking like a gunshot. "Reading happens in the silence! It happens in the Default Mode Network of the brain, where we build the world ourselves! You are forcing the brain into a Task Positive state, jamming it with visual noise so it *can’t* dream! You are colonizing the imagination because you can’t stand the idea of a quiet moment that you haven't monetized!"
+"NO! Look, Detective Dipshit, That is the exact opposite of reading!" I slam my cane tip against the floor, the sound cracking like a gunshot. "Reading happens in the silence! It happens in the Default Mode Network of the brain, where we build the world ourselves! You are forcing the brain into a Task Positive state, jamming it with visual noise so it *can’t* dream! You are colonizing the imagination because you can’t stand the idea of a quiet moment that you haven't monetized!"
 
 The room is deadly quiet. Even the B-flat floorboard is holding its breath.
 
@@ -177,7 +177,7 @@ He’s breathing hard now. I can smell the sour spike of his sweat. I'm not fini
 
 "It enhances the experience! It visualizes the scene!"
 
-"Hey Detective Dipshit, the book *is* the visualization!" I shout. The volume surprises me. "Reading is not passive. It is an active act of co-creation between the author and the reader. When I read a sentence, *I* build the world. *I* taste the air. *I* hear the voice. You want to strip-mine that. You want to colonize the reader's head space with your slop because you can’t monetize silence!"
+"Hey Detective Dipshit, the book *is* the visualization!" I shout. The volume fueling me even more. "Do you even know what reading *is?* Reading is not passive. It is an active act of co-creation between the author and the reader. When I read a sentence, *I* build the world. *I* taste the air. *I* hear the voice. You want to strip-mine that. You want to colonize the reader's head space with your slop because you can’t monetize silence!"
 
 I'm not at all finished, though. I continue,
 
@@ -189,7 +189,7 @@ I'm not at all finished, though. I continue,
 
 I stop three feet from him. I can smell the stale coffee on his breath beneath the ozone cologne.
 
-"Reading isn't a passive consumption of data," I say, my voice rising, finding the rhythm of a lecture. "It is an act of co-creation. The author builds the frame, and the reader builds the castle inside it. It is a private act. It is the last private place on earth. When I read, it happens in the quiet of my own mind. And you? You want to break into that room. You want to plaster billboards on the walls of my imagination when I. Don't. Need. You. My imagination works just fine. I, for one, didn't need to invent a machine to imagine shit for me."
+"You don't understand reading at all! Reading isn't a passive consumption of data," I say, my voice projecting expansively throughout the quiet space in a way I never thought possible. "It is an act of co-creation. The author builds the frame, and the reader builds the castle inside it. It is a private act. It is the last private place on earth. When I read, it happens in the quiet of *my* own mind. And you? You want to break into that room. You want to plaster billboards on the walls of my imagination when I. Don't. Need. You. My imagination works just fine. I, for one, didn't need to invent a machine to imagine shit for me."
 
 "You're overreacting," he scoffs. "It's just VR. It helps people."
 
@@ -197,17 +197,17 @@ I stop three feet from him. I can smell the stale coffee on his breath beneath t
 
 "Okay, look," he laughs, a nervous, dismissive sound. "I get it. You're blind, you're bitter, you can't see the UI, so you think it's useless. But for the sighted population—"
 
-But I am so done with these Tech Bros.
+But I am so done with these Tech Bros. I am so tired of Tech Bros, and others like them, invading spaces.
 
-The silence in the room is heavy now. I can feel the eyes of every man in the shop on us.
+The silence in the room is heavy now. I can feel the eyes of every man in the shop on us. This only fires me up.
 
-"You know what?" I continue, stepping closer, until I can hear the fabric of his jacket rustle. "I have to deal with your kind of tech people every day. I can't try some open-source software because some lazy hack vibe coded a broken worthless idea of code. I can't check my email because I get ninety pitches from stupid tech evangelists, and because nobody can take 'no, leave me the hell alone' as an answer."
+"You know what?" I continue, stepping closer, until I can hear the fabric of his jacket rustle. "Every. Day. Every, day, online, I have to deal with your kind of tech people every day. I can't try some open-source software because some lazy hack vibe coded a broken worthless idea of code. I can't check my email because I get ninety pitches from stupid tech evangelists, and because nobody can take 'no, leave me the hell alone' as an answer."
 
 I take a breath, letting the rage coalesce into a diamond-hard point.
 
-"You saw a quiet little bookstore, just here, just being a bookstore, and thought, 'Hmm! I can innovate them! I can innovate those poor, primitive folk,' right? Why? Because they read better than you? Is it because they—*we*—can actually imagine things without the aid of some generation technology? Are you pissed off that people around you actually engage with the author and make a connection to the writer instead of treating your tech like it's necessary?"
+"You saw a quiet little bookstore, just here, just being a bookstore, and thought, 'Hmm! I can innovate them! I can innovate those poor, primitive folk,' right? Why? Because they read better than you? Is it because they—*we*—can actually imagine things without the aid of some generation technology? Are you pissed off that people around you actually engage with the author and make a connection to the writer instead of engaging with you or your useless technology Are you mad because people *aren't* treating your tech like it's necessary?"
 
-"Who the hell invited you?" I ask, leaning in. "Nobody. I sure as shit didn't hear anyone invite you in. You just stomped in here without a care in the world that maybe this space can just be left alone. But that's what you people do, isn't it? You just love to colonize spaces."
+"By the way, who the hell invited you?" I ask, leaning in. "Nobody. I sure as shit didn't hear anyone invite you in. You just stomped in here without a care in the world that maybe this space can just be left alone. But that's what you people do, isn't it? You just love to colonize spaces. You can't just leave people alone! You have to invade spaces."
 
 "You're being—" he starts.
 
@@ -215,7 +215,7 @@ I take a breath, letting the rage coalesce into a diamond-hard point.
 
 I point my cane toward the door. I don't need to see it to know exactly where it is. The draft from the entryway tells me.
 
-"You are boring. You are so pothetically, profoundly, devastatingly boring. You have no inner life, so you have to buy a headset to fake one. Nobody wants you here so. Get. The. Fuck. Out. And maybe before you invent a new technology, try learning how to read a book."
+"Get out. You are boring. You are so pothetically, profoundly, devastatingly boring. You have no inner life, so you have to buy a headset to fake one. Nobody wants you here so. Get. The. Fuck. Out. And maybe before you invent a new technology, try learning how to read a book."
 
 "You can't talk to me like that," the Tech Bro sputters. "I'm a potential investor. This is... you're just some blind guy."
 
@@ -253,7 +253,7 @@ It’s the final straw. The dam behind my eyes, which I had reinforced with inte
 
 I cover my face with my hands, dropping my cane. It clatters to the floor. I am shaking so hard my teeth are clicking together. I feel small. I feel like I am back in a house that didn't want me, apologizing for existing, apologizing for needing love.
 
-I am so, so tired.
+I am so, so, so tired.
 
 ## Part 2.
 
@@ -291,11 +291,11 @@ He just holds me. He starts to rock. A slow, rhythmic sway. Back and forth.
 
 *Sway. Breathe. Sway. Breathe.*
 
-He isn't shushing me. He isn't telling me to calm down. He is rocking me like a child, like a precious thing that has been broken and brought to him for repair.
+I am so glad he isn't shushing me. He is rocking me like a child, like a precious thing that has been broken and brought to him for repair.
 
 "That was brilliant," he whispers into my hair. "You eviscerated him. You cut him down to the bone, Robert. I have never seen anything like that."
 
-"I’m just... I’m just tired," I whimper.
+"Jarvis, I’m just... I’m just tired," I whimper.
 
 "I know. I know you are. Rest now. Just rest."
 
@@ -313,7 +313,7 @@ After a while, he guides me to my chair.
 
 "Sit," he commands gently.
 
-I sit. I hear him move away, but only for a moment. The sound of water pouring. The *clink* of a spoon. He returns, and the smell of rich, dark cocoa and peppermint fills the air between us.
+I sit. I hear him move away, but only for a moment. The sound of water pouring. The *clink* of a spoon sturring. He returns, and the smell of rich, dark cocoa and peppermint fills the air between us.
 
 "Drink," he says, pressing a warm mug into my hands. "It is my own blend. Good for the shock."
 
@@ -325,9 +325,9 @@ Then, I feel a touch on my face. Jarvis’s thumb. It is rough from moving boxes
 
 I sniff, wiping my nose with my sleeve. "I lost my temper. I made a scene in your shop. I'm sorry, Jarvis."
 
-"You drove away a parasite," Jarvis corrects me. "He was not a customer. He was a colonizer. And you..." I hear the smile in his voice, the sound of it changing the shape of his words. "You protected this little store. I can never repay you. You did my job for me."
+"You drove away a parasite," Jarvis corrects me. "He was not a customer. He was a colonizer. And you..." I hear the smile in his voice, the sound of it softening the timbre of his words. "You protected this little store. I can never repay you. You did my job for me."
 
-"I just... I hate them," I whisper. "I hate that they think everything is for them."
+"I just... I-I hate them," I whisper. "I hate that they think everything is for them."
 
 "I know," Jarvis says. He rests a heavy hand on my shoulder. "Come. The shop is quiet. Marvin is closing up the register for me. I am walking you home."
 
@@ -339,7 +339,7 @@ I sniff, wiping my nose with my sleeve. "I lost my temper. I made a scene in you
 
 The winter wind is biting when we step outside, but I barely feel it. Jarvis is walking on my left side, blocking the wind.
 
-I am holding his arm. It is solid, unyielding muscle beneath the flannel. He doesn't pull me along; he moves at my pace, his stride shortened to match mine. He is a tactile map of the sidewalk. When he steps down, I feel the dip in his shoulder and know a curb is coming. When he pauses, I know to stop.
+I am holding his arm. It is solid, unyielding muscle beneath the flannel. He doesn't pull me along; he moves at my pace, his stride shortened to match mine. He is the best unintentional sighted guide. He is a tactile map of the sidewalk. When he steps down, I feel the dip in his shoulder and know a curb is coming. When he pauses, I know to stop.
 
 We walk for blocks in silence, but it’s a companionable silence now. The City sounds—the distant siren, the rumble of the L train, the hiss of bus brakes—fade into the background.
 
@@ -349,17 +349,17 @@ We walk for blocks in silence, but it’s a companionable silence now. The City 
 
 "It is a code, Robert. It is free. I get them from the publisher." He squeezes my arm against his side. "It is about a city that comes alive to fight an enemy that tries to make everything the same. Tries to make everything white and sterile and efficient. It made me think of you today."
 
-"Me?" I ask.
+"Me? No way. Me?" I ask.
 
 "Yes. The Avatar of my bookstore." He chuckles, a deep, resonant sound. "Fighting the enemy with a cane and a sharp tongue."
 
 When we make it to my complex, we navigate the lobby. The air here is different—sterile, smelling of industrial cleaner and floor wax. The acoustics change from the warm, wood-lined resonance of the bookstore to the sharp, slapping echo of bland tile.
 
-We reach my hallway. It’s quiet here, the kind of heavy silence that emphasizes loneliness.
+We reach my hallway. It’s quiet here, the kind of heavy silence that emphasizes my loneliness.
 
-I fumble for my keys, my hands still shaking slightly. "Thank you, Jarvis. Really. You didn't have to—"
+I fumble for my keys, my hands still shaking slightly. "Thank you, Jarvis. Really. You didn't have to..."
 
-Jarvis doesn't answer me at first. He gently takes the keys from my hand and unlocks the door. After the door opens, he gives me back my keys, but his massive hand remains in contact with mine. He takes the back of my hand into his other one and squeezes before replying.
+As I fumble with my keys, I await Jarvis's reply. Jarvis doesn't answer me at first. He gently takes the keys from my hand and unlocks the door. After the door opens, he gives me back my keys, but his massive hand remains in contact with mine. He takes the back of my hand into his other one and squeezes before replying,
 
 "Robert?" Jarvis asks.
 
@@ -381,9 +381,9 @@ Before I can wipe tears away, strong thumbs *swish swish* over my skin, catching
 
 "I'm right here, my little lion," he says.
 
-The nickname hits me in the center of my chest. *Little Lion.*
+Now that things have calmed down, the nickname hits me in the center of my chest. *Little Lion.*
 
-It makes me cry all over again. I am not a lion. I am a small, trembling thing with a broken nervous system and a white cane. I am a man who spent his teenage years saying stupid, ignorant things because I was hurting and didn't know any better. I am a man who feels the crushing weight of a trillion-dollar industry trying to automate the human soul, and I feel like I am suffocating under it.
+It makes me cry all over again. I am not a lion. I am a small, trembling thing with a broken nervous system and a white cane. I am a man who spent his teenage years saying stupid, ignorant things because I was hurting and didn't know any better. I am a man who feels the crushing weight of a trillion-dollar industry hating empathy and trying to automate the human soul, and I feel like I am suffocating under it.
 
 "But—but, but! I'm no lion! I'm no lion!" I stammer, the words tumbling out. "I won today, but… but… you really think I'm a lion?"
 
@@ -391,15 +391,15 @@ It makes me cry all over again. I am not a lion. I am a small, trembling thing w
 
 I shake my head inside the cradle of his hands.
 
-"I'm not a lion. Not like activists like Malcolm X," I babble, fueled by anxiety. "I'm not Martin Luther King Jr. I don't have that kind of wisdom. I'm not brave like the Panthers. They changed the world. They moved mountains. I just... I yelled at a guy in a bookstore because he pissed me off."
+"I'm not a lion. Not like activists like Malcolm X," I babble, fueled by anxiety. "Activists are lions. I am not. I'm not Martin Luther King Jr. I don't have that kind of wisdom. I'm not brave like the Panthers. They changed the world. They moved mountains. I just... I yelled at a guy in a bookstore because he pissed me off."
 
 "Robert," Jarvis warns, his tone dropping.
 
-"No, really," I insist, the tears threatening to return. "I'm just a guy who writes romance novels and complains about PDFs."
+"No, really," I insist, the tears threatening to return. "I'm just a guy who writes romance novels and complains about PDFs and finds joy in cookies and cries when someone holds my hand. Lions roar and that's not roaring."
 
 His hands don't let up, though. they still hold my face, as if we're the only two people in the world. His thumbs rub soothing strokes on my cheeks. It's as if he is rocking me to sleep with his thumbs. The feeling is so comforting I almost forget that I am standing in the hallway, not laying on my bed.
 
-"Robert," he says, and his tone is firm but still gentle, "listen to me."
+"That *is* roaring, Robert! Listen, Robert," he says, and his tone is firm but still gentle, "listen to me."
 
 "I'm listening," I say,
 
@@ -409,11 +409,15 @@ After doing this a few times, I hear him smile again.
 
 "That's better. Your eyes have calmed down. Now, listen to me, okay?
 
-"I read Sightless Scribbles. Every post. I check that Dropbox folder to see if Sean narrated a new post of yours. And I see a lion! I see a brilliant soul that needs to know he is loved, and that he is special, and his words mean something deeply to a *lot* of people. Robert, people ask how you are when you do not come to the bookstore. They want to know you are okay. I am not the only one that loves your smile and your typing. It's music to others. The way you are so kind to everyone. The way you *love.* That is why you are special."
+I nod, signaling he has the floor.
 
-I open my mouth but he continues,
+"I read Sightless Scribbles. Every post. I check that Dropbox folder to see if Sean narrated a new post of yours. And I see a lion! I see a brilliant soul that needs to know he is loved, and that he is special, and his words mean something deeply to a *lot* of people. Robert, people ask how you are when you do not come to the bookstore. They want to know you are okay. I am not the only one that loves your smile and your wit and your typing. It's music to others. The way you are so kind to everyone. The way you *love.* The way you hurt. The way you *feel.* That is why you are special."
+
+I open my mouth to protest but he continues,
 
 "you are not the civil rights activists you mentioned. You are something just as special, but very different. You don't have to be them in order to change lives, to make lives special. You don't need to change policy to change the world, to touch everyone you meet in profound ways."
+
+I am so stunned by his words, I do not have a comeback.
 
 "Thank you," I say, meaning every word, "Can I... Can I tell you something?" I ask.
 
@@ -423,7 +427,7 @@ I open my mouth but he continues,
 
 "Of what?"
 
-"That I'll stop," I whisper. The truth bleeds out of me, the fear burning hot and painful. "I see it online every day. Writers, friends... people I respected. Leo almost lost his soul to it. They start using the LLMs. They get tired. It's so much easier to just let the machine do it. It’s so exhausting to care this much, all the time. To be the one pointing out the harm when everyone else is saying, 'It's fine, it benefits me now.' I'm scared I'm going to wake up one morning and I'll be too tired to fight. I'm scared I'll become one of those shrugging people. I don't want to be a shrugging person, Jarvis. I don't want to become soulless."
+"That I'll stop," I whisper. The truth bleeds out of me, the fear burning hot and painful. "I see it online every day. Writers, friends... people I respected. Leo almost lost his soul to it. They start using tech to benefit themselves, to enrich themselves. They get greedy. They get tired. It's so much easier to just let everyone else suffer while you walk away. Stop caring. Stop feeling. It’s so exhausting to care this much, all the time and have everyone call you an idiot. To be the one pointing out the harm when everyone else is saying, 'It's fine, it benefits me now.' I'm scared I'm going to wake up one morning and I'll be too tired to fight. I'm scared I'll become one of those shrugging people. I don't want to be a shrugging person, Jarvis. I don't want to become soulless."
 
 "You, my little lion, will never become that." He says.
 
@@ -431,13 +435,13 @@ I open my mouth but he continues,
 
 I take a shuddering breath. I choke on the confession.
 
-"It's so easy to stop caring," I whisper, fresh tears flowing faster now, his thumbs working overtime to catch them. "Everyone is doing it. Writers I respected. Friends. They just... surrender. They use the slop because it's easier. And I'm so tired, Jarvis. I'm scared that one morning I'll just be too tired to fight, and I'll let the machine do it, and I'll lose my soul. I'll become hollow."
+"It's so easy to stop caring about others," I whisper, fresh tears flowing faster now, his thumbs working overtime to catch them. "Everyone is doing it. Writers I respected. Friends. They just... surrender. They take the easy path to make sure they get what they need and they just stop caring about others, or about solidarity, or hell, about morals. And I'm so tired, Jarvis. I'm scared that one morning I'll just be too tired to fight, and I'll let capitalism take away the love that builds me up, and I'll lose my soul. I'll become hollow."
 
 Jarvis goes still. His thumbs stop moving for a second, pressing firmly into my skin, grounding me.
 
 "And that," he says with finality, his hands never leaving my face, tightening his grip just enough to demand my absolute attention, "is why you are a revolutionary!"
 
-"Because you are terrified," he continues, his voice low and fierce. "Because you care so much that the thought of not caring breaks your heart. That is the revolution, Robert. The machine wants you numb. The machine wants you efficient. You are messy. You are weeping in a hallway because you love art too much. Do you understand? Your grief is your weapon. Your refusal to be numb is what makes you dangerous to them."
+"Because you are terrified," he continues, his voice low and fierce. "Because you care so much that the thought of not caring breaks your heart. That is the revolution, Robert. The machine wants you numb. The capitalists want you efficient. You are messy. You are weeping in a hallway because you love art and people too much. Do you understand? Your grief is your weapon. Your refusal to be numb is what makes you dangerous to them."
 
 He leans in closer. I can feel his breath, warm and smelling of mint tea, against my lips.
 
@@ -447,11 +451,15 @@ The space between us is charged, thick with the unsaid. I can feel the vibration
 
 He leans down and kisses me.
 
-It isn't a devouring kiss. It isn't frantic. It is slow, deep, and tastes of salt and peppermint. His lips are soft, full, and deliberate. He kisses me like he is sealing a promise. He kisses me like he is transferring his own strength into my lungs. I cling to his wrists, my fingers digging into the thick warmth of his forearms, anchoring myself to the earth.
+It isn't a devouring kiss. It isn't frantic. It is slow, deep, and tastes of salt and peppermint. His lips are soft, full, and deliberate. He kisses me like he is sealing a promise. He kisses me like he is transferring his own strength into my lungs.
+
+God, this feels so good, so real.
+
+I cling to his wrists, my fingers digging into the thick warmth of his forearms, leaning into this pocket of assurance and tenderness.
 
 When he pulls back, he doesn't go far. His forehead rests against mine.
 
-"One day," Jarvis says, his voice vibrating through my skull. "One day, you will win an award. A big one. I will see you on a stage, holding a statue, and you will be smiling. I will say, loudly, I gave that man free hot chocolate for life!"
+"One day," Jarvis says, his voice vibrating through my skull. "One day, you will win an award. A big one. I will see you on a stage, holding a trophy, and you will be smiling. I will say, loudly, I gave that man free hot chocolate for life!"
 
 I let out a wet, shaky laugh. "You're crazy."
 
@@ -492,5 +500,7 @@ It is the sound of something I haven't heard in ages. It is the sound of someone
 I curl onto my side, clutching the phone to my chest like a talisman. For the first time in months, the noise in my head stops. The fear of the future recedes.
 
 Protected, loved, and looked after, I close my eyes, and I sleep, deeply, for the first time in years.
+
+---
 
 If you enjoyed this story, you might enjoy [The City We Became by N.K. Jemisin](https://bookshop.org/a/77/9780316509886)
