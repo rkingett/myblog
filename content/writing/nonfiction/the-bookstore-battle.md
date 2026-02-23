@@ -427,7 +427,7 @@ I am so stunned by his words, I do not have a comeback.
 
 "Of what?"
 
-"That I'll stop," I whisper. The truth bleeds out of me, the fear burning hot and painful. "I see it online every day. Writers, friends... people I respected. Leo almost lost his soul to it. They start using tech to benefit themselves, to enrich themselves. They get greedy. They get tired. It's so much easier to just let everyone else suffer while you walk away. Stop caring. Stop feeling. It’s so exhausting to care this much, all the time and have everyone call you an idiot. To be the one pointing out the harm when everyone else is saying, 'It's fine, it benefits me now.' I'm scared I'm going to wake up one morning and I'll be too tired to fight. I'm scared I'll become one of those shrugging people. I don't want to be a shrugging person, Jarvis. I don't want to become soulless."
+"That I'll stop," I whisper. The truth bleeds out of me, the fear burning hot and painful. "I see it online every day. Writers, friends... people I respected. [Leo almost lost his soul to it.](/posts/tags/narrative) They start just doing things that make them money. They start using tech to benefit themselves, to enrich themselves. They get greedy. They get tired. It's so much easier to just let everyone else suffer while you walk away. Stop caring. Stop feeling. It’s so exhausting to care this much, all the time and have everyone call you an idiot. To be the one pointing out the harm when everyone else is saying, 'It's fine, it benefits me now.' I'm scared I'm going to wake up one morning and I'll be too tired to fight. I'm scared I'll become one of those shrugging people. I don't want to be a shrugging person, Jarvis. I don't want to become soulless."
 
 "You, my little lion, will never become that." He says.
 
@@ -501,6 +501,6 @@ I curl onto my side, clutching the phone to my chest like a talisman. For the fi
 
 Protected, loved, and looked after, I close my eyes, and I sleep, deeply, for the first time in years.
 
----
+***
 
 If you enjoyed this story, you might enjoy [The City We Became by N.K. Jemisin](https://bookshop.org/a/77/9780316509886)

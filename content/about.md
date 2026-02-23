@@ -15,6 +15,8 @@ Again, [The site map](/map) will help you get around this website.
 
 ## About Sightless Scribbles.
 
+Ah, hello there. Did you bring cookies?
+
 This is a simultaneous transmission. It is a tactile map of the engine room, a way to feel the hum of the machine while I’m typing. But for those of you stumbling onto this URL for the first time, wondering why the prose feels different—heavier, maybe, or just louder in the quiet parts—this is also an introduction.
 
 As the readership grows, I realized I needed a manifesto nailed to the digital door. So, hi. Thank you for reading *Sightless Scribbles*.
@@ -25,7 +27,7 @@ I am a blind gay man living in a world obsessed with optics. Things happen to me
 
 On this site, you will find [a smorgasbord of literary output.](/posts) You’ll find [fiction that explores the terrifying vulnerability of intimacy.](/posts/tags/fiction/) You’ll find nonfiction accounts of my daily wars with bureaucracy—[tales of how I outsmarted a hostile telephone tree](/posts/20250629) or [the specific, tactile joy of a perfectly designed doorknob.](/writing/nonfiction/20250626) You’ll find [writing exercises,](/posts/tags/writings/) [older journalism,](/posts/tags/throwbacks/) and [experiments in form.](/posts/)
 
-There will also be happy tellings, like [the time my Trans friend came out to me.](/the-home-of-a-new-name/) You'll also read lengthy narratives, such as [the time my friend lost his confidence to an LLM](/the-colonization-of-confidence/)
+There will also be happy tellings, like [the time my Trans friend came out to me.](/the-home-of-a-new-name/) You'll also read [lengthy immersive, and intimate, nonfiction narratives that explore my insecure and emotionally needy life.](/posts/tags/narrative)
 
 You will also find such things as [me imagining a gay man reading my scars like Braille,](/a-map-of-my-scars-read-by-your-fingertips/) [me getting free Pizza,](/posts/20250820/) [praises for libraries,](/posts/20250910) [love letters to chocolate,](/posts/20250727) [hilarious tales of men I dated eating my cookies,](posts/20250806) and [letters to people I have yet to meet.](/writing/nonfiction/20250712)
 
