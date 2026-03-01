@@ -21,7 +21,7 @@ There is a specific, terrified cadence that enters a hostess’s footsteps when 
 
 "Do you," I asked, unleashing the chaos, "have a Braille menu?"
 
-The air pressure in the room dropped. I heard the hostess stop moving. There was a pause, a volley of frantic argueing whispers, a rustle of fabric as she likely looked at her manager, and then the sound of a key turning in a lock that hadn't been opened since the Bush administration.
+The air pressure in the room dropped. I heard the hostess stop moving. There was a pause, a volley of frantic arguing whispers, a rustle of fabric as she likely looked at her manager, and then the sound of a key turning in a lock that hadn't been opened since the Bush administration.
 
 "Yes!" she chirped, her voice pitching up an octave into that particular tone people use for puppies and Disabled people out in public. "We do! Let me go get it!"
 
