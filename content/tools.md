@@ -13,6 +13,16 @@ I receive a lot of questions about what tools and or services I use on a daily b
 
 Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
+## Online services I use.
+
+If I list every online service I use, we're going to be here all day, so I want to list some unique ones.
+
+[Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
+
+[Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
+
+
+
 ## Social media.
 
 The Fediverse, because it has a wonderful accessibility and care culture that people hate. Providing Alt Text, content warnings, and far more quality of life features. The people that take these kinds of things seriously are why I remain in the Fediverse despite the haters.
@@ -43,14 +53,6 @@ If I listed every single mobile app I use, we're going to be here a while, so I'
 
 Apple podcasts, because [I love podcasts, especially fiction podcasts](/podroll) and I haven't found a better app made for fiction podcast fans that's blind accessible.
 
-## Online services I use.
-
-Again, if I list every online service I use, we're going to be here all day, so I want to list some unique ones.
-
-[Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
-
-[Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
-
 ## Desktop software I use.
 
 [Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
@@ -59,7 +61,7 @@ Again, if I list every online service I use, we're going to be here all day, so 
 
 [Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)[](https://github.com/masonasons/FastPlay)
 
-[Fast Play. Media player for the blind.(https://github.com/masonasons/FastPlay)
+[Fast Play. Media player for the blind.](https://github.com/masonasons/FastPlay)
 
 [Fast GH. Github client for the blind.](https://github.com/masonasons/FastGH)
 
