@@ -5,9 +5,7 @@ redirect_from: shorts
 
 [Looking for my writing? Go here.](/writings/)
 
-[Listen to audio exclusives](https://weirdwritings.pinecast.co/)
-
-[Read books and anthologies for longer works](/books).
+[Listen to audio versions and serialized audiobooks](https://weirdwritings.pinecast.co/)
 
 I receive a lot of questions about what tools and or services I use on a daily basis. This page will update frequently, so check back here often throughout the year.
 
@@ -21,15 +19,17 @@ If I list every online service I use, we're going to be here all day, so I want 
 
 [Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
 
-
-
 ## Social media.
 
-The Fediverse, because it has a wonderful accessibility and care culture that people hate. Providing Alt Text, content warnings, and far more quality of life features. The people that take these kinds of things seriously are why I remain in the Fediverse despite the haters.
+[The Fediverse, because it has a wonderful accessibility and care culture that people hate.](/contact/) Providing Alt Text, content warnings, and far more quality of life features. The people that take these kinds of things seriously are why I remain in the Fediverse despite the haters.
 
-The particular Fediverse platform might change but the ecosystem will stay the same. You might find me using a different application/platform/service in the Fediverse but I'll still remain in the Fediverse.
+[The particular Fediverse platform](https://en.wikipedia.org/wiki/Fediverse) might change but the ecosystem will stay the same. You might find me using a different application/platform/service in the Fediverse but I'll still remain in the Fediverse.
 
 I hate all social media with an algorithm so if you see my account on mainstream social media---chances are I'm being impersonated.
+
+### Fediverse clients I use.
+
+[fedra](https://github.com/trypsynth/fedra)
 
 ## Phones and phone providers.
 
@@ -55,9 +55,19 @@ Apple podcasts, because [I love podcasts, especially fiction podcasts](/podroll)
 
 ## Desktop software I use.
 
+I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
+
+Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[Tera: Terminal Radio, because I write to music](https://github.com/shinokada/tera?ref=winstall)
+
+[Audio Shelf, an audiobook player designed for screen readers.](https://github.com/M-Rajabi-Dev/AudioShelf?ref=winstall)
+
 [Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
 
 [Jarte. A text editor that has been discontinued but I love this thing. It was fantastic!](https://en.wikipedia.org/wiki/Jarte)
+
+[RClone](https://rclone.org/downloads/) because it helps me mount network drives and avoids bloated sync apps. Yuck!
 
 [Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)[](https://github.com/masonasons/FastPlay)
 
