@@ -1,7 +1,9 @@
 ---
-title: Where Home is Not Safe
-date: 2021-08-05T22:35:00.000Z
-tags: ["books", "writings", "ebook", "paperback", "hardcover", "audiobook", "nonfiction", "anthologies"]
+title: "Where Home is Not Safe"
+date: '2026-03-06T17:22:19.333496+00:00'
+tags: [anthology, nonfiction]
+redirect_from: "/posts/5186"
+permalink: /posts/where-home-is-not-safe/
 ---
 
 [![Where Home is Not Safe cover. Between the subtitle, writings on Domestic Verbal, Emotional and Physical Abuse, is a painted image of a two-story home on the right with chimneys and a high fence.  There is grass on the left of the home with a single-story home on the left side](/img/when-home-is-not-safe-front-cover-small.jpeg)](/img/when-home-is-not-safe-front-cover.jpeg)

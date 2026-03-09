@@ -7,13 +7,15 @@ redirect_from: /am-reading
 
 [If you are looking for my audiobooks and audio work, go to this page.](/audio)
 
-There are all kinds of Romance and other genre books I enjoy, as a Romance author and reader myself.
+There are all kinds of Romance and other genre books I enjoy, [as a Romance author and reader myself.](/writings)
 
 This page will change multiple times a year so check back often.
 
 Because I am an audiobook reader, all the below links will be in audio. If there is a version I like more, such as a full cast version, I will link to my favorite version.
 
-Broadly, I read a lot of Romances, from [LGBT+ Romances](https://www.audible.com/cat/LGBTQ-Audiobooks/18573743011?ref_pageloadid=YepnIf5XibVLHC3i&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=M32YEY0CDY682Q67A5V6&plink=TKtKmKELBb9mPwdy&pageLoadId=o5VxlZ14kRf0D0tr&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_A-Guy-_psu_bc) to other kinds of books.
+Broadly, [I read a lot of Romances,](https://www.audible.com/cat/Romance-Audiobooks/18580518011?ref_pageloadid=5oeWkpGQ5poO6wpV&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=TPYY93A4PKXAVPBAJJED&plink=vXjcHx0lpWl4Pv1B&pageLoadId=LxJ75Gld3XtOcK5P&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Scared_psu_bc) from [LGBT+ Romances](https://www.audible.com/cat/LGBTQ-Audiobooks/18573743011?ref_pageloadid=YepnIf5XibVLHC3i&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=M32YEY0CDY682Q67A5V6&plink=TKtKmKELBb9mPwdy&pageLoadId=o5VxlZ14kRf0D0tr&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_A-Guy-_psu_bc) to other kinds of books.
+
+[I often find authors by reading anthologies they are in.](https://www.audible.com/tag/genre/Anthologies-Short-Stories-Audiobooks/adbl_rec_tag_4-21-2584?ref_pageloadid=5oeWkpGQ5poO6wpV&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=TPYY93A4PKXAVPBAJJED&pageLoadId=LxJ75Gld3XtOcK5P&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3)
 
 I really love books with a lot of emotion. I don't care at all if a book has good writing. If a book can't make me feel something, I don't like the book, no matter how amazing the writing is. You'll get a better feel of the books by checking out the favorite authors, favorite series, and favorite books, links below.
 
@@ -23,7 +25,7 @@ I will read anything the below narrators read.
 
 [My parasocial audiobook crush, Gabriel Michael](https://www.audible.com/search?searchNarrator=Gabriel+Michael&ref_pageloadid=not_applicable&pf_rd_p=ae77544a-4f02-4042-bed0-641b7aadbd7d&pf_rd_r=KV3PM8N0G4SFRQYSP09E&plink=nOY1nAGo4cZP6Q39&pageLoadId=piX15Lj79xxRNAgw&creativeId=b570234c-250a-43ff-be6b-ca1b4c5d7caa&ref=a_series_Em_c5_lNarrator_1_1_6)
 
-My very good friend, [Sean Crisden](https://www.audible.com/search?searchNarrator=Sean+Crisden&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=963VN6M46SQHC4CTN0Z2&plink=YeWFAqpZxQf36Crl&pageLoadId=JIx6Atwl6gzTgrWn&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_1) that also [narrates my own work](/audio)
+[My very good friend, [Sean Crisden](https://www.audible.com/search?searchNarrator=Sean+Crisden&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=963VN6M46SQHC4CTN0Z2&plink=YeWFAqpZxQf36Crl&pageLoadId=JIx6Atwl6gzTgrWn&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_1) that also [narrates my own work](/audio)
 
 A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search?searchNarrator=Damian+Lynch&ref_pageloadid=dPI0C3fcNy7YxxaO&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=60264562ARPGEV2PWJR1&plink=QF2Qdgou4HJhvpdS&pageLoadId=pZ7Sdst1hOwZErYZ&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_4_1)
 
@@ -66,6 +68,8 @@ I will read *anything* the below authors write.
 [The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
 
 ## Favorite books.
+
+[You've Got a Place Here, Too. Because I found some amazing authors through this anthology.](https://libro.fm/audiobooks/9798217159055-you-ve-got-a-place-here-too)
 
 [Long Shot by Kennedy Ryan, because it's the best depiction of abuse in a Romance book I have ever seen](https://libro.fm/audiobooks/9781977388179-long-shot)
 
