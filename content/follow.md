@@ -6,7 +6,7 @@ eleventyNavigation:
 redirect_from: subscribe
 ---
 
-You can subscribe by RSS or by email, and you can join my street team and otherwise below. You can learn about my street team and beta list via the headings below.
+Follow me [via RSS feed,](/feed.xml) or [listen via podcast,](https://pnc.st/s/weirdwritings?align=center) or [get updates via email.](https://buttondown.com/weirdwriter) Read below for more details.
 
 [Join the beta and street team list here](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
 
