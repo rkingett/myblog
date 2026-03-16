@@ -1,6 +1,8 @@
 ---
 title: "My Refrigerator Thinks I'm in a Cult"
 date: '2025-08-08T14:16:23.874025+00:00'
+permalink: /posts/cult/
+redirect_from: /posts/20250808
 tags: [syndicate, blog and journal]
 ---
 

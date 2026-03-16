@@ -1,6 +1,8 @@
 ---
 title: "The Gift Horse's Mouth is Full of Terrible Braille"
 date: '2025-09-24T11:50:54.909735+00:00'
+permalink: /posts/gift-horse/
+redirect_from: /posts/20250924
 tags: [syndicate, blog and journal, writings, nonfiction]
 ---
 

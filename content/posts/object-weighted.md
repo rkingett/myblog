@@ -1,6 +1,8 @@
 ---
 title: "An Ode to the Perfectly Weighted Object."
 date: '2025-07-26T06:01:29.812702+00:00'
+permalink: /posts/object/
+redirect_from: /posts/20250726
 tags: [blog and journal]
 ---
 

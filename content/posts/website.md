@@ -1,6 +1,8 @@
 ---
 title: "My website is my safe space"
 date: '2025-06-06T11:33:42.429312+00:00'
+permalink: /posts/safe-space-website/
+redirect_from: /posts/20250606
 tags: [rants, blog and journal]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "The Conversation of a Kiss"
 date: '2025-08-13T20:33:53.554420+00:00'
+permalink: /posts/kiss-conversation/
+redirect_from: /posts/20250813
 tags: [syndicate, blog and journal]
 ---
 

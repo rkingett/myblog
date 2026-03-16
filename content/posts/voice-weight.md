@@ -1,6 +1,8 @@
 ---
 title: "The Weight of a Voice"
 date: '2025-07-14T08:45:27.039397+00:00'
+permalink: /posts/voice-weight/
+redirect_from: /posts/20250714
 tags: [blog and journal]
 ---
 

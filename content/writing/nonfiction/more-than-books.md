@@ -1,6 +1,8 @@
 ---
 title: "I Love You More Than Books"
 date: '2025-07-12T10:53:04.598503+00:00'
+permalink: /posts/more-than-books/
+redirect_from: /posts/20250712
 tags: [blog and journal, nonfiction]
 ---
 

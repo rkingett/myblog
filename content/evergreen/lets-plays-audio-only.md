@@ -28,25 +28,4 @@ Before my list, [here's another list of audio Let's Play podcasts](https://spill
 
 Also, if you don't like video games but love tabletop games, [listen to people playing tabletop games too](https://audiodrama.directory/category/role-playing/)
 
-I intentionally wrote about the below podcasts in the past tense, partially because I'm lazy and all podcasts end at some point.
-
-I also explain which ones provide audio description, describing what's happening for the listener.
-
-1. [RSS Sightless Scribbles, my podcast,](https://pinecast.com/feed/weirdwritings) showcased audio games and games with built in audio description.
-1. [Reignite](https://reignitepod.libsyn.com/) [RSS Reignite](https://reignitepod.libsyn.com/rss) Covered all Mass Effect games. Provided audio description.
-1. [Retrograde Amnesia](https://retroam.libsyn.com/about) is more studying JRPG's but sometimes played them too. Sometimes, audio description was provided.)
-1. [RSS Hyrule Podcasters. The Legend of Zelda Audio Only Let’s Play](https://anchor.fm/s/4d6daec8/podcast/rss) Provided audio description for all the games they played.
-1. [Planescape: Torment - The Unofficial Audio Series](https://www.theend.fyi/shows/planescape-torment---the-unofficial-audio-series#listen) largely focused on the 19999 game. A fully voiced re-telling of the game’s story with a modern take and narrative drive.
-1. [This is video games](https://podcasts.apple.com/us/podcast/this-is-video-games/id1550153970) Provided audio description and read the screen. Played adult games.
-1. [RSS TroytlePowerPresents: The Power Play-Throughs Podcast.](https://anchor.fm/s/d176120/podcast/rss) Played a lot of indie games. Provided audio description and read the screen.
-1. [RSS Daniel K's Let's Plays.](https://feeds.soundcloud.com/users/soundcloud:users:192119797/sounds.rss) Played a lot of handheld games. Provided audio description and read the screen most of the time.
-1. [No One can Know About this.](https://noonecanknowaboutthis.podbean.com/) [Feed for No one can know about this.](https://feed.podbean.com/noonecanknowaboutthis/feed.xml) A heavily edited Let's Play podcast that focused a lot on Final Fantasy Games, with their own brand of audio description thrown in as well.
-1. [Gorilla's playthroughs.](https://gorillasplaythrough.wordpress.com/) [RSS for Gorilla's playthrough.](https://anchor.fm/s/8c17098/podcast/rss) Provides audio description for games and even describes the menus sometimes. Shockingly, my sighted friends loved the audio description touches in this podcast because it's absolutely meant for audio since it's made with blind listeners in mind.
-1. [Hello Hyrule: A Legend of Zelda Travelogue.](https://creators.spotify.com/pod/profile/hyrulepod/) [Feed for Hello Hyrule: A Legend of Zelda Travelogue.](https://anchor.fm/s/4d37231c/podcast/rss)Played through all the Zelda games and also provided audio description and reads off dialog. Very fun crew!
-1. [Sacred Realms: A Zelda Retrospective Podcast.](https://sacredrealmspod.buzzsprout.com/) Recorded in traditional Let's Play style where no audio description is provided but commentary abounds. Excellent sound quality.
-1. [Enchantment: Dragon Age Let's Play Podcast.](https://creators.spotify.com/pod/profile/enchantmentcast/) [Feed for Enchantment: Dragon Age Let's Play Podcast.](https://anchor.fm/s/b927e638/podcast/rss) Traditional Let's Play style without audio description but still very fun crew. They branched out to other games, but their back catalog focused primarily on Dragon Age.
-1. [RSS Play Along Podcast.](https://anchor.fm/s/4a216228/podcast/rss) Another traditional Let's Play style, but they focused a lot on indie games, which I loved! They'd sometimes provide audio description but mostly it was commentary and discussion.
-1. [Let's Listen.](https://podcasts.apple.com/us/podcast/lets-listen/id1512693192) Provided audio description. Story-driven Let's Plays in an audio-only format! Let's Listen to removed the loading screens, gameplay, and boring bits of video games, so you can sit back and enjoy the story.
-1. [RSS Lokathor's Audio Only Let's Plays.](https://anchor.fm/s/38d5cc70/podcast/rss) Played all kinds of games. No audio description though, but still very fun!
-1. [Checkin' It: An Audio-Only Let's Play Podcast.](https://podcasts.apple.com/us/podcast/checkin-it-an-audio-only-lets-play-podcast/id1646374492) Played a bunch of chess and chess style games.
-1. [Skeleton House - Video Game Let's Plays.](https://skeletonhouse.buzzsprout.com/1250891/about) Played a bunch of games with a lively crew! Sometimes provided audio description but not consistently.
+[This list can now be found at my PodRoll, here.](/podroll)

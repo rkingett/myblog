@@ -1,6 +1,8 @@
 ---
 title: "The Kingett Guide to Free Pizza"
 date: '2025-08-20T13:17:50.669539+00:00'
+permalink: /posts/pizza/
+redirect_from: /posts/20250820
 tags: [blog and journal, syndicate]
 ---
 

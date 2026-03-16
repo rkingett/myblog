@@ -1,6 +1,8 @@
 ---
 title: "The Automated Labyrinth, and How I Slew the Minotaur"
 date: '2025-06-29T13:17:33.130401+00:00'
+permalink: /posts/minotaur/
+redirect_from: /posts/20250629
 tags: [syndicate, blog and journal]
 ---
 

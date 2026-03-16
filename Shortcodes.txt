@@ -1,3 +1,7 @@
+Deserving Conference shortcode to replace.
+
+20250919
+
 Permalink example.
 
 permalink: /posts/post-title/

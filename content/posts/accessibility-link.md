@@ -1,6 +1,8 @@
 ---
 title: "The 'Accessibility' link is a Lie: My Adventures in Weaponizing Corporate Virtue Signaling"
 date: '2025-07-24T09:27:33.585529+00:00'
+permalink: /posts/accessibility-link/
+redirect_from: /posts/20250724
 tags: [blog and journal]
 ---
 

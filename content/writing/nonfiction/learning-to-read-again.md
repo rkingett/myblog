@@ -2,7 +2,7 @@
 title: "Learning to Read Again"
 date: '2025-11-20T14:59:13.149709+00:00'
 tags: [syndicate, nonfiction]
-permalink: /learning-to-read-again/
+permalink: /posts/learning-to-read-again/
 ---
 
 This was previously published in Chicken Soup for the Soul: Making me Time.

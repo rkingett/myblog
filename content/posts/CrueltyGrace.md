@@ -1,6 +1,8 @@
 ---
 title: "The Cruelty of Many, The Grace of One"
 date: '2025-10-04T15:39:13.450212+00:00'
+permalink: /posts/grace/
+redirect_from: /posts/20251004
 tags: [blog and journal, syndicate, writings, nonfiction]
 ---
 

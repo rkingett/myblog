@@ -1,10 +1,12 @@
 ---
 title: About me in my own words.
 date: 2022-06-23T09:42:02.000Z
+permalink: /posts/about-own-words/
+redirect_from: /posts/5655
 tags:
   - blog and journal
-  - writings
-  - short stories
+  - narrative
+  - nonfiction
 ---
 
 This originally appeared in Bold Blind Beauty in June 2020. The website appears to have shut down so I am printing this essay here.

@@ -1,6 +1,8 @@
 ---
 title: "An Open Letter to the Future Man Who Will Hold My Face"
 date: '2025-10-25T05:15:04.948450+00:00'
+permalink: /posts/open-letter-face/
+redirect_from: /posts/20251025
 tags: [writings, syndicate, nonfiction, blog and journal]
 ---
 

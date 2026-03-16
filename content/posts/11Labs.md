@@ -1,6 +1,8 @@
 ---
 title: Response to ElevenLabs Partnership Inquiry
 date: '2025-05-25T03:35:17.328762+00:00'
+permalink: /posts/eleven-labs/
+redirect_from: /posts/20250524
 tags: ["blog and journal", "ai", "rants"]
 ---
 

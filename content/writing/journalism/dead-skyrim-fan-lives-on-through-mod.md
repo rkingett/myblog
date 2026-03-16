@@ -1,7 +1,8 @@
 ---
-title: Dead Skyrim Fan Lives on Through Mod
-date: '2025-05-15T17:40:08.449788+00:00'
-tags: ["writings", "journalism", "throwbacks"]
+title: "Dead Skyrim Fan Lives on Through Mod"
+date: '2026-03-16T18:09:12.082468+00:00'
+tags: [journalism, throwbacks]
+permalink: /posts/dead-skyrim-mod/
 ---
 
 The gaming website that had this article is no longer online anymore so I wanted to add it here, to my website. The below was penned in 2012, way back when I was a young journalist!

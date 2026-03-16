@@ -1,6 +1,8 @@
 ---
 title: "AI Audiobooks are not accessible"
 date: '2025-05-27T12:19:11.680035+00:00'
+permalink: /posts/ai-audiobooks/
+redirect_from: /posts/20250527
 tags: [rants, ai, blog and journal]
 ---
 

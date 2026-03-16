@@ -1,6 +1,8 @@
 ---
 title: "An Accessible Trip in Chicago"
 date: '2025-05-27T01:59:36.990472+00:00'
+permalink: /posts/chicago-trip/
+redirect_from: /posts/20250526
 tags: [travel, syndicate, journalism, throwbacks]
 ---
 

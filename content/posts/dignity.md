@@ -1,6 +1,8 @@
 ---
 title: "A Requiem for My Dignity, Sacrificed at the Altar of AI"
 date: '2025-09-02T17:27:28.107156+00:00'
+permalink: /posts/dignity/
+redirect_from: /posts/20250902
 tags: [syndicate, ai, blog and journal]
 ---
 

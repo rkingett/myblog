@@ -1,6 +1,8 @@
 ---
 title: "A Sensual Exploration of Chocolate"
 date: '2025-07-27T19:04:27.616271+00:00'
+permalink: /posts/chocolate/
+redirect_from: /posts/20250727
 tags: [blog and journal]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "The Death of Sherlock Holmes: a dated uprising"
 date: '2025-09-15T18:06:32.265471+00:00'
+permalink: /posts/sherlock-uprising/
+redirect_from: /posts/20250915
 tags: [nonfiction, throwbacks]
 ---
 

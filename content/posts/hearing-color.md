@@ -1,6 +1,8 @@
 ---
 title: "On Hearing in Color"
 date: '2025-07-08T12:54:53.779936+00:00'
+permalink: /posts/hearing-color/
+redirect_from: /posts/20250708
 tags: [blog and journal, rants]
 ---
 

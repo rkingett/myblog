@@ -1,6 +1,8 @@
 ---
 title: "A Conversation With a Voicemail I'll Never Delete"
 date: '2025-08-07T13:09:56.700394+00:00'
+permalink: /posts/voicemail/
+redirect_from: /posts/20250807
 tags: [blog and journal, syndicate]
 ---
 

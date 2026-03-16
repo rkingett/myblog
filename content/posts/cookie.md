@@ -1,6 +1,8 @@
 ---
 title: "An Obituary for a Cookie"
 date: '2025-08-06T09:52:11.738774+00:00'
+permalink: /posts/cookie-obit/
+redirect_from: /posts/20250806
 tags: [blog and journal, writings, nonfiction, syndicate]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "A beta reader fed my draft to AI"
 date: '2025-06-17T02:00:36.441885+00:00'
+permalink: /posts/ai-reader/
+redirect_from: /posts/20250616
 tags: [rants, ai, blog and journal]
 ---
 

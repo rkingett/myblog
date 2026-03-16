@@ -1,6 +1,8 @@
 ---
 title: "I'm Afraid For You."
 date: 2025-04-08T00:38:46.000Z
+permalink: /posts/afraid/
+redirect_from: /posts/20250407201202
 tags: "blog and journal"
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: "On The Violent Aerodynamics of a Pastry"
 date: '2025-08-05T08:14:29.114927+00:00'
+permalink: /posts/aerodynamics/
+redirect_from: /posts/20250805
 tags: [writings, syndicate, nonfiction, blog and journal]
 ---
 

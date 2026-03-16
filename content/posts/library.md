@@ -1,6 +1,8 @@
 ---
 title: "The Gospel of the Public Library"
 date: '2025-09-10T07:13:20.220869+00:00'
+permalink: /posts/library/
+redirect_from: /posts/20250910
 tags: [syndicate, blog and journal]
 ---
 
