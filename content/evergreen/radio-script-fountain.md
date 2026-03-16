@@ -1,14 +1,15 @@
 ---
 title: How to write a radio script in Fountain
 date: 2023-02-26T23:37:13.000Z
+permalink: /posts/fountain-radio-scripts/
 tags:
   - blog and journal
-  - tutorial
+  - guides
   - rants
-redirect_from: /2023/02/26/how-to-write-a-radio-script-in-fountain
+redirect_from: //posts/5913
 ---
 
-Aside from [writing a bunch of books and short stories,](/writings) I also [write fiction podcast scripts.](/posts/tags/audio) Luckily, the fiction podcast space isn’t so rigid as other industries, but still, there’s a few conventions I stick to in order to make everybody happy.
+Aside from [writing a bunch of books and short stories,](/writings) I also [write fiction podcast scripts.](/audio) Luckily, the fiction podcast space isn’t so rigid as other industries, but still, there’s a few conventions I stick to in order to make everybody happy.
 
 [I write all of my fiction podcast scripts in Fountain.](https://fountain.io/howto) It’s free, portable, literally, and can be converted to almost anything, even Word files.
 

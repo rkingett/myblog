@@ -1,6 +1,21 @@
+Permalink example.
+
+permalink: /posts/post-title/
+
+permalink: /posts/5651/
+
 Redirect example.
 
+permalink: /posts/web-fantastic/
+redirect_from: /posts/20250603
+
 single redirect.
+
+redirect_from: /posts/5651
+
+redirect_from: /posts/my-old-url
+
+redirect_from: /progress
 
 redirect_from: /articles/my-old-url
 
@@ -10,7 +25,7 @@ redirect_from: /fav-books/
 
 multiple redirects.
 
-redirectFrom: ['/explore/', '/explore/buttonwall/', '/explore/webrings/', '/explore/blogroll/', '/explore/links/']
+redirect_from: ['/explore/', '/explore/buttonwall/', '/explore/webrings/', '/explore/blogroll/', '/explore/links/']
 
 Permalink tips.
 

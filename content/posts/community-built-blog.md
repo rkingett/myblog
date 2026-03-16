@@ -1,6 +1,8 @@
 ---
 title: A community built this blog.
 date: 2025-04-06T00:38:46.000Z
+permalink: /posts/community-built-blog/
+redirect_from: /posts/2025040623295
 tags: ["news"]
 ---
 

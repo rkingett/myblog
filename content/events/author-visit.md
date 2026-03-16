@@ -1,6 +1,8 @@
 ---
 title: Author visit details.
 date: 2023-12-19T21:47:08.000Z
+permalink: /events/author/
+redirect_from: /posts/6351
 tags:
   - keynotes
 ---

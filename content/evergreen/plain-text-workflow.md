@@ -1,13 +1,14 @@
 ---
 title: My plain text workflow as a fiction writer.
 date: 2023-10-03T08:49:26.000Z
+permalink: /posts-plain-text/
 tags:
   - blog and journal
-  - rants
+  - guides
 redirect_from: /2023/10/02/plaintext
 ---
 
-Like this post? [Donate to me so I can keep writing.](/support)
+Like this post? [Donate to me so I can keep writing.](/tip)
 
 Ever since discovering that I could [write my novels in plain text and or Markdown,](/posts/5926) and also that I could [write my fiction podcast scripts in a plain text syntax called Fountain,](/posts/5913) I began wondering what other plain text avenues I could explore, and if I could adapt my workflow around plain text.
 

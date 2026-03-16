@@ -1,12 +1,14 @@
 ---
 title: Fediverse for writers/readers.
 date: 2022-05-02T07:04:28.000Z
+permalink: /posts/fediverse-guide/
+redirect_from: /posts/5619
 tags:
   - blog and journal
-  - rants
+  - guides
 ---
 
-[Donate to me](/support/) if you enjoy the below guide!
+[Donate to me](/tip/) if you enjoy the below guide!
 
 At the time I write this, everyone is buzzing about the new social media thing happening at the moment. I’m not at all interested. I’m still on social media, but I will never willingly join mainstream social media again. I’ll crosspost to anything that connects with whatever platform I’m using, but I’m just not trying it. [I’m sticking with the Fediverse,](/contact/) and I made this decision way back when Twitter was ruined in 2022.
 

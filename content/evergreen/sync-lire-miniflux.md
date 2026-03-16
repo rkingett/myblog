@@ -1,9 +1,11 @@
 ---
 title: How to sync Lire with Miniflux
 date: 2024-02-14T20:35:26.000Z
+permalink: /posts/lire-guide/
+redirect_from: /posts/6493
 tags:
   - blog and journal
-  - rants
+  - guides
 ---
 
 I decided to make this because I haven’t seen a good writeup online, so wanted to help others that were stuck like I was and wanted to write this down so I could come back and reference it later for when I get a new device.

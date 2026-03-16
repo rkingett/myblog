@@ -1,6 +1,8 @@
 ---
 title: On TTS audio description
 date: 2024-05-09T23:03:58.000Z
+permalink: /posts/tts-ad-opinion/
+redirect_from: /posts/6567
 tags:
   - blog and journal
   - ai

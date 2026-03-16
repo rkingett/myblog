@@ -1,9 +1,11 @@
 ---
 title: Getting started with static site generators with a screen reader.
 date: 2024-04-04T08:57:55.000Z
+permalink: /posts/static-site-guide/
+redirect_from: /posts/6529
 tags:
   - blog and journal
-  - tutorial
+  - guides
 ---
 
 This post took me a very long time to write, so [give me money](/support) if you like the below post.

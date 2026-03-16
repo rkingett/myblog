@@ -1,10 +1,9 @@
 ---
-title: Making my own writers retreat with a travel agent.
-date: 2023-11-07T07:46:03.000Z
-tags:
-  - blog and journal
-  - rants
-redirect_from: /writertravelagents
+title: "DIY Writers Retreat With a Travel Agent"
+date: '2026-03-16T15:15:14.443187+00:00'
+tags: [blog and journal, guides]
+permalink: /posts/writers-retreat/
+redirect_from: /posts/6182
 ---
 
 I’ve always been ineligible for residencies. Either I haven’t published enough, I don’t have enough professional contacts in the industry to give me letters of recommendation, or, well, I just don’t publish that often, which immediately disqualifies me for severely competitive residencies. I did attend a few writers retreats, but that was for like a weekend, and under a scholarship. I have always loved the appeal of residencies because they would, quite literally, give me space and time to write or touch up [my many works in progress.](/writings)
@@ -29,6 +28,8 @@ Travel agents can do so much more for disabled writers in general. Travel agents
 
 I wanted to make a weekend DIY writers residency, so I told my agent to find hotels with Onsight restaurants and accessible rooms. I chose a hotel because I’d get housekeeping and so much more instead of just a rented house to stay in with nobody there.
 
-Thanks to my ongoing financial supporters, I paid for my full stay up front, and then, I had a very epic weekend of writing, having food served to me, and I got some major writing accomplished. Even though I didn’t meet other writers on this DIY writers retreat/residency, I did find a travel agent that will certainly be my go to if I ever want to plan another one.
+Thanks to my [ongoing financial supporters,](/tip) I paid for my full stay up front, and then, I had a very epic weekend of writing, having food served to me, and I got some major writing accomplished. Even though I didn’t meet other writers on this DIY writers retreat/residency, I did find a travel agent that will certainly be my go to if I ever want to plan another one.
 
-The travel agent I used was [Katie White](https://www.facebook.com/katiewhite.mmvagent) of [Magical Moments Vacations.](https://www.magicalmomentsvacations.com/about) [Book a travel agent at Magical Moments Vacations here.](https://www.magicalmomentsvacations.com/quote)
+The travel agent I used was [Katie White](https://www.facebook.com/katiewhite.mmvagent) of [Magical Moments Vacations.](https://www.magicalmomentsvacations.com/about)
+
+[Book a travel agent at Magical Moments Vacations here.](https://www.magicalmomentsvacations.com/quote)

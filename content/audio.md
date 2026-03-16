@@ -1,5 +1,7 @@
 ---
 title: Audio and video.
+permalink: /audio/
+redirect_from: /posts/6259
 ---
 
 [Sean Crisden narrates my blog posts for his Backstage Pass!](https://seancrisden.com/pages/backstage-pass)

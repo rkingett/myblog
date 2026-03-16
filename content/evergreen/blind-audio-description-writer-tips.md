@@ -1,6 +1,8 @@
 ---
 title: Some tips for Blind Audio Description writers
 date: 2022-10-26T21:24:27.000Z
+permalink: /posts/blind-audio-description-writer-tips/
+redirect_from: /posts/5732
 tags:
   - blog and journal
   - tutorial

@@ -1,6 +1,8 @@
 ---
 title: "My small list of Critiques Against Substack"
 date: "2025-04-25T12:31:44.539478+00:00"
+permalink: /posts/substack/
+redirect_from: /posts/20250425
 tags: ["rants", "blog and journal"]
 ---
 
@@ -21,6 +23,8 @@ Why do I hate Substack so much?
 It's not that I hate it, per se. [I just find Substack exploitative and people don't realize how exploitative it really is.](https://buttondown.com/thehypothesis/archive/heres-why-substacks-scam-worked-so-well/) Not only that, I just find the platform extremely useless [when Blogging platforms exist that do what they do, but better.](https://kingettlinks.bearblog.dev/tech-internet-and-blog-related-resources/)
 
 [The platform also hates minorities and wants people to be free to hate minorities too.](https://starbreaker.org/grimoire/entries/substack-freedom-of-expression-and-tolerance-for-the-intolerant/index.html)
+
+[There might still be people that want to stay on Substack, as talked about in this post about reader and writer-centric boycotts.](https://juliaserano.blogspot.com/2025/06/regarding-substack-and-writer-centric.html)
 
 ## The list of Substack critiques.
 

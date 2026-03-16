@@ -1,6 +1,8 @@
 ---
 title: Diversity, disability, determination
 date: 2023-12-19T21:35:02.000Z
+permalink: /events/speaking/
+redirect_from: /posts/6348
 tags:
   - keynotes
 ---

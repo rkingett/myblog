@@ -1,11 +1,13 @@
 ---
 title: Introducing the BOOK
 date: 2024-03-10T00:08:09.000Z
+permalink: /posts/introducing-book/
+redirect_from: /posts/65145
 tags:
   - fiction
   - satire
   - throwbacks
-  - writings
+  - blog and journal
   - nonfiction
 ---
 

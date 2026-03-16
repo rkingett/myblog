@@ -1,7 +1,9 @@
 ---
 title: Mortified appearances
 date: 2022-06-11T07:45:27.000Z
-tags: ["events", "event audio and video"]
+tags: ["live", "event audio and video"]
+permalink: /posts/mortified-appearances/
+redirect_from: /posts/5651
 ---
 
 This page holds my entire Mortified archive, from latest appearance to earliest appearance.

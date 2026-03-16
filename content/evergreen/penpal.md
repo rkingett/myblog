@@ -1,6 +1,8 @@
 ---
 title: So you want to be my pen pal?
 date: 2024-11-15T04:22:42.000Z
+permalink: /posts/penpal/
+redirect_from: /posts/6662
 tags:
   - blog and journal
   - rants

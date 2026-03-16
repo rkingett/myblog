@@ -59,6 +59,8 @@ I will read *anything* the below authors write.
 
 [The Demon Queen Trials](https://www.graphicaudio.net/our-productions/series/a-e/the-demon-queen-trials.html) Such a funny series. Loved the MMC in this one, especially when [Gabriel Michael narrates!](https://www.audible.com/search?searchNarrator=Gabriel+Michael&ref_pageloadid=not_applicable&pf_rd_p=ae77544a-4f02-4042-bed0-641b7aadbd7d&pf_rd_r=KV3PM8N0G4SFRQYSP09E&plink=nOY1nAGo4cZP6Q39&pageLoadId=piX15Lj79xxRNAgw&creativeId=b570234c-250a-43ff-be6b-ca1b4c5d7caa&ref=a_series_Em_c5_lNarrator_1_1_6)
 
+[Airhead by Meg Cabot.](https://megcabot.com/series/airhead/)
+
 [The Grip Series](https://www.audible.com/series/Grip-Audiobooks/B07477ZMQG?ref_pageloadid=30JHeA5OdHJM8erq&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=2B8TENH2KPTAJDXTKXSP&plink=U6cUcSNb08I5WHLb&pageLoadId=JwXruL4xVkSBxSHJ&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Still-_psu_series_1)
 
 [Dragons of Viria](https://www.audible.com/series/Dragons-of-Viria-Audiobooks/B0DHX19J6T?ref_pageloadid=2ob1bteWZWFNpAXQ&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=S07RAW94SGJ2AN68TG10&plink=RbE86oDobGq1DVGh&pageLoadId=18efBsu2SLLFVpC1&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Beauti_psu_series_1)
@@ -68,6 +70,14 @@ I will read *anything* the below authors write.
 [The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
 
 ## Favorite books.
+
+[Real Life by Brandon Taylor.](http://brandonlgtaylor.com/books)
+
+[The Schwa](http://www.storyman.com/books/schwa/) by [Neal Shusterman.](http://www.storyman.com/books/)
+
+[Bruiser by Neal Shusterman.](http://www.storyman.com/books/bruiser/)
+
+[The Autumn Balloon by Kenny Porpora](https://kennyporpora.com/memoir/)
 
 [You've Got a Place Here, Too. Because I found some amazing authors through this anthology.](https://libro.fm/audiobooks/9798217159055-you-ve-got-a-place-here-too)
 
@@ -96,3 +106,5 @@ I will read *anything* the below authors write.
 [Sleeping Freshmen Never Lie by David Lubar, because I loved the satire but also the themes of friendship in inperfections as well as a much needed examination of what feminism could be.](https://libro.fm/audiobooks/9781933322995-sleeping-freshmen-never-lie)
 
 [Simon vs. the Homo Sapiens Agenda by Becky Albertalli because this is the teen love story I wish I had](https://libro.fm/audiobooks/9780062411501-simon-vs-the-homo-sapiens-agenda)
+
+[Running With Scissors by Augusten Burroughs.](https://catalog.loc.gov/vwebv/holdingsInfo?searchId=5868&recPointer=0&recCount=25&searchType=1&bibId=14537887)
