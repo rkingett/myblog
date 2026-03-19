@@ -1,10 +1,11 @@
 ---
 title: Why I left Patreon.
 date: 2024-08-12T22:31:43.000Z
+permalink: /posts/patreon/
+redirect_from: /posts/6613
 tags:
   - blog and journal
   - rants
-redirect_from: afterpatreon
 ---
 
 Updates are at the bottom.

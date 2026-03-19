@@ -1,6 +1,8 @@
 ---
 title: fiction podcasts with Disabled characters.
 date: 2024-07-18T09:54:54.000Z
+permalink: /posts/fiction-podcasts-disabled/
+redirect_from: /posts/6603
 tags:
   - blog and journal
   - rants

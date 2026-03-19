@@ -1,6 +1,8 @@
 ---
 title: "The Web is Fantastic Actually"
 date: '2025-06-04T03:19:05.208823+00:00'
+permalink: /posts/web-fantastic/
+redirect_from: /posts/20250603
 tags: [blog and journal, rants]
 ---
 

@@ -1,10 +1,11 @@
 ---
 title: How to convert Markdown to Shun manuscript format
 date: 2023-03-11T10:17:48.000Z
+permalink: /posts/shun/
+redirect_from: /posts/5926
 tags:
   - blog and journal
   - guides
-redirect_from: /2023/03/10/how-to-convert-markdown-to-shun-manuscript-format
 ---
 
 Notes about writing manuscripts in Markdown are after the conversion tutorials.

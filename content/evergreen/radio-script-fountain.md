@@ -6,7 +6,7 @@ tags:
   - blog and journal
   - guides
   - rants
-redirect_from: //posts/5913
+redirect_from: /posts/5913
 ---
 
 Aside from [writing a bunch of books and short stories,](/writings) I also [write fiction podcast scripts.](/audio) Luckily, the fiction podcast space isn’t so rigid as other industries, but still, there’s a few conventions I stick to in order to make everybody happy.

@@ -1,6 +1,8 @@
 ---
 title: Audio only Let's Plays With Audio Description.
 date: 2025-04-09T00:38:46.000Z
+permalink: /posts/lets-play/
+redirect_from: /posts/20250409
 tags: ["blog and journal", "highlights", "rants"]
 ---
 

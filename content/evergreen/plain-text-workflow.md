@@ -5,7 +5,7 @@ permalink: /posts-plain-text/
 tags:
   - blog and journal
   - guides
-redirect_from: /2023/10/02/plaintext
+redirect_from: /posts/6121
 ---
 
 Like this post? [Donate to me so I can keep writing.](/tip)
