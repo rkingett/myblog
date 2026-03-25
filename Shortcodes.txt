@@ -29,6 +29,8 @@ redirect_from: /fav-books/
 
 multiple redirects.
 
+['/support/', '/tips/']
+
 redirect_from: ['/explore/', '/explore/buttonwall/', '/explore/webrings/', '/explore/blogroll/', '/explore/links/']
 
 Permalink tips.
