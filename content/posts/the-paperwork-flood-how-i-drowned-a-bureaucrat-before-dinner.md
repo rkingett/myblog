@@ -33,7 +33,7 @@ She forgot one thing.
 
 I am a nerd. And I have an internet connection.
 
-"Okay," I said, my voice dropping into the cool, smooth, ‘Let’s sustemically tango’ tone of  a man with a plan. "I will fax them. What is the number?"
+"Okay," I said, my voice dropping into the cool, smooth, ‘Let’s systemically tango,’ tone of  a man with a plan. "I will fax them. What is the number?"
 
 I hung up. And then, I went to work.
 
@@ -47,7 +47,9 @@ It was five hundred and twelve pages long.
 
 Single-spaced.
 
-I opened my preferred [internet faxing service.](https://en.wikipedia.org/wiki/Internet_fax) This is a tool that allows me to send a fax purely through digital data. It would cost $20, exactly the amount someone had donated to the blog last week, but if I didn't do this, I would lose all my benifits. It costs me zero paper. It costs me zero toner.
+I opened my preferred [internet faxing service.](https://en.wikipedia.org/wiki/Internet_fax) This is a tool that allows me to send a fax purely through digital data. It would cost $20, exactly the amount [someone had donated to the blog last week,](/tips) but if I didn't do this, I would lose all my benifits. It costs me zero paper. It costs me zero toner.
+
+[By the way, your tips keep me writing.(/tips)
 
 But for the recipient?
 

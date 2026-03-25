@@ -2,7 +2,7 @@
 title: "The Strange Comfort"
 date: '2025-07-05T20:47:18.610150+00:00'
 permalink: /posts/strange-comfort/
-redirect_from: /posts/20250705
+redirect_from: /writing/nonfiction/20250705
 tags: [nonfiction]
 ---
 
