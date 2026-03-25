@@ -25,11 +25,9 @@ If I list every online service I use, we're going to be here all day, so I want 
 
 [The particular Fediverse platform](https://en.wikipedia.org/wiki/Fediverse) might change but the ecosystem will stay the same. You might find me using a different application/platform/service in the Fediverse but I'll still remain in the Fediverse.
 
+[fedra is the client I most use right now.](https://github.com/trypsynth/fedra)
+
 I hate all social media with an algorithm so if you see my account on mainstream social media---chances are I'm being impersonated.
-
-### Fediverse clients I use.
-
-[fedra](https://github.com/trypsynth/fedra)
 
 ## Phones and phone providers.
 
