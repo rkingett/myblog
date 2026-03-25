@@ -1,7 +1,7 @@
 ---
 title: "The 'Paperwork Flood': How I Drowned a Bureaucrat before dinner."
 date: '2026-03-25T01:18:43.136152+00:00'
-tags: [syndicate, blog and journal, rant, writings, nonfiction, narrative]
+tags: [syndicate, blog and journal, rants, writings, nonfiction, narrative]
 permalink: /posts/the-paperwork-flood/
 ---
 
