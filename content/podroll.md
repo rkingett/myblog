@@ -4,7 +4,7 @@ title: Kingett's PodRoll.
 
 # Podcasts I listen to.
 
-I'm glad You've stumbled onto my Podroll page.
+The kinds of podcasts I listen to are broken up into headings, so keep scrolling to find another section.
 
 [Go here if you're looking for my podcast.](https://weirdwritings.pinecast.co/)
 
@@ -26,9 +26,13 @@ The styles of audio fiction I listen to vary quite a bit, but I tend to gravitat
 
 Even with those pulls toward relationship based audio fiction, I'll generally try any fiction podcast once if I like the trailer or first episode or synopsis.
 
+[Owned by a Dragon, a Shifter Romance. The synopsis will tell you everything you need to know!](https://podcasts.apple.com/us/podcast/owned-by-a-dragon-a-shifter-romance-audiobook/id1857440021)
+
 [LeVar Burton Reads.](https://podcasts.apple.com/us/podcast/levar-burton-reads/id1244649384)
 
-Fun fact---one of my Fiction stories almost made it onto this podcast. LeVar Burton, my forever parasocial husband, reads short stories. Enough said. The podcast ended years ago but still, you won't be disappointed.
+Fun fact, [one of my Fiction stories almost made it onto this podcast.](/writings)
+
+LeVar Burton, my forever parasocial husband, reads short stories. Enough said. The podcast ended years ago but still, you won't be disappointed.
 
 [Forever Yours.](https://podcasts.apple.com/us/podcast/forever-yours/id1780403839)
 
@@ -65,6 +69,10 @@ Bonnie Martinez - a talented actress starring in a popular mystery web series ca
 [The Bright Sessions and the AM Files.](https://www.thebrightsessions.com/)
 
 The Classic of audio fiction. It's still great, to this day. Superheroes go to therapy and deal with slice of life drama as well as other non powered and supernatural happenings.
+
+[Dirty Diana](https://podcasts.apple.com/us/podcast/dirty-diana/id1522113627)
+
+As an escape from her carefully curated life and dying marriage, Diana (Demi Moore) secretly runs an erotic website where women reveal their intimate sexual fantasies. 
 
 ## Nonfiction podcasts.
 
