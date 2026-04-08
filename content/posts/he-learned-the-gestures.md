@@ -5,7 +5,7 @@ tags: [blog and journal, syndicate]
 permalink: /posts/he-learned-the-gestures/
 ---
 
-Mood: Melted. Absolutely undone.
+Mood: Melted. There is no other word for it.
 
 There is a practiced but familiar rhythm to my life that usually only I can hear. It is the rapid-fire *thwip-thwip-click* of a screen reader, the frantic, synthetic heartbeat of my phone as I navigate the world at five hundred words per minute. To anyone else, it sounds like a droid having a panic attack. To me, it is just the sound of access.
 
