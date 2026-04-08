@@ -19,7 +19,7 @@ I am grateful for their help, certainly. But it is also a reminder that I live i
 
 But there are those people that stun and amaze me. Not for what they say, but what they choose to do.
 
-Tonight, I heard something that changes the meaning of love for me.
+Tonight, I witnessed something that gave the word, love, a new dimension.
 
 I was sitting on his couch, half-listening to a podcast, when I heard the distinct, robotic cadence of VoiceOver coming from the other end of the cushion. But it wasn't my phone chattering, and the rhythm was wrong. It wasn't the lightning-fast blur I use. It was slow. Deliberate. And extremely clumsy.
 
