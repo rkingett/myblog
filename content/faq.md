@@ -23,6 +23,16 @@ But first, some links.
 
 [Find any other page on my site map, the easiest place to get around this website.](/map)
 
+## What's with cookies? Why are cookies in every aspect of your work?
+
+Because I love cookies, all kinds of cookies, even what other countries call cookies. [Send me all the cookies in the world.](/wish)
+
+## What's with the face holding? Is that a blindness thing or a gay thing? Why is face holding such a thing in your fiction and nonfiction?
+
+Because I like it. It's my unique brand of safety. I love it when someone holds my face, and I want to feel safe and I want my characters to feel safe.
+
+It's not a blindness thing or a gay thing. It's a, me, thing. Call it the Kingett Trope!
+
 ## Why does your older work reference you looking at things?
 
 Because I was legally blind with some usable vision until my late twenties. I'm totally blind now, due to [acute Narrow Angle Glaucoma.]( <https://en.wikipedia.org/wiki/Glaucoma>)
@@ -41,7 +51,7 @@ I will never tell teens and older kids to not read my stuff because I was a teen
 
 ## Why don't you take a lot of pictures or do a lot of video press appearances?
 
-I don't want to do video-based press appearances except for TV appearances or recorded events because video will always be a medium where I'm subjected to the sighted gaze, and frankly, I don't want to make you more comfortable just so you can gaze at me like a sighted person. Video isn't safe for me. It's not safe because it's an immediately hostile environment where I have to surrender to the sighted gaze and I just don't want to do that as of late.
+I don't want to do internet based video-based press appearances except for TV appearances or [recorded events](/posts/tags/events) because video will always be a medium where I'm subjected to the sighted gaze, and frankly, I don't want to make you more comfortable just so you can gaze at me like a sighted person. Video isn't safe for me. It's not safe because it's an immediately hostile environment where I have to surrender to the sighted gaze and I just don't want to do that as of late.
 
 This means I will turn my camera off during zoom meetings, I will not enable video when I'm on your YouTube channel, and I certainly won't pretend to be sighted to make sighted people feel comfortable. Video does nothing for me.
 
@@ -61,9 +71,9 @@ I'm a creamy guy with Ivory skin. Some say I have one blue eye and one green eye
 
 ## Why don't you like talking on the phone?
 
-Because [I have a stutter/stammer that causes Prolongations.](https://en.wikipedia.org/wiki/Stuttering) The two are very different, but I've got a kind of block that prevents me from saying words. It's not the typical stutter where people repeat words, it's the kind of verbal block where I can't say words as fast as other people because there's a blockage in airflow. It's never went away fully but in safe spaces, it's drastically diminished.
+[Because I have a stutter/stammer that causes Prolongations.](https://en.wikipedia.org/wiki/Stuttering) The two are very different, but I've got a kind of block that prevents me from saying words. It's not the typical stutter where people repeat words, it's the kind of verbal block where I can't say words as fast as other people because there's a blockage in airflow. It's never went away fully but in safe spaces, it's drastically diminished.
 
-this safe space is in very few company and very few situations. For example, I stutter more when I'm tired.
+This safe space is in very few company and very few situations. For example, I have more speech fluency when I am comfortable and relaxed in quiet spaces.
 
 If I talk on the phone, people may mistake my pauses for a dropped connection. It's taxing to speak, so unless I know you intimately, we won't be speaking verbally.
 
@@ -71,7 +81,7 @@ My own theory is that the stutter was caused when I was given far too much oxyge
 
 ## Do you like to read? What are your favorite books?
 
-[I love reading! here's a page of my reading highlights.](/fav-books) I'm an audiobook reader. Audiobooks count as reading and I won't be debating with you on this.
+[I love reading! Here's a page of my reading highlights.](/fav-books) I'm an audiobook reader. Audiobooks count as reading and I won't be debating with you on this.
 
 ## Do you listen to podcasts? What's some of your favorite podcasts?
 
@@ -85,25 +95,25 @@ Long ago, I made it a point to never engage in capitalistic productivity again. 
 
 this is why I write a lot more than I publish. I'll never stop writing. It's my choice what to publish, and when to publish it. Writing is my life, but me choosing to publish something is me giving you the chance to treat something with care. You don't have to like anything I do, just treat it with care, because even if you don't like it, someone else will. Accept my work isn't for you and give it to someone that may/will enjoy it.
 
-For me, writing is an accessibility aid. It allows me to articulate what I can't verbally say, but especially online, people don't appreciate the artist. To readers, we're just content farms. Readers place unrealistic expectations on us to make stuff faster and this treats us like a product line instead of people.
+For me, writing is an accessibility aid. It allows me to articulate what I can't verbally say, but especially online, people don't appreciate the artist. To publishers and readers, we're just content farms. Readers place unrealistic expectations on us to make stuff faster and this treats us like a product line instead of people.
 
 To reject all of that toxic mindset, I never publish to readers expectations. I never have, and never will. Readers can wait.
 
 ## How do you use a computer if you're blind?
 
-[I use a screen reader.](https://en.wikipedia.org/wiki/Screen_reader) [A screen reader is controlled via keyboard commands.](https://download.nvaccess.org/documentation/userGuide.html) I do not talk to my computer because of my speech disability. I also use these accessible tools and services that were designed for the blind in mind.
+[I use a screen reader.](https://en.wikipedia.org/wiki/Screen_reader) [A screen reader is controlled via keyboard commands.](https://download.nvaccess.org/documentation/en/userGuide.html) I do not talk to my computer because of my speech disability. [I also use these accessible tools and services that were designed for the blind in mind.](/tools)
 
 [My mobile phone has a screen reader too.](https://en.wikipedia.org/wiki/Screen_reader) The screen reader allows me to navigate the phone in a different way than you do but it makes the phone accessible to me.
 
 ## If I'm supporting you financially on an ongoing basis, why do you still give your work away for free?
 
-There's a few reasons I give my work away for free to anybody that asks for it.
+[There's a few reasons I give my work away for free to anybody that asks for it.](/contact)
 
-It combats censorship. In a hostile world that hates minorities of any kind, and financially disadvantaged people, actively giving my work away for free is the best way I can keep kicking censorship until it stays down. I hate censorship of any kind, no matter who does it and why they justify doing it.
+It combats censorship. In a hostile world that hates minorities of any kind, and financially disadvantaged people, actively giving my work away for free is the best way I can keep kicking censorship until it stays down. I hate censorship of any kind, no matter who does it and why they justify doing it. This is why I actively read every bigoted book I can get my hands on. It is a way for me to arm myself and challenge myself. I will fight you if you want to take this reading power away from me. If I choose to read problematic or bigoted books, you can share better books rather than telling me not to read these kinds of books.
 
 Providing access is very important to me, which is why I don't or rarely do exclusive stuff. Everyone should have access regardless of financial ability. I give my work away for free because everyone deserves to read.
 
-By supporting me monthly, you're paying it forward. You're making sure others have access to me, even if my work is censored where they are due to bigots or censored because of capitalism.
+[By supporting me monthly,](/tips) you're paying it forward. You're making sure others have access to me, even if my work is censored where they are due to bigots or censored because of capitalism.
 
 ## How can we make sure you don't deny our event requests?
 

@@ -9,7 +9,7 @@ Mood: Melted. There is no other word for it.
 
 There is a practiced but familiar rhythm to my life that usually only I can hear. It is the rapid-fire *thwip-thwip-click* of a screen reader, the frantic, synthetic heartbeat of my phone as I navigate the world at five hundred words per minute. To anyone else, it sounds like a droid having a panic attack. To me, it is just the sound of access.
 
-I know this rhythm so intimately that when someone is using a screen reader for the first time, desktop or laptop, it’s a kind of signal before I even say hello.
+I know this rhythm so intimately that when someone is using a screen reader for the first time, desktop or mobile, it’s a kind of signal before I even say hello.
 
 Usually, when a sighted person wants to help me with my phone, when an app updates and breaks its own accessibility labels, turning a useful tool into a minefield of "Button, Button, Unlabeled Button"—they take away the thing they don't know how to use.
 
