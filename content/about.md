@@ -13,6 +13,8 @@ eleventyNavigation:
 
 Again, [The site map](/map) will help you get around this website.
 
+After you read the below, [find Frequently Asked Questions here.](/faq)
+
 ## About Sightless Scribbles.
 
 Ah, hello there. Did you bring cookies?
@@ -45,7 +47,7 @@ Now, a warning about time.
 
 I do not have a schedule. I never will.
 
-I operate on CripTime. I fully reject the capitalist myth of "productivity" and "hustle culture." [My body is an atlas of scars—physical maps of where the world has been too rough.](/a-map-of-my-scars-read-by-your-fingertips) I have Cerebral Palsy, and my energy is a finite, precious currency. The best thing I can do for my body, and for the quality of this work, is to refuse to be a machine.
+I operate on [CripTime.](https://en.wikipedia.org/wiki/Crip_(disability_term)#cite_note-33) I fully reject the capitalist myth of "productivity" and "hustle culture." [My body is an atlas of scars—physical maps of where the world has been too rough.](/a-map-of-my-scars-read-by-your-fingertips) I have Cerebral Palsy, and my energy is a finite, precious currency. The best thing I can do for my body, and for the quality of this work, is to refuse to be a machine.
 
 This is especially true in the winter.
 
@@ -59,7 +61,7 @@ But even when I am slow, I am here. I write because this is my soul. This is my 
 
 I translate the complicated emotions so you can understand what life is like for me. If you want to [understand the reverence of having a man stand still as I worshipfully read the history of his life via the callouses on his open palm,](/the-cartography-of-an-open-palm) or [what I imagine when a partner holds my face to block out the noise of the world,](/posts/20251025) this blog is your key.
 
-I do not make money on this blog. I do not take sponsored posts. I do not run advertisements that track your data. I never will. You are my only patron. If you want to ensure I can keep writing, keep paying narrators, and keep buying the heating pads that get me through harsh winters, [I need your financial support.](/support/)
+I do not make money on this blog. [I survive off donations from readers.](/tips) I do not take sponsored posts. I do not run advertisements that track your data. I never will. You are my only patron. If you want to ensure I can keep writing, keep paying narrators, and keep buying the heating pads that get me through harsh winters, [I need your financial support.](/support/)
 
 Welcome. Thank you for reading. Thank you for slowing down enough to feel the texture of my world.
 
@@ -71,7 +73,7 @@ I promise, there is something here for everyone who is willing to close their ey
 
 > I steal rainbow tinged cookies from unsuspecting glittering cats in my spare time.
 
-[From about Robert in his own words.](/posts/5655)
+[Read Frequently asked questions here.](/faq)
 
 Robert Kingett is a totally blind author and essayist. He [writes fiction and nonfiction](/writings) but [used to wear other hats.](/resume)
 
@@ -97,11 +99,11 @@ He loves networking with other minority authors, especially authors with disabil
 
 ## Some key links.
 
-The links below can help you find places to go on this website. This isn’t a comprehensive list of links. [See all updates](/posts/)or [check out the site map.](/map/)
+The links below can help you find places to go on this website. This isn’t a comprehensive list of links. [See all updates](/posts/) or [check out the site map.](/map/)
 
 * [The site map has everything in one place](/map)
 * [All my posts](/posts)
 * [How to follow me.](/follow/) and [How to contact me](/contact/)
 * [Learn about books and writing](/writings)
-* [Financially support me](/support/)
+* [Financially support me](/tip/)
 * [My podcast](https://weirdwritings.pinecast.co)

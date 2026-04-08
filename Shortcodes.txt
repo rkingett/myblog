@@ -2,6 +2,16 @@ Deserving Conference shortcode to replace.
 
 20250919
 
+Normal post list. Change category to have posts show latest to earliest.
+
+{% set postslist = collections.writings %}
+{% include "postslist.njk" %}
+
+Chapter code. Change category in the below for whatever category.
+
+{% set chapterlist = collections.scribes-hope %}
+{% include "chapters.njk" %}
+
 Permalink example.
 
 permalink: /posts/post-title/
@@ -17,15 +27,7 @@ single redirect.
 
 redirect_from: /posts/5651
 
-redirect_from: /posts/my-old-url
-
 redirect_from: /progress
-
-redirect_from: /articles/my-old-url
-
-redirect_from: /old-page
-
-redirect_from: /fav-books/
 
 multiple redirects.
 

@@ -48,7 +48,7 @@ class Config:
     # --- Deployment Settings ---
     DEPLOY_CLEAN_REMOTE = True
     # The name of your rclone remote (e.g., "my-s3-remote:"). Must end with a colon.
-    RCLONE_REMOTE_NAME = "nfs:"
+    RCLONE_REMOTE_NAME = "NFS:"
     FINAL_WEBSITE_URL = "https://sightlessscribbles.com"
     DEFAULT_COMMIT_MESSAGE = "Content: Add or update posts"
 

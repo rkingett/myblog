@@ -57,6 +57,10 @@ I use things such as [Portable Apps](https://portableapps.com/download) [WinGet]
 
 Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
 
+[fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
+
+[TaskMon, an accessible Task manager for Windows](https://github.com/trypsynth/taskmon)
+
 [Tera: Terminal Radio, because I write to music](https://github.com/shinokada/tera?ref=winstall)
 
 [Audio Shelf, an audiobook player designed for screen readers.](https://github.com/M-Rajabi-Dev/AudioShelf?ref=winstall)
