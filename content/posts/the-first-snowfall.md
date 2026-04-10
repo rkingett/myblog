@@ -5,6 +5,8 @@ tags: [blog and journal, syndicate, writings, nonfiction]
 permalink: /the-first-snowfall/
 ---
 
+[Listen to the First Snowfall here.](https://weirdwritings.pinecast.co/episode/501f0d85/the-first-snowfall)
+
 At this time of the year, my world always begins to lose its voice. Not because the crushing weight of bureaucracy muffles it, but because the elements are putting the acoustics of my soundscape to sleep for a little while. At least, until the summer.
 
 It does not happen instantaneously. It happens gradually, like a weary mother that wants to put her young ones to bed. It's a kind of magic that's a subtle erasure. Every year, I have no idea what will change first.
@@ -38,5 +40,7 @@ I stop walking, and then just stand still in the middle of the sidewalk. I tilt 
 Sighted people always say seeing is believing, as if there is no other truth. There's an alternative truth. You don't need to see to feel the magic landing on your skin. You don't need to see to witness the world being redecorated, one flake at a time. You don't need to see to listen to the world hold its breath.
 
 The only thing that's required is your patience and willingness to perceive. You just have to stand in the remade world and let it transform you.
+
+[Listen to the First Snowfall here](https://weirdwritings.pinecast.co/episode/501f0d85/the-first-snowfall)
 
 If you enjoyed this essay, you might enjoy [American Christmas by Adriana Herrera.](https://adrianaherreraromance.com/american-christmas/)

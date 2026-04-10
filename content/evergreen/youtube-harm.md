@@ -1,6 +1,8 @@
 ---
 title: I think YouTube harms users and creators
 date: 2025-04-14T00:38:46.000Z
+permalink: /posts/youtube-harm/
+redirect_from: /evergreen/youtube-harm
 tags: ["blog and journal", "rants"]
 ---
 

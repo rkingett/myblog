@@ -59,6 +59,10 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
 
+[All of these programs made for the blind](https://masonasons.me/pages/FastSuite.php)
+
+[Boot Swap, a shockingly easy way to arrange boot order for blind people like us that can't access the BIOS](https://github.com/aryanchoudharypro/bootswap)
+
 [TaskMon, an accessible Task manager for Windows](https://github.com/trypsynth/taskmon)
 
 [Tera: Terminal Radio, because I write to music](https://github.com/shinokada/tera?ref=winstall)

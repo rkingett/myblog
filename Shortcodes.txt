@@ -23,6 +23,9 @@ Redirect example.
 permalink: /posts/web-fantastic/
 redirect_from: /posts/20250603
 
+permalink: /posts/web-fantastic/
+redirect_from: ['/support/', '/tips/']
+
 single redirect.
 
 redirect_from: /posts/5651
