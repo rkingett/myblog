@@ -59,11 +59,11 @@ I try to explain this. I try to argue for the efficiency of  the audio channel. 
 
 But its always as if I hadn’t uttered a single vowel.
 
-"But I want to *see you," they protest, utterly baffled that a sensory experience is actively being denied to the sighted person.
+"But I want to *see* you," they protest, utterly baffled that a sensory experience is actively being denied to the sighted person.
 
 I do not understand video calls. I honestly don’t. What are you getting out of a video call and watching someone's mouth move? Do you really need to see my hair remain stationary to grasp the joy in my voice as I gush about a TV show I enjoyed last week? Are you incapable of understanding me without staring at my sightless eyes? blue eyes that are never looking at you, by the way.
 
-Do you need to see the pores of my white skin to grasp the gushing I do over a book I listened to yesterday narrated by the fabulously dashing Gabriel Michael or equally enchanting, Utterly engrossingly delectable  Sean Crisden?
+Do you need to see the pores of my white skin to grasp the gushing over a book I listened to yesterday narrated by the fabulously dashing [Gabriel Michael](https://www.audible.com/search?searchNarrator=Gabriel+Michael&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=4YPKJW8KW5T790YS3C5G&plink=5i2vvffFIQtALXab&pageLoadId=CXQPF5PmxcDo1Pw8&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_8) or equally enchanting, Utterly engrossingly delectable [Sean Crisden?](https://www.audible.com/search?searchNarrator=Sean+Crisden&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=SJNPK03058MHHJAMY56A&plink=CHV0tlEMMwdSPwQ3&pageLoadId=ZxsDGkTrpEq84RqN&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_2_1)
 
 Are you checking to see if I've wiped my face after dinner? Because if that's the case, tell me I have crumbs on my chin and then let me go back to the dark. Tell me I have cream cheese in my beard and then let me go back to the darkness.
 
@@ -101,4 +101,4 @@ Because in my vast audio world, I do not need to see you. I have you, and I have
 
 ***
 
-If you enjoyed this rant, you might enjoy the fiction podcast [Seen And Not Heard by Caroline Mincks](https://creators.spotify.com/pod/profile/seenandnotheard/)
+If you enjoyed this rant, you might enjoy the fiction podcast [Seen And Not Heard by Caroline Mincks](https://podcasts.apple.com/us/podcast/seen-and-not-heard/id1498117427)
