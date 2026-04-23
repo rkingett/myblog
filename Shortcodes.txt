@@ -2,6 +2,10 @@ Deserving Conference shortcode to replace.
 
 20250919
 
+Age gate qualifier.
+
+age_gate: true
+
 Normal post list. Change category to have posts show latest to earliest.
 
 {% set postslist = collections.writings %}
