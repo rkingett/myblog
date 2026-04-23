@@ -1,0 +1,60 @@
+{%- set storage = ageGateStorage if ageGateStorage else 'localStorage' %}
+<div id="age-gate" popover="manual">
+  <h2>Adult Content</h2>
+  <p>This page features adult content. Do you wish to continue?</p>
+  <div>
+    <button
+      id="age-gate-yes-button"
+      popovertarget="age-gate"
+      popovertargetaction="hide"
+      type="button"
+    >
+      Yes
+    </button>
+    <button
+      id="age-gate-no-button"
+      type="button"
+    >
+      No
+    </button>
+  </div>
+</div>
+<style>
+  #age-gate[popover] {
+    border: 2px solid var(--foreground-color);
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+    padding: 2rem;
+
+    div {
+      display: flex;
+      gap: .75rem;
+      justify-content: flex-end;
+    }
+  }
+
+  body:has(.root[aria-hidden]) {
+    border-color: transparent;
+  }
+
+  .root[aria-hidden] {
+    user-select: none;
+    display: none;
+  }
+</style>
+<script type="text/javascript">
+if (window?.{{ storage }}?.getItem('age-gate') !== 'allow' ?? true) {
+  document.getElementById('age-gate')?.showPopover()
+  document.querySelector('{{ ageGatedContent if ageGatedContent else '.root' }}')?.setAttribute('aria-hidden', true)
+
+  document.getElementById('age-gate-yes-button')?.addEventListener('click', () => {
+    window.{{ storage }}?.setItem('age-gate', 'allow')
+    document.querySelector('{{ ageGatedContent if ageGatedContent else '.root' }}')?.removeAttribute('aria-hidden')
+    document.getElementById('age-gate')?.remove()
+  })
+
+  document.getElementById('age-gate-no-button')?.addEventListener('click', () => {
+    window.location = '{{ ageGateSafeUrl if ageGateSafeUrl else '/' }}'
+  })
+}
+</script>
