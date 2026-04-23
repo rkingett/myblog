@@ -57,6 +57,8 @@ I use things such as [Portable Apps](https://portableapps.com/download) [WinGet]
 
 Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
 
+[Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
+
 [fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
 
 [All of these programs made for the blind](https://masonasons.me/pages/FastSuite.php)
@@ -65,15 +67,13 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [TaskMon, an accessible Task manager for Windows](https://github.com/trypsynth/taskmon)
 
-[Tera: Terminal Radio, because I write to music](https://github.com/shinokada/tera?ref=winstall)
+[Miranda NG, because it is the only Jabber client for Windows that is accessible](https://github.com/miranda-ng/miranda-ng)
 
 [Audio Shelf, an audiobook player designed for screen readers.](https://github.com/M-Rajabi-Dev/AudioShelf?ref=winstall)
 
-[Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
-
 [Jarte. A text editor that has been discontinued but I love this thing. It was fantastic!](https://en.wikipedia.org/wiki/Jarte)
 
-[RClone](https://rclone.org/downloads/) because it helps me mount network drives and avoids bloated sync apps. Yuck!
+[RClone, because it helps me mount drives and avoids bloated sync apps](https://rclone.org/downloads/)
 
 [Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)[](https://github.com/masonasons/FastPlay)
 
