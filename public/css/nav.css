@@ -16,6 +16,15 @@ a:visited {
 	color: currentColor;
 }
 
+a {
+	color: var(--link-color);
+}
+
+a:visited {
+	color: var(--link-visited-color);
+}
+
+
 a:hover,
 a:focus {
 	color: var(--link-hover-color);
@@ -80,8 +89,8 @@ nav p {
 
 nav a:hover,
 nav a:focus {
-	background-color: var(--foreground-colour);
-	color: var(--background-colour);
+	background-color: var(--foreground-color);
+	color: var(--background-color);
 	outline: none;
 }
 
@@ -154,26 +163,23 @@ a.title:hover {
 	background-repeat: repeat-x;
 	-webkit-background-size: 100% 2px;
 	background-size: 100% 2px;
-	text-shadow: 2px 0 0 var(--focus-colour), -2px 0 0 var(--focus-colour);
 }
 
 /* remove styles from navigation bar */
 .post nav a,
 .post nav a:hover {
 	text-decoration: none;
-	text-shadow: none;
 }
 
 /* changed classes with focus to Bearblog ones */
 .post a:focus,
 a.title:focus {
 	background-image: none;
-	text-shadow: none;
 }
 
 
 .post-navigation {
-	border-top: 2px solid var(--foreground-colour);
+	border-top: 2px solid var(--foreground-color);
 	display: block;
 	margin-inline: 0;
 	position: relative;
@@ -209,8 +215,8 @@ a.title:focus {
 }
 
 .post-navigation a:first-child {
-	border-right: 2px solid var(--foreground-colour);
-	border-bottom: 2px solid var(--foreground-colour);
+	border-right: 2px solid var(--foreground-color);
+	border-bottom: 2px solid var(--foreground-color);
 }
 
 .post-navigation a:only-child {
