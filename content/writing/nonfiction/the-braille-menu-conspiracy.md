@@ -39,7 +39,7 @@ I laid my hands on the cover and immediately regretted having nerve endings. It 
 
 I opened it. The spine cracked with the dry, popping sound of a gunshot.
 
-"It's right there," the hostess audibly beamed, hovering over me, waiting for her medal. "We want to make sure everyone is welcome."
+"This is our latest menu," the hostess audibly beamed, hovering over me, waiting for her medal. "We want to make sure everyone is welcome."
 
 I ran my fingers over the first page. The Braille dots were there, technically. But they were flattened, worn smooth by the weight of other objects stacked on top of them for a decade. Worse, there were mystery substances interfering with the data. I traced a line of text that I’m pretty sure said *Appetizers*, but my reading finger hit a patch of something hardened and crusty. Was it dried ketchup? Ancient syrup? A fossilized sneeze?
 

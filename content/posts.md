@@ -1,7 +1,7 @@
 ---
 title: All posts.
 eleventyNavigation:
-  key: Updates
+  key: All posts
   order: 3
 ---
 
