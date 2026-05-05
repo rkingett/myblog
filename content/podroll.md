@@ -20,6 +20,8 @@ My tastes are split between fiction podcasts and nonfiction podcasts.
 
 I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/shows/bonnie-screws-up) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
 
+[This helped me find podcasts based on TV shows and movies I like](https://tunedinaudio.com/get-matched)
+
 Typically, I listen to fiction podcasts more than nonfiction podcasts.
 
 The styles of audio fiction I listen to vary quite a bit, but I tend to gravitate toward [fiction podcasts that center around relationships](https://www.theend.fyi/collection/love-is-in-on-the-air) or [smaller storylines that are slice of life,](https://www.theend.fyi/collection/reality-check) or [intimate tellings of events or themes,](https://www.theend.fyi/collection/comedy-gold) think a superhero show that focuses on how the superhero keeps friends when the friends feel small because they're saving the world every week. [I also enjoy podcast audiobooks as well.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
@@ -58,9 +60,9 @@ Dante, a college student in NYC, becomes an RA in order to follow in the footste
 
 A trouble maker in high school, Samuel finds himself on a plane heading to Ghana; a different country, needless to say, a different life. His formative years have begun. These are 'DEM TIMES'. The show is in the broader sense, a serialised teen odyssey, set within the closed-off microcosm of Ghanaian boarding school life. At its core, this is a cultural migration; a fish-out-of-water story stemming from an outsider's identity crisis inside the Ghana educational ethos -- where the school day begins before sunrise and ends after 9pm, and only after students have finished their homework (assuming chores have been completed too).
 
-[Fan Wars: The Empire Claps Back.](https://podcasts.apple.com/us/podcast/fan-wars-the-empire-claps-back/id1451033755)
+[Alpha 8](https://podcasts.apple.com/us/podcast/alpha-8/id1675414859)
 
-Two passionate Star Wars fans on opposite sides of the Last Jedi debate argue via Skype after their favorite forum closes down. If you love Star Wars (or call yourself a proud member of any fandom), you'll love this romantic comedy told via conversations.
+When an extraterrestrial being secretly swaps places with a human mother, both worlds spiral into chaos. The alien must learn the meaning of family to save her species from extinction — while the real mom fights to escape, return home, and protect the people she loves.
 
 [Bonnie Screws Up](https://www.theend.fyi/shows/bonnie-screws-up)
 

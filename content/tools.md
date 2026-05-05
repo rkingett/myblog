@@ -13,8 +13,6 @@ Because I am blind, the software and tools I use have to work for me. If I still
 
 ## Online services I use.
 
-If I list every online service I use, we're going to be here all day, so I want to list some unique ones.
-
 [Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
 
 [Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
@@ -37,8 +35,6 @@ For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and b
 
 ## Unique mobile apps I love.
 
-If I listed every single mobile app I use, we're going to be here a while, so I'd rather list the apps I use outside of normal ones that I use every day.
-
 [AudioBooth. Audiobook player for AudiobookShelf.](https://apps.apple.com/us/app/audiobooth-audiobooks-player/id6753017503)
 
 [Book Player. For those times when I want to play offline audiobooks or TV shows I've converted to audio only.](https://apps.apple.com/us/app/bookplayer/id1138219998)
@@ -60,6 +56,8 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 [Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
 
 [fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
+
+[Libation, because Audible will never hold my purchased audiobooks hostage](https://github.com/rmcrackan/Libation/releases)
 
 [All of these programs made for the blind](https://masonasons.me/pages/FastSuite.php)
 

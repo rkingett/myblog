@@ -3,7 +3,7 @@ title: Follow
 eleventyNavigation:
   key: Follow
   order: 2
-redirect_from: subscribe
+redirect_from: ['/subscribe/', '/team/']
 ---
 
 Follow me [via RSS feed,](/feed.xml) or [listen via podcast,](https://pnc.st/s/weirdwritings?align=center) or [get updates via email.](https://buttondown.com/weirdwriter) Read below for more details.
@@ -20,17 +20,17 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Main RSS feed.](/feed.xml)
 
+[Social Media RSS feed](https://caneandable.social/@weirdwriter/with_replies.rss)
+
 [newsletter RSS feed.](https://buttondown.com/weirdwriter/rss)
 
 [Podcast RSS feed](https://pinecast.com/feed/weirdwritings) or [how to follow the podcast with apps](https://pnc.st/s/weirdwritings?align=center)
 
-[PeerTube RSS feed.](https://spectra.video/feeds/videos.xml?accountId=400558)
+[PeerTube RSS feed. Also works in podcast apps.](https://spectra.video/feeds/podcast/videos.xml?videoChannelId=4444)
 
 # Beta readers and street team
 
-Here, you can join my beta readers team or my street team.
-
-[Join the beta list here](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
+[Join the beta and street team list here](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
 
 ## What do beta readers get?
 
@@ -60,7 +60,7 @@ I love community driven PR campaigns. Aside from the exclusive content, my stree
 
 ## Expectations.
 
-Through my street team, my work will reach a broader audience because you’ll actively promote [my books](/books) and [my short stories.](/shorts)
+Through my street team, my work will reach a broader audience because you’ll actively promote [my books](/books) and [my short stories.](/writings)
 
 Ultimately, I encourage you to be creative with how you want to promote me or my work, but here’s some basic expectations.
 
@@ -72,7 +72,7 @@ Ultimately, I encourage you to be creative with how you want to promote me or my
 15. Suggest book reviewers and book influencers review my books.
 16. Encourage favorite podcasts or radio stations to interview me or host me as a guest.
 
-## Exclusive content.
+## Exclusive writings.
 
 I value my street team because they are using their creativity to promote me and my work. I will give back in multiple ways, including, but not limited to,
 
