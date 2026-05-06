@@ -80,6 +80,14 @@ As an escape from her carefully curated life and dying marriage, Diana (Demi Moo
 
 The nonfiction podcasts I listen to are rarely podcasts where people sit and talk to each other at a table, which makes up the bulk of podcasts today. I like audio storytelling. I like podcasts with a lot of production in them. I like podcasts that read print or the web out loud in any form. I don't find a lot of value in the popular talk show style podcasts unless there's a very particular theme surrounding the podcast, such as them reading a book chapter by chapter in part one of the episode and then discussing it in part two of the episode.
 
+I love deep Gonzo style reporting. Journalism wrapped up in complex personal narratives always teach me more than a simple interview could ever teach. I strongly dislike journalism that tries to be objective.
+
+I can't stand murder true crime podcasts. Instead, I want to see how a town was gentrified, as an example.
+
+[There Goes the Neighborhood, A podcast about how and why gentrification happens.](https://podcasts.apple.com/us/podcast/there-goes-the-neighborhood/id1089555645)
+
+[Most non-true crime podcasts by Serial](https://podcasts.apple.com/us/channel/serial/id6442505336)
+
 [The Guardian's Audio Long Reads.](https://podcasts.apple.com/us/podcast/the-audio-long-read/id587347784) Narrated versions of their lengthy articles.
 
 [Away Days Podcast: Reporting from the Underbelly](https://podcasts.apple.com/us/podcast/away-days-podcast-reporting-from-the-underbelly/id1814120072)
