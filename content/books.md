@@ -33,5 +33,5 @@ Check the tags of the below posts to find things such as audiobooks and eBooks a
 
 ## anthologies.
 
-{% set postslist = collections.anthologies%}
+{% set postslist = collections.anthology%}
 {% include "postslist.njk" %}
