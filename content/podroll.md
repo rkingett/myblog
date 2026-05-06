@@ -82,9 +82,17 @@ The nonfiction podcasts I listen to are rarely podcasts where people sit and tal
 
 [The Guardian's Audio Long Reads.](https://podcasts.apple.com/us/podcast/the-audio-long-read/id587347784) Narrated versions of their lengthy articles.
 
+[Away Days Podcast: Reporting from the Underbelly](https://podcasts.apple.com/us/podcast/away-days-podcast-reporting-from-the-underbelly/id1814120072)
+
+Away Days Podcast is an episodic documentary series focused on unreported stories from the fringes of society.  We’re compassionately documenting the underground without watering it down or editorially obscuring it. This is independent journalism with no filter. Real, raw, and ugly. Journalist Jake Hanrahan, the host and creator of Away Days has spent the last 10 years embedded in places he’s not meant to be. With unique access and a straightforward style of on-the-ground reporting, the listener will be taken deep into the places they didn’t know existed.
+
 [This American Life.](https://podcasts.apple.com/us/podcast/this-american-life/id201671138)
 
 Narrated journalism that started it all, I think. Has intimate stories, zooms in on issues and creates stories out of them that have a beginning, middle, and an end.
+
+[Black Men Can't Jump In Hollywood](https://podcasts.apple.com/us/podcast/black-men-cant-jump-in-hollywood/id1023264209)
+
+I know, I know, a talk show style podcast, but I like their film examinations! Black Men Can't Jump [In Hollywood] is a comedic podcast that reviews films with leading actors of color and analyzes them in the context of race and Hollywood's diversity issues.
 
 [If Books Could Kill.](https://podcasts.apple.com/us/podcast/if-books-could-kill/id1651876897)
 
