@@ -14,11 +14,11 @@ They aren't locked to an ecosystem despite everybody in the tech and publishing 
 
 You don't have to pay for podcasts. You don't have to be locked into one app. Because I have physical disabilities, podcasts are a fantastic way for me to rest and learn at the same time. I can just lay in bed and listen. Podcasts also must contain audio description by design. Otherwise, sighted people won't know what's happening either. Sighted people are limited by the audio medium and this means they don't have an advantage over me.
 
-My tastes are split between fiction podcasts and nonfiction podcasts.
+My tastes are split between [fiction podcasts](https://www.theend.fyi/fully-complete) and nonfiction podcasts.
 
 ## Fiction podcasts.
 
-I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/shows/bonnie-screws-up) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
+I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
 
 [This helped me find podcasts based on TV shows and movies I like](https://tunedinaudio.com/get-matched)
 
@@ -35,6 +35,16 @@ Even with those pulls toward relationship based audio fiction, I'll generally tr
 Fun fact, [one of my Fiction stories almost made it onto this podcast.](/writings)
 
 LeVar Burton, my forever parasocial husband, reads short stories. Enough said. The podcast ended years ago but still, you won't be disappointed.
+
+[Selected Shorts: Renowned actors perform short stories live, offering a mix of classic and contemporary tales.](https://podcasts.apple.com/us/podcast/selected-shorts/id253191824)
+
+[Escape artists reads all kinds of short stories across multiple podcasts.](https://escapeartists.net/)
+
+[Graphic Audio New Release Samples](https://podcasts.apple.com/us/podcast/graphic-audio-new-release-samples/id1713720525)
+
+[Gay Erotica](https://podcasts.apple.com/us/podcast/gay-erotica-by-liam-williams/id1573137538)
+
+[Romance Weekly](https://podcasts.apple.com/de/podcast/romance-weekly-short-stories-of-love-erotic/id1709999820)
 
 [Forever Yours.](https://podcasts.apple.com/us/podcast/forever-yours/id1780403839)
 
@@ -83,6 +93,10 @@ The nonfiction podcasts I listen to are rarely podcasts where people sit and tal
 I love deep Gonzo style reporting. Journalism wrapped up in complex personal narratives always teach me more than a simple interview could ever teach. I strongly dislike journalism that tries to be objective.
 
 I can't stand murder true crime podcasts. Instead, I want to see how a town was gentrified, as an example.
+
+[A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175)
+
+Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
 
 [There Goes the Neighborhood, A podcast about how and why gentrification happens.](https://podcasts.apple.com/us/podcast/there-goes-the-neighborhood/id1089555645)
 
