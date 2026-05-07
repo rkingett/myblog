@@ -20,6 +20,8 @@ My tastes are split between [fiction podcasts](https://www.theend.fyi/fully-comp
 
 I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
 
+[Sometimes the Fiction category in Apple podcasts nets me interesting shows](https://podcasts.apple.com/ca/genre/1483?l=en-CA)
+
 [This helped me find podcasts based on TV shows and movies I like](https://tunedinaudio.com/get-matched)
 
 Typically, I listen to fiction podcasts more than nonfiction podcasts.
