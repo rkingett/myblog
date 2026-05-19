@@ -1,6 +1,6 @@
 ---
 title: About Sightless Scribbles and about Robert Kingett
-redirect_from: "/bio"
+redirect_from: ['/bio/', '/ss-about/']
 eleventyNavigation:
   title: About Sightless Scribbles and about Robert Kingett
   key: About
