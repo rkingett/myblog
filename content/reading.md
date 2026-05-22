@@ -1,5 +1,5 @@
 ---
-title: My favorite reading things.
+title: "About my Reading."
 redirect_from: /fav-books
 ---
 
@@ -33,6 +33,8 @@ A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search
 
 [Savanah Peachwood](https://www.audible.com/search?searchNarrator=Savanah+Peachwood&ref_pageloadid=mMLe2mr4ZhRzWNrF&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=FQ4CM1RBW6S2940Z2A9T&plink=A00pBXl3z3FGVNrA&pageLoadId=h2gBTOaT2QLzQHKJ&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_1)
 
+[James Cavenaugh](https://www.audible.com/search?searchNarrator=James+Cavenaugh&ref_pageloadid=ldQYuVJ5M1txtY9q&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=W55ZZRGV6XFCGG1FN22C&plink=wLakDc4UAGojnJ7v&pageLoadId=pGrJmX3ZdkMNm2f1&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_5_1)
+
 [Ron Butler](https://www.audible.com/search?searchNarrator=Ron+Butler&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=2K9FZ6G9F7M005AFA4QV&plink=iNi09hHNJi18ifCI&pageLoadId=R9zxsVdgEzsVz3WK&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_1_1) or [Ronald Butler](https://www.audible.com/search?searchNarrator=Ronald+Butler&ref_pageloadid=1y6hGpOuu9IG5ZCL&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=1NV4NCY65R3BQY8NSMRJ&plink=3006HbzDd7hduufr&pageLoadId=nolYq9hKdSesow7V&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_2_2)
 
 [Aiden Snow](https://www.audible.com/search?searchNarrator=Aiden+Snow&ref_pageloadid=Gul8fyiAR44rHOsw&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=91BVTBYKQZX1TJR0Z6HR&plink=eJvvWKcU2kTg4bzs&pageLoadId=j4ra5bopO7xdKNXD&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_2)
@@ -51,7 +53,9 @@ A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search
 
 ## Favorite authors.
 
-I will read *anything* the below authors write.
+I will read **anything** by the below authors.
+
+[Kennedy Ryan](https://www.audible.com/author/Kennedy-Ryan/B00HBHK09Q?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=2F1C19Q36WCW0HPBMWAR&plink=256h9vB9ICaJqCFE&pageLoadId=oialba1vXoLYopPh&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
 
 [Neal Shusterman](https://www.audible.com/author/Neal-Shusterman/B000APTN0I?ref_pageloadid=not_applicable&pf_rd_p=f3abc0ee-320d-4c19-8388-fcd3a8e6c3a4&pf_rd_r=4RBTEEYK7MS1FDEGG4T1&plink=biWNHBfluZPxFXR6&pageLoadId=Tg4tNg4C3h9MACq3&creativeId=73c32a9a-e504-4597-bb87-c30c58fc0204&ref=a_author_Ne_c19_lAuthor_1_1_1)
 
@@ -63,9 +67,11 @@ I will read *anything* the below authors write.
 
 [Alexandria House](https://www.audible.com/author/Alexandria-House/B01MQSE767?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=GT21T3YH9TRZASC8YQAY&plink=L682SMrXLVuZr7qx&pageLoadId=sm39tGHGgco1qOUx&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
 
-[Kennedy Ryan](https://www.audible.com/author/Kennedy-Ryan/B00HBHK09Q?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=2F1C19Q36WCW0HPBMWAR&plink=256h9vB9ICaJqCFE&pageLoadId=oialba1vXoLYopPh&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
+
 
 ## Favorite series.
+
+[The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
 
 [The Bunnicula series. This one is just very funny!](https://www.audible.com/series/Bunnicula-and-Friends-Audiobooks/B005NAC4CO?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=HR0AWMBJFY0G96M4TTHS&plink=gfLG3B95JdMeZX6k&pageLoadId=o2NUvS32oGhLF7hu&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lSeries_1_2_1)
 
@@ -79,9 +85,9 @@ I will read *anything* the below authors write.
 
 [The Empyrean Series](https://www.graphicaudio.net/our-productions/series/a-e/the-empyrean.html)
 
-[The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
-
 ## Favorite books.
+
+[Score], by Kennedy Ryan, because the mental health representation in this Romance was especially well done!(https://libro.fm/audiobooks/9781668648629-score)
 
 [Real Life by Brandon Taylor.](http://brandonlgtaylor.com/books)
 
