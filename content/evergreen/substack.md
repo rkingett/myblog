@@ -16,7 +16,7 @@ I can't really say anything more negative about Substack that other people haven
 
 Of course, open source still has community and accessibility problems too but that's for a different blog post, sometime down the line.
 
-But without further ado, here's a giant list of criticism against Substack.
+[I know there are folks that will never leave Substack, as talked about here,](https://juliaserano.blogspot.com/2025/06/regarding-substack-and-writer-centric.html) but I wanted to collect all the links I could about leaving Substack.
 
 Why do I hate Substack so much?
 
@@ -29,6 +29,8 @@ It's not that I hate it, per se. [I just find Substack exploitative and people d
 ## The list of Substack critiques.
 
 And now, the list of links and then some!
+
+[Bye, Substack](https://untangled.bearblog.dev/bye-substack/)
 
 [SUPPORT FOR SUBSTACK IS NORMALIZING THE NAZI BAR](https://funcrunch.org/blog/2025/09/01/support-for-substack-is-normalizing-the-nazi-bar/)
 
