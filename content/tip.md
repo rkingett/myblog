@@ -14,6 +14,8 @@ You can also [join my street team to get advanced copies of my books.](https://b
 
 [My wish list is here if you want to get me an item.](/wish)
 
+[Try Buttondown with my referral link](https://buttondown.com/refer/weirdwriter)
+
 ## Monthly tip options.
 
 * [Monthly podcast supporters get serialized audiobooks, which also funds narrators.](https://tips.pinecast.com/jar/weirdwritings)
