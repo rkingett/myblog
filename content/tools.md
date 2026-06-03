@@ -45,7 +45,7 @@ For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and b
 
 [Bookshare](https://www.bookshare.org/) and [NLS BARD.](https://www.loc.gov/nls/) Two libraries for the blind.
 
-Apple podcasts, because [I love podcasts, especially fiction podcasts](/podroll) and I haven't found a better app made for fiction podcast fans that's blind accessible.
+[Apple podcasts, because I love podcasts, especially fiction podcasts](/podroll) and I haven't found a better app made for fiction podcast fans that's blind accessible.
 
 ## Desktop software I use.
 
@@ -59,7 +59,7 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [Libation, because Audible will never hold my purchased audiobooks hostage](https://github.com/rmcrackan/Libation/releases)
 
-[All of these programs made for the blind](https://masonasons.me/pages/FastSuite.php)
+[Most of these little tools including the code editor and tools such as TXT2IMG](https://github.com/trypsynth?tab=repositories)
 
 [Boot Swap, a shockingly easy way to arrange boot order for blind people like us that can't access the BIOS](https://github.com/aryanchoudharypro/bootswap)
 
@@ -67,16 +67,10 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [Miranda NG, because it is the only Jabber client for Windows that is accessible](https://github.com/miranda-ng/miranda-ng)
 
-[Audio Shelf, an audiobook player designed for screen readers.](https://github.com/M-Rajabi-Dev/AudioShelf?ref=winstall)
-
 [Jarte. A text editor that has been discontinued but I love this thing. It was fantastic!](https://en.wikipedia.org/wiki/Jarte)
 
 [RClone, because it helps me mount drives and avoids bloated sync apps](https://rclone.org/downloads/)
 
 [Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)[](https://github.com/masonasons/FastPlay)
 
-[Fast Play. Media player for the blind.](https://github.com/masonasons/FastPlay)
-
-[Fast GH. Github client for the blind.](https://github.com/masonasons/FastGH)
-
-[Fast SM. Social media client for the blind.](https://github.com/masonasons/FastSM)
+[GitKeep, a Github manager.](https://github.com/trypsynth/gitkeep)

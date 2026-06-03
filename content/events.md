@@ -10,7 +10,7 @@ eleventyNavigation:
 
 Be sure to read this page in full.
 
-[Find event recordings via my podcast or Peertube channel](/audio)
+[Find event recordings here.](/audio)
 
 [View past events](/posts/tags/events)
 
