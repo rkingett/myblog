@@ -1,6 +1,6 @@
 ---
 title: Accessibility Consulting
-redirect_from: ['/tech/', '/a11y/']
+redirect_from: ['/consult/', '/a11y/']
 ---
 
 [Schedule an initial meeting.](https://calendly.com/weirdwriter/60min?back=1)

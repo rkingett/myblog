@@ -1,9 +1,11 @@
 ---
 title: Tools and services I use.
-redirect_from: shorts
+redirect_from: tech
 ---
 
 [Looking for my writing? Go here.](/writings/)
+
+[Consulting information is here.](/consulting)
 
 [Listen to audio versions and serialized audiobooks](https://weirdwritings.pinecast.co/)
 
@@ -52,6 +54,8 @@ For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and b
 I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
 
 Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[Yt DLP, a CLI video and audio downloader.](https://github.com/yt-dlp/yt-dlp)
 
 [Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
 

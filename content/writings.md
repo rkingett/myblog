@@ -3,7 +3,7 @@ title: Writing portfolio
 eleventyNavigation:
   key: Writing
   order: 6
-redirect_from: /progress
+redirect_from: ['/shorts/', '/progress/']
 ---
 
 [Beta readers or Street team information](/team)
