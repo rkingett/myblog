@@ -11,7 +11,7 @@ redirect_from: tech
 
 I receive a lot of questions about what tools and or services I use on a daily basis. This page will update frequently, so check back here often throughout the year.
 
-Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
+[I use this screen reader for now.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
 ## Online services I use.
 
@@ -75,6 +75,6 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [RClone, because it helps me mount drives and avoids bloated sync apps](https://rclone.org/downloads/)
 
-[Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)[](https://github.com/masonasons/FastPlay)
+[Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)
 
 [GitKeep, a Github manager.](https://github.com/trypsynth/gitkeep)
