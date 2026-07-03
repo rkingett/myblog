@@ -71,6 +71,8 @@ I will read **anything** by the below authors.
 
 ## Favorite series.
 
+[The Legacy Series](https://www.graphicaudio.net/our-productions/series/k-r/the-legacy.html)
+
 [The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
 
 [The Bunnicula series. This one is just very funny!](https://www.audible.com/series/Bunnicula-and-Friends-Audiobooks/B005NAC4CO?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=HR0AWMBJFY0G96M4TTHS&plink=gfLG3B95JdMeZX6k&pageLoadId=o2NUvS32oGhLF7hu&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lSeries_1_2_1)
@@ -87,7 +89,7 @@ I will read **anything** by the below authors.
 
 ## Favorite books.
 
-[Score], by Kennedy Ryan, because the mental health representation in this Romance was especially well done!(https://libro.fm/audiobooks/9781668648629-score)
+[Score], by Kennedy Ryan, because the mental health representation in this Romance was especially well done!](https://libro.fm/audiobooks/9781668648629-score)
 
 [Real Life by Brandon Taylor.](http://brandonlgtaylor.com/books)
 
