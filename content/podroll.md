@@ -104,9 +104,9 @@ I love deep Gonzo style reporting. Journalism wrapped up in complex personal nar
 
 I can't stand murder true crime podcasts. Instead, I want to see how a town was gentrified, as an example.
 
-[A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175)
+[Close All Tabs.](https://podcasts.apple.com/us/podcast/close-all-tabs/id214663465) Fantastic podcast covering online stuff I don't have time to keep up with. The description, in part, read, "Ever wonder where the internet stops and IRL begins? Close All Tabs breaks down how digital culture shapes our world through thoughtful insights and irreverent humor. From internet trends to AI slop to the politics of memes, Close All Tabs covers it all."
 
-Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
+[A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175) Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
 
 [There Goes the Neighborhood, A podcast about how and why gentrification happens.](https://podcasts.apple.com/us/podcast/there-goes-the-neighborhood/id1089555645)
 
@@ -114,45 +114,25 @@ Yes, this is a talk show style, but it's tight, stays on topic, and is short, an
 
 [The Guardian's Audio Long Reads.](https://podcasts.apple.com/us/podcast/the-audio-long-read/id587347784) Narrated versions of their lengthy articles.
 
-[Away Days Podcast: Reporting from the Underbelly](https://podcasts.apple.com/us/podcast/away-days-podcast-reporting-from-the-underbelly/id1814120072)
+[Away Days Podcast: Reporting from the Underbelly](https://podcasts.apple.com/us/podcast/away-days-podcast-reporting-from-the-underbelly/id1814120072) Away Days Podcast is an episodic documentary series focused on unreported stories from the fringes of society.  We’re compassionately documenting the underground without watering it down or editorially obscuring it. This is independent journalism with no filter. Real, raw, and ugly. Journalist Jake Hanrahan, the host and creator of Away Days has spent the last 10 years embedded in places he’s not meant to be. With unique access and a straightforward style of on-the-ground reporting, the listener will be taken deep into the places they didn’t know existed.
 
-Away Days Podcast is an episodic documentary series focused on unreported stories from the fringes of society.  We’re compassionately documenting the underground without watering it down or editorially obscuring it. This is independent journalism with no filter. Real, raw, and ugly. Journalist Jake Hanrahan, the host and creator of Away Days has spent the last 10 years embedded in places he’s not meant to be. With unique access and a straightforward style of on-the-ground reporting, the listener will be taken deep into the places they didn’t know existed.
+[This American Life.](https://podcasts.apple.com/us/podcast/this-american-life/id201671138) Narrated journalism that started it all, I think. Has intimate stories, zooms in on issues and creates stories out of them that have a beginning, middle, and an end.
 
-[This American Life.](https://podcasts.apple.com/us/podcast/this-american-life/id201671138)
+[Black Men Can't Jump In Hollywood](https://podcasts.apple.com/us/podcast/black-men-cant-jump-in-hollywood/id1023264209) I know, I know, a talk show style podcast, but I like their film examinations! Black Men Can't Jump [In Hollywood] is a comedic podcast that reviews films with leading actors of color and analyzes them in the context of race and Hollywood's diversity issues.
 
-Narrated journalism that started it all, I think. Has intimate stories, zooms in on issues and creates stories out of them that have a beginning, middle, and an end.
+[If Books Could Kill.](https://podcasts.apple.com/us/podcast/if-books-could-kill/id1651876897) Hilarious podcast where the hosts painstakingly read the books I don't want to read and then validate my feelings with their snark about the book or articles in question. They cover more topics now but the original tagline was, The airport bestsellers that captured our hearts and ruined our minds.
 
-[Black Men Can't Jump In Hollywood](https://podcasts.apple.com/us/podcast/black-men-cant-jump-in-hollywood/id1023264209)
+[Reveal.](https://podcasts.apple.com/us/podcast/reveal/id886009669) One of the best audio narrative journalism podcasts to date. Does deep dive investigations into many things and deliver gripping stories about caregivers, advocates for the unhoused, immigrant families, warehouse workers and formerly incarcerated people, fighting to hold the powerful accountable.
 
-I know, I know, a talk show style podcast, but I like their film examinations! Black Men Can't Jump [In Hollywood] is a comedic podcast that reviews films with leading actors of color and analyzes them in the context of race and Hollywood's diversity issues.
+[This is Love](https://podcasts.apple.com/us/podcast/this-is-love/id1337100398) A show that centers relationships in all it's forms, and showcases their stories.
 
-[If Books Could Kill.](https://podcasts.apple.com/us/podcast/if-books-could-kill/id1651876897)
+[Modern Love.](https://podcasts.apple.com/us/podcast/modern-love/id1065559535) Mainly sharing this for the earliest episodes, the better ones. The earlier episodes were some of the best adaptation of writing I've ever seen. I don't like their newer episodes so if you can find older episodes, do so. They are far better. The earlier episodes had actors reading some of the most powerful writing on relationships I've ever seen. The newer episodes try to be ear candy and focus less on reading actual words. Bletch.
 
-Hilarious podcast where the hosts painstakingly read the books I don't want to read and then validate my feelings with their snark about the book or articles in question. They cover more topics now but the original tagline was, The airport bestsellers that captured our hearts and ruined our minds.
+[How to be a Girl.](https://podcasts.apple.com/us/podcast/how-to-be-a-girl/id891002592) An intimate exploration of a mother learning to live with her Trans daughter and exploring gender.
 
-[Reveal.](https://podcasts.apple.com/us/podcast/reveal/id886009669)
+[This is Actually Happening.](https://podcasts.apple.com/us/podcast/this-is-actually-happening/id497227384) What if you were trafficked into a cult...or were mauled by a grizzly bear...or were stabbed 27 times by a serial killer - what would you do? This is Actually Happening brings you extraordinary true stories of life-changing events told by the people who lived them. From a man who woke up in the morgue to a woman stranded in a Mexican desert fighting to survive, these stories will have you on the edge of your seat waiting to hear what happens next.
 
-One of the best audio narrative journalism podcasts to date. Does deep dive investigations into many things and deliver gripping stories about caregivers, advocates for the unhoused, immigrant families, warehouse workers and formerly incarcerated people, fighting to hold the powerful accountable.
-
-[This is Love](https://podcasts.apple.com/us/podcast/this-is-love/id1337100398)
-
-A show that centers relationships in all it's forms, and showcases their stories.
-
-[Modern Love.](https://podcasts.apple.com/us/podcast/modern-love/id1065559535)
-
-Mainly sharing this for the earliest episodes, the better ones. The earlier episodes were some of the best adaptation of writing I've ever seen. I don't like their newer episodes so if you can find older episodes, do so. They are far better. The earlier episodes had actors reading some of the most powerful writing on relationships I've ever seen. The newer episodes try to be ear candy and focus less on reading actual words. Bletch.
-
-[How to be a Girl.](https://podcasts.apple.com/us/podcast/how-to-be-a-girl/id891002592)
-
-An intimate exploration of a mother learning to live with her Trans daughter and exploring gender.
-
-[This is Actually Happening.](https://podcasts.apple.com/us/podcast/this-is-actually-happening/id497227384)
-
-What if you were trafficked into a cult...or were mauled by a grizzly bear...or were stabbed 27 times by a serial killer - what would you do? This is Actually Happening brings you extraordinary true stories of life-changing events told by the people who lived them. From a man who woke up in the morgue to a woman stranded in a Mexican desert fighting to survive, these stories will have you on the edge of your seat waiting to hear what happens next.
-
-[Embedded.](https://podcasts.apple.com/us/podcast/embedded/id1091709555)
-
-A very good in-the-weeds series going deep on specific issues---from police departments to the military to political campaigns. NPR reporters embed themselves in institutions and communities for weeks or months, returning with intimate, complicated portraits that resist easy narratives.
+[Embedded.](https://podcasts.apple.com/us/podcast/embedded/id1091709555) A very good in-the-weeds series going deep on specific issues---from police departments to the military to political campaigns. NPR reporters embed themselves in institutions and communities for weeks or months, returning with intimate, complicated portraits that resist easy narratives.
 
 ## Audio Let's Plays.
 

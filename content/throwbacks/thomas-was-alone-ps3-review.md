@@ -1,10 +1,9 @@
 ---
-title: Thomas Was Alone PS3 review.
-date: 2024-10-13T09:52:58.000Z
-tags:
-  - journalism
-  - writings
-  - throwbacks
+title: "Thomas Was Alone PS3 review"
+date: '2026-07-07T09:40:24.898532+00:00'
+tags: [review]
+redirect_from: /posts/6642
+permalink: /posts/thomas-was-alone-ps3-review/
 ---
 
 Sadly, the website that hosted this review is no longer online, so I am posting it here.
