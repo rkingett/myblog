@@ -1,9 +1,8 @@
 ---
-title: How plain language books increase readership
-date: 2022-10-14T21:59:50.000Z
-tags:
-  - blog and journal
-  - rants
+title: "Plain Language Books Help You Get More Readers"
+date: '2026-07-10T19:32:24.470787+00:00'
+tags: [blog and journal]
+permalink: /posts/opinion-plain-language-books/
 ---
 
 A type of access in the publishing industry began swimming around my brain for the past week and I wanted to highlight why there should be more of it.
@@ -14,7 +13,7 @@ It began when I was recommending a book to a sighted friend. They wanted some bo
 
 I suggested audio books, but the words used were still too complex. I began looking for a plain language version of the book but couldn’t find any.
 
-[Plain language writing is a writing practice that broadens readership.](https://www.accessible-social.com/copy-and-formatting/plain-language) When content creators write in plain language, a variety of ages, education levels, and disabilities can understand your content.
+[Plain language writing is a writing practice that broadens readership.](https://www.accessible-social.com/copy-and-formatting/plain-language) When content creators write in plain language, a variety of ages, education levels, and disabilities can understand your writing.
 
 People that are also learning English as a second language can benefit from a plain language version of your books.
 
@@ -24,7 +23,7 @@ Plain language can also help in time crunches. In some cases, people might be wo
 
 People might not have the time to read lengthy sentences or define hard words.
 
-Sadly, I wasn’t able to find a lot of plain language versions of books. [Alice Wong, a fellow disabled writer, was the only writer I could find offering plain language versions of books.](https://disabilityvisibility.substack.com/p/plain-language-as-access)
+Sadly, I wasn’t able to find a lot of plain language versions of books. [The Late Alice Wong, a fellow disabled writer, was the only writer I could find offering plain language versions of books.](https://disabilityvisibility.substack.com/p/plain-language-as-access)
 
 Audio books are not for everybody. People could have auditory processing troubles. People could have other disabilities that prevent them from listening to books.
 

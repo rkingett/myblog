@@ -1,3 +1,11 @@
+Makes local copy of blog before writing anything. Mainly used for testing reasons. Use the commands below this one to push and deploy to website.
+
+CD $home/documents/myblog; start-process http://localhost:8080/; npx @11ty/eleventy --serve
+
+Publishes website to web host using Github actions and the command line. First deletes everything on web host with RClone, then builds the site, then publishes the site using Github.
+
+CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Added posts and updated posts"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
+
 Deserving Conference shortcode to replace.
 
 20250919
