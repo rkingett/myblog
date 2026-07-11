@@ -1,20 +1,17 @@
 ---
-title: Combating Access Trauma.
-date: 2024-08-27T01:32:59.000Z
-tags:
-  - blog and journal
-  - rants
+title: "On Access Trauma"
+date: '2026-07-11T10:56:56.619888+00:00'
+tags: [blog and journal]
+permalink: /posts/on-access-trauma/
 ---
 
-I experienced a feeling today that I didn’t have a word or phrase for, so I began looking on the web to see if I could find something that would explain this feeling I was having. I found the perfect term/phrase for this feeling in a podcast episode, but the feeling itself is more important.
-
-Even though the below was just an online situation, I’ve experienced this feeling offline too but this morning, it started online.
+I experienced a trauma that my fellow disabled people encounter on a daily basis.
 
 It was early in the morning, and I was checking my email. I got an email from someone that wanted me to consider writing about their disabled business or whatever it was. They weren’t important, so I was just about to dismiss it, but something got the better of me and I opened the email and skimmed the first line out of curiosity.
 
 The first thing I heard was,
 
-75655356878796656432190.JPG.
+> "75655356878796656432190.JPG."
 
 I immediately reeled back like I’ve just been slapped across the face. I skimmed the email some more. They wanted me to look at their website. Links were displayed all throughout the email, insisting I check out this page or that page or this other page.
 
@@ -22,15 +19,15 @@ I had no drive to click on any of them, at all, thanks to the unlabeled image at
 
 I deleted the email. The next email was an email from a friend. It contained an attachment to their book they wanted me to read and enjoy, but I didn’t know what format the book was going to be in because they didn’t ask me, so I sat there, pondering the gravity of converting a, most likely, untagged PDF into something I could easier navigate through with my Braille display and screen reader. How much work was it going to be to convert this PDF? I navigated to the attachments section in question and opened it. Sure enough, it was a PDF. Reacting before opening it, because I didn’t want to be disappointed, I just immediately wrote back to the friend and said,
 
-Can you send this to me in Microsoft Word format or plain text?
+"Can you send this to me in Microsoft Word format or plain text?"
 
-I then sat there, after sending the reply, wondering if I should even try to convert this or not. I went to the next email.
+I sat there after sending the reply wondering if I should even try to convert this or not. I went to the next email.
 
-It was an email from my publisher, sending me my royalty statement. This was a PDF, but, at once, flashes plagued my mind of trying to convert the previous inaccessible PDF into something that could be easily navigated. I was terrified. I didn’t want to go through that again!
+It was an email from my publisher, sending me my royalty statement for [one of my books.](/books) This was a PDF, but, at once, flashes plagued my mind of trying to convert the previous inaccessible PDF into something that could be easily navigated. I was terrified. I didn’t want to go through that again!
 
 I didn’t even want to deal with this now, even the sending of the inevitable reply and telling the publisher, again, that I was blind and used a Braille display and screen reader so could they send it in a different format? I knew I was retreating, and retreating fast, and the day hadn’t even started yet. As I was navigating through my other emails, I just kept having visions of a few days ago wherein I was trying to convert an untagged royalty statement holding tables and untagged charts and no headings into something readable. That one task took me the whole day and I didn’t want to go through that again. I didn’t want to spend my whole morning trying a method that previously worked in order for the conversion attempt to fail, leaving me to send it to a friend and schedule a Zoom meeting just so my royalty statement could be read. I didn’t have anybody that lived with me that could read this, and I didn’t want to schedule a video call just yet with someone, so I just tried to focus on other emails.
 
-As I skimmed the subject lines of emails, one singular thought kept percolating, like a restaurant that always serves burnt toast for some reason. I don’t want to open these because I don’t want to deal with the inaccessibility of the content today.
+As I skimmed the subject lines of emails, one singular thought kept percolating, like a restaurant that always serves burnt toast or a city that never fixes its hostile pavement designs. I don’t want to open these because I don’t want to deal with the inaccessibility of the content today.
 
 The email subjects soon became a repeating question. What access hell would I need to endure in order to read this email? Is it worth opening just to be confronted with an inaccessible email? Probably not, so why should I even bother with this one when I already experienced three inaccessible emails today?
 
@@ -60,14 +57,22 @@ These described what I was going through, but nothing tied it to being disabled 
 
 At that moment, I was extremely grateful for my offline friend that immediately suggested a safe space. I guess he could hear the utter exhaustion and frustration in my voice so wanted to do his part. I wished more of my friends did that.
 
-I then began looking up something strictly related to accessibility. Accessibility trauma. Disability related PTSD? Spoon exhaustion. I didn’t have a good word for this feeling, and none seemed to exist, but then I found [this episode of the Access Fuckery Podcast.](https://accessf-ckery.podbean.com/e/fuckery-inception-with-thomas-reid/) [The transcript with Thomas](https://docs.google.com/document/d/1j79HoxdcAcQZXLyTvMU6xHa7jhON4DBGq7i0DaT0DG8/edit?usp=sharing) told me I wasn’t alone in this feeling.
+I then began looking up something strictly related to accessibility. Accessibility trauma. Disability related PTSD? Spoon exhaustion. I didn’t have a good word for this feeling, and none seemed to exist. After contemplation, I think I have a phrase for this feeling.
 
-[Thomas Reid used the term access Trauma to describe the feeling I just had.](https://docs.google.com/document/d/1j79HoxdcAcQZXLyTvMU6xHa7jhON4DBGq7i0DaT0DG8/edit?usp=sharing) In truth, I think it fits perfectly. While I have a different kind of access trauma than, say, my Deaf friends, I think we can all appreciate and understand the feeling of the world constantly reminding us that the world we’re forced to participate in wasn’t designed for us.
+This was the opposite of [Access Intimacy.](https://leavingevidence.wordpress.com/2011/05/05/access-intimacy-the-missing-link/)
 
-Others would say I should get over my access trauma. Thank you for coining the term, Thomas, by the way! It perfectly puts defining words into feelings and experiences. The thing about access trauma though, is that it isn’t a thing I can leap over, because it will creep up again, or ram smack dab into me again when I least expect it. It will be relentless, unforgiving, and not at all surprising. Throughout my whole life, I’ll be forced to confront access trauma daily, even with friends that are temporarily abled. Access trauma, or accessibility PTSD, or whatever term ends up defining this feeling, isn’t something we’ll be able to just brush off like a pernicious crumb. It’s going to remind me, over and over again, that I’m adapting to a world that isn’t designed for me and it’s going to remind me that my tricks for skirting around barriers won’t always work the next time I try a trick to get around an inaccessible world and it fails.
+I tried on a phrase, like I was tasting the words.
+
+Access trauma.
+
+In truth, I think it fits perfectly. While I have a different kind of access trauma than, say, my Deaf friends, I think we can all appreciate and understand the feeling of the world constantly reminding us that the world we’re forced to participate in wasn’t designed for us.
+
+The important thing about access trauma is that it isn’t a thing I can leap over because it will creep up again or ram smack dab into me again when I least expect it. It will be relentless, unforgiving, and not at all surprising. Throughout my whole life, I’ll be forced to confront access trauma daily, even with friends that are temporarily abled. Access trauma, or accessibility PTSD, or whatever term ends up defining this feeling, isn’t something we’ll be able to just brush off like a pernicious crumb. It’s going to remind me, over and over again, that I’m adapting to a world that isn’t designed for me and it’s going to remind me that my tricks for skirting around barriers won’t always work the next time I try a trick to get around an inaccessible world and it fails.
 
 I don’t have a solution other than to surround myself with people that understand inadequate access and who just understand that community care can help ease the pain. Will it be perfect? Of course not! Nothing is perfect. At least, though, with community care, and interdependence care, we’re building off other’s knowledge and resources and skills. Temporarily abled people can help strengthen community and [interdependence care.](https://www.firstpost.com/living/in-a-world-that-often-interprets-care-as-burden-interdependence-should-be-valued-beyond-the-disabled-community-8376271.html) In fact, I wish more would, even if they’re not perfect at it. Even if they mess up the first time, they’ve got my support even if they don’t always get it right.
 
-I haven’t figured out a good way to combat access trauma, or accessibility PTSD, because it’s embedded into society, and I know there will be days where I don’t have the spoons to leap over the inadequate and inaccessible society, I must battle every day. As of right now, I’m taking small steps that will cultivate spaces where I don’t have to battle access trauma. I don’t expect everybody to understand my hesitation when they invite me to an unfamiliar location, but I am making them listen and pay attention.
+I haven’t figured out a good way to combat access trauma because it’s embedded into society, and I know there will be days where I don’t have the spoons to leap over the inadequate and inaccessible society I must battle every day. As of right now, I’m taking small steps that will cultivate spaces where I don’t have to battle access trauma. I don’t expect everybody to understand my hesitation when they invite me to an unfamiliar location, but I am making them listen and pay attention.
 
-I think, when it comes right down to it, that’s the best way I can think of to really combat access trauma. Professional, personal, or hell, even sexual. While I can’t battle every inequity that comes my way, I can stop and make people understand why I’m refusing to experience access trauma again. I think that’s a form of self-care we all should take. My true friends will listen and act. I don’t know what I’ll do with the friends that refuse to hear or listen to my pain.
+I think, when it comes right down to it, that’s the best way I can think of to really combat access trauma. Professional, personal, or sexual. While I can’t battle every inequity that comes my way, I can stop and make people understand why I’m refusing to experience access trauma again. I think that’s a form of self-care we all should take. My true friends will listen and act. I don’t know what I’ll do with the friends that refuse to hear or listen to my pain.
+
+If you enjoyed this blog post, you might enjoy the fiction podcast [Tales After Dark: Erotic Audio Dramas](https://podcasts.apple.com/us/podcast/tales-after-dark-erotic-audio-dramas/id1649667757)

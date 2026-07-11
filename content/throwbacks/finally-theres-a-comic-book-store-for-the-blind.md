@@ -1,10 +1,8 @@
 ---
-title: Finally, there’s a comic book store for the blind.
-date: 2024-02-29T08:19:22.000Z
-tags:
-  - blog and journal
-  - journalism
-  - nonfiction
+title: "Finally, there\u2019s a comic book store for the blind"
+date: '2026-07-10T19:53:27.193632+00:00'
+tags: [journalism]
+permalink: /posts/finally-theres-a-comic-book-store-for-the-blind/
 ---
 
 This was published on Vice. It was a good journalism piece, I feel, even though I am no longer a journalist. Still, this was great because I got paid well above what I was expecting. It was my first publication where I negotiated my salary so it will always hold a special place in my career.
