@@ -89,7 +89,7 @@ I will read **anything** by the below authors.
 
 ## Favorite books.
 
-[Score], by Kennedy Ryan, because the mental health representation in this Romance was especially well done!](https://libro.fm/audiobooks/9781668648629-score)
+[Score, by Kennedy Ryan, because the mental health representation in this Romance was especially well done!](https://libro.fm/audiobooks/9781668648629-score)
 
 [Real Life by Brandon Taylor.](http://brandonlgtaylor.com/books)
 

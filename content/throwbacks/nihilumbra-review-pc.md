@@ -1,7 +1,7 @@
 ---
 title: "Nihilumbra Review (PC)"
 date: '2026-07-14T01:12:43.639254+00:00'
-tags: [journalism]
+tags: [review]
 permalink: /posts/nihilumbra-review-pc/
 ---
 
