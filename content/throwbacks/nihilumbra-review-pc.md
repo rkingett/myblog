@@ -1,10 +1,8 @@
 ---
-title: Nihilumbra Review (PC)
-date: 2024-10-13T10:09:09.000Z
-tags:
-  - writings
-  - journalism
-  - throwbacks
+title: "Nihilumbra Review (PC)"
+date: '2026-07-14T01:12:43.639254+00:00'
+tags: [journalism]
+permalink: /posts/nihilumbra-review-pc/
 ---
 
 Sadly, the review hosting this isn’t online anymore so I decided to publish it here, on my own website.
