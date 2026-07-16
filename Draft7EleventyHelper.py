@@ -152,7 +152,7 @@ def get_iso_datetime() -> str:
     return datetime.datetime.now(datetime.timezone.utc).isoformat()
 
 def find_project_root() -> Path:
-    return Path.cwd()
+    return Path(__file__).resolve().parent()
 
 def get_valid_subdirectories(parent_dir: Path, exclude_names: set) -> List[Path]:
     if not parent_dir or not parent_dir.is_dir(): return []

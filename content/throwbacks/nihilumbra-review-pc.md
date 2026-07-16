@@ -13,7 +13,7 @@ This was back when I had vision. I’m fully blind now.
 
 Version tested: PC
 
-Also available on: iOS
+[Also available on: iOS](https://apps.apple.com/us/app/nihilumbra/id500161349)
 
 Developer: BeautiFun Games
 
@@ -27,7 +27,7 @@ When I’d wake up from a terrible nightmare ranging from Stephen King to Donate
 
 To my shock though, a developer has tapped into my frontal cortex and developed a game that takes familiar titles and bounces off of their foundation to make a succulent new puzzle platformer that many will underestimate because explosions don’t riddle the screen like excessive confetti. This fresh fun title is Nihilumbra.
 
-Upon playing Nihilumbra one factor will become very apparent quicker than a woman’s last stages of pregnancy. The team at BeautiFun Games has played a few video games in their lifetime and they love the video game world. Evidence is splattered all throughout this graphical holiness because all the aspects that make video games tedious as tax returns are not in Nihilumbra. There are no scavenger hunts repeatedly going back and forth mind-numbingly talking to NPCs. There aren’t any extremely difficult quick time events and there isn’t an online lobby filled with people that the dictionary could use as definitions under "ill-advised".
+Upon playing Nihilumbra one factor will become very apparent quicker than the horrors of global warming. The team at BeautiFun Games has played a few video games in their lifetime and they love the video game world. Evidence is splattered all throughout this graphical holiness because all the aspects that make video games tedious as tax returns are not in Nihilumbra. There are no scavenger hunts repeatedly going back and forth mind-numbingly talking to NPCs. There aren’t any extremely difficult quick time events and there isn’t an online lobby filled with people that the dictionary could use as definitions under "ill-advised".
 
 It is hard to judge the game based off of screenshots and video previews because it’s a different kind of game that sucks the player into the void of excitement. Unlike other games taking on the role of interactive movies, you are a being in this world called Born.
 
