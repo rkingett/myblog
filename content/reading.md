@@ -31,7 +31,15 @@ I will read anything the below narrators read.
 
 A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search?searchNarrator=Damian+Lynch&ref_pageloadid=dPI0C3fcNy7YxxaO&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=60264562ARPGEV2PWJR1&plink=QF2Qdgou4HJhvpdS&pageLoadId=pZ7Sdst1hOwZErYZ&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_4_1)
 
+[A narrator/actor I have admired forever, LeVar Burton](https://www.audible.com/search?searchNarrator=LeVar+Burton&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=9A08AWA81QXTFWVMWYGH&plink=0mC4naassMkrugly&pageLoadId=5U2BHhZrL7uyslUS&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_1_1)
+
+[Chance Smolders](https://www.audible.com/search?searchNarrator=Chance+Smolders&ref_pageloadid=Wz7KLTZe8T2tzZsO&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=TCWT5CK569WSG35R1RVZ&plink=diprcgBQjdnV5Kih&pageLoadId=ZURv7DHaWFlXZB6j&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_2_1)
+
 [Savanah Peachwood](https://www.audible.com/search?searchNarrator=Savanah+Peachwood&ref_pageloadid=mMLe2mr4ZhRzWNrF&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=FQ4CM1RBW6S2940Z2A9T&plink=A00pBXl3z3FGVNrA&pageLoadId=h2gBTOaT2QLzQHKJ&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_1)
+
+[Nile Bullock](https://www.audible.com/search?searchNarrator=Nile+Bullock&ref_pageloadid=pYCIEcjBYuwVEf6e&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=CFHMAM0N4Z2QE2MPWS2G&plink=2adGJxADo2dl1z1i&pageLoadId=zWCcpS4cCEsIG7DS&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_7_2)
+
+[Guy Lockard](https://www.audible.com/search?searchNarrator=Guy+Lockard&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=W7S2M4R1699HMZPN6YJ1&plink=0711K61PufTCvUya&pageLoadId=h3ru9mijT1l21dA4&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_1_1)
 
 [James Cavenaugh](https://www.audible.com/search?searchNarrator=James+Cavenaugh&ref_pageloadid=ldQYuVJ5M1txtY9q&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=W55ZZRGV6XFCGG1FN22C&plink=wLakDc4UAGojnJ7v&pageLoadId=pGrJmX3ZdkMNm2f1&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_5_1)
 
@@ -66,8 +74,6 @@ I will read **anything** by the below authors.
 [Andrew Clements](https://www.audible.com/author/Andrew-Clements/B000APVYAK?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=5002HSR0RPQ2AJAGRQ4T&plink=aAow0cXLTRqmRq4g&pageLoadId=0KcBpsMdmY7bZ0sh&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
 
 [Alexandria House](https://www.audible.com/author/Alexandria-House/B01MQSE767?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=GT21T3YH9TRZASC8YQAY&plink=L682SMrXLVuZr7qx&pageLoadId=sm39tGHGgco1qOUx&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
-
-
 
 ## Favorite series.
 

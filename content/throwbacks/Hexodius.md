@@ -1,10 +1,8 @@
 ---
-title: Hexodius [Xbox 360 Review]
-date: 2024-10-14T00:13:45.000Z
-tags:
-  - writings
-  - journalism
-  - throwbacks
+title: "Hexodius [Xbox 360 Review]"
+date: '2026-07-17T04:21:01.755132+00:00'
+tags: [review, journalism]
+permalink: /posts/hexodius/
 ---
 
 The website that hosted this review is no longer online so I would like to keep it here.
@@ -29,13 +27,13 @@ Genre: Arena Shooter
 
 Sometimes taking a trip back in time to the days of leaderboards, powerups, and an incentive to show off as you wield weapons is the breath of fresh air that the game industry needs among all the moral dilemmas, side quests, sharing buttons, and effects that cause studios to go completely bankrupt. Even though these old style games were simple in design, they had to be designed with an equal amount of care as today’s blockbuster titles.
 
-Simple is all well and good but it’s when the simple aspects of creation feel as if they were designed just to have a finished product flaws start popping up faster than benign tumors. Namco Bandai Games must have had a unique new year’s resolution this year when they designed _Hexodius_ because the game plays like a half assembled arcade game.
+Simple is all well and good but it’s when the simple aspects of creation feel as if they were designed just to have a finished product flaws start popping up faster than half baked cookies. Namco Bandai Games must have had a unique new year’s resolution this year when they designed _Hexodius_ because the game plays like a half assembled arcade game.
 
 With its blend of twin-stick shooting, exploration, and customization, *Hexodius* invites players to explore the vast complex, equip their drone with powerful items and upgrades, and ultimately escape the clutches of the deadly enemy droids in a blaze of laser fire but the invitation is more tantalizing then the actual party inside.
 
 This arena style shooter tries hard to be the next _Geometry Wars_ remake and begs the game for the foundation and salvation, but just fails on many levels. *Hexodius* misses almost everything it was going for. There’s a campaign nestled in here somewhere with a story to match, somewhere. I wasn’t able to learn what the story was because, I’m guessing, the story was told via the scrolling text that popped up between the stages but due to the size of the text I might as well have been reading a cuisine menu in Klingon.
 
-The campaign opens up to a large hex-grid map — the first of six such worlds in the game that soon look so familiar the level design team could have used them in court to claim copyright infringement on each other. Despite the twiddled down content of the gameplay that will soon have you feeling as if your brain is melting out of your ear, this is a very accessible game to the physically disabled and the colorblind. The left analog stick is used to move and the right is used to shoot. The game is not accessible to anyone with a substantial visual impairment however. It was extremely hard for me to tell the difference between myself and the enemies that came rushing at me from every which direction, showing my cackling friends just how outmatched I was even on the simplest difficulty.
+The campaign opens up to a large hex-grid map — the first of six such worlds in the game that soon look so familiar the level design team could have used them in court to claim copyright infringement on each other. Despite the twiddled down content of the gameplay, this is a somewhat accessible game to the physically disabled and the colorblind. The left analog stick is used to move and the right is used to shoot. The game is not accessible to anyone with a substantial visual impairment however. It was extremely hard for me to tell the difference between myself and the enemies that came rushing at me from every which direction, showing my cackling friends just how outmatched I was even on the simplest difficulty.
 
 There are a few minutes of fun here but the game places a huge emphasis on some things and leaves the rest of the design to wilt like dead flowers. The ship upgrading is expansive, but the level designs could make their own cases for plagiarism, and, coupled with very little enemy verity, it ultimately leaves the wonderment why so much emphasis is placed into the epic customization system.
 
