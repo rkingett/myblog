@@ -11,7 +11,7 @@ The physical Wishlist is below the digital Wishlist.
 
 Most desired at the top.
 
-[Send digital gifts to the email address on this page](/contact)
+<a href="mailto:&#107;&#105;&#110;&#103;&#101;&#116;&#116;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=SPAM&body=DELETE%20THE%20SUBJECT%20LINE%20BEFORE%20SENDING.%20ALSO%20DELETE%20THIS%20TOO.">Send digital gifts to this email address.</a>
 
 [Amtrak Gift Cards](https://www.amtrak.com/planning-booking/tickets-reservations/giftcards)
 

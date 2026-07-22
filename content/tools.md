@@ -13,6 +13,12 @@ I receive a lot of questions about what tools and or services I use on a daily b
 
 [I use this screen reader for now.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
+## Music I write to
+
+[soma fm](https://somafm.com/listen/)
+
+[Indie Beat Radio](https://theindiebeat.fm/)
+
 ## Online services I use.
 
 [Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
@@ -27,7 +33,7 @@ I receive a lot of questions about what tools and or services I use on a daily b
 
 [fedra is the client I most use right now.](https://github.com/trypsynth/fedra)
 
-I hate all social media with an algorithm so if you see my account on mainstream social media---chances are I'm being impersonated.
+I hate all social media with an algorithm so if you see my account on any recent mainstream social media, chances are I'm being impersonated.
 
 ## Phones and phone providers.
 
@@ -54,6 +60,8 @@ For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and b
 I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
 
 Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[Metapad, an old text editor that still works!](https://liquidninja.com/metapad/download.html)
 
 [Yt DLP, a CLI video and audio downloader.](https://github.com/yt-dlp/yt-dlp)
 

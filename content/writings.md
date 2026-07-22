@@ -16,7 +16,13 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 [Events information.](/events)
 
-# Find my work.
+## Music I write to
+
+[soma fm](https://somafm.com/listen/)
+
+[Indie Beat Radio](https://theindiebeat.fm/)
+
+## Find my work.
 
 [See all my writing](/posts) or filter below. highlights are further down the page but [writing news can be found here,](/posts/tags/news) highlighting my publishing news.
 
