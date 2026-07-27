@@ -26,7 +26,7 @@ To subscribe by RSS, copy the link location from the below sources and paste it 
 
 [Podcast RSS feed](https://pinecast.com/feed/weirdwritings) or [how to follow the podcast with apps](https://pnc.st/s/weirdwritings?align=center)
 
-[PeerTube RSS feed. Also works in podcast apps.](https://makertube.net/feeds/podcast/videos.xml?videoChannelId=31560)
+[YouTube RSS feed.](https://www.youtube.com/feeds/videos.xml?channel_id=UC-XEurS3F4W8CLKcRmQCcRw)
 
 # Beta readers and street team
 

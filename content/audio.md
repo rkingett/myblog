@@ -4,7 +4,7 @@ permalink: /audio/
 redirect_from: /posts/6259
 ---
 
-[Sean Crisden narrates my blog posts for his Backstage Pass!](https://seancrisden.com/pages/backstage-pass)
+[Go straight to my podcast that holds audio versions of my work.](https://weirdwritings.pinecast.co/)
 
 Want print versions instead? [Buy print books/anthologies](/books) or [read my short fiction.](/writings)
 
@@ -30,6 +30,6 @@ I do pay human narrators so [I need financial support to continue paying narrato
 
 I am not a video person. With me being blind, [I gravitate to my podcast more than video,](https://weirdwritings.pinecast.co/) but I still offer some video things from time to time.
 
-[Find all my videos here](https://makertube.net/c/robertkingett/videos)
+[Find all my videos here](https://www.youtube.com/@RobertKingett/videos)
 
-My video offerings can also work in all podcast apps as well. [Just stick this video RSS feed in your favorite podcast app and it should play the video.](https://makertube.net/feeds/podcast/videos.xml?videoChannelId=31560)
+[This video RSS feed should work in most RSS readers but not podcast apps.](https://www.youtube.com/feeds/videos.xml?channel_id=UC-XEurS3F4W8CLKcRmQCcRw)
