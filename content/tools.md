@@ -13,11 +13,10 @@ I receive a lot of questions about what tools and or services I use on a daily b
 
 [I use this screen reader for now.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
-## Music I write to
+## Music I write to.
 
-[soma fm](https://somafm.com/listen/)
+[Go here to see the music I write to. I often write to a lot of internet radio stations](/writings/)
 
-[Indie Beat Radio](https://theindiebeat.fm/)
 
 ## Online services I use.
 

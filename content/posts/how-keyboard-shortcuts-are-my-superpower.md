@@ -35,7 +35,7 @@ It starts with the home row. My index fingers find the raised bumps on the F and
 
 `Win` + `R`. Run command.
 
-Sighted people need to look where they are going among the binary code, but I do not. While a sighted user is still dragging their mouse across the vast, empty desert of their desktop wallpaper to find the recycling bin, I have already emptied it, opened three documents, checked my email, and started an internet radio station of Lo-Fi Hip Hop beats.
+Sighted people need to look where they are going among the binary code, but I do not. While a sighted user is still dragging their mouse across the vast, empty desert of their desktop wallpaper to find the recycling bin, I have already emptied it, opened three documents, checked my email, and [started an internet radio station of kick-ass Hip Hop beats.](https://labr.online/)
 
 My screen reader, [NVDA,](https://www.nvaccess.org/) is the vocalist in this band. I keep his speaking rate set to a speed that most people describe as "a chipmunk having a panic attack." To me, it is just efficiency. He reads the screen at 450 words per minute. He doesn't waste time with pauses or breaths. We are a team of  pure data entering my ears, syncing perfectly with the staccato clatter of my mechanical keyboard.
 
