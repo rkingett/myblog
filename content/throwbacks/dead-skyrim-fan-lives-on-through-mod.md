@@ -1,7 +1,7 @@
 ---
 title: "Dead Skyrim Fan Lives on Through Mod"
 date: '2026-03-16T18:09:12.082468+00:00'
-tags: [journalism, throwbacks]
+tags: [journalism]
 permalink: /posts/dead-skyrim-mod/
 ---
 
