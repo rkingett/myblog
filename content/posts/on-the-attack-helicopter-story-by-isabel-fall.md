@@ -1,15 +1,12 @@
 ---
-title: On the Attack Helicopter story by Isabel Fall
-date: 2020-09-25T17:21:42.000Z
-tags:
-  - blog and journal
-  - rants
-redirect_from: /2020/09/25/on-the-attack-helicopter-story-by-isabel-fall
+title: "On the Attack Helicopter story by Isabel Fall"
+date: '2026-07-31T12:01:23.427757+00:00'
+tags: [blog and journal]
+permalink: /the-attack-helicopter-story/
 ---
+[Read the story here](https://isabelfall.neocities.org/)
 
-Update: [This article talks about what happened after the story was pulled.](https://www.vox.com/the-highlight/22543858/isabel-fall-attack-helicopter)
-
-Original post.
+[Read the backlash background on this Wikipedia page here](https://en.wikipedia.org/wiki/I_Sexually_Identify_as_an_Attack_Helicopter)
 
 I’m sitting here remembering a short story published before the pandemic this year, in 2020. My god, that seems so long ago, but the story is still in the back of my mind, even if it feels like I’m the only one that read it sometimes.
 
@@ -41,6 +38,6 @@ In the blindness community, by contrast, we love to point fingers at each other.
 
 The reason why I continue to celebrate art, especially visually impaired creators, is because I know that, eventually, those brilliant visually impaired creators will show us how to be blind a different way. I consume art because I, like others, forget sometimes that there’s more than one way to be Black. There’s more than one way to be gay. There’s more than one way to be disabled. Like I said, I’m an imperfect ally.
 
-Even though the story isn’t on the internet anymore, I’m happy I read it. I hope to continue learning, as, I believe education is the most powerful weapon to combat fascism and hatred.
+Even though the author has appeared to stop writing, I’m happy I read it. I hope to continue learning, as, I believe education is the most powerful weapon to combat fascism and hatred.
 
 Thank you, Isabel Fall. You’ve helped me continue to grow. I hope you write again, someday, so you can teach others to do the same.
