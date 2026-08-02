@@ -5,7 +5,9 @@ tags: [nonfiction, syndicate, blog and journal]
 redirect_from: "/writing/nonfiction/20250626"
 ---
 
-[Listen to On the Architectural Hostility of Doorknobs](https://weirdwritings.pinecast.co/episode/7e8b7700/on-the-architectural-hostility-of-doorknobs)
+[Listen to Sean Crisden reading On the Architectural Hostility of Doorknobs](https://weirdwritings.pinecast.co/episode/7e8b7700/on-the-architectural-hostility-of-doorknobs)
+
+[Listen to Gabriel Michael read On the Architectural Hostility of Doorknobs](https://weirdwritings.pinecast.co/episode/3e680169/the-architectural-hostility-of-doorknobs-gabriel-michael-version)
 
 Before we begin, I am in the USA, where levers are rare.
 
