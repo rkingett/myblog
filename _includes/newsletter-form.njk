@@ -1,34 +1,33 @@
-<form class="embeddable-buttondown-form" action="https://buttondown.com/api/emails/embed-subscribe/weirdwriter" method="post" target="popupwindow">
+<form class="embeddable-buttondown-form" action="https://buttondown.com" method="post" target="popupwindow">
 
 <h2>Follow via email</h2>
 
 <p>Be sure to make all the selections below in addition to entering your email address.</p> 
 
-<!-- Automatic Hidden Tag: free -->
+<!-- Automatic Hidden Tag: free (Now using array notation) -->
 
-<input type="hidden" name="tag" value="sub_tag_6pwas8zsv89y0tqsf9rtfkcpqm" />
+<input type="hidden" name="tag[]" value="sub_tag_6pwas8zsv89y0tqsf9rtfkcpqm" />
 
 <p>
 <label for="bd-email">Enter your email to join Robert's mailing list</label>
 <input id="bd-email" name="email" type="email" required>
 </p>
 
-<!-- Checkboxes for Podcast and street and beta Tags -->
+<!-- Checkboxes for Tags (Updated to tag[]) -->
+<p>
+<label><input type="checkbox" name="tag[]" value="sub_tag_2hhg9v7pzc8r7t6h44y4b1y9nd">Opt into podcast episode updates via email</label>
+</p>
+<p>
+<label><input type="checkbox" name="tag[]" value="sub_tag_71yh1tyqwx962swnf9bftgjafn">Join street team where you help me promote my work in exchange for goodies</label>
+</p>
+<p>
+<label><input type="checkbox" name="tag[]" value="sub_tag_38j1j266gh9yva4szx404txjv1">Join beta reading team where you get to give feedback on unpublished work</label>
+</p>
 
-<p>
-<label><input type="checkbox" name="tag" value="sub_tag_2hhg9v7pzc8r7t6h44y4b1y9nd"> Opt into podcast episode updates via email</label>
-</p>
-<p>
-<label><input type="checkbox" name="tag" value="sub_tag_71yh1tyqwx962swnf9bftgjafn"> Join street team</label>
-</p>
-<p>
-<label><input type="checkbox" name="tag" value="sub_tag_38j1j266gh9yva4szx404txjv1"> Join beta reading team</label>
-</p>
-
-<!-- Required Cadence Dropdown for Tags -->
+<!-- Required Cadence Dropdown for Tags (Updated to tag[]) -->
 <p>
 <label for="cadence">How often do you want to receive the emails?</label>
-<select name="tag" id="cadence" required>
+<select name="tag[]" id="cadence" required>
 <option value="">-- Choose email frequency --</option>
 <option value="sub_tag_6sx9qwaf4k891bnmesetrf5xqh">I want to receive individual posts as they're published</option>
 <option value="sub_tag_7mfxpmpc0c9ntbtcb2c8jswm4s">I want to receive a weekly digest</option>
@@ -37,7 +36,7 @@
 </p>
 
 <p>
-<input type="submit" value="Subscribe to Robert's newsletter">
+<input type="submit" value="Subscribe to my list now">
 </p>
 
 </form>
