@@ -102,9 +102,13 @@ The nonfiction podcasts I listen to are rarely podcasts where people sit and tal
 
 I love deep Gonzo style reporting. Journalism wrapped up in complex personal narratives always teach me more than a simple interview could ever teach. I strongly dislike journalism that tries to be objective.
 
+[The Audible channel on Apple podcasts usually has some interesting documentaries](https://podcasts.apple.com/ie/channel/audible/id6443589612)
+
 I can't stand murder true crime podcasts. Instead, I want to see how a town was gentrified, as an example.
 
 [Close All Tabs.](https://podcasts.apple.com/us/podcast/close-all-tabs/id214663465) Fantastic podcast covering online stuff I don't have time to keep up with. The description, in part, read, "Ever wonder where the internet stops and IRL begins? Close All Tabs breaks down how digital culture shapes our world through thoughtful insights and irreverent humor. From internet trends to AI slop to the politics of memes, Close All Tabs covers it all."
+
+[This podcast that used to be called Only Fantasy](https://podcasts.apple.com/ie/podcast/onlyfantasy/id1692238236 Only Fantasy was the season, season 3, that snagged me. I do think this reporter is very thoughtful in his audio documentaries. )
 
 [A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175) Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
 
