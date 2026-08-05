@@ -22,7 +22,7 @@ Silicon Valley loves these things. They love the idea of "solving" disability wi
 
 But here is the reality they refuse to accept: My disability is not a tragedy of biology. It is a failure of infrastructure.
 
-I don’t need a stair-climbing wheelchair that costs $30,000 and requires a maintenance crew. I need a ramp.
+I don’t need a stair-climbing wheelchair that costs $30,000 and requires a maintenance crew. I need [better doorknobs](/posts/doorknob-hostility/) and or a ramp.
 
 But a ramp is boring. You can't make investors have a hard on for a ramp that doesn't connect to the cloud. You can’t give a TED Talk about a ramp. You can’t get venture capital funding for a slightly wider doorframe. Concrete is not "disruptive." But a ramp works. It doesn’t run out of battery. It doesn’t require a software update. And crucially, it works for the parent with a stroller, the delivery guy with a hand truck, and the old man with bad knees. It is a universal solution.
 
@@ -48,7 +48,7 @@ It’s a lie.
 
 The most advanced piece of accessibility technology I own is my white cane. It costs, at the time of this writing anyway, before inflation, forty dollars. It has no batteries. It never crashes. It is a stick that extends my sensory range. It is elegant, simple, and honest.
 
-The second most advanced piece of technology I want is a society that gives a damn.
+The second most advanced piece of technology I want is [a society that gives a damn.](/posts/doorknob-hostility/)
 
 Keep your exosuits. Keep your ultrasonic echolocation visors. Keep your prototypes that feel like wearing a toaster oven on my face.
 
