@@ -1,3 +1,7 @@
+https://github.com/rkingett/myblog
+
+https://github.com/rkingett/myblog/commits/main/_includes/newsletter-form.njk
+
 Makes local copy of blog before writing anything. Mainly used for testing reasons. Use the commands below this one to push and deploy to website.
 
 CD $home/documents/myblog; start-process http://localhost:8080/; npx @11ty/eleventy --serve
