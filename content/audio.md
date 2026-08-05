@@ -32,4 +32,4 @@ I am not a video person. With me being blind, [I gravitate to my podcast more th
 
 [Find all my videos here](https://www.youtube.com/@RobertKingett/videos)
 
-[This video RSS feed should work in most RSS readers but not podcast apps.](https://www.youtube.com/feeds/videos.xml?channel_id=UC-XEurS3F4W8CLKcRmQCcRw)
+[This YouTube RSS feed should work in most RSS readers but not podcast apps.](https://www.youtube.com/feeds/videos.xml?channel_id=UC-XEurS3F4W8CLKcRmQCcRw)
