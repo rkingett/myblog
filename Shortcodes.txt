@@ -16,7 +16,6 @@ One where Git does it naturally.
 
 git config --global core.editor "notepad"; CD "$home/documents/myblog"; Start-Service ssh-agent; rclone delete "$home/documents/myblog/DistSite" --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git commit -a; git push; rclone delete "$home/documents/myblog/DistSite" --rmdirs
 
-
 One without an interactive command.
 
 CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Added posts and updated posts"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs

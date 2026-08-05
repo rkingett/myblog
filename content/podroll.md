@@ -8,11 +8,13 @@ The kinds of podcasts I listen to are broken up into headings, so keep scrolling
 
 [Go here if you're looking for my podcast.](https://weirdwritings.pinecast.co/)
 
-I love---and let me repeat this again---love, podcasts.
+I love, and let me repeat this again, love, podcasts.
 
 They aren't locked to an ecosystem despite everybody in the tech and publishing industry hating this fact. Tech and publishers and producers can't stand the fact they operate on protocols rather than platforms and I love podcasts because of that, but there's other reasons I love the medium.
 
 You don't have to pay for podcasts. You don't have to be locked into one app. Because I have physical disabilities, podcasts are a fantastic way for me to rest and learn at the same time. I can just lay in bed and listen. Podcasts also must contain audio description by design. Otherwise, sighted people won't know what's happening either. Sighted people are limited by the audio medium and this means they don't have an advantage over me.
+
+[If you mirror your video stuff onto a podcast, tell me about it!](/contact/)
 
 My tastes are split between [fiction podcasts](https://www.theend.fyi/fully-complete) and nonfiction podcasts.
 
@@ -108,7 +110,7 @@ I can't stand murder true crime podcasts. Instead, I want to see how a town was 
 
 [Close All Tabs.](https://podcasts.apple.com/us/podcast/close-all-tabs/id214663465) Fantastic podcast covering online stuff I don't have time to keep up with. The description, in part, read, "Ever wonder where the internet stops and IRL begins? Close All Tabs breaks down how digital culture shapes our world through thoughtful insights and irreverent humor. From internet trends to AI slop to the politics of memes, Close All Tabs covers it all."
 
-[This podcast that used to be called Only Fantasy](https://podcasts.apple.com/ie/podcast/onlyfantasy/id1692238236 Only Fantasy was the season, season 3, that snagged me. I do think this reporter is very thoughtful in his audio documentaries. )
+[This podcast that used to be called Only Fantasy](https://podcasts.apple.com/ie/podcast/onlyfantasy/id1692238236) Only Fantasy was the season, season 3, that snagged me. I do think this reporter is very thoughtful in his audio documentaries. )
 
 [A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175) Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
 
