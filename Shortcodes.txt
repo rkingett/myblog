@@ -12,6 +12,10 @@ Test enhancements with stop gaps and checks and an interactive commit message.
 
 git config --global core.editor "notepad"; CD "$home/documents/myblog" && Start-Service ssh-agent -ErrorAction SilentlyContinue && rclone delete "$home/documents/myblog/DistSite" --rmdirs && rclone delete NFS: --rmdirs && npx @11ty/eleventy --quiet && git commit -a && git push; rclone delete "$home/documents/myblog/DistSite" --rmdirs
 
+One without an interactive command.
+
+CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Added posts and updated posts"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
+
 One with interactive commit.
 
 CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am (Read-Host "Enter commit message and press enter"); git push; rclone delete $home/documents/myblog/DistSite --rmdirs
@@ -19,10 +23,6 @@ CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/document
 One where Git does it naturally.
 
 git config --global core.editor "notepad"; CD "$home/documents/myblog"; Start-Service ssh-agent; rclone delete "$home/documents/myblog/DistSite" --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git commit -a; git push; rclone delete "$home/documents/myblog/DistSite" --rmdirs
-
-One without an interactive command.
-
-CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Added posts and updated posts"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
 
 Deserving Conference shortcode to replace.
 
