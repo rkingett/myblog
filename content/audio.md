@@ -1,7 +1,7 @@
 ---
 title: Audio and video.
-permalink: /audio/
-redirect_from: /posts/6259
+permalink: /podcast/
+redirect_from: //audio/
 ---
 
 [Go straight to my podcast that holds audio versions of my work.](https://weirdwritings.pinecast.co/)
@@ -16,7 +16,9 @@ Learn about my audio and video offerings below, including how to get bonus episo
 
 [My podcast called Sightless Scribbles](https://weirdwritings.pinecast.co/) has my blog posts narrated for people that cannot or choose not to read them. It also has audiobook excerpts, audio recordings of events, and more audio goodies.
 
-While most episodes are open for everyone to listen, I do sometimes offer bonus episodes that can only be accessed via a recurring subscription.
+While most episodes are open for everyone to listen, [I do sometimes offer bonus episodes that can only be accessed via a recurring subscription.](https://tips.pinecast.com/jar/weirdwritings)
+
+[If you need help, here's an article on the private RSS feed.](https://help.pinecast.com/article/61-subscribing-to-a-private-rss-feed)
 
 [Become a recurring podcast supporter to get all the bonus episodes!](https://tips.pinecast.com/jar/weirdwritings)
 
