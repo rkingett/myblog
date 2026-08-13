@@ -2,7 +2,7 @@
 title: "On the Attack Helicopter story by Isabel Fall"
 date: '2026-07-31T12:01:23.427757+00:00'
 tags: [blog and journal]
-permalink: /the-attack-helicopter-story/
+permalink: /posts/the-attack-helicopter-story/
 ---
 [Read the story here](https://isabelfall.neocities.org/)
 

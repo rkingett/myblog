@@ -23,7 +23,7 @@ CONTENT_DIR = PROJECT_ROOT / "content"
 EXCLUDED_DIRS = {
     "_site", ".git", ".github", ".settings", ".cache", "node_modules",
     "feed", "feeds", "assets", "css", "js", "images", "img", "fonts",
-    "drafts", "Drafts"
+    "drafts"
 }
 
 @dataclass
@@ -91,18 +91,34 @@ def slugify(text: str) -> str:
     return text
 
 def make_permalink(text: str) -> str:
-    slug = slugify(text)
-    if not slug:
-        slug = "untitled"
-    return f"/{slug}/"
+    # Ensure permalink always begins with /posts/<slug>/
+    if not text:
+        text = "untitled"
+    # Strip leading/trailing slashes if provided and slugify the remainder
+    candidate = text.strip("/")
+    candidate = slugify(candidate)
+    if not candidate:
+        candidate = "untitled"
+    return f"/posts/{candidate}/"
 
 def is_permalink_valid(permalink: str) -> bool:
-    if not permalink: return False
-    if not permalink.startswith("/"): return False
-    if not permalink.endswith("/"): return False
-    if " " in permalink: return False
-    if permalink != permalink.lower(): return False
-    if re.search(r'[^a-z0-9/-]', permalink): return False
+    if not permalink:
+        return False
+    # Allow absolute external URLs
+    if permalink.startswith("http://") or permalink.startswith("https://"):
+        return True
+    # Require all internal permalinks to start with /posts/
+    if not permalink.startswith("/posts/"):
+        return False
+    if not permalink.endswith("/"):
+        return False
+    if " " in permalink:
+        return False
+    if permalink != permalink.lower():
+        return False
+    # only allow lowercase letters, numbers, slashes and hyphens
+    if re.search(r'[^a-z0-9/-]', permalink):
+        return False
     return True
 
 def open_editor(filepath: Path) -> None:
@@ -120,34 +136,42 @@ def create_post() -> None:
     print("\n--- CREATE POST ---")
     title = ""
     while not title:
-        title = input("Enter title: ").strip()
+        try:
+            title = input("Enter title: ").strip()
+        except EOFError:
+            print("No input provided. Aborting.")
+            return
 
     tags_input = input("Enter tags (comma-separated): ").strip()
     user_tags = [t.strip() for t in tags_input.split(",") if t.strip()]
-    
+
     merged_tags = []
     for tag in user_tags:
-        tag_clean = tag.strip()
-        if tag_clean and tag_clean not in merged_tags:
-            merged_tags.append(tag_clean)
-    
-    is_redirect = input("Is this a redirect? (y/N): ").strip().lower() == 'y'
+        if tag and tag not in merged_tags:
+            merged_tags.append(tag)
+
+    is_redirect = input("Is this a redirect post? (y/N): ").strip().lower() == 'y'
     permalink = make_permalink(title)
-    redirect_url = ""
-    
+    redirect_value = ""
+
     if is_redirect:
-        redirect_input = input("Enter redirect URL: ").strip()
-        redirect_url = make_permalink(redirect_input)
+        redirect_input = input("Enter redirect_from (existing path or full URL): ").strip()
+        if redirect_input:
+            if redirect_input.startswith("http://") or redirect_input.startswith("https://"):
+                redirect_value = redirect_input
+            else:
+                # treat as a site path/slug and normalize to /posts/<slug>/
+                redirect_value = make_permalink(redirect_input)
 
     filename_base = slugify(title)
     if not filename_base:
         filename_base = "untitled"
-    
+
     target_dir = get_drafts_dir()
 
     filename = f"{filename_base}.md"
     filepath = target_dir / filename
-    
+
     counter = 2
     while filepath.exists():
         filename = f"{filename_base}-{counter}.md"
@@ -155,20 +179,21 @@ def create_post() -> None:
         counter += 1
 
     current_time = datetime.datetime.now(datetime.timezone.utc).isoformat()
-    
-    frontmatter = {
+
+    frontmatter: Dict[str, Any] = {
         "title": QuotedString(title),
         "date": current_time,
         "tags": FlowStyleList(merged_tags),
-        "permalink": permalink
+        "permalink": QuotedString(permalink)
     }
 
-    if is_redirect and redirect_url:
-        frontmatter["redirect_from"] = redirect_url
+    if is_redirect and redirect_value:
+        frontmatter["redirect_from"] = QuotedString(redirect_value)
 
     try:
         yaml_str = yaml.dump(frontmatter, Dumper=NoAliasDumper, sort_keys=False, allow_unicode=True)
-        content = f"---\n{yaml_str}---\n"
+        # Properly delimit frontmatter and leave a blank line before content
+        content = f"---\n{yaml_str}---\n\n"
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(content)
         print(f"\nCreated: {filepath}")
@@ -205,9 +230,11 @@ def read_post(filepath: Path) -> PostMeta:
                 parsed = yaml.safe_load("".join(meta.yaml_lines))
                 if isinstance(parsed, dict):
                     meta.parsed_yaml = parsed
-                    meta.title = str(parsed.get("title", ""))
-                    meta.permalink = str(parsed.get("permalink", ""))
-                    meta.redirect_from = str(parsed.get("redirect_from", ""))
+                    meta.title = parsed.get("title") or ""
+                    perm = parsed.get("permalink") or ""
+                    meta.permalink = str(perm) if perm is not None else ""
+                    red = parsed.get("redirect_from") or ""
+                    meta.redirect_from = str(red) if red is not None else ""
             except Exception:
                 pass
         else:

@@ -2,7 +2,7 @@
 title: "Audible Exclusives limit disabled audiobook fans like me"
 date: '2026-08-11T11:25:00.162096+00:00'
 tags: [blog and journal]
-permalink: /audible-exclusives/
+permalink: /posts/audible-exclusives/
 ---
 
 ## Throwback notes.

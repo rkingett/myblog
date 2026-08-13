@@ -2,7 +2,8 @@
 title: "I stopped syndicating Sightless Scribbles to YouTube"
 date: '2026-08-13T08:39:58.520700+00:00'
 tags: [blog and journal]
-permalink: /posts/why-i-stopped-syndicating-sightless-scribbles-to-youtube/
+redirect_from: "/why-i-stopped-syndicating-sightless-scribbles-to-youtube/"
+permalink: "/posts/why-i-stopped-syndicating-sightless-scribbles-to-youtube/"
 ---
 
 This won't be a lengthy post. It will consist of a small update and a brief explanation regarding why I am no longer publishing Sightless Scribbles to YouTube.

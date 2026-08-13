@@ -2,7 +2,8 @@
 title: "The \"Disability Dongle\": Why Silicon Valley Hates Me and you."
 date: '2026-08-05T03:32:26.733411+00:00'
 tags: [syndicate, blog and journal]
-permalink: /disability-dongle/
+permalink: /posts/disability-dongle/
+redirect_from: "/disability-dongle/"
 ---
 Mood: Wanting to throw a $30,000 prototype into a lake.
 
