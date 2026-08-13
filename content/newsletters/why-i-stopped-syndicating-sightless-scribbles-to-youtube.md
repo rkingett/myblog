@@ -2,7 +2,7 @@
 title: "I stopped syndicating Sightless Scribbles to YouTube"
 date: '2026-08-13T08:39:58.520700+00:00'
 tags: [blog and journal]
-permalink: /why-i-stopped-syndicating-sightless-scribbles-to-youtube/
+permalink: /posts/why-i-stopped-syndicating-sightless-scribbles-to-youtube/
 ---
 
 This won't be a lengthy post. It will consist of a small update and a brief explanation regarding why I am no longer publishing Sightless Scribbles to YouTube.
@@ -22,6 +22,8 @@ Why don't I keep them publishing to YouTube anyway? Because if I kept the podcas
 [Why do I love my podcast more than YouTube?](/audio/) Because I think sighted people look at things too often! More seriously, I like my podcast a billion times more than I like my YouTube because audio is a medium I have slightly more control over as a blind person.
 
 And now the announcement is done, [I'm off to do some more reading of this new to me dark Romance series I've found and really enjoy.](https://www.graphicaudio.net/our-productions/series/k-r/the-legacy.html)
+
+[Besides, [YouTube continues to be problematic anyway](/posts/youtube-harm/)
 
 I hope you all are, well, enjoying the last vestiges of the internet before it gets taken over by slop. I know I am! [That's why I've been reading more.](/reading/)
 
