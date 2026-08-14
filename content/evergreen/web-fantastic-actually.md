@@ -62,7 +62,7 @@ As long as I've been on the web, I'll be the first to point out it's flaws. [Tru
 
 You won't find these quiet spots on the web very easily. You'll have to be the expert in your own exploration. You'll need to be a guide for your own personal algorithm of deduction. You'll have to be a curator. Keep links for later instead of just dumping them into an application that's going to shut down in a year anyway.
 
-It definitely isn't easy to find. It takes time. You won't have things sent to you. You have to do the work and learn to find things and explore without some platform telling you what to like. This is scarry to a lot of people. I, frankly, am not sure why it's so scarry to people.
+It definitely isn't easy to find. It takes time. You won't have things sent to you. You have to do the work and learn to find things and explore without some platform telling you what to like. This is scary to a lot of people. I, frankly, am not sure why it's so scary to people.
 
 It takes work, finding the good web where all the fun Black, disabled, gay, and otherwise are all at. It's going to take some mental wrestling to see them as people, even if you don't know their real name, instead of a wallet that will buy your thing. Getting to stay in the indie web space takes work. Not because there's a test to get in, but on the good web, the key is to listen to people, because you don't know everything, so just trust and learn.
 

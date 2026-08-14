@@ -1,14 +1,10 @@
 ---
-title: books and anthologies
+title: Books and Anthologies
 ---
 
 The books listed below are organized from newest, at the top, to oldest, at the bottom.
 
-[Sean Crisden narrates my blog posts for his Backstage Pass](https://seancrisden.com/pages/backstage-pass)
-
-[Read shorter works.](/shorts)
-
-[Find audio versions of my work.](/audio)
+[Find audio versions of my work and blog post narrations.](/audio)
 
 [Use Wikipedia to find my books via ISBN.](https://en.wikipedia.org/wiki/Special:BookSources/)
 
@@ -21,8 +17,6 @@ The books listed below are organized from newest, at the top, to oldest, at the 
 ## audiobook store links.
 
 [Buy DRM free audiobooks on Libro FM](https://libro.fm/search?q=Robert+Kingett&searchby=authors) or [buy audiobooks from Audible](https://www.audible.com/search?searchAuthor=Robert+Kingett&ref=a_search_c3_lAuthor_1_1_2&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JXD9R4XKDMCBK402ZPQG)
-
-In the below listings, I’ve indicated where you can buy books without DRM in the below links.
 
 ## All books.
 
