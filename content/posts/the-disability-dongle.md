@@ -15,9 +15,9 @@ I can't roll my eyes hard enough every time I see one of these vapid videos.
 
 The machine—let’s call it the iClimb 3000—usually costs as much as a Honda Civic. It weighs three hundred pounds. It makes a sound like a blender digesting a brick. And watching the video, all I can feel is the phantom sensation of being strapped into that thing, suspended five feet in the air at a forty-five-degree angle, praying the gyroscope doesn't glitch and toss me down a flight of concrete steps like a sack of potatoes.
 
-This is what we call a "Disability Dongle."
+[This is what we call a "Disability Dongle."](https://blog.castac.org/2022/04/disability-dongle/)
 
-A Disability Dongle is a piece of technology that is flashy, expensive, and technically impressive, but utterly fails to solve the actual problem it claims to address. It is engineering designed for the abled gaze, not the disabled body. It is designed to win design awards, not to be used.
+[A Disability Dongle](https://blog.castac.org/2022/04/disability-dongle/) is a piece of technology that is flashy, expensive, and technically impressive, but utterly fails to solve the actual problem it claims to address. It is engineering designed for the abled gaze, not the disabled body. It is designed to win design awards, not to be used.
 
 Silicon Valley loves these things. They love the idea of "solving" disability with hardware. It fits their narrative. If disability is just a bug in the human code, then surely they can patch it with enough servos and lithium-ion batteries.
 

@@ -6,7 +6,7 @@ redirect_from: /posts/20250727
 tags: [blog and journal]
 ---
 
-[Listen to A Sensual Exploration of Chocolate](https://weirdwritings.pinecast.co/episode/a759dbb6/a-sensual-exploration-of-chocolate)
+[Listen to A Sensual Exploration of Chocolate](https://weirdwritings.pinecast.co/episode/333944ff/a-sensual-exploration-of-chocolate-remastered)
 
 I am not a religious man. My temples are not made of stone, and my prayers are not spoken in archaic tongues. But I do have rituals. I do believe in communion. I believe in the sacred act of unwrapping a piece of good, dark chocolate.
 
