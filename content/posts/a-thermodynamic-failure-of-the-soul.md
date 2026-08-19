@@ -17,13 +17,19 @@ Our society is so saturated with the slop that realities are being warped—twis
 
 It's happening within my circles. Trust in skills is being eradicated. It's utterly terrifying.
 
-A writer friend recently sent me an email dripping with praise. He gushed over my developmental edits on his fantasy manuscript. He praised the wit, and he praised the heavy, resonant impact of the feedback. Then he begged to know what Large Language Model I used to achieve such perfection.
+A writer friend recently sent me an email dripping with praise. He gushed over [my developmental edits on his fantasy manuscript.](/editing/) It was funny. It was honest. My feedback was developmental juice that didn't have any trouble asserting its flavor.
 
-My pulse hammered a heavy, syncopated rhythm against my collarbone, an ironic showing of human insult
+He praised the wit, and he praised the heavy, resonant impact of the feedback. Then he begged to know what Large Language Model I used to achieve such perfection.
 
 Because he gave his manuscript to others that used an LLM, he assumed that I had outsourced his previous draft to algorithms. He was shocked to encounter the actual gravity of human effort.
 
-[While many in the blind community use LLMs freely and openly,](https://mosen.org/ai/) I know people who use these large language models out of sheer, grinding necessity. I know blind peers who code software through an LLM because ableist developers refuse to code structural accessibility into their applications. I know blind individuals who strap corporate hardware to their skulls to decode their environments independently. I know Deaf individuals who rely on machine learning to translate the kinetic poetry of ASL into a spoken frequency. I know neurodivergent folks who use algorithms to navigate the exhausting labyrinth of corporate communication. 
+My pulse hammered a heavy, syncopated rhythm against my collarbone, an ironic showing of human insult
+
+Angered by his assumption, I replied on instinct.
+
+> "I used my fucking brain!"
+
+[While many in the blind community use LLMs unapologetically and proudly,](https://mosen.org/ai/) I know people who do not enjoy using these [disability dongles](/posts/disability-dongle) but they continue to use these large language models out of sheer, grinding necessity. I know blind peers who code software through an LLM because ableist developers refuse to code structural accessibility into their applications. I know blind individuals who strap corporate hardware to their skulls to decode their environments independently. I know Deaf individuals who rely on machine learning to translate the kinetic poetry of ASL into a spoken frequency. I know neurodivergent folks who use algorithms to navigate the exhausting labyrinth of corporate communication. 
 
 The tech industry treats this disabled survival as free marketing. They frame themselves as saviors while exploiting the marginalized community they actively helped to disenfranchise. [These systems are massive, energy-draining disability dongles.](/posts/disability-dongle) They are a shoddy bandage applied to a canyon that capitalism dug in the first place.
 
@@ -33,7 +39,7 @@ But my skills are my own. My craft is a muscle I tore and rebuilt and tore again
 
 I sheared his assumption down to the bedrock. I did not use a machine to feel the rhythm of his story. I did not ask an algorithm to map the emotional topography of his characters. I engaged the raw, jagged, beautiful machinery of my own consciousness. 
 
-I will never apologize for celebrating humanity. I have said it before, and I will say it again, Tech Bros can fuck off.
+I will never apologize for celebrating humanity. [I have said it before, and I will say it again, Tech Bros can fuck off.](/posts/tags/narrative/)
 
 Community will outlast their server farms. The resonant hum of human solidarity will persist long after their venture capital dries up. We hold the real power. We hold each other. Why? Because we fight for each other. We love. Because we care. That is something they will never be able to vanquish, no matter how hard they try.
 
