@@ -17,7 +17,7 @@ Our society is so saturated with the slop that realities are being warped—twis
 
 It's happening within my circles. Trust in skills is being eradicated. It's utterly terrifying.
 
-A writer friend recently sent me an email dripping with praise. He gushed over [my developmental edits on his fantasy manuscript.](/editing/) It was funny. It was honest. My feedback was developmental juice that didn't have any trouble asserting its flavor.
+A writer friend recently sent me an email dripping with praise. He gushed over [my developmental edits on his fantasy manuscript.](/editing/) My feedback was funny. My feedback was honest. My feedback was developmental juice that didn't have any trouble asserting its flavor.
 
 He praised the wit, and he praised the heavy, resonant impact of the feedback. Then he begged to know what Large Language Model I used to achieve such perfection.
 
@@ -25,9 +25,9 @@ Because he gave his manuscript to others that used an LLM, he assumed that I had
 
 My pulse hammered a heavy, syncopated rhythm against my collarbone, an ironic showing of human insult
 
-Angered by his assumption, I replied on instinct.
+Angered by his assumption, I replied instantly.
 
-> "I used my fucking brain!"
+"I used my fucking brain!"
 
 [While many in the blind community use LLMs unapologetically and proudly,](https://mosen.org/ai/) I know people who do not enjoy using these [disability dongles](/posts/disability-dongle) but they continue to use these large language models out of sheer, grinding necessity. I know blind peers who code software through an LLM because ableist developers refuse to code structural accessibility into their applications. I know blind individuals who strap corporate hardware to their skulls to decode their environments independently. I know Deaf individuals who rely on machine learning to translate the kinetic poetry of ASL into a spoken frequency. I know neurodivergent folks who use algorithms to navigate the exhausting labyrinth of corporate communication. 
 
