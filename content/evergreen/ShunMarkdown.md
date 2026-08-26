@@ -1,6 +1,6 @@
 ---
-title: "How to convert Markdown to Shun manuscript format"
-date: 2026-08-25T10:17:48.000Z
+title: "How to convert Markdown to Shun manuscript format Using Pandoc"
+date: 2026-08-24T10:17:48.000Z
 permalink: /posts/shun/
 redirect_from: /posts/5926
 tags:
@@ -140,11 +140,9 @@ CD $env:APPDATA\pandoc; pandoc -o reference.docx --print-default-data-file refer
 
 Or, open up Powershell in this user data directory with Windows Explorer.
 
-Open the run dialog, then type,
+Press your applications key or Shift F10 on the folder then go down to powershell, then open here as administrator.
 
-`%APPDATA%\pandoc`
-
-Next, to open Powershell with windows explorer, press, Alt D, Delta, then type, Powershell, all one word, and then hit enter.
+Or you can select, copy as path, then open up powershell, type, CD, then hit paste.
 
 After opening up powershell above or doing it first then navigate to where your Pandoc user data folder is or any directory where you want to store templates. To navigate to the Pandoc user data folder quickly, you’d do this,
 
@@ -217,12 +215,12 @@ Press, Alt O, to open the format menu. Go down and select, paragraph.
 
 Change the below attributes.
 
-• Font: Times New Roman, 12 pt.
-• Alignment: Left-aligned (do not justify Shunn manuscripts).
-• Spacing Before: 0 pt.
-• Spacing After: 0 pt.
-• Line Spacing: Double.
-• First Line Indent: 0.5 inches (Set via Alt + S to skip to the special combo box, then arrow down to select, first line. Tab and enter 0.5 in that edit field if it is empty.
+* Font: Times New Roman, 12 pt.
+* Alignment: Left-aligned (do not justify Shunn manuscripts).
+* Spacing Before: 0 pt.
+* Spacing After: 0 pt.
+* Line Spacing: Double.
+* First Line Indent: 0.5 inches (Set via Alt + S to skip to the special combo box, then arrow down to select, first line. Tab and enter 0.5 in that edit field if it is empty.
 
 Tab to the, okay, button. Press enter. You should land on another okay button. Remember, our modify dialog is still open, so we need to close this one too by pressing enter on, okay.
 
