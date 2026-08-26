@@ -1,6 +1,6 @@
 ---
-title: How to convert Markdown to Shun manuscript format
-date: 2023-03-11T10:17:48.000Z
+title: "How to convert Markdown to Shun manuscript format"
+date: 2026-08-25T10:17:48.000Z
 permalink: /posts/shun/
 redirect_from: /posts/5926
 tags:
@@ -8,11 +8,15 @@ tags:
   - guides
 ---
 
+This has been updated with better links, better commands, and some extra optional advanced configuration tutorials.
+
 Notes about writing manuscripts in Markdown are after the conversion tutorials.
 
 [You can also find other Shun Manuscript templates on this website](https://pandoc-templates.org/)
 
-I love [Markdown.](https://www.markdownguide.org/basic-syntax) I love it so much that I’ve adapted my whole workflow around it! [From writing fiction podcast scripts](/posts/5913) to drafting blog posts, it’s just pure plain text, and I love it because it’s so portable and universal.
+## Introduction.
+
+[I love Markdown.](https://www.markdownguide.org/basic-syntax) I love it so much that I’ve adapted my whole workflow around it! [From writing fiction podcast scripts](/posts/5913) to drafting blog posts, it’s just pure plain text, and I love it because it’s so portable and universal.
 
 I wanted to write Markdown manuscripts and then convert them to [Shun format industry standard documents.](https://www.shunn.net/format/) In short, I’ve figured out how to do it, but it’s a very involved process. If just opening up Word or otherwise works for you, do that. Seriously, don’t try to adopt this workflow unless you really, really, love writing in Markdown as much as I do.
 
@@ -26,103 +30,103 @@ The below, though, will definitely take some time to set up. It requires you [kn
 
 [JAWS tutorials for Microsoft Office are here](https://www.freedomscientific.com/category/webinar/microsoft-office/) and [NVDA tutorials for Word are here](https://www.nvaccess.org/product/microsoft-word-training-for-nvda-ebook/)
 
+[A Microsoft Word Styles tutorial is here](https://support.microsoft.com/en-us/word/customize-or-create-new-styles)
+
+[Getting started with Powershell is a great basic tutorial, enough so you understand what we will be doing below.](https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?view=powershell-7.6)
+
 For the command line, we’re going to use PowerShell for this because it’s more versatile.
 
-If you’d rather use templates for Word instead, [Shun made templates](https://www.shunn.net/format/templates.html) and [I made modern versions of his templates for Word](https://github.com/rkingett/writertools/releases)
+[If you’d rather use templates for Word instead of writing in Markdown, Shun made templates](https://www.shunn.net/format/templates.html) and [I made modern versions of his templates for Word](https://github.com/rkingett/writertools/tree/8a7a4cda92ad337bb5efecb512643a681b179fa8/Microsoft%20Word%20related)
 
 Let’s get started!
 
-## Use my Pandoc templates instead of making your own
-
-[Download my Pandoc reference templates here](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) or make your own below.
-
-If you want one command that will download all of my templates, use the below command to download Pandoc, make a Pandoc data folder, then download all the pre made templates into that folder.
-
-`winget install JohnMacFarlane.Pandoc; New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD $env:APPDATA\pandoc; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx](https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx)' -OutFile ./reference.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx)' -OutFile ./PandocReferenceWithHeadingsCreatingNewPages.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt)' -OutFile ./reference.odt`
-
-After running the above command, you should be able to just convert the documents without having to make templates.
-
-To use any other template in this directory other than the ones named reference, use the below command as an example, making sure to replace the custom name with the template name. If it has spaces in it, put the name in quotes.
-
-`pandoc -s File.txt --reference-doc=$env:APPDATA\pandoc/NovelNewPages.docx -o File.docx`
-
-Otherwise, do it all yourself below!
-
 ## Downloading Pandoc.
 
-[Download Pandoc for your operating system and install it.](https://pandoc.org/installing.html)
+[Before we do anything, download Pandoc for your operating system and install it.](https://pandoc.org/installing.html)
 
-Alternatively, you can run this command in Windows Powershell to install Pandoc.
+[Then, make your Pandoc data directory folder.](https://pandoc.org/MANUAL.html#option--data-dir)
 
-`winget install -e --id JohnMacFarlane.Pandoc`
+Alternatively, you can run this command in Windows Powershell to install Pandoc and make a data directory folder, something you will need.
 
-If you want to just download the nessisary files, use the below PowerShell command.
+```
+winget install -e --id JohnMacFarlane.Pandoc; New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD CD $env:APPDATA\pandoc
+```
 
-`winget download -e --id JohnMacFarlane.Pandoc`
+If you use Chocolatey, the below command will install it for you.
+
+```
+choco install pandoc; New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD CD $env:APPDATA\pandoc
+```
 
 After you install Pandoc, restart your computer. Now, you should be good to go.
 
-Now, we’re going to split this up into two sections. A DIY template that you create, that you can use anywhere, and a preconfigured script someone else made. The DIY method is good for those that don’t want to rely on third party developers.
+## Use my Pandoc templates instead of making your own
 
-## DIY manuscript conversion.
+[Download my Pandoc reference templates here](https://github.com/rkingett/writertools/archive/refs/heads/main.zip) or make your own below.
+
+If you want one command that will download all of my templates, use the below command to download Pandoc, make a Pandoc data folder, then download all the pre made templates into that folder.
+
+```
+winget install JohnMacFarlane.Pandoc; $d="$env:APPDATA\pandoc"; if(!(Test-Path $d)){New-Item -ItemType Directory -Path $d | Out-Null}; @("https://github.com/rkingett/writertools/blob/8a7a4cda92ad337bb5efecb512643a681b179fa8/Pandoc%20templates/story.docx", "https://github.com/rkingett/writertools/blob/8a7a4cda92ad337bb5efecb512643a681b179fa8/Pandoc%20templates/novel.docx", "https://github.com/rkingett/writertools/blob/8a7a4cda92ad337bb5efecb512643a681b179fa8/Pandoc%20templates/ShunNewPagesLibreOfficeTemplate.odt") | ForEach-Object { Invoke-WebRequest -Uri "$_`?raw=true" -OutFile (Join-Path $d ([System.Web.HttpUtility]::UrlDecode((Split-Path $_ -Leaf)))) }
+```
+
+[You can also download my  whole templates directory here and move them as you see fit, later.](https://github.com/rkingett/writertools/archive/refs/heads/main.zip)
+
+After running the above command, all the templates are in [your Pandoc data directory](https://pandoc.org/MANUAL.html#option--data-dir) so you only need to convert stuff with commands like the below.
+
+If you rename something, reference.docx, you won't need to specify the template when converting. You could just use a command like this command.
+
+```
+pandoc -s Draft.md -o Book.docx
+```
+
+To use a particular template in question, reference it directly in your convert command, like the below. The below automatically looks in [your Pandoc data directory](https://pandoc.org/MANUAL.html#option--data-dir)
+
+```
+pandoc -s Draft.md --reference-doc=$env:APPDATA\pandoc\novel.docx -o Book.docx
+```
+
+Otherwise, make the templates yourself below!
+
+## Creating your own Shun Manuscript templates.
+
+The below sections will walk you through, step by step, on making your own Shun Manuscript Pandoc reference templates.
+
+[If you don't want to go through the process of making your own Shun reference templates, download all of my templates, here](https://github.com/rkingett/writertools/archive/refs/heads/main.zip) and then [unzip them into your Pandoc data directory](https://pandoc.org/MANUAL.html#option--data-dir)
 
 This method requires a lot of setting up, but it’s going to be worth it in the end. You will only need to set this up once. After you set it up, you can just make copies of your reference document.
 
-[This other tutorial has reference files for LibreOffice](https://www.autodidacts.io/convert-markdown-to-standard-manuscript-format-odts-docs-and-pdfs-with-pandoc/)
+[First, make sure your Pandoc data directory is created](https://pandoc.org/MANUAL.html#option--data-dir)
 
-First, [get acquainted with Pandocs commands with this getting started page.](https://pandoc.org/getting-started.html) All commands start with -Pandoc, and are usually one line for this tutorial.
+then, [get acquainted with Pandocs commands with this getting started page.](https://pandoc.org/getting-started.html) All commands start with -Pandoc, and are usually one line for this tutorial.
 
-The first thing we’re going to need to do is make a template. When exporting into a Word format, Pandoc references templates so it knows how to style your outputs.
+## Pandoc reference files.
+
+The first thing we’re going to need to do is make a reference file for Microsoft Word. When exporting into a Word format, Pandoc references templates so it knows how to style your outputs.
 
 It can’t reference any random template, though. It needs to reference a template based on its structure. This is why we need to make our own template.
 
-## Pre made Pandoc templates.
-
-[Download my Pandoc reference templates here](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) or make your own below.
-
-If you want one command that will download all of my templates, use the below command to download Pandoc, make a Pandoc data folder, then download all the pre made templates into that folder.
-
-`winget install JohnMacFarlane.Pandoc; New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD $env:APPDATA\pandoc; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx](https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx)' -OutFile ./reference.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx)' -OutFile ./NovelNewPages.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt)' -OutFile ./reference.odt`
-
-After running the above command, you should be able to just convert the documents without having to make templates.
-
-To use any other template in this directory other than the ones named reference, use the below command as an example, making sure to replace the custom name with the template name. If it has spaces in it, put the name in quotes.
-
-`pandoc -s File.txt --reference-doc=$env:APPDATA\pandoc/NovelNewPages.docx -o File.docx`
-
 ## Navigating to make your reference template.
 
-[Download Pandoc templates I made here](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) or make your own, below. After downloading them, move the templates into your data directory folder, change the names to something simple, and just convert documents!
+[In order for this to work, we need to make a Pandoc User Data directory folder.](https://pandoc.org/MANUAL.html#option--data-dir) after the Pandoc installation.
 
-[Download my Pandoc reference templates here](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) or make your own below.
+Here is a Powershell command that makes a reference document after making a user data directory, the below command will first make a user data directory, then go into the directory, then make a reference file.
 
-If you want one command that will download all of my templates, use the below command to download Pandoc, make a Pandoc data folder, then download all the pre made templates into that folder.
-
-`winget install JohnMacFarlane.Pandoc; New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD $env:APPDATA\pandoc; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.docx](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.docx)' -OutFile ./reference.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/PandocReferenceWithHeadingsCreatingNewPages.docx)' -OutFile ./PandocReferenceWithHeadingsCreatingNewPages.docx; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt](https://github.com/rkingett/writertools/raw/main/Pandoc%20templates/reference.odt)' -OutFile ./reference.odt; Invoke-WebRequest '[https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx](https://github.com/rkingett/writertools/raw/df487a997941a0b299a003edd2c24a3fc81e45b8/Pandoc%20templates/PandocBookReferenceWithoutHeadingsAsNewPages.docx)' -OutFile ./PandocBookReferenceWithoutHeadingsAsNewPages.docx`
-
-After running the above command, you should be able to just convert the documents without having to make templates.
-
-To use any other template in this directory other than the ones named reference, use the below command as an example, making sure to replace the custom name with the template name. If it has spaces in it, put the name in quotes.
-
-`pandoc -s File.txt --reference-doc=$env:APPDATA\pandoc/CustomeName.docx -o File.docx`
-
-If you don’t like my templates, you can make your own, below.
-
-If you’d like one Powershell command that makes a reference document after making a user data directory, the below command will first make a user data directory, then go into the directory, then make a reference file.
-
-`New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD CD $env:APPDATA\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx`
+```
+New-Item -Path "$env:APPDATA" -Name "pandoc" -ItemType Directory; CD CD $env:APPDATA\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx
+```
 
 You can also do this step by step below.
 
-In order for this to work, we need to make a [Pandoc User Data directory folder.](https://pandoc.org/MANUAL.html#option--data-dir) after the Pandoc installation.
+### Making a user data directory in Windows, step-by-step GUI version.
 
-Once Pandoc is installed,
-
-Open up, Run, by pressing, Windows key plus R.
+Once Pandoc is installed, Open up, Run, by pressing, Windows key plus R.
 
 After the Run dialog opens, put this.
 
-`%APPDATA%`
+```
+%APPDATA%
+```
 
 Press enter.
 
@@ -130,7 +134,9 @@ Press, Control, Shift, N, to make a new folder inside of this AppData folder. Ca
 
 Now, open up Powershell and the below command will first navigate to your Pandoc directory you just created, then make a reference document, all with one command.
 
-`CD $env:APPDATA\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx`
+```
+CD $env:APPDATA\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx
+```
 
 Or, open up Powershell in this user data directory with Windows Explorer.
 
@@ -142,7 +148,9 @@ Next, to open Powershell with windows explorer, press, Alt D, Delta, then type, 
 
 After opening up powershell above or doing it first then navigate to where your Pandoc user data folder is or any directory where you want to store templates. To navigate to the Pandoc user data folder quickly, you’d do this,
 
-`CD $env:APPDATA\pandoc`
+```
+CD $env:APPDATA\pandoc
+```
 
 CD in command line speak means, change directory. If you have an external hard drive, you’d first enter that external hard drive by typing,
 
@@ -150,7 +158,9 @@ CD DRIVELETTER, where DRIVELETTER is the letter of your actual drive.
 
 If you keep everything on your computer, you need to enter the full path after the, CD, command. For example, to get to the desktop, you could use,
 
-`CD $home\Desktop`
+```
+CD $home\Desktop
+```
 
 Alternatively, you can open up a powershell window at any location from Windows explorer.
 
@@ -164,59 +174,205 @@ And hit enter. No spaces should be between power, and shell.
 
 Now that powershell is open where you want to have it, Let’s make a reference document.
 
-## Making a reference document.
-
-If you [downloaded my Pandoc reference documents,](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) you can just use those instead of making your own.
-
-[Download my Pandoc reference templates here](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) or make your own below.
-
-After [downloading my Pandoc templates,](https://github.com/rkingett/writertools/tree/main/Pandoc%20templates) move them to the user data directory folder, then rename them to something easy to type.
-
-To make Pandoc use a default template you downloaded every time, rename the template to,
-
-`reference.docx`
-
-To use any template in this directory, use the below command as an example, making sure to replace the custom name with the template name. If it has spaces in it, put the name in quotes.
-
-`pandoc -s File.txt --reference-doc=$env:APPDATA\pandoc/CustomeName.docx -o File.docx`
+## Generating a generic Pandoc reference document.
 
 To make a reference document, you’d type,
 
-`pandoc -o reference.docx --print-default-data-file reference.docx`
+```
+pandoc -o reference.docx --print-default-data-file reference.docx
+```
 
 To make a LibreOffice reference document,
 
-`pandoc -o reference.odt --print-default-data-file reference.odt`
+```
+pandoc -o reference.odt --print-default-data-file reference.odt
+```
 
 After your reference document is created, open up your reference document in Word or LibreOffice Writer.
 
 ## Editing styles in Microsoft Word.
 
-[Use this guide to edit the, first paragraph style, and the, body text style, styles](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) so that the  line spacing is double, first line is indented 0.5 inches, and the font is 12 PT, Times New Roman.
+In the past, I had you edit one style at a time, but editing the, normal style, will be the fastest way, leaving us to only change some other things such as changing our heading styles.
+
+[Use this guide to get acquainted with styles and editing styles before continuing.](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) so that the  line spacing is double, first line is indented 0.5 inches, and the font is 12 PT, Times New Roman.
 
 The easiest way to edit the styles with a keyboard is to do the following.
 
 After your reference document is open in word,
 
-Press control+alt+shift+s to open the "Styles" toolbar. The styles you need to change are the, body text, and the first paragraph, styles.
+1. Press control+alt+shift+s to open the "Styles" pane.
+2. Press the up and or down arrow until you find, normal.
+3. Press, either, your applications key, if you have one, or, Shift F10. A context menu should open up.
+4. Arrow down to, Modify, then press enter.
 
-if your cursor is on a style in the document, control+alt+shift+s to open the "Styles" toolbar should have you landing on that style in the styles toolbar.
+If your cursor is on a style in the document, control+alt+shift+s to open the "Styles" pane should have you landing on that style in the styles pane.
 
-Press the applications key, then hit enter on Modify or tab to the Modify button.
+## Normal style attributes to change.
 
-Once the Modify style dialog box is open, tab to the font ComboBox. Change it to Times New Roman. Change the size to size 12.
+Once the Modify style dialog box is open, tab to the font ComboBox. Change it to Times New Roman.
 
-Tab until you hear, format menu button. Press enter, go down to paragraph, then press enter.
+Tab to change the size to size 12.
 
-In this new dialog box, tab until you hear, special, ComboBox. Change the ComboBox to, first line.
+Press, Alt O, to open the format menu. Go down and select, paragraph.
 
-When the ComboBox has been changed to first line, tab, and enter 0.5.
+Change the below attributes.
 
-One more step! Now tab until you hear, line spacing. Change that to double.
+• Font: Times New Roman, 12 pt.
+• Alignment: Left-aligned (do not justify Shunn manuscripts).
+• Spacing Before: 0 pt.
+• Spacing After: 0 pt.
+• Line Spacing: Double.
+• First Line Indent: 0.5 inches (Set via Alt + S to skip to the special combo box, then arrow down to select, first line. Tab and enter 0.5 in that edit field if it is empty.
 
-Press okay, or apply, but pressing Okay is fine here. Press okay again to save and close out of the first style dialog box.
+Tab to the, okay, button. Press enter. You should land on another okay button. Remember, our modify dialog is still open, so we need to close this one too by pressing enter on, okay.
 
-After [editing the styles,](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) save your edited reference document.
+[After editing the Normal Style,](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) save your edited reference document before we move on to fixing the remaining styles.
+
+## Fixing our heading styles in our reference document.
+
+Because we edited the, normal, style, now we need to fix our headings.
+
+If you didn't close your document, press F6, to navigate to the styles. Arrow up and down until you get to, heading 1.
+
+Press your applications key, or Shift F10, to open the context menu. Arrow down to the modify option and press enter to modify the style the same way we modified the normal style.
+
+### Heading 1 style attributes to change.
+
+* Font. Times new Roman.
+* Size. 12.
+* Alignment. Centered.
+* Spacing Before: 144 pt. This makes the chapter heading start a few inches down from the top, which looks nice.
+* Spacing After: 24 pt. This puts a clean break between the heading style and the text body.
+* Line spacing. Double.
+* Page Break Before: Checked (Found under the Line and Page Breaks tab). To switch tabs, press Control tab.
+
+## Heading level 2 values to change.
+
+* Font. Times new Roman.
+* Size. 12.
+* Alignment. Centered.
+* Space Before: 24 pt (Inserts exactly one blank double-spaced line above the sub-heading).
+* Space After: 24 pt (Inserts exactly one blank double-spaced line below the sub-heading).
+* Line Spacing: Double.
+
+## Changing the top headers on pages.
+
+Having the page headers nicely done will help out editors and agents that read on electronic devices.
+
+### Step 1: Isolate the First Page Header
+
+Before typing anything, you must tell Word to leave the first page blank.
+
+1. Press Alt + N, then H, then E to open the header area. Your screen reader will announce that you are in the header.
+2. Press Alt + J, to open the Header options ribbon menu.
+3. Press, A, to enable, different first pages. Your screen reader will say, different first page on.
+4. Press page down until you hear "header section, page 2, or "Header - Section 1" or "Header page 2"
+
+### Step 2: Set Right Alignment and Add Your Last Name
+
+Shunn format requires the header to sit on the right side of the page.
+
+1. Press Ctrl + R to right-align the paragraph. Your screen reader may say "Align Right" or confirm the change.
+2. Type your Last Name followed by a forward slash and a space.
+
+For example
+
+Smith / 
+
+### Step 3: Insert the Automated Title Property
+
+Instead of typing your book title manually, insert a field that updates automatically when you convert from Markdown.
+
+1. Press Alt + N to open the Insert tab.
+2. Press Q, then A (or use your screen reader to search for Quick Parts in the Text group).
+3. Press Arrow Down to highlight Document Property and press Right Arrow to expand the menu.
+4. Arrow down until you hear Title and press Enter.
+5. Word inserts a dynamic field block. Press Right Arrow once to move your cursor past this field box.
+6. Type a space, a forward slash, and another space. (Your text line now should read: Last Name / [Title Field] / ).
+
+### Step 4: Insert the Automated Page Number Field
+
+Why type page numbers manually when Word can automatically assign them. More than not, people will want page numbers so it is best to add them now.
+
+1. Make sure you inserted a, space, then a, slash, after we inserted our title field.
+2. Press Alt + Shift + P. This is the global Microsoft Word shortcut to insert a dynamic page number field instantly at your cursor location.
+3. Your screen reader won't say anything but we can review it by pressing the left and right arrow keys. You should hear the current page number (which should be "2").
+
+###Step 5: Verify and Exit
+
+1. Press Up Arrow or Home to read the line with your screen reader. It should read exactly like this: YourLastName / Your Book Title / 2
+2. Press Page Up to check the first-page header. Ensure your screen reader says it is completely blank.
+3. Press Escape to exit the header view and return to editing your main document template.
+
+## Conclusion.
+
+Now be sure to save it! You are done! YAY!
+
+You can name it, reference.docx, if you want Pandoc to use this template by default.
+
+## Commands to use the templates.
+
+Regardless of which method you picked, [downloading my templates](https://github.com/rkingett/writertools/archive/refs/heads/main.zip) or making your own via styles, now you need to use them.
+
+If you haven't done so already, make your life a billion times easier by [putting all the templates in your Pandoc data directory](https://pandoc.org/MANUAL.html#option--data-dir)
+
+[After the templates are in the Pandoc data directory,](https://pandoc.org/MANUAL.html#option--data-dir) now it's time to use them!
+
+### How to specify reference templates.
+
+If you changed the name of your reference document, you will need to tell Pandoc what reference document to use every time.
+
+We would do this by directing Pandoc to it with this addition.
+
+```
+--reference-doc=ChangeName.docx
+```
+
+Since I am on Windows, I always just specify the Pandoc data directory anyway, like this in Powershell.
+
+```
+--reference-doc=$env:APPDATA\pandoc\novel.docx
+```
+
+### Conversion commands.
+
+After you've written something in Markdown, open Powershell.
+
+There's two ways to tell Pandoc what to convert, where to convert. The easiest way is to provide the full input file and output files along with paths.
+
+Let's say you keep everything in your My Documents folder. The below command will tell Pandoc to go into your documents folder and convert the file.
+
+```
+pandoc -s "$home/documents/Draft.md" --reference-doc=$env:APPDATA\pandoc\novel.docx -o "$home/documents/Book.docx"
+```
+
+If you renamed a reference document as, reference.docx, the command doesn't need to tell Pandoc what reference document to use. Pandoc will use the 'reference.docx' template by default.
+
+```
+pandoc -s "$home/documents/Draft.md" -o "$home/documents/Book.docx"
+```
+
+But what if you wanted to navigate to the directory first.
+
+We can change directories in Powershell with, CD.
+
+The easiest way is to find your folder, hit your applications key, and then click, copy as path.
+
+Then, now that path is copied to the clipboard, just type, CD, in Powershell, then hit paste, then enter.
+
+Now we are in your directory, you would use a command like the below because we are already in our desired directory, so no need to specify the full file paths
+
+```
+pandoc -s Draft.md --reference-doc=$env:APPDATA\pandoc\novel.docx -o Book.docx
+```
+
+If you renamed your template file, reference.docx, you don't have to tell Pandoc what reference template to use. We can just use a command like the below, excluding the, reference doc = portion.
+
+```
+pandoc -s Draft.md -o Book.docx
+``` 
+
+## Extra tutorials and optional enhancements.
 
 ## Editing styles in LibreOffice Writer.
 
@@ -246,107 +402,107 @@ The font style and font size are already where they should be, but if you wanted
 
 If editing other styles, I’d change the, first line, style to match the edited paragraph style. If you don’t want to edit other styles, you can save the reference document and close LibreOffice.
 
-## After editing styles.
+## Creating new Chapter files.
 
-Now you just need to start converting because our modified reference document is in [the User Data directory folder.](https://pandoc.org/MANUAL.html#option--data-dir)
+I often times split longer projects up into separate files. I am a lazy person though so I always have the computer make me a batch of files at one time.
 
-Now you have all files where you need them, we’re going to convert Markdown to Shun Manuscript format.
+```
+1..10 | ForEach-Object { New-Item ('Chapter{0:D2}.md' -f $_) }
+```
 
-With your manuscript all in one text file or Markdown file, use the below command to convert your manuscript.
+## Sorting and renaming multiple files for Pandoc.
 
-`pandoc -s book.md --output KingettManuscript.docx`
+If you made your files by hand, instead of having the PC make new files for you, sometimes they can get out of hand and if we try to convert stuff without the order correct, Pandoc won't know what chapter comes first in the sequence so we need to make it easier for Pandoc to know what comes before what.
 
-If your reference document is not in [Pandoc User Data directory folder,](https://pandoc.org/MANUAL.html#option--data-dir) then move it to the same folder as your book and use the command below.
+The below command will sort all Markdown files.
 
-`pandoc -s ManuscriptName.md --reference-doc= refdoc.docx --output manuscript.docx`
+```
+Get-ChildItem *.md | Sort-Object CreationTime | ForEach-Object -Begin { $i = 1 } -Process { Rename-Item $_.FullName -NewName (("{0:D3} - {1}" -f $i, $_.Name)) ; $i++ }
+```
 
-If you don’t want to specify a reference document every time, we need to make Pandoc use our modified reference template as the default template.
+The below will change all text documents to .MD files and then sort them.
 
-## Changing default reference template for our DIY conversion.
+```
+Get-ChildItem *.txt | Sort-Object CreationTime | ForEach-Object -Begin { $i = 1 } -Process { $newName = "{0:D3} - {1}" -f $i, ($_.BaseName + ".md") ; Rename-Item $_.FullName -NewName $newName ; $i++ }
+```
 
-If you would like one command to do everything, the below will navigate to your Pandoc Data folder and make a reference document, all with one command.
+The below sorts your Markdown files if you did not use any numbering at all.
 
-`CD $home\appdata\Roaming\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx`
+```
+Get-ChildItem *.md | Sort-Object CreationTime | ForEach-Object -Begin { $i = 1 } -Process { $cleanName = $_.Name -replace '^\d+\s*-\s*\d+\s*-\s*|^\d+\s*-\s*', ''; $newName = "{0:D3} - {1}" -f $i, $cleanName; Rename-Item $_.FullName -NewName $newName; $i++ }
+```
 
-You can also navigate to your [Pandoc User Data directory folder.](https://pandoc.org/MANUAL.html#option--data-dir)
+## Merging multiple files into one book with your Shun template.
 
-In the address bar, type, powershell, and press enter.
+Before reading the below, make sure that *nothing else* is located in the chapter hub, the place where all your chapter files will go.
 
-next, we make our reference document.
+The easiest way I’ve found of merging multiple files into one book is to [put your custom reference document in the User data directory](https://pandoc.org/MANUAL.html#option--data-dir) so that Pandoc uses the document every time it converts to Docx.
 
-`pandoc -o reference.docx --print-default-data-file reference.docx`
+If you want to split your chapters up into separate files, you need to specify each input file name, in order, so that it will merge all the files into one document in order.
 
-[edit the styles like before,](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) making sure to change the body text style, and the first paragraph style, to 12 PT font, Times New Roman, Double line spacing, with the first line indented 0.5 inches.
+The easiest way of making sure multiple files stays in order for Pandoc is to name all your files something like,
 
-After all styles are edited, save and close your reference document.
+'''
+01Prologue.md
+```
 
-Now, you won’t need to specify the reference document every time, so your command will look like this,
+Make sure files start with a numbered sequence, like...
 
-`pandoc -s ManuscriptName.md --output manuscript.docx`
+01
 
-Below, I’ll show you how to convert and merge multiple files with our modified reference template.
+001
 
-## Merging multiple files with your DIY template.
+0001
 
-The easiest way I’ve found of doing this is to put your custom reference document in the [User data directory](https://pandoc.org/MANUAL.html#option--data-dir) so that Pandoc uses the document every time it converts to Docx.
+00001
 
-To navigate to, and then, make a reference document in your Pandoc data directory, use the below command. The below will tell Powershell to go to your Pandoc data directory, then make a reference document.
+Let’s say you have a folder called Book. Inside of that folder, you have Markdown files. The below command works well if all files are in the same folder, named and sorted correctly.
 
-`CD $home\appdata\Roaming\pandoc; pandoc -o reference.docx --print-default-data-file reference.docx`
+```
+pandoc -s (Get-ChildItem *.md).FullName --reference-doc=$env:APPDATA\pandoc\novel.docx -o Book.docx
+```
 
-Or navigate to where your [Pandoc data directory folder is manually.](https://pandoc.org/MANUAL.html#option--data-dir)
+If you have a directory of other file types that you want to merge into one Markdown file, use the below command.
 
-In the address bar, type, powershell, and press enter.
-
-next, we make our reference document.
-
-`pandoc -o reference.docx --print-default-data-file reference.docx`
-
-[edit the styles like before,](https://support.microsoft.com/en-us/office/customize-or-create-new-styles-d38d6e47-f6fc-48eb-a607-1eb120dec563) making sure to change the body text style, and the first paragraph style, to 12 PT font, Times New Roman, Double line spacing, with the first line indented 0.5 inches.
-
-After all styles are edited, save and close your reference document.
-
-Now you can merge multiple files without having to specify a reference document every time.
-
-If you want to split your chapters up into separate files, you need to specify each input file name, in order, so that it will merge all the files into one document.
-
-Let’s say you have a folder called Book. Inside of that folder, you have text files. These text files need to be named sequentially. The easiest way I’ve found of doing this is to use the below Powershell command to rename all files in the directory by date created, then it will concatenate all text files after renaming them.
-
-`Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (get-item *.txt).FullName -o final.docx`
-
-If you have a mixture of file types, the below command will concatenate all files in a folder.
-
-`Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (Get-ChildItem _._).FullName -o final.docx`
-
-You can also sequentially rename them yourself. I prefix all my names with 00, like this.
-
-001 breakupscene
-
-002 afterwards.
-
-Then, in powershell, you would put the below.
-
-`pandoc (Get-ChildItem _._).FullName --wrap=none -o final.txt`
-
-If you have a directory of other file types that you want to merge into one text file, use the below command.
-
-`pandoc (Get-ChildItem _._).FullName --wrap=none -o final.txt`
+```
+pandoc (Get-ChildItem _._).FullName --wrap=none -o final.md
+```
 
 Alternatively, you can use the below command to rename all files in a directory sequentially by date, then concatenate, or merge, all the reorderd files in a directory. The below Powershell command will rename all files in a directory sequentially by date created and then merge them with Pandoc.
 
-`Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (Get-ChildItem _._).FullName -o final.docx`
+```
+Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (Get-ChildItem _._).FullName --reference-doc=$env:APPDATA\pandoc\novel.docx -o final.docx
+```
 
 The semicolon in the above is intentional. The above command performs two commands one after the other.
 
 Finally, alternatively, you can also list them one at a time. To list them all one at a time, make sure you specify each text file in the command. For example,
 
-`pandoc -s -o Book.docx ch1.md ch2.md ch3.md ch4.md ch5.md`
+```
+pandoc -s -o Book.docx ch1.md ch2.md ch3.md ch4.md ch5.md
+```
 
-## Converting multiple files into Markdown.
+## Using a manifest to convert multiple files.
+
+I like manifests because if you have a lot of folders inside of a chapters folder, as an example, a manifest is the easiest way to keep all of that clean and in order.
+
+I typically have a project folder, and then have characters in 1 folder, chapters in another, and notes in a notes folder inside of that project folder.
+
+The below will check for all files in a Chapters folder, make the manifest, then compile based off that manifest.
+
+To one command one at a time, run the command before the, &&
+
+```
+(Get-ChildItem -Path .\chapters -Recurse -File -Filter *.md | Sort-Object DirectoryName, Name).ForEach({ "/chapters/$($_.FullName -replace '^.*\\chapters\\', '' -replace '\\', '/')" }) | Out-File -FilePath .\manifest.txt -Encoding utf8 && pandoc @manifest.txt -s --file-scope --reference-doc=$env:APPDATA\pandoc\novel.docx -o "Book.docx"
+```
+
+## Converting multiple DOCX files into Markdown.
 
 Just in case you wanted to convert any directory of Docx files to Markdown, and the order doesn’t matter, use the below command after navigating to the directory containing the files in power shell.
 
-`gci -r -i *.docx |foreach{$md=$_.directoryname+"\"+$_.basename+".md";pandoc -f docx --wrap=none -s $_.name -o $md}`
+```
+gci -r -i *.docx |foreach{$md=$_.directoryname+"\"+$_.basename+".md";pandoc -f docx --wrap=none -s $_.name -o $md}
+```
 
 The above will make Markdown versions of your Docx files. It won’t merge all of them though, only make an MD version of your Docx files in the folder.
 
@@ -354,7 +510,9 @@ If you wanted to merge, or concatenate, all files in a directory with Powershell
 
 If you want to rearrange and rename all files in a directory then merge them with Pandoc, use the below command, including the semicolon.
 
-`Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (get-item _._).FullName -o final.txt`
+```
+Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)} && pandoc (get-item _._).FullName --wrap=none -o final.md
+```
 
 I personally prefix all of mine like this, 00.
 
@@ -368,21 +526,15 @@ It reads like this.
 
 After all files are where you need them to be, merge all files in powershell with this command.
 
-`pandoc (get-item _._).FullName --wrap=none -o final.txt`
+```
+pandoc (get-item _._).FullName --wrap=none -o final.md
+```
 
-If you wanted to convert all text files into the Shun DIY template we made earlier, use the below command in Powershell.
+## Using prosegrinder's scripts on Windows.
 
-`pandoc (get-item *.txt).FullName -o final.docx`
+[This directory of prosegrinder's scripts does some extra things, such as splitting chapters and otherwise.](https://github.com/prosegrinder/pandoc-templates)
 
-Now, onto a script that will do all this for you!
-
-## Using a script.
-
-This Pandoc script will do all the hard work for you!
-
-First, [download the latest script from this page.](https://github.com/prosegrinder/pandoc-templates)
-
-To download the script, expand the, code, button, then click download as zip or download Master.
+[First, download the latest zipped script directory from this page.](https://github.com/prosegrinder/pandoc-templates/archive/refs/heads/main.zip)
 
 Extract the folder to a folder where you’ll remember it.
 
@@ -406,31 +558,39 @@ To convert single files, you’d use the command below, making sure to tell Pand
 
 If you wrote everything in one long file, use the below command, replacing name’s as needed.
 
-`.\bin\md2short.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/Book.docx './test/long/Book.md'`
+```
+.\bin\md2short.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/Book.docx './test/long/Book.md'
+```
 
 If you created a short story, use the below command, replacing name’s as needed.
 
-`.\bin\md2short.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/ShortStory.docx './test/short/story.md'`
+```
+.\bin\md2short.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/ShortStory.docx './test/short/story.md'
+```
 
 With this script, you can merge all files in a folder in order. When saving files to a folder, or renaming files, make sure to save the files with sequential numbers. Like this,
 
-001 intro.
+0010 intro.
 
-002 Start.
+0020 Start.
 
-003 END.
+0030 END.
 
 The important thing is to have the numbers at the beginning the same length, and make sure they are in sequential order.
 
-After all chapters have name’s in sequential order, use the below code.
+For longer projects with multiple chapters, after all chapters have name’s in sequential order, use the below code.
 
-`.\bin\md2long.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/Book.docx './test/long/*.md'`
+```
+.\bin\md2long.ps1 -overwrite -modern -output $env:USERPROFILE/Desktop/Book.docx './test/long/*.md'
+```
 
-## Convert documents to plain text.
+## Convert DOCX to Markdown.
 
 If you wanted to convert a file to plain text and or markdown, use the below command. Even if you type Markdown syntax into a plain text file without the MD extension, Pandoc will still convert it correctly later.
 
-`pandoc -s draft.docx --output draft.md --wrap=none`
+```
+pandoc -s draft.docx --output draft.md --wrap=none
+```
 
 ## Working with track changes in plain text.
 
@@ -448,7 +608,14 @@ If I want to accept everything and just read the changed output as plain text, I
 
 The above accept command doesn’t include comments in the output so if I want to read comments as plain text but exclude all the suggestions, I accept all suggested changes in Microsoft Word by pressing, accept all and stop tracking, in the document. I then save and close the document. With Pandoc, I then put,
 
-`pandoc -s draft.docx --output draft.md --wrap=none --track-changes=all`
+```
+pandoc -s draft.docx --output draft.md --wrap=none --track-changes=all
+```
+
+## Other resources.
+
+* [You can also find other Shun Manuscript templates on this website](https://pandoc-templates.org/)
+* [This other tutorial has reference files for LibreOffice](https://www.autodidacts.io/convert-markdown-to-standard-manuscript-format-odts-docs-and-pdfs-with-pandoc/)
 
 ## Some notes about writing manuscripts in Markdown.
 
