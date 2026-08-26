@@ -296,7 +296,7 @@ Why type page numbers manually when Word can automatically assign them. More tha
 2. Press Alt + Shift + P. This is the global Microsoft Word shortcut to insert a dynamic page number field instantly at your cursor location.
 3. Your screen reader won't say anything but we can review it by pressing the left and right arrow keys. You should hear the current page number (which should be "2").
 
-###Step 5: Verify and Exit
+### Step 5: Verify and Exit
 
 1. Press Up Arrow or Home to read the line with your screen reader. It should read exactly like this: YourLastName / Your Book Title / 2
 2. Press Page Up to check the first-page header. Ensure your screen reader says it is completely blank.
@@ -440,9 +440,8 @@ If you want to split your chapters up into separate files, you need to specify e
 
 The easiest way of making sure multiple files stays in order for Pandoc is to name all your files something like,
 
-'''
+
 01Prologue.md
-```
 
 Make sure files start with a numbered sequence, like...
 
