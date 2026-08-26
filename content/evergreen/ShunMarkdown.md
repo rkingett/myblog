@@ -370,7 +370,7 @@ If you renamed your template file, reference.docx, you don't have to tell Pandoc
 pandoc -s Draft.md -o Book.docx
 ``` 
 
-## Extra tutorials and optional enhancements.
+# Extra tutorials and optional enhancements.
 
 ## Editing styles in LibreOffice Writer.
 
