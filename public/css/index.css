@@ -1062,7 +1062,7 @@ header img {
 .post,
 .page,
 main:not(.post):not(.page) {
-	font-size: 2rem;
+	font-size: 1.25rem;
 	line-height: 1.6;
 	padding-left: 1rem;
 	padding-right: 1rem;
@@ -1079,8 +1079,7 @@ main:not(.post):not(.page) {
 
 .post nav h1 {
 	clear: none;
-	font-size: 26px;
-	font-size: 1.625rem;
+	font-size: 1.5rem;
 	line-height: 1.153846154;
 	margin: 0;
 }
@@ -1118,12 +1117,12 @@ main:not(.post):not(.page) {
 }
 
 .post main h1 {
-	font-size: 1.625rem;
+	font-size: 1.5rem;
 	line-height: 1.15;
 }
 
 .post main h2 {
-	font-size: 1.375rem;
+	font-size: 1.25rem;
 	line-height: 1.15;
 }
 
@@ -1135,7 +1134,7 @@ main:not(.post):not(.page) {
 .post main h4,
 .post main h5,
 .post main h6 {
-	font-size: 0.9375rem;
+	font-size: 1rem;
 	line-height: 1.2;
 }
 
@@ -1168,7 +1167,7 @@ main:not(.post):not(.page) {
 }
 
 .post header .title {
-	font-size: 1.625rem;
+	font-size: 1.5rem;
 	line-height: 1.15;
 	margin: 0;
 }
@@ -1442,26 +1441,14 @@ address {
 }
 
 /**
- * 16.1 >= 470px
- */
-
-@media screen and (min-width: 29.375em) {
-	.entry-title,
-	.page-title {
-		font-size: 1.9375rem;
-		line-height: 1.161290323;
-	}
-}
-
-/**
  * 16.2 >= 601px
  */
 
 @media screen and (min-width: 37.5625em) {
 	.entry-title,
 	.page-title {
-		font-size: 2.3125rem;
-		line-height: 1.135135135;
+		font-size: 2rem;
+		line-height: 1.15;
 	}
 }
 
@@ -1559,7 +1546,7 @@ address {
 	}
 
 	.post header a.title .page header a.title {
-		font-size: 2.5625rem;
+		font-size: 2rem;
 		line-height: 1.2;
 	}
 
@@ -1574,25 +1561,21 @@ address {
 	}
 
 	h1 {
-		font-size: 2.5625rem;
+		font-size: 2.5rem;
 		line-height: 1.15;
 	}
 
 	h2 {
-		font-size: 2.1875rem;
+		font-size: 2rem;
 		line-height: 1.2;
 	}
 
 	h3 {
-		font-size: 1.8125rem;
+		font-size: 1.75rem;
 		line-height: 1.2;
 	}
 
-	h4 {
-		font-size: 1.5rem;
-		line-height: 1.2;
-	}
-
+	h4,
 	h5,
 	h6 {
 		font-size: 1.25rem;
@@ -1610,12 +1593,6 @@ address {
 
 	small a:before {
 		top: 1px;
-	}
-
-	h2 {
-		font-size: 2.5625rem;
-		line-height: 1.2;
-		margin: 0 0 32px;
 	}
 
 	p {
@@ -1814,6 +1791,12 @@ address {
 }
 
 @media screen and (min-width: 51.755em) {
+	.post,
+	.page,
+	main:not(.post):not(.page) {
+		font-size: 2rem;
+	}
+	
 	.blog-posts {
 		border-bottom: 0;
 		margin: 0;
@@ -1850,10 +1833,6 @@ address {
 	table {
 		margin: 0 !important;
 		max-width: 100% !important;
-	}
-
-	.entry-content {
-		margin-top: 11.11419486%;
 	}
 
 	.widecolumn {
