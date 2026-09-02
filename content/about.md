@@ -31,7 +31,7 @@ On this site, you will find [a smorgasbord of literary output.](/posts) You’ll
 
 There will also be happy tellings, like [the time my Trans friend came out to me.](/the-home-of-a-new-name/) You'll also read [lengthy immersive, and intimate, nonfiction narratives that explore my insecure and emotionally needy life.](/posts/tags/narrative)
 
-You will also find such things as [me imagining a gay man reading my scars like Braille,](/a-map-of-my-scars-read-by-your-fingertips/) [me getting free Pizza,](/posts/20250820/) [praises for libraries,](/posts/20250910) [love letters to chocolate,](/posts/20250727) [hilarious tales of men I dated eating my cookies,](posts/20250806) and [letters to people I have yet to meet.](/writing/nonfiction/20250712)
+You will also find such things as [me imagining a gay man reading my scars like Braille,](/a-map-of-my-scars-read-by-your-fingertips/) [me getting free Pizza,](/posts/20250820/) [praises for libraries,](/posts/20250910) [love letters to chocolate,](/posts/chocolate) [hilarious tales of men I dated eating my cookies,](posts/20250806) and [letters to people I have yet to meet.](/writing/nonfiction/20250712)
 
 But primarily, you will find the truth of my body.
 
