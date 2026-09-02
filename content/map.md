@@ -3,7 +3,7 @@ title: Site Map
 redirect_from: archive
 eleventyNavigation:
   key: Site Map
-  order: 5
+  order: 1
 ---
 
 <a href="/feed.xml">Follow the main RSS feed</a> or find posts, pages, and categories/tags below.

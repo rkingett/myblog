@@ -9,6 +9,8 @@ Because I frequently receive  so many questions, I'd figured I'd just make a FA
 
 But first, some links.
 
+# Links of note.
+
 [Learn all about me and this blog.](/about)
 
 [Contact me](/contact)
@@ -22,6 +24,10 @@ But first, some links.
 [Read all my posts](/posts)
 
 [Find any other page on my site map, the easiest place to get around this website.](/map)
+
+# Frequently asked questions.
+
+Check back over time. Otherwise, [visit the site map if you feel lost](/map)
 
 ## What's with cookies? Why are cookies in every aspect of your work?
 
@@ -85,7 +91,7 @@ My own theory is that the stutter was caused when I was given far too much oxyge
 
 ## Do you listen to podcasts? What's some of your favorite podcasts?
 
-[I love podcasts!](/podroll) I love them so much I am a podcast hound. Give me all your podcasts. [My podcast page is here where you can also see the kinds of fiction and nonfiction podcasts I like and why I like them.](/podroll)
+[I love podcasts! I love them so much I am a podcast hound.](/podroll) Give me all your podcasts. [My podcast page is here where you can also see the kinds of fiction and nonfiction podcasts I like and why I like them.](/podroll)
 
 ## Why don't you publish more? Or at least publish faster?
 
@@ -107,13 +113,13 @@ To reject all of that toxic mindset, I never publish to readers expectations. I 
 
 ## If I'm supporting you financially on an ongoing basis, why do you still give your work away for free?
 
-[There's a few reasons I give my work away for free to anybody that asks for it.](/contact)
+[There's a few reasons I give my work away for free to anybody that asks for it.](/reprint)
 
 It combats censorship. In a hostile world that hates minorities of any kind, and financially disadvantaged people, actively giving my work away for free is the best way I can keep kicking censorship until it stays down. I hate censorship of any kind, no matter who does it and why they justify doing it. This is why I actively read every bigoted book I can get my hands on. It is a way for me to arm myself and challenge myself. I will fight you if you want to take this reading power away from me. If I choose to read problematic or bigoted books, you can share better books rather than telling me not to read these kinds of books.
 
 Providing access is very important to me, which is why I don't or rarely do exclusive stuff. Everyone should have access regardless of financial ability. I give my work away for free because everyone deserves to read.
 
-[By supporting me monthly,](/tips) you're paying it forward. You're making sure others have access to me, even if my work is censored where they are due to bigots or censored because of capitalism.
+[By supporting me financially,](/tips) you're paying it forward. You're making sure others have access to me, even if my work is censored where they are due to bigots or censored because of capitalism.
 
 ## How can we make sure you don't deny our event requests?
 

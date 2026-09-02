@@ -2,7 +2,7 @@
 title: All posts.
 eleventyNavigation:
   key: All posts
-  order: 3
+  order: 2
 ---
 
 My post archive is below, from newest to oldest! I'd encourage you to <a href="/feed.xml">Follow the main RSS feed</a>
