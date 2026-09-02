@@ -1,0 +1,132 @@
+https://github.com/rkingett/myblog
+
+https://github.com/rkingett/myblog/commits/main/_includes/newsletter-form.njk
+
+Makes local copy of blog before writing anything. Mainly used for testing reasons. Use the commands below this one to push and deploy to website.
+
+CD $home/documents/myblog; start-process http://localhost:8080/; npx @11ty/eleventy --serve
+
+Publishes website to web host using Github actions and the command line. First deletes everything on web host with RClone, then builds the site, then publishes the site using Github.
+
+Test enhancements with stop gaps and checks and an interactive commit message.
+
+git config --global core.editor "notepad"; CD "$home/documents/myblog" && Start-Service ssh-agent -ErrorAction SilentlyContinue && rclone delete "$home/documents/myblog/DistSite" --rmdirs && rclone delete NFS: --rmdirs && npx @11ty/eleventy --quiet && git commit -a && git push; rclone delete "$home/documents/myblog/DistSite" --rmdirs
+
+One without an interactive command.
+
+CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Added posts and updated posts"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
+
+One with interactive commit.
+
+CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am (Read-Host "Enter commit message and press enter"); git push; rclone delete $home/documents/myblog/DistSite --rmdirs
+
+One where Git does it naturally.
+
+git config --global core.editor "notepad"; CD "$home/documents/myblog"; Start-Service ssh-agent; rclone delete "$home/documents/myblog/DistSite" --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git commit -a; git push; rclone delete "$home/documents/myblog/DistSite" --rmdirs
+
+Deserving Conference shortcode to replace.
+
+20250919
+
+Age gate qualifier.
+
+age_gate: true
+
+Normal post list. Change category to have posts show latest to earliest.
+
+{% set postslist = collections.writings %}
+{% include "postslist.njk" %}
+
+Chapter code. Change category in the below for whatever category.
+
+{% set chapterlist = collections.scribes-hope %}
+{% include "chapters.njk" %}
+
+Permalink example.
+
+permalink: /posts/post-title/
+
+permalink: /posts/5651/
+
+Redirect example.
+
+permalink: /posts/web-fantastic/
+redirect_from: /posts/20250603
+
+permalink: /posts/web-fantastic/
+redirect_from: ['/support/', '/tips/']
+
+single redirect.
+
+redirect_from: /posts/5651
+
+redirect_from: /progress
+
+multiple redirects.
+
+['/support/', '/tips/']
+
+redirect_from: ['/explore/', '/explore/buttonwall/', '/explore/webrings/', '/explore/blogroll/', '/explore/links/']
+
+Permalink tips.
+
+https://www.11ty.dev/docs/permalinks/#put-quotes-around-template-syntax-in-yaml
+
+# Permalink examples.
+
+title: This is a New Path
+permalink: "subdir/{{ title | slugify }}/index.html"
+
+example 2.
+
+---
+date: "2016-01-01T06:00-06:00"
+permalink: "/{{ page.date | date: '%Y/%m/%d' }}/index.html"
+---
+
+# Other permalink examples.
+
+permalink: /posts/why-happy-ever-after-is-radical-restorative-justice/
+
+Eleventy Navigation main menu, non child example.
+
+eleventyNavigation:
+  key: Writing
+  order: 6
+redirect_from: /progress
+
+Eleventy Navigation child example.
+
+redirect_from: /progress
+eleventyNavigation:
+  title: Street team
+  parent: Contact
+  order: 1
+
+[Download my resume](/Robert-Kingett.htm)
+
+Normal post list. Change category to have posts show latest to earliest.
+
+{% set postslist = collections.writings %}
+{% include "postslist.njk" %}
+
+Chapter code. Change category in the below for whatever category.
+
+{% set chapterlist = collections.scribes-hope %}
+{% include "chapters.njk" %}
+
+<h2>Posts and pages, last modified.</h2>
+
+<ul>
+{%- for post in collections.all | reverse -%}
+  <li{% if page.url == post.url %} aria-current="page"{% endif %}><li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>
+
+<h2>Backup list<h2>
+
+<ul>
+{%- for post in collections.all | reverse -%}
+<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- endfor -%}
+</ul>

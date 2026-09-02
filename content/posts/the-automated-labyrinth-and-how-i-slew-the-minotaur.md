@@ -1,0 +1,33 @@
+---
+title: "The Automated Labyrinth, and How I Slew the Minotaur"
+date: '2025-06-29T13:17:33.130401+00:00'
+permalink: /posts/minotaur/
+redirect_from: /posts/20250629
+tags: [syndicate, blog and journal]
+---
+
+[Listen to The Automated Labyrinth, and How I Slew the Minotaur.](https://weirdwritings.pinecast.co/episode/d746d334/the-automated-labyrinth-and-how-i-slew-the-minotaur)
+
+The modern world’s version of the Minotaur is not a half-man, half-bull. It is the automated phone system of your health insurance company. It lives in a labyrinth of menus and hold music, and its only purpose is to devour your will to live.
+
+"For billing, press one. For appointments, press two. To hear these options again, please stay on the line."
+
+I pressed two. I was immediately transferred to a bullshit version of a song I actively despise. For ten minutes, I listened to a synthesized saxophone butcher a classic. Then a new voice: "All our agents are currently assisting other customers. Your call is important to us."
+
+This is, of course, bullshit. Your call is not important to them. If your call were important, a human would answer. This is a lie we have all agreed to accept.
+
+But here is the secret I have learned. [Here is the thread of Ariadne.](https://en.wikipedia.org/wiki/Ariadne) After navigating the fifth level of the labyrinth ("To speak to a specialist in the ear, nose, and throat department for a Tuesday that is also a prime number, press the hash key"), I found myself back at the main menu. The Minotaur was winning. So I did the only thing I could.
+
+I pressed zero. Again. And again. And again.
+
+Zero, zero, zero, zero, zero. I pounded the button, a frantic drumbeat of digital defiance that was like a gay daddy pounding an adult twink. The automated voice faltered. It stammered. And then, a miracle.
+
+"Please hold while I connect you to an operator."
+
+I fucking won. I didn't follow the rules. I broke the maze. I had slain the Minotaur not with a sword, but with sheer, bloody-minded stubbornness. Be kind to people, ruthless to corporations.
+
+And always, always, spam the zero key.
+
+[Listen to The Automated Labyrinth, and How I Slew the Minotaur.](https://weirdwritings.pinecast.co/episode/d746d334/the-automated-labyrinth-and-how-i-slew-the-minotaur)
+
+If you enjoyed this essay, you might enjoy reading, [Black Disability Politics, by Sami Schalk.](https://bookshop.org/a/77/9781478025009)

@@ -1,0 +1,87 @@
+---
+title: Tools and services I use.
+redirect_from: tech
+---
+
+[Looking for my writing? Go here.](/writings/)
+
+[Consulting information is here.](/consulting)
+
+[Listen to audio versions and serialized audiobooks](https://weirdwritings.pinecast.co/)
+
+I receive a lot of questions about what tools and or services I use on a daily basis. This page will update frequently, so check back here often throughout the year.
+
+[I use this screen reader for now.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
+
+## Music I write to.
+
+[Go here to see the music I write to. I often write to a lot of internet radio stations](/writings/)
+
+
+## Online services I use.
+
+[Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
+
+[Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
+
+## Social media.
+
+[The Fediverse, because it has a wonderful accessibility and care culture that people hate.](/contact/) Providing Alt Text, content warnings, and far more quality of life features. The people that take these kinds of things seriously are why I remain in the Fediverse despite the haters.
+
+[The particular Fediverse platform](https://en.wikipedia.org/wiki/Fediverse) might change but the ecosystem will stay the same. You might find me using a different application/platform/service in the Fediverse but I'll still remain in the Fediverse.
+
+[fedra is the client I most use right now.](https://github.com/trypsynth/fedra)
+
+I hate all social media with an algorithm so if you see my account on any recent mainstream social media, chances are I'm being impersonated.
+
+## Phones and phone providers.
+
+I use an iPhone. Right now, I use an iPhone SE 3 Gen because I like my home button and tech consumerism is boring to me, so I don't buy the latest and the greatest unless there are substantial updates I find valuable. None of the newer iPhone's meet my standards of quality so that's why I'm using a non supported phone.
+
+For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and because I'm poor, if I need to use a non VOIP number, [I use a provider that provides services through the Lifeline program in my country.](https://cnm.universalservice.org/)
+
+## Unique mobile apps I love.
+
+[AudioBooth. Audiobook player for AudiobookShelf.](https://apps.apple.com/us/app/audiobooth-audiobooks-player/id6753017503)
+
+[Book Player. For those times when I want to play offline audiobooks or TV shows I've converted to audio only.](https://apps.apple.com/us/app/bookplayer/id1138219998)
+
+[Lire, an RSS reader.](https://apps.apple.com/us/app/lire-rss-reader/id1531976425) I love RSS. Enough said. [I use the paid hosted version of Miniflux to host my RSS feeds.](https://miniflux.app/hosting.html)
+
+[Hoopla](https://apps.apple.com/us/app/hoopla-digital/id580643740) and [Libby.](https://apps.apple.com/us/app/libby-the-library-app/id1076402606) Fantastic public library apps. Love public libraries!
+
+[Bookshare](https://www.bookshare.org/) and [NLS BARD.](https://www.loc.gov/nls/) Two libraries for the blind.
+
+[Apple podcasts, because I love podcasts, especially fiction podcasts](/podroll) and I haven't found a better app made for fiction podcast fans that's blind accessible.
+
+## Desktop software I use.
+
+I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
+
+Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[Metapad, an old text editor that still works!](https://liquidninja.com/metapad/download.html)
+
+[Yt DLP, a CLI video and audio downloader.](https://github.com/yt-dlp/yt-dlp)
+
+[Accessible Markdown Editor forked by one of my readers](https://github.com/stefano-pogliani/AME) because he wanted to make a text editor designed for me, since none of them meet my needs fully.
+
+[fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
+
+[Libation, because Audible will never hold my purchased audiobooks hostage](https://github.com/rmcrackan/Libation/releases)
+
+[Most of these little tools including the code editor and tools such as TXT2IMG](https://github.com/trypsynth?tab=repositories)
+
+[Boot Swap, a shockingly easy way to arrange boot order for blind people like us that can't access the BIOS](https://github.com/aryanchoudharypro/bootswap)
+
+[TaskMon, an accessible Task manager for Windows](https://github.com/trypsynth/taskmon)
+
+[Miranda NG, because it is the only Jabber client for Windows that is accessible](https://github.com/miranda-ng/miranda-ng)
+
+[Jarte. A text editor that has been discontinued but I love this thing. It was fantastic!](https://en.wikipedia.org/wiki/Jarte)
+
+[RClone, because it helps me mount drives and avoids bloated sync apps](https://rclone.org/downloads/)
+
+[Paperback. An eBook reader for blind people on desktop.](https://github.com/trypsynth/paperback)
+
+[GitKeep, a Github manager.](https://github.com/trypsynth/gitkeep)

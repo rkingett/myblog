@@ -1,0 +1,9 @@
+{%- from "macros.njk" import renderNavListItem %}
+{%- set navPages = collections.all | eleventyNavigation %}
+<div id="sidebar-nav">
+  <nav>
+    <ul>
+  {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
+    </ul>
+  </nav>
+</div>

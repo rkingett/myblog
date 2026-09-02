@@ -1,0 +1,77 @@
+---
+title: "My small list of Critiques Against Substack"
+date: "2025-04-25T12:31:44.539478+00:00"
+permalink: /posts/substack/
+redirect_from: /posts/20250425
+tags: ["rants", "blog and journal"]
+---
+
+I'm mainly keeping this for myself, but I'm also publishing this so I can have an easy, curated, directory of criticism against [the popular Blogging platform Substack.](https://en.wikipedia.org/wiki/Substack)
+
+You might be wondering, why did you just call it a Blogging platform? That's because that's exactly what it is. It's making money off of combining two decentralized technologies. RSS feeds, and email. [It's doing absolutely nothing different than all the other Blogging platforms out there.](https://kingettlinks.bearblog.dev/tech-internet-and-blog-related-resources/)
+
+I've never had a Substack. Years ago, I thought about syndicating my stuff to it, but not anymore. Unless I can import my RSS feed, I'm not interested in syndicating elsewhere. If I have to pick and choose what gets sent where instead of just plugging in my RSS feed and my stuff gets mirrored, that's not syndication. That's curation.
+
+I can't really say anything more negative about Substack that other people haven't said below, other than their accessibility has always been utter garbage too, but that doesn't shock me in the slightest. All venture backed things are designed to make money from you, eventually, and if things just happen to be accessible, such as in the case of Microsoft, for example, it's just a means to an end. It's not a goal nor a mission for them.
+
+Of course, open source still has community and accessibility problems too but that's for a different blog post, sometime down the line.
+
+[I know there are folks that will never leave Substack, as talked about here,](https://juliaserano.blogspot.com/2025/06/regarding-substack-and-writer-centric.html) but I wanted to collect all the links I could about leaving Substack.
+
+Why do I hate Substack so much?
+
+It's not that I hate it, per se. [I just find Substack exploitative and people don't realize how exploitative it really is.](https://buttondown.com/thehypothesis/archive/heres-why-substacks-scam-worked-so-well/) Not only that, I just find the platform extremely useless [when Blogging platforms exist that do what they do, but better.](https://kingettlinks.bearblog.dev/tech-internet-and-blog-related-resources/)
+
+[The platform also hates minorities and wants people to be free to hate minorities too.](https://starbreaker.org/grimoire/entries/substack-freedom-of-expression-and-tolerance-for-the-intolerant/index.html)
+
+[There might still be people that want to stay on Substack, as talked about in this post about reader and writer-centric boycotts.](https://juliaserano.blogspot.com/2025/06/regarding-substack-and-writer-centric.html)
+
+## The list of Substack critiques.
+
+And now, the list of links and then some!
+
+[Bye, Substack](https://untangled.bearblog.dev/bye-substack/)
+
+[SUPPORT FOR SUBSTACK IS NORMALIZING THE NAZI BAR](https://funcrunch.org/blog/2025/09/01/support-for-substack-is-normalizing-the-nazi-bar/)
+
+[Substack just killed the creator economy](https://mail.bigdeskenergy.com/p/substack-just-killed-creator-economy)
+
+[Why Substack is nudging you to follow your hookups](https://www.esckey.co/why-substack-is-nudging-you-to-follow-your-ex/)
+
+[Is Substack really that bad?](https://justincox.com/blog/2025/08/is-substack-really-that-bad/)
+
+[Substack sent a push alert promoting a Nazi blog](https://www.patreon.com/posts/substack-sent-135263203)
+
+[Q&A: Jude Ellison S. Doyle on why Substack isn’t about Substack](https://objectivejournalism.org/2021/04/qa-jude-ellison-s-doyle-on-why-substack-isnt-about-substack/)
+
+[All the garbage I found on Substack in 1 hour](https://badnewsletter.substack.com/p/all-the-garbage-i-found-on-substack?ref=news.elenarossini.com)
+
+[Not only is Substack right-wing broligarchy garbage, it's way more expensive than Ghost](https://micahflee.com/not-only-is-substack-right-wing-broligarchy-garbage-its-way-more-expensive-than-ghost/?ref=news.elenarossini.com)
+
+[This is what resistance to the digital coup looks like](https://news.elenarossini.com/this-is-what-resistance-to-the-digital-coup-looks-like/)
+
+[this is how Substack's scam worked so well.](https://buttondown.com/thehypothesis/archive/heres-why-substacks-scam-worked-so-well/)
+
+[Substack: home of Nazis, Covid misinformation, anti-vaccine propaganda & transphobia.](https://www.patreon.com/posts/substack-home-of-124180170) Also has some more resources.
+
+[SUBSTACK, FREEDOM OF EXPRESSION, AND TOLERANCE FOR THE INTOLERANT.](https://starbreaker.org/grimoire/entries/substack-freedom-of-expression-and-tolerance-for-the-intolerant/index.html)
+
+[Former Substack creators say they're earning more on new platforms that offer larger shares of subscription revenue.](https://archive.is/FkNlD)
+
+[The Substack Dilemma: How Creators Are Inadvertently Fueling America's Failure.](https://america2.news/the-substack-dilemma-how-creators-are-inadvertently-fueling-americas-failure/)
+
+[Don't call it a Substack.](https://www.anildash.com/2024/11/19/dont-call-it-a-substack/)
+
+[Substack Has a Nazi Problem.](https://archive.ph/uyugO)
+
+[On Substack, COVID misinformation is allowed to flourish.](https://archive.is/ltLvI)
+
+[Why I left Substack.](https://buttondown.com/onthebooks/archive/the-paid-newsletter-space-or-8826/)
+
+[Everyone Knew Neil Gaiman.](https://jude-doyle.ghost.io/everyone-knew-neil-gaiman/) Provides some context as to how they tried to fix their Transphobia PR.
+
+[In Queers We Trust. All Others Pay Cash.](https://jude-doyle.ghost.io/le-test/) I purposefully didn't link to this because it's hosted on Substack but you can get the idea.
+
+[We are a Snail.](https://stone-soup.ghost.io/we-are-a-snail/)
+
+[Belatedly, I'm Leaving Substack.](https://www.gracelavery.org/leaving-substack/)

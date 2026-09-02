@@ -1,0 +1,23 @@
+---
+title: "Where Home is Not Safe"
+date: '2026-03-06T17:22:19.333496+00:00'
+tags: [anthology, nonfiction]
+redirect_from: "/posts/5186"
+permalink: /posts/where-home-is-not-safe/
+---
+
+[![Where Home is Not Safe cover. Between the subtitle, writings on Domestic Verbal, Emotional and Physical Abuse, is a painted image of a two-story home on the right with chimneys and a high fence.  There is grass on the left of the home with a single-story home on the left side](/img/when-home-is-not-safe-front-cover-small.jpeg)](/img/when-home-is-not-safe-front-cover.jpeg)
+
+Where Home is Not Safe. writings on Domestic Verbal, Emotional and Physical Abuse Edited by Judith Skillman and Linera Lucas
+
+ISBN: 9781476683928
+
+## Description
+
+Even if you haven’t been hurt by domestic violence, someone you know has and wishes they could tell you about it. Perhaps you are a therapist, teacher, academic, or social worker who wants to help those who are suffering. Or maybe you are in an abusive relationship and need to know that you are not alone. The poetry, memoirs, and creative nonfiction pieces collected here tell of real incidents of abuse, as well as of those who left destructive and unsalvageable relationships. The beauty and truth of the language, as well as the honesty and courage, set this anthology apart from self-help manuals and academic treatises on domestic violence. This book offers a path forward to healing, health and fulfillment, using the power of art to give voice where voice has been stifled, forgotten, overlooked or denied.
+
+## Buy it.
+
+- [paperback from publisher.](https://mcfarlandbooks.com/product/when-home-is-not-safe/)
+- [paperback from bookshop.](https://bookshop.org/a/77/9781476683928)
+- [paperback from Amazon.](https://www.amazon.com/When-Home-Not-Safe-Emotional/dp/1476683921/ref=sr_1_1?dchild=1&keywords=when+home+is+not+safe+lucas+skillman&qid=1626810692&sr=8-1)

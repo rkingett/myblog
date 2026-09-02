@@ -1,0 +1,31 @@
+---
+title: Books and Anthologies
+---
+
+The books listed below are organized from newest, at the top, to oldest, at the bottom.
+
+[Find audio versions of my work and blog post narrations.](/audio)
+
+[Use Wikipedia to find my books via ISBN.](https://en.wikipedia.org/wiki/Special:BookSources/)
+
+## Library links.
+
+[Find me at Queer Liberation Library](https://libbyapp.com/search/queerliblib/creator-1071868/page-1) or [Find my work in all libraries](https://www.worldcat.org/search?q=au=%22Kingett%2C%20Robert%22) or browse individual book links below.
+
+[Browse Hoopla titles](https://www.hoopladigital.com/artist/11645750187) or [browse Overdrive titles.](https://www.overdrive.com/creators/1071868/robert-kingett)
+
+## audiobook store links.
+
+[Buy DRM free audiobooks on Libro FM](https://libro.fm/search?q=Robert+Kingett&searchby=authors) or [buy audiobooks from Audible](https://www.audible.com/search?searchAuthor=Robert+Kingett&ref=a_search_c3_lAuthor_1_1_2&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=JXD9R4XKDMCBK402ZPQG)
+
+## All books.
+
+Check the tags of the below posts to find things such as audiobooks and eBooks and series links.
+
+{% set postslist = collections.books%}
+{% include "postslist.njk" %}
+
+## anthologies.
+
+{% set postslist = collections.anthology%}
+{% include "postslist.njk" %}

@@ -1,0 +1,52 @@
+---
+title: My wish list.
+redirect_from: reply
+---
+
+<h1>Wish list</h1>
+
+The physical Wishlist is below the digital Wishlist.
+
+<h2>Digital wishes</h2>
+
+Most desired at the top.
+
+<a href="mailto:&#107;&#105;&#110;&#103;&#101;&#116;&#116;&#114;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;?subject=SPAM&body=DELETE%20THE%20SUBJECT%20LINE%20BEFORE%20SENDING.%20ALSO%20DELETE%20THIS%20TOO.">Send digital gifts to this email address.</a>
+
+[Amtrak Gift Cards](https://www.amtrak.com/planning-booking/tickets-reservations/giftcards)
+
+[Digital Marriot hotel gift cards](https://gifts.marriott.com/e-gifts/)
+
+[Digital Omni Hotels & Resorts gift card.](https://www.omnihotels.com/shop/gift-cards)
+
+[get me any book from my audiobook wish list](https://libro.fm/wishlist/1038030)
+
+[Libro FM credits](https://libro.fm/gift)
+
+[Audible credits](https://www.audible.com/mk/g/giftcenter)
+
+<h2>Physical items</h2>
+
+For physical items, ship any item to,
+
+Robert Kingett.
+
+1321 Upland Dr PMB 17504
+
+Houston TX, 77043-4718
+
+Most desired at the top.
+
+[Any Oral B Pro Electric Toothbrush](https://oralb.com/en-us/products/electric-toothbrushes/pro-series/)
+
+[Anti-dandruf shampoo](https://www.walgreens.com/store/c/shampoo-and-conditioner/ID=360481-tier3)
+
+[Physical Omni Hotels & Resorts gift card.](https://www.omnihotels.com/shop/gift-cards)
+
+[Physical Marriot gift cards](https://gifts.marriott.com/gift-cards/)
+
+[Any one of these Thinkpad P Laptops](https://www.lenovo.com/us/en/c/laptops/thinkpad/thinkpadp/)
+
+[Any of these Bose noise canceling headphones for audiobooks](https://www.bose.com/c/headphones)
+
+[Any of these USB headsets](https://www.bestbuy.com/site/computer-accessories/headsets-microphones/pcmcat304600050012.c?id=pcmcat304600050012)

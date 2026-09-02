@@ -1,0 +1,11 @@
+{%- css -%}
+.chapterlist { counter-reset: start-from {{ (chaptersCounter or chapters.length) + 1 }} }
+.chapterlist-item { margin-block: 2rem; }
+{%- endcss -%}
+<ul reversed class="chapterlist">
+{%- for chapter in chapterlist -%}
+	<li class="chapterlist-item{% if chapter.url == url %} chapterlist-item-active{% endif %}">
+		<a href="{{ chapter.url }}" class="chapterlist-link">{%- if chapter.data.title -%}{{ chapter.data.title }}{%- else -%}<code>{{ chapter.url }}</code>{%- endif -%}</a>
+	</li>
+{%- endfor -%}
+</ul>

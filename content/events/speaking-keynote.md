@@ -1,0 +1,14 @@
+---
+title: Diversity, disability, determination
+date: 2023-12-19T21:35:02.000Z
+permalink: /events/speaking/
+redirect_from: /posts/6348
+tags:
+  - keynotes
+---
+
+this keynote will focus on disability as well as identity and personal experiences. Attendees will gain valuable insight into the structural struggles as well as the human struggles of having a disability in a world that rarely accommodates.
+
+With unique humor interwoven with the wisdom and personal life lessons, your attendees will gain a better and hands-on understanding of disability.
+
+Robert will speak openly and candidly about his own triumphs battling child abuse and neglect, homophobia, ableism, and more. Through his personal anecdotes, your attendees will not only learn how systems can impact the many, but how you can help others in similar situations.
