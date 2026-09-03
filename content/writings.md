@@ -16,6 +16,10 @@ Favorite fiction and nonfiction is on the highlights section of this page below 
 
 [Events information.](/events)
 
+## Reprints and syndication.
+
+[How to reprint or syndicate my work](/reprints/)
+
 ## Music I write to
 
 [Love a Brother Radio](https://labr.online/)

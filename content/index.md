@@ -28,7 +28,7 @@ Below will be some quick links and then the recent posts.
 * [Learn about my writing](/writings)
 * [Financially support me](/support)
 * [Contact me in a bunch of ways](/contact)
-* [Learn about my accessibility consulting](/tech)
+* [Frequently Asked Questions](/faq)
 
 {% set postsCount = collections.posts | length %}
 {% set latestPostsCount = postsCount | min(numberOfLatestPostsToShow) %}

@@ -13,9 +13,11 @@ But first, some links.
 
 [Learn all about me and this blog.](/about)
 
+[Learn how to reprint my work](/reprints)
+
 [Contact me](/contact)
 
-[Tip me financially here](/tip)
+[Tip me financially here](/tip) or [get me something from my wish list](/wish/)
 
 [Find my podcast here.](/audio)
 
@@ -28,6 +30,20 @@ But first, some links.
 # Frequently asked questions.
 
 Check back over time. Otherwise, [visit the site map if you feel lost](/map)
+
+## Why don't you reply to my emails in a timely manner?
+
+Because I'm disabled, and my mental health and my found family and my peace is vastly more important than a quick response to you. I will never be productive in a capitalistic way ever again. If you want to have a quick response, you won't get it. I'm going to take my time writing back to you.
+
+Because I never aspire to capitalistic standards again, I'm going to take my time to compose a thoughtful email over time.
+
+## Will you join my chatroom/resistance chat/fan chat room?
+
+No. I won't keep up with the chat anyway and besides, [you can always send me an email. Writing more than a few words is good for your mental health.](/contact/)
+
+## Why don't you reply to me on Bluesky?
+
+[Because your BlueSky account is not bridged into the Fediverse.](https://fed.brid.gy/docs) I do not have a native account on BlueSky. My Fediverse account is bridged into the BlueSky social network. While the bridge does have some way of facilitating replies if you don't bridge your BlueSky account into the Fediverse, it's clunky and not worth the time nor effort to reply if you are not bridged. If you want to be sure I see your reply, [bridge your account into the Fediverse before tagging or mentioning me.](https://fed.brid.gy/docs)
 
 ## What's with cookies? Why are cookies in every aspect of your work?
 
@@ -113,7 +129,7 @@ To reject all of that toxic mindset, I never publish to readers expectations. I 
 
 ## If I'm supporting you financially on an ongoing basis, why do you still give your work away for free?
 
-[There's a few reasons I give my work away for free to anybody that asks for it.](/reprint)
+[There's a few reasons I give my work away for free to anybody that asks for it.](/reprints)
 
 It combats censorship. In a hostile world that hates minorities of any kind, and financially disadvantaged people, actively giving my work away for free is the best way I can keep kicking censorship until it stays down. I hate censorship of any kind, no matter who does it and why they justify doing it. This is why I actively read every bigoted book I can get my hands on. It is a way for me to arm myself and challenge myself. I will fight you if you want to take this reading power away from me. If I choose to read problematic or bigoted books, you can share better books rather than telling me not to read these kinds of books.
 
@@ -130,9 +146,3 @@ Before booking me, make your event and accommodations  as disability friendly a
 Make sure to have your spaces fully disability friendly if you want to have an author visit, virtual or in person.
 
 Give me months to prepare. For virtual events, ask me a month or more ahead of time, not weeks ahead of time. If it's an in person event, ask three months ahead of time or more.
-
-## Why don't you reply to my emails in a timely manner?
-
-Because I'm disabled, and my mental health and my found family and my peace is vastly more important than a quick response to you. I will never be productive in a capitalistic way ever again. If you want to have a quick response, you won't get it. I'm going to take my time writing back to you.
-
-Because I never aspire to capitalistic standards again, I'm going to take my time to compose a thoughtful email over time.
