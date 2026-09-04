@@ -1373,10 +1373,6 @@ figure caption {
 	display: block;
 }
 
-.entry-content .more-link {
-	white-space: nowrap;
-}
-
 .entry-content blockquote.alignleft,
 .entry-content blockquote.alignright {
 	border-color: currentColor;
@@ -1948,7 +1944,6 @@ a.skip-link:focus-visible {
 	margin: -1px;
 	overflow: hidden;
 	clip: rect(0, 0, 0, 0);
-	white-space: nowrap;
 	border-width: 0;
 }
 
