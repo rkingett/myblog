@@ -6,6 +6,9 @@
 		<title>{{ title + ", " if title }}{{ metadata.title }}</title>
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
+
+<link rel="me" href="{{ metadata.author.fediverseUrl }}">
+
 		<meta name="fediverse:creator" content="{{ metadata.author.fediverse }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		{%- if tagFeed %}

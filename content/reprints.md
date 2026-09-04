@@ -1,6 +1,6 @@
 ---
 title: Reprints
-redirect_from: ['/reprint/', '/syndicate/']
+redirect_from: ['/reprint/', '/posts/yes-you-may-syndicate-my-work/', '/syndicate/']
 eleventyNavigation:
   title: Reprints
   parent: About
