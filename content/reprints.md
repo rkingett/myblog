@@ -39,7 +39,7 @@ I publish full text RSS feeds that will be perfect for syndication. If you’re 
 Since not everyone uses RSS feeds, here are other ways to download my writings.
 
 1. [Download or browse my posts archive folder](https://drive.google.com/drive/folders/1SGfMf1JAcEJw_Sg6n3QLCiUVot6crzpi?usp=sharing)
-2. Grab any of my audio files here](https://drive.google.com/drive/folders/18yPED7q0XESLVQlo-u--rwl1QB7jkmVP?usp=sharing)
+2. [Grab any of my audio files here](https://drive.google.com/drive/folders/18yPED7q0XESLVQlo-u--rwl1QB7jkmVP?usp=sharing)
 3. [Ask me for the original Markdown file](/contact)
 
 ## Syndication ideas.

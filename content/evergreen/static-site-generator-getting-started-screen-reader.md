@@ -64,7 +64,7 @@ First, though, Setting up our Git environment.
 
 ## Installing Git and Github cli
 
-We’re installing git and Github Cli firstso we can publish our websites to repositories and to Github pages.
+We’re installing git and Github Cli first so we can publish our websites to repositories and to Github pages.
 
 First, we need to [install git.](https://git-scm.com/download/win) Git is a thing that lets nerds store and track projects. It’s like a version of Dropbox but without the constant syncing in the background. Nerds call it a distributed version control software system , but I can’t remember how the phrase distributed version control software system  transformed into git, so let’s just call it git. it’s main focus is keeping projects in repositories.
 
@@ -140,7 +140,7 @@ The below commands will take time to run in order, so wait until you hear the te
 
 `choco install sass golang -y; winget install Hugo.Hugo.Extended; choco upgrade golang -y; winget install --id=getzola.zola -e; winget upgrade --all; Choco upgrade all -y`
 
-I included the upgrade commands because you can never be to cautious.
+I included the upgrade commands because you can never be too cautious.
 
 Now that we’ve installed the static site generators we’re going to be working with today. Let’s set up our Github repositories before we start making websites.
 
