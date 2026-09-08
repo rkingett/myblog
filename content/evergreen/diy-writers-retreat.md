@@ -1,6 +1,6 @@
 ---
 title: "DIY Writers Retreat With a Travel Agent"
-date: '2026-03-16T15:15:14.443187+00:00'
+date: '2026-09-07T15:15:14.443187+00:00'
 tags: [blog and journal, guides]
 permalink: /posts/writers-retreat/
 redirect_from: /posts/6182
