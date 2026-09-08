@@ -1,6 +1,6 @@
 ---
 title: "The Dream of Tomorrow"
-date: '2026-08-30T18:30:13.343436+00:00'
+date: '2026-09-08T18:30:13.343436+00:00'
 tags: [blog and journal, syndicate, fiction]
 permalink: "/posts/the-dream-of-tomorrow/"
 ---
