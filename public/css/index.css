@@ -62,8 +62,6 @@ body {
 	margin: auto;
 	text-align: left;
 	background-color: var(--background-color);
-	word-wrap: break-word;
-	overflow-wrap: break-word;
 	line-height: 1.5;
 	color: var(--text-color);
 }
@@ -590,7 +588,6 @@ pre {
 	padding: 12px;
 	white-space: pre;
 	white-space: pre-wrap;
-	word-wrap: break-word;
 }
 
 abbr[title] {
@@ -1088,14 +1085,6 @@ main:not(.post):not(.page) {
 	margin-bottom: 0;
 }
 
-.post {
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
-	word-wrap: break-word;
-}
-
 .post main h1,
 .post main h2,
 .post main h3,
@@ -1243,17 +1232,6 @@ figure caption {
 
 .entry-content > :last-child {
 	margin-bottom: 0;
-}
-
-.entry-content,
-.page-content,
-.comment-content,
-.textwidget {
-	-webkit-hyphens: auto;
-	-moz-hyphens: auto;
-	-ms-hyphens: auto;
-	hyphens: auto;
-	word-wrap: break-word;
 }
 
 .entry-content h1,
