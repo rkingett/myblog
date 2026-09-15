@@ -1928,3 +1928,8 @@ a.skip-link:focus-visible {
 span.ha-placeholder {
 	display: none;
 }
+
+/* This is used in the footer to hide the rel="me" fediverse link */
+.hidden {
+	display: none;
+}
