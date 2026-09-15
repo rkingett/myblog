@@ -7,8 +7,6 @@
 		<meta name="description" content="{{ description or metadata.description }}">
 		<link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ metadata.title }}">
 
-<link rel="me" href="{{ metadata.author.fediverseUrl }}">
-
 		<meta name="fediverse:creator" content="{{ metadata.author.fediverse }}">
 		<meta name="generator" content="{{ eleventy.generator }}">
 		{%- if tagFeed %}
@@ -64,6 +62,7 @@
 			{%- include "pagination.njk" %}
 			<footer>
 				<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | <a href="/privacy">Privacy, disclaimers, disclosures.</a></p>
+				<p class="hidden"><a href="{{ metadata.author.fediverseUrl }}" rel="me">@WeirdWriter@caneandable.social</a></p>
 			</footer>
 		</div>
     {%- if age_gate %}
