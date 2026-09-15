@@ -22,17 +22,27 @@ My tastes are split between [fiction podcasts](https://www.theend.fyi/fully-comp
 
 ## Fiction podcasts.
 
+Typically, I listen to fiction podcasts more than nonfiction podcasts.
+
+The styles of audio fiction I listen to vary quite a bit, but I tend to gravitate toward [fiction podcasts that center around relationships](https://www.theend.fyi/collection/love-is-in-on-the-air) or [smaller storylines that are slice of life,](https://www.theend.fyi/collection/reality-check) or [intimate tellings of events or themes,](https://www.theend.fyi/collection/comedy-gold) think a superhero show that focuses on how the superhero keeps friends when the friends feel small because they're saving the world every week. [I also enjoy podcast audiobooks as well.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
+
+Even with those pulls toward relationship based audio fiction, I'll generally try any fiction podcast once if I like the trailer or first episode or synopsis.
+
 I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
 
 [Sometimes the Fiction category in Apple podcasts nets me interesting shows](https://podcasts.apple.com/ca/genre/1483?l=en-CA)
 
 [This helped me find podcasts based on TV shows and movies I like](https://tunedinaudio.com/get-matched)
 
-Typically, I listen to fiction podcasts more than nonfiction podcasts.
+### The fiction podcast list.
 
-The styles of audio fiction I listen to vary quite a bit, but I tend to gravitate toward [fiction podcasts that center around relationships](https://www.theend.fyi/collection/love-is-in-on-the-air) or [smaller storylines that are slice of life,](https://www.theend.fyi/collection/reality-check) or [intimate tellings of events or themes,](https://www.theend.fyi/collection/comedy-gold) think a superhero show that focuses on how the superhero keeps friends when the friends feel small because they're saving the world every week. [I also enjoy podcast audiobooks as well.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
+[Torment](https://podcasts.apple.com/us/podcast/planescape-torment-the-unofficial-audio-series/id1665270791)
 
-Even with those pulls toward relationship based audio fiction, I'll generally try any fiction podcast once if I like the trailer or first episode or synopsis.
+This reimagines the game, and it is super fun!
+
+[Low Orbit Zine](https://loworbitpodcast.com/)
+
+They call themselves an audio magazine, but they always feature writers and otherwise I've never heard of. This podcast is always a fantastic listen. I only wish they would do more longform stuff though.
 
 [Almost everything in this Meet Cute Channel](https://podcasts.apple.com/us/channel/meet-cute/id6442462857)
 
@@ -46,7 +56,7 @@ Even with those pulls toward relationship based audio fiction, I'll generally tr
 
 [LeVar Burton Reads.](https://podcasts.apple.com/us/podcast/levar-burton-reads/id1244649384)
 
-Fun fact, [one of my Fiction stories almost made it onto this podcast.](/writings)
+Fun fact, [one of my Fiction stories almost made it onto this podcast.](/writings/)
 
 LeVar Burton, my forever parasocial husband, reads short stories. Enough said. The podcast ended years ago but still, you won't be disappointed.
 
@@ -108,7 +118,19 @@ I can't stand murder true crime podcasts. Instead, I want to see how a town was 
 
 I love deep Gonzo style reporting. Journalism wrapped up in complex personal narratives always teach me more than a simple interview could ever teach. I strongly dislike journalism that tries to be objective.
 
+### The nonfiction podcast list.
+
+[Signal Hill](https://podcasts.apple.com/gb/podcast/signal-hill/id1793765332)
+
+While it was publishing, this audio magazine was really amazing and it took me places I never imagined I would travel, like a deep dive on what different car engines sounded like.
+
+[Low Orbit Zine](https://loworbitpodcast.com/)
+
+They call themselves an audio magazine, but they always feature writers and otherwise I've never heard of. This podcast is always a fantastic listen. I only wish they would do more longform stuff though.
+
 [This documentary category on Apple podcasts is sometimes where I browse when I want to try something new](https://podcasts.apple.com/us/grouping/documentary/194150)
+
+[ProPublica Narrated](https://podcasts.apple.com/us/podcast/propublica-narrated/id1858752858) Read their longform articles like an audiobook. While it lasted, they had a wonderful selection covering different types of articles from their publication.
 
 [Imagination Storybooks. Audiobooks with picture descriptions](https://podcasts.apple.com/us/podcast/illustrated-audiobooks-with-the-audiobook-wizard/id1605686164) Imagination Storybooks makes illustrated children's books accessible to blind and ALL children by adding rich audio description (AD) of the pictures.
 
@@ -120,7 +142,7 @@ I love deep Gonzo style reporting. Journalism wrapped up in complex personal nar
 
 [The Audible channel on Apple podcasts usually has some interesting documentaries](https://podcasts.apple.com/ie/channel/audible/id6443589612)
 
-[unseen: Life as a Blind Immigrant](X) Most people dream of a better future. Pedro, an aspiring social worker, is no different. But as a blind, undocumented immigrant, Pedro faces political restrictions to obtain his college degree, secure a job in his field, and support his family. As he finally graduates, uncertainty looms over Pedro. What starts as a journey to provide mental health care for his community ultimately transforms into Pedro’s path towards his own healing. Based on the award-winning film, “unseen: Life as a Blind Immigrant“ is an immersive show that puts you inside Pedro’s life, while exploring immigration, disability, and new ways to experience a podcast.
+[unseen: Life as a Blind Immigrant](https://podcasts.apple.com/us/podcast/unseen-life-as-a-blind-immigrant/id1760413012) Most people dream of a better future. Pedro, an aspiring social worker, is no different. But as a blind, undocumented immigrant, Pedro faces political restrictions to obtain his college degree, secure a job in his field, and support his family. As he finally graduates, uncertainty looms over Pedro. What starts as a journey to provide mental health care for his community ultimately transforms into Pedro’s path towards his own healing. Based on the award-winning film, “unseen: Life as a Blind Immigrant“ is an immersive show that puts you inside Pedro’s life, while exploring immigration, disability, and new ways to experience a podcast.
 
 [Talk Description to Me](https://talkdescriptiontome.buzzsprout.com/)
 
@@ -128,7 +150,7 @@ I love deep Gonzo style reporting. Journalism wrapped up in complex personal nar
 
 [Close All Tabs.](https://podcasts.apple.com/us/podcast/close-all-tabs/id214663465) Fantastic podcast covering online stuff I don't have time to keep up with. The description, in part, read, "Ever wonder where the internet stops and IRL begins? Close All Tabs breaks down how digital culture shapes our world through thoughtful insights and irreverent humor. From internet trends to AI slop to the politics of memes, Close All Tabs covers it all."
 
-[This podcast that used to be called Only Fantasy](https://podcasts.apple.com/ie/podcast/onlyfantasy/id1692238236) Only Fantasy was the season, season 3, that snagged me. I do think this reporter is very thoughtful in his audio documentaries. )
+[This Only Fantasy series of this podcast](https://podcasts.apple.com/ie/podcast/the-worlds-newest-profession/id1692238236?i=1000768760769) even though the male host acts like his naivety is a groundbreaking journalism technique, once he gets past that bit of annoying ignorance, this is where the season shines and no other season has done it for me the way this season has.
 
 [A Bit Fruity](https://podcasts.apple.com/us/podcast/a-bit-fruity-with-matt-bernstein/id1693739175) Yes, this is a talk show style, but it's tight, stays on topic, and is short, and does some fantastic deep dives and explains everything to the audience. The description used to read, For years, Matt’s been unpacking the events, people, and culture wars shaping the world around us. On A Bit Fruity, we take deeper dives into those issues — joined by celebrities, experts, and journalists who help us laugh and learn along the way.
 

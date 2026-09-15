@@ -77,6 +77,8 @@ I will read **anything** by the below authors.
 
 ## Favorite series.
 
+[The Aristotle and Dante series](https://www.audible.com/series/Aristotle-and-Dante-Audiobooks/B08WJGYWJD?ref_pageloadid=NuJgV00XLcPdRFm7&pf_rd_p=16459da7-9e04-4b9b-a80f-c2f98146d6b5&pf_rd_r=QXJ9ZMY56HPR4JRHEJMH&plink=lj0yNaJGpnxTYKt8&pageLoadId=6hwznuqdVcAvcpgg&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Aristo_psu_series_1)
+
 [The Legacy Series](https://www.graphicaudio.net/our-productions/series/k-r/the-legacy.html)
 
 [The Sweet Series](https://www.audible.com/series/The-Sweet-Series-Audiobooks/B0F9KPN57T?ref_pageloadid=fx9Ts6VwHCRD5iLY&pf_rd_p=694d5b3e-7636-4b98-94db-f39c6800419b&pf_rd_r=RSTWX37X3YS0094DJXNY&plink=oxprVLFF1SasksOj&pageLoadId=kq3elTXtwo66Etce&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Sweet-_psu_series_1)
@@ -99,9 +101,9 @@ I will read **anything** by the below authors.
 
 [Real Life by Brandon Taylor.](http://brandonlgtaylor.com/books)
 
-[The Schwa](http://www.storyman.com/books/schwa/) by [Neal Shusterman.](http://www.storyman.com/books/)
+[The Schwa](https://www.storyman.com/all-books) by [Neal Shusterman.](http://www.storyman.com/books/)
 
-[Bruiser by Neal Shusterman.](http://www.storyman.com/books/bruiser/)
+[Bruiser by Neal Shusterman.](https://www.storyman.com/all-books)
 
 [The Autumn Balloon by Kenny Porpora](https://kennyporpora.com/memoir/)
 
@@ -129,7 +131,7 @@ I will read **anything** by the below authors.
 
 [The Misfits by James Howe, because this book was comfort food when I was growing up. It told me that best friends listen, and feel](https://libro.fm/audiobooks/9781932076943-the-misfits)
 
-[Sleeping Freshmen Never Lie by David Lubar, because I loved the satire but also the themes of friendship in inperfections as well as a much needed examination of what feminism could be.](https://libro.fm/audiobooks/9781933322995-sleeping-freshmen-never-lie)
+[Sleeping Freshmen Never Lie by David Lubar, because I loved the satire but also the themes of friendship in imperfections as well as a much needed examination of what feminism could be.](https://libro.fm/audiobooks/9781933322995-sleeping-freshmen-never-lie)
 
 [Simon vs. the Homo Sapiens Agenda by Becky Albertalli because this is the teen love story I wish I had](https://libro.fm/audiobooks/9780062411501-simon-vs-the-homo-sapiens-agenda)
 

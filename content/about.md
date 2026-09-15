@@ -27,19 +27,19 @@ What is this place? Technically, it’s a blog. Spiritually, it is the highest f
 
 I am a blind gay man living in a world obsessed with optics. Things happen to me—some good, some tragic, some absurdly funny. This blog is where I translate those raw, chaotic inputs into something you can hold. It is the ultimate immersion into my literary world, a place where I take the "visual" and dismantle it, brick by brick, until all that’s left is the truth of my non-visual world.
 
-On this site, you will find [a smorgasbord of literary output.](/posts) You’ll find [fiction that explores the terrifying vulnerability of intimacy.](/posts/tags/fiction/) You’ll find nonfiction accounts of my daily wars with bureaucracy—[tales of how I outsmarted a hostile telephone tree](/posts/20250629) or [the specific, tactile joy of a perfectly designed doorknob.](/writing/nonfiction/20250626) You’ll find [writing exercises,](/posts/tags/writings/) [older journalism,](/posts/tags/throwbacks/) and [experiments in form.](/posts/)
+On this site, you will find [a smorgasbord of literary output.](/posts/) You’ll find [fiction that explores the terrifying vulnerability of intimacy.](/posts/tags/fiction/) You’ll find nonfiction accounts of my daily wars with bureaucracy—[short stories how a loved one learned my non-visual language](/posts/he-learned-the-gestures/) [tales of how I outsmarted a hostile telephone tree](/posts/minotaur/) or [the specific, tactile joy of a perfectly designed doorknob.](/writing/nonfiction/20250626) You’ll find [writing exercises,](/posts/tags/writings/) [older journalism,](/posts/tags/throwbacks/) and [experiments in form.](/posts/)
 
-There will also be happy tellings, like [the time my Trans friend came out to me.](/the-home-of-a-new-name/) You'll also read [lengthy immersive, and intimate, nonfiction narratives that explore my insecure and emotionally needy life.](/posts/tags/narrative)
+There will also be happy narratives, like [the time my Trans friend came out to me.](/the-home-of-a-new-name/) You'll also read [lengthy immersive, and intimate, nonfiction narratives that explore my insecure and emotionally needy life.](/posts/tags/narrative/)
 
-You will also find such things as [me imagining a gay man reading my scars like Braille,](/a-map-of-my-scars-read-by-your-fingertips/) [me getting free Pizza,](/posts/20250820/) [praises for libraries,](/posts/20250910) [love letters to chocolate,](/posts/chocolate) [hilarious tales of men I dated eating my cookies,](posts/20250806) and [letters to people I have yet to meet.](/writing/nonfiction/20250712)
+You will also find such things as [me imagining a gay man reading my scars like Braille,](/a-map-of-my-scars-read-by-your-fingertips/) [me getting free Pizza,](/posts/pizza/) [praises for libraries,](/posts/library/) [love letters to chocolate,](/posts/chocolate/) [hilarious tales of men I dated eating my cookies,](/posts/cookie-obit/) and [letters to people I have yet to meet.](/posts/more-than-books/)
 
 But primarily, you will find the truth of my body.
 
 I am a blind writer. Typically, I write Romance. I write it not as a guilty pleasure, but as a survival manual. In a world that tells disabled people we are burdens, Romance is the only genre that insists we are worthy of worship. It is a political act to write a story where safety is the ultimate kink.
 
-For those who prefer to listen—because reading with your eyes is not the only way to consume a soul—[I have a podcast the same name as this blog.](https://weirdwritings.pinecast.co/) This isn’t just a robot reading text. These posts are performed by professional and emerging voice actors. They bring a new kind of symphony to these words, adding breath, pause, and resonance to the text.
+[For those who prefer to listen—because reading with your eyes is not the only way to consume a soul—I have a podcast the same name as this blog.](https://weirdwritings.pinecast.co/) This isn’t just a robot reading text. These posts are performed by professional and emerging voice actors. They bring a new kind of symphony to these words, adding breath, pause, and resonance to the text.
 
-If you want the full experience, you can [support the podcast with a monthly subscription to get serialized versions of my audiobooks.](https://tips.pinecast.com/jar/weirdwritings) You will get a private RSS feed to use in any app.
+[If you want the full experience, you can support the podcast with a monthly subscription to get serialized versions of my audiobooks.](https://tips.pinecast.com/jar/weirdwritings) You will get a private RSS feed to use in any app.
 
 I do this because I am a Sovereign User. I believe in the "Small Web." I loathe the walled gardens of audible-exclusive content and the pernicious creep of DRM (Digital Rights Management). If you buy a book, you should own the file. If you support an artist, the money should go to the artist, not a tech conglomerate. [By supporting the podcast financially](/support/), you help me pay the narrators, because artists deserve to eat.
 
@@ -47,7 +47,7 @@ Now, a warning about time.
 
 I do not have a schedule. I never will.
 
-I operate on [CripTime.](https://en.wikipedia.org/wiki/Crip_(disability_term)#cite_note-33) I fully reject the capitalist myth of "productivity" and "hustle culture." [My body is an atlas of scars—physical maps of where the world has been too rough.](/a-map-of-my-scars-read-by-your-fingertips) I have Cerebral Palsy, and my energy is a finite, precious currency. The best thing I can do for my body, and for the quality of this work, is to refuse to be a machine.
+[I operate on CripTime.](https://en.wikipedia.org/wiki/Crip_(disability_term)#cite_note-33) I fully reject the capitalist myth of "productivity" and "hustle culture." [My body is an atlas of scars—physical maps of where the world has been too rough.](/a-map-of-my-scars-read-by-your-fingertips) I have Cerebral Palsy, and my energy is a finite, precious currency. The best thing I can do for my body, and for the quality of this work, is to refuse to be a machine.
 
 This is especially true in the winter.
 
@@ -75,27 +75,29 @@ I promise, there is something here for everyone who is willing to close their ey
 
 [Read Frequently asked questions here.](/faq)
 
-Robert Kingett is a totally blind author and essayist. He [writes fiction and nonfiction](/writings) but [used to wear other hats.](/resume)
+Robert Kingett is a totally blind author and essayist. He [writes fiction and nonfiction](/posts/) but [also does accessibility consulting work](/consult/)
 
-[Kingett writes Romance fiction and personal essays](/writings) but still [occasionally blogs](/posts)
+[Kingett writes Romance fiction and personal essays](/writings/) but still [occasionally blogs](/posts/)
 
-[Kingett does a lot of other things such as events and more.](/posts/tags/events)
+[Kingett does a lot of other things such as events and more.](/events/)
 
-Even though Kingett [publishes many short stories](/writings) alongside [editing anthologies](/books) he always makes time to read a book or check out a podcast. [He loves audiobooks,](/fav-books) fiction podcasts, and movies and TV shows [with audio description.](http://acb.org/adp/samples.html)
+Even though [Kingett publishes many short stories](/writings/) alongside [editing anthologies](/books/) he always makes time to read a book or check out a podcast. [He loves audiobooks,](/fav-books) fiction podcasts, and movies and TV shows [with audio description.](http://acb.org/adp/samples.html)
 
-Kingett has [Cerebral Palsy,](https://www.cdc.gov/ncbddd/cp/facts.html) CP, in addition to his blindness. He’s had both ever since he was a baby. He has [Retinopathy of prematurity](https://www.webmd.com/eye-health/retinopathy-prematurity-facts#1), commonly referred to as ROP. Even though he is ambulatory, his cerebral palsy makes it difficult to walk long distances or to stand for lengthy periods of time, which is probably why writing fell right into his lap!
+[Kingett has Cerebral Palsy,](https://www.cdc.gov/ncbddd/cp/facts.html) CP, in addition to his blindness. He’s had both ever since he was a baby. He has [Retinopathy of prematurity](https://www.webmd.com/eye-health/retinopathy-prematurity-facts#1), commonly referred to as ROP. Even though he is ambulatory, his cerebral palsy makes it difficult to walk long distances or to stand for lengthy periods of time, which is probably why writing fell right into his lap!
 
-Kingett is proudly gay and also proudly disabled. Kingett does stutter which is why [emails are a better way to get in touch with him than a phone call.](/contact)
+Kingett is proudly gay and also proudly disabled. Kingett does stutter which is why [emails are a better way to get in touch with him than a phone call.](/contact/)
 
-[Kingett loves listening to audiobooks,](/fav-books) [fiction podcasts,](https://www.theend.fyi/) and [RPG Podcasts.](https://audiofiction.co.uk/filter.php?format=Audio%20RPG&order=newest) He identifies as a queer man and or a gay man, interchangeably. He also identifies as a disabled person rather than a person with a disability. He believes person first language will never identify him accurately.
+[Kingett loves listening to audiobooks,](/fav-books) [fiction podcasts, and RPG Podcasts.](/podroll/) He identifies as a queer man and or a gay man, interchangeably. He also identifies as a disabled person rather than a person with a disability. He believes person first language will never identify him accurately.
+
+[Kingett also loves listening to audio described movies and TV shows](https://adp.acb.org/where-to-find-ad)
 
 Kingett was born in Islip, New York. He grew up in Saint Augustine FL and attended the Florida School for the Deaf and the Blind, FSDB. At an early age, he discovered that writing was an adaptive tool to combat his speech disability so he thought, I should harness this. Make my writing muscle stronger. So, he just kept writing, and writing!
 
-Even though he has a speech disability he still loves to [present at a wide array of venues,](/events) including charity events and literary events. He also does keynote speaking, including motivational speaking. At literary readings, he usually asks for a reader due to his disabilities.
+[Even though he has a speech disability he still loves to present at a wide array of venues, including charity events and literary events.](/events/) At literary readings, he usually asks for a reader due to his disabilities.
 
 Kingett describes himself as a very weird person. He loves Mint Chocolate Chip ice cream over chocolate ice cream, and he especially loves very dark humor and dark comedy. He loves stealing unicorn shaped cookies from rainbow tinged cookie jars and tap dancing kittens.
 
-He loves networking with other minority authors, especially authors with disabilities and writers who identify as a member of the LGBT+ community. If that’s you, [send him an email!](/contact)
+He loves networking with other minority authors, especially authors with disabilities and writers who identify as a member of the LGBT+ community. If that’s you, [send him an email!](/contact/)
 
 ## Some key links.
 

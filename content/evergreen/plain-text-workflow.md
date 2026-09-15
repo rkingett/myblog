@@ -46,7 +46,7 @@ Few text editors I tried had autocorrect, except for a couple text editors. That
 
 [Autocorrect](https://en.wikipedia.org/wiki/Autocorrection) was essential for me so I began looking for ways to get autocorrect/text replacements in all editors. I found a few fully screen reader accessible programs that would let me do this.
 
-I [downloaded AutoHotkey](https://www.autohotkey.com/) and then I just edited [this autocorrect script](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=120220) to fit my writing projects. Even so, it glitches out sometimes, so I’d still like a text editor with built in autocorrect/text replacement options other than the below editors.
+I [downloaded AutoHotkey](https://www.autohotkey.com/) [and then I just edited this autocorrect script](https://github.com/kunkel321/AutoCorrect2) to fit my writing projects. Even so, it glitches out sometimes, so I’d still like a text editor with built in autocorrect/text replacement options other than the below editors.
 
 ## Text editors with autocorrect/text replacements.
 
@@ -54,7 +54,7 @@ I [downloaded AutoHotkey](https://www.autohotkey.com/) and then I just edited [t
 2.  [PSPad.](http://www.pspad.com/en/download.php) Has a lot of features but has some accessibility problems with controls and buttons.
 3.  [Jarte.](https://www.jarte.com/download.html) Best text editor I’ve found and is fully accessible. Autocorrect entries can be tricky to add, but this is the best text editor I’ve found while it still works.
 4.  [LibreOffice.](https://www.libreoffice.org/download/download-libreoffice/) While not quite a text editor, it’s a free alternative to Microsoft Word with superb text replacement capabilities. It’s not fully screen reader accessible though for many reasons but for creating drafts, this can work fine.
-5.  AutoHotkey can turn your whole PC into a text replacement workstation. [Download then install AutoHotkey first,](https://www.autohotkey.com/) then [download this AutoCorrect AutoHotkey script,](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=120220) then just run the script after editing the script to your liking. [The AutoHotkey manual can teach you how to edit scripts or create your own autocorrect script.](https://www.autohotkey.com/docs/)
+5.  AutoHotkey can turn your whole PC into a text replacement workstation. [Download then install AutoHotkey first,](https://www.autohotkey.com/) then [download this AutoCorrect AutoHotkey script,](https://github.com/kunkel321/AutoCorrect2) then just run the script after editing the script to your liking. [The AutoHotkey manual can teach you how to edit scripts or create your own autocorrect script.](https://www.autohotkey.com/docs/)
 
 ## Accessible text editors.
 
@@ -66,10 +66,9 @@ A number of the below can be installed using the [WinGet Install commands.](http
 
 1.  [Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US&gl=US) gained autocorrect support in 2025 so I use this now too. Accessibility isn’t stable, though.
 2.  [Jarte.](https://www.jarte.com/download.html) In addition to this being fully accessible, it has autocorrect capabilities but since Microsoft killed the WordPad engine, this won’t last long.
-3.  [Accessible Markdown editor.](https://github.com/chigkim/AME/releases) Best screen reader friendly Markdown editor I could find. It’s not feature rich, but I don’t need it to have everything.
+3.  [Accessible Markdown editor.](https://github.com/stefano-pogliani/AME) Best screen reader friendly Markdown editor I could find. It’s not feature rich, but I don’t need it to have everything.
 4.  [MetaPad.](https://liquidninja.com/metapad/download.html) This is what Notepad should have been. This is blazing fast. It still works even though it hasn’t been updated in a while.
 5.  [Notepad++.](https://notepad-plus-plus.org/downloads/) I know this is accessible to many, but I just couldn’t find any decent starting points for using it as a fiction editor so I outline some starting points below. It does have [an NVDA add on for Notepad++](https://github.com/derekriemer/nvda-notepadPlusPlus) though if you want to give it a try.
-6.  [VisCon.](https://github.com/Accessiware/VisCon) While this one appears to have stopped updating, it is the second best plain text editor I’ve found for screen readers. [The backup installer is on the Internet Archive](https://archive.org/details/viscon) because it appears to have stopped updating.
 7.  [EdSharp.](https://github.com/EmpowermentZone/EdSharp) No longer updated but it works well.
 8.  [VSCodium.](https://github.com/VSCodium/vscodium) A fork of [VS Studio Code](https://code.visualstudio.com/) without the telemetry and Microsoft branding but I’ve found VS Code is just not fit for me. It feels like a web app rather than a native program to me but you may like it.
 
@@ -97,7 +96,9 @@ The below is my current workflow. If the below changes, I’ll update this blog 
 
 Sometimes I don’t title my files sequentially but I want to order them and then merge them with Pandoc. The below Powershell command will rename all files in a directory sequentially by date created and then merge them with Pandoc.
 
-`Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (get-item *.txt).FullName -o final.docx`
+```
+Get-ChildItem _._ | %{Rename-Item $ _-NewName ('{0}{1}' -f $_.LastWriteTime.toString("yyyyMMdd-hhmmss"), $_.Extension)}; pandoc (get-item *.txt).FullName -o final.docx
+```
 
 The semicolon in the above is intentional. The above command performs two commands one after the other.
 

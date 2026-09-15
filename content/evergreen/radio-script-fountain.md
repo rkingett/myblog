@@ -9,11 +9,11 @@ tags:
 redirect_from: /posts/5913
 ---
 
-Aside from [writing a bunch of books and short stories,](/writings) I also [write fiction podcast scripts.](/audio) Luckily, the fiction podcast space isn’t so rigid as other industries, but still, there’s a few conventions I stick to in order to make everybody happy.
+Aside from [writing a bunch of books and short stories,](/writings/) I also [write fiction podcast scripts.](/audio/) Luckily, the fiction podcast space isn’t so rigid as other industries, but still, there’s a few conventions I stick to in order to make everybody happy.
 
-[I write all of my fiction podcast scripts in Fountain.](https://fountain.io/howto) It’s free, portable, literally, and can be converted to almost anything, even Word files.
+[I write all of my fiction podcast scripts in Fountain.](https://fountain.io/) It’s free, portable, literally, and can be converted to almost anything, even Word files.
 
-Sidebar, \[try the [Audio Drama directory](http://audio-drama.com/doku.php) or the [fiction Podcast directory.](https://fictionpodcasts.com/)
+Sidebar, [here is where you can look at all the podcasts I love](/podroll/)
 
 This isn’t going to be a guide on Fountain. [The Fountain syntax is the best place to learn how to write in Fountain.](https://fountain.io/syntax) This is a testimonial as to what I do after the writing process.
 
@@ -23,7 +23,7 @@ You can write text with any program, on any device, so why not take advantage of
 
 The challenging bit comes in after I’ve written a fully-fledged script.
 
-I write in [LibreOffice](https://www.libreoffice.org/download/download-libreoffice/) and even Word with some special autocorrect keys set up. For example, if I type, BBL, it transforms into, "I’ll be back later."
+[I write in a plain text editor before saving it.](/tools/)
 
 I’ve added a bunch of autocorrect entries to help with capitalization and dashes and similar, so, for example, if I type, EXT/, it transforms into EXT. LOCATION — TIME and it does it in all caps.
 

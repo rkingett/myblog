@@ -1,6 +1,6 @@
 ---
 title: "Meeting Ray"
-date: '2026-09-03T11:42:16.531702+00:00'
+date: '2026-09-10T11:42:16.531702+00:00'
 tags: [narrative, blog and journal, nonfiction, syndicate]
 permalink: "/posts/meeting-ray/"
 ---

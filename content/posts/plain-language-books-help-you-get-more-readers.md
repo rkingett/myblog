@@ -13,7 +13,7 @@ It began when I was recommending a book to a sighted friend. They wanted some bo
 
 I suggested audio books, but the words used were still too complex. I began looking for a plain language version of the book but couldn’t find any.
 
-[Plain language writing is a writing practice that broadens readership.](https://www.accessible-social.com/copy-and-formatting/plain-language) When content creators write in plain language, a variety of ages, education levels, and disabilities can understand your writing.
+[Plain language writing is a writing practice that broadens readership.](https://www.accessible-social.com/) When content creators write in plain language, a variety of ages, education levels, and disabilities can understand your writing.
 
 People that are also learning English as a second language can benefit from a plain language version of your books.
 

@@ -7,7 +7,7 @@ permalink: "/posts/how-to-talk-about-videogames-if-youre-blind/"
 
 ## Throwback note.
 
-I am fully blind now, so I [listen to a lot of audio described Let's Plays so I can still enjoy the stories](podroll)
+I am fully blind now, so I [listen to a lot of audio described Let's Plays so I can still enjoy the stories](/podroll/)
 
 ## Begin old piece.
 

@@ -5,6 +5,8 @@ tags: ["nonfiction", "audiobook"]
 redirect_from: ['/posts/2808', '/2017/04/07/off-the-grid-living-blind-without-the-internet']
 ---
 
+[Publisher: Compassiviste Publishing.](https://compassiviste.com/)
+
 ## Synopsis.
 
 > Could you survive a month without the internet?
@@ -21,6 +23,6 @@ redirect_from: ['/posts/2808', '/2017/04/07/off-the-grid-living-blind-without-th
 
 # Buy Off the Grid.
 
-[Get the book from the publisher](https://compassiviste.com/product/off-the-grid-living-blind-without-the-internet/)
+[Buy from Amazon](https://www.amazon.com/dp/B0FKL6B6JJ)
 
 [Get the audiobook](https://www.audible.com/pd/Off-the-Grid-Audiobook/B0FV3R8MJM?qid=1761259237&sr=1-1&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=KS0NC1SPD6TYSECAHYTF&plink=TsmcGHqnPZq0ZzZZ&pageLoadId=mNKdEcaOlAd6MqOW&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lProduct_1_1)

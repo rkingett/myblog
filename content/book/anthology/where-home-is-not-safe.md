@@ -20,4 +20,3 @@ Even if you haven’t been hurt by domestic violence, someone you know has and w
 
 - [paperback from publisher.](https://mcfarlandbooks.com/product/when-home-is-not-safe/)
 - [paperback from bookshop.](https://bookshop.org/a/77/9781476683928)
-- [paperback from Amazon.](https://www.amazon.com/When-Home-Not-Safe-Emotional/dp/1476683921/ref=sr_1_1?dchild=1&keywords=when+home+is+not+safe+lucas+skillman&qid=1626810692&sr=8-1)

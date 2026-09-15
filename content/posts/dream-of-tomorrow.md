@@ -7,6 +7,12 @@ permalink: "/posts/the-dream-of-tomorrow/"
 
 Mood: Ferociously hopeful, buzzing like a perfectly tuned bass string.
 
+## Translations of {{ title }}
+
+* [French translation](https://agate.blue/le-reve-du-lendemain/)
+
+### Begin post.
+
 Come. Sit. Take a walk with me as I imagine the world I wish to live in.
 
 The rhythmic, oscillating thrum of rotors shears through the humid air. The scent of hot yeast and melted cheese arrives from the sky. 
