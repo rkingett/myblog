@@ -6,13 +6,13 @@ order: 9
 redirect_from: ['/support/', '/tips/']
 ---
 
-There’s many ways you can support me other than [buying my writing](/writings).
+There’s many ways you can support me other than [buying my writing](/writings) or [reprinting any of my writing](/reprint/)
 
 In addition to the below links, you can send me a check directly---using the address below---or [my newsletter has pay per email and other support options,](https://buttondown.com/weirdwriter) or [Pay what you want annually via Stripe directly,](https://buy.stripe.com/00g8A88Aw9cSgda144)
 
-You can also [join my street team to get advanced copies of my books.](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
+[You can also join my street team to get advanced copies of my books.](https://buttondown.com/weirdwriter?tag=beta&tag=free&tag=street)
 
-[My wish list is here if you want to get me an item.](/wish)
+[My wish list is here if you want to get me an item.](/wish/)
 
 [Try Buttondown with my referral link](https://buttondown.com/refer/weirdwriter)
 
@@ -25,6 +25,7 @@ You can also [join my street team to get advanced copies of my books.](https://b
 
 ## One time tip options.
 
+* [My wish list is here if you want to get me an item.](/wish/)
 * [PayPal](https://www.paypal.com/biz/fund?id=2T4ZH75BU2DF8) one time.
 * [Cash App donation.](https://cash.app/$weirdwriter) One time, should work in countries where Stripe can't work.
 * [Donate to my podcast tip jar](https://tips.pinecast.com/jar/weirdwritings) which also funds narrators.

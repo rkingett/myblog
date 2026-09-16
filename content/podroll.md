@@ -4,7 +4,7 @@ title: Kingett's PodRoll.
 
 # Podcasts I listen to.
 
-[Go here if you want to learn about my podcast](/podcast and [Learn about my writings, here, including my audiobooks](/writings))
+[Go here if you want to learn about my podcast](/podcast/) and [Learn about my writings, here, including my audiobooks](/writings/)
 
 The kinds of podcasts I listen to are broken up into headings, so keep scrolling to find another section.
 
