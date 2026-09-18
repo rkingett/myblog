@@ -1,7 +1,7 @@
 ---
 title: Audio and video.
 permalink: /podcast/
-redirect_from: //audio/
+redirect_from: ['/audio/', '/video/']
 ---
 
 [Go straight to my podcast that holds audio versions of my work.](https://weirdwritings.pinecast.co/)

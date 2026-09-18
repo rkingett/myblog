@@ -1,6 +1,6 @@
 ---
-title: "Meeting Ray"
-date: '2026-09-10T11:42:16.531702+00:00'
+title: "The Ray Reunion"
+date: '2026-09-17T11:42:16.531702+00:00'
 tags: [narrative, blog and journal, nonfiction, syndicate]
 permalink: "/posts/meeting-ray/"
 ---
@@ -14,6 +14,8 @@ Usually, I don't like for people to come here because my apartment isn't exactly
 "Sure," I say, the word feeling small against the backdrop of his warmth. "Come over."
 
 As Ray is driving over here, I take the most comfortable shower of my life. The hot water doesn’t last long, but I'm feeling so good about this meeting I can't even get mad at the landlords bullshit. The lukewarm spray feels like a clean slate.
+
+Ray is a racialized light-skinned Black man—who has talked with me before—but We've fallen out of touch until recently. At first, I presumed there to be trepidation about seeing him again. Instead, there's an electric anticipation in the air. It's a wash of excited warmth and unabashed joy that a kind person will soon enter my space.
 
 Finally, a vibration from my phone. He texts that he's in the lobby. I practically race down there, my cane tapping out a frantic, staccato rhythm against the linoleum, a stark contrast to the slow, steady beat of my own heart.
 
@@ -39,7 +41,7 @@ Just a little cake. People don’t just bring me cake. People want something, or
 
 Upstairs, in my studio, the space feels small, made even smaller by a guest’s presence. The low hum of the kitchenette’s mini-fridge is a constant companion.
 
-"Sorry it’s so cramped," I say, the apology instinct kicking in. "We can… sit on the bed?" It comes out as a question, highlighting the vulnerability of it.
+"Sorry it’s so cramped," I say, the apology instinct kicking in. "We can… sit on the bed?" It comes out as a question, highlighting my vulnerability.
 
 "The bed is perfect," Ray says, and his voice makes it so. He moves with a quiet deliberation, the soft scuff of his shoes on the floor a comforting sound. I feel the mattress dip as he sits on the edge, his weight a solid, grounding presence. I sit beside him, the cardboard box between us.
 
@@ -67,7 +69,7 @@ His hand moves from my face, but only to settle on my shoulder, a warm, solid we
 
 "Thank you," I whisper.
 
-"Any time," he murmurs, his voice a slow-moving river. The space between us is no longer empty; it’s filled with a humming energy that pulls me forward. I lean into it, just a fraction, a question without words.
+"Any time," he murmurs, his voice a slow-moving river. The space between us is no longer empty; it’s filled with a humming energy that pulls me forward. I lean into it, just a fraction, because I am asking a question without words.
 
 His hand slides from my shoulder, up the column of my neck, his fingers tangling gently in the short hairs at my nape. His other hand comes to cup my jaw, his thumb stroking my cheek. It’s not a prelude to anything frantic or hungry. It’s an exploration. A form of listening with his hands.
 
@@ -85,7 +87,7 @@ But the thought dissolves as soon as it forms, broken by a reality that is someh
 
 "You’re tense, baby boy," he says, his voice a low vibration against my skin. His hands find mine, turning them over, his thumbs pressing into my palms. The simple act feels revolutionary. It isn’t a prelude to sex; it feels like an act of service. Like he’s trying to knead the years of anxiety out of my very bones.
 
-I want to respond that life has a habit of making one tense, but his hands halt the desire almost immediately as they nestle on me, grounding me to this moment in time and space.
+I want to respond that [life's hostility has a habit of making one tense,](/posts/tags/writings) but his hands halt the desire almost immediately as they nestle on me, grounding me to this moment in time and space.
 
 Soon, I am being massaged, and it's the best feeling in the world. His hands feel as if they could cure all my disabilities. He massages me, and I am not a religious man, but I think I found my own heaven.
 
@@ -156,3 +158,7 @@ The door seems to shut with a knowing nudge. I stand by my bed, my impossibly ma
 The first thing is that I'm taken aback. I'm beyond cloud nine. I'm floating on a profound sense of joy and amazement; I don't know what's winning in the battlefield of my heart. I wonder if Ray can tell the impact he's had on me.
 
 The other thing is that I desperately want to see him again. I am certain, as certain as I know the Sun will orbit the earth, that I desperately want to see him again. His absence is like I've lost a long-lost friend, one that I reconnected with after years of being away. The silence he left behind isn’t empty. It’s shaped like him. It’s warm. It feels, impossibly, like hope. I hope he likes me. I hope he thinks I'm worth seeing again, because he's changed my life, whether he knows it or not.
+
+***
+
+If you've enjoyed this story, you might enjoy [Reckless Love by Willow Aster](https://www.amazon.com/dp/B0DQQPKJF5?lv=shuf&bestFormat=true&social_share=cm_sw_r_ffobk_cp_ud_dp_Q2BQY7EAEH8M61A96EM3_1&channelId=704&plpRedirect=mhFallback&linkCode=ll2&tag=rkingett-20&linkId=5652cfa8587c7453553f97f3c4d279f3&language=en_US&gaOptInStatus=true&ref_=as_li_ss_tl)

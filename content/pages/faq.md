@@ -1,5 +1,6 @@
 ---
 title: Frequently asked questions
+permalink: /faq/
 eleventyNavigation:
   key: FAQ
   order: 11

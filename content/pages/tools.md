@@ -1,5 +1,6 @@
 ---
 title: Tools and services I use.
+permalink: /tools/
 redirect_from: tech
 ---
 

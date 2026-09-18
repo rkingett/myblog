@@ -1,5 +1,6 @@
 ---
 title: "About my Reading."
+permalink: /reading/
 redirect_from: /fav-books
 ---
 

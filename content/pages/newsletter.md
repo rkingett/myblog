@@ -1,5 +1,6 @@
 ---
 title: Newsletter and free stuff.
+permalink: /newsletter/
 redirect_from: free
 ---
 

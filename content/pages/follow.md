@@ -4,6 +4,7 @@ eleventyNavigation:
   key: Follow
   order: 2
 redirect_from: ['/subscribe/', '/team/']
+permalink: /follow/
 ---
 
 Follow me [via RSS feed,](/feed.xml) or [listen via podcast,](https://pnc.st/s/weirdwritings?align=center) or [get updates via email.](https://buttondown.com/weirdwriter) Read below for more details.

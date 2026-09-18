@@ -1,5 +1,6 @@
 ---
 title: Audio Description work.
+permalink: /ad/
 ---
 
 I wrote audio description for a wide array of media.

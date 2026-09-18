@@ -1,5 +1,6 @@
 ---
 title: My wish list.
+permalink: /wish/
 redirect_from: reply
 ---
 

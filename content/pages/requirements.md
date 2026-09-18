@@ -1,5 +1,6 @@
 ---
 title: In person appearance requirements
+permalink: /requirements/
 ---
 
 I’d love to visit you to speak about being a writer or otherwise. Visiting places, though, takes a lot of time away from [my writing](/writings) because I have to do triple the preparations non-disabled writers have to do. Also, traveling with blindness and cerebral palsy is extremely tiring, especially in the colder seasons. [My spoons are very limited](https://en.wikipedia.org/wiki/Spoon_theory) so read the below thoroughly before booking me.

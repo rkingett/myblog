@@ -1,5 +1,6 @@
 ---
 title: Writing portfolio
+permalink: /writings/
 eleventyNavigation:
   key: Writing
   order: 6

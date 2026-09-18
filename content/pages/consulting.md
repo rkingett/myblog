@@ -1,5 +1,6 @@
 ---
 title: Accessibility Consulting
+permalink: /consulting/
 redirect_from: ['/consult/', '/a11y/']
 ---
 

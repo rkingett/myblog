@@ -1,5 +1,6 @@
 ---
 title: Books and Anthologies
+permalink: /books/
 ---
 
 The books listed below are organized from newest, at the top, to oldest, at the bottom.

@@ -1,5 +1,6 @@
 ---
 title: Contact and book
+permalink: /contact/
 eleventyNavigation:
   key: Contact
   order: 10
