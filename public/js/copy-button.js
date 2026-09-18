@@ -9,7 +9,7 @@ for (const buttonHolder of buttonHolders) {
 	button.innerText = `Copy link to “${pageTitle}”`;
 	button.addEventListener("click", (e) => {
 		navigator.clipboard.writeText(pageUrl);
-		button.innerText = `Copied link to “${pageTitle}”`;
+		e.target.innerText = `Copied link to “${pageTitle}”`;
 	});
 
 	buttonHolder.append(button);
