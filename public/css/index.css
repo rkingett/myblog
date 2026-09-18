@@ -1001,6 +1001,10 @@ label[type="radio"] {
 	line-height: 1.6;
 }
 
+.copy-button {
+	margin: 1rem 0;
+}
+
 /**
  * 12.1 Header
  */
