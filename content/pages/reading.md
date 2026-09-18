@@ -1,15 +1,20 @@
 ---
 title: "About my Reading."
-redirect_from: /fav-books
+permalink: /reading/
+redirect_from: ['/posts/library-spotlight-queer-liberation-library/', '/fav-books/']
 ---
 
-[If you are looking for books and anthologies I have written instead, go to this page.](/books)
+[If you are looking for books and anthologies I have written instead, go to this page.](/books/)
 
-[If you are looking for my audiobooks and audio work, go to this page.](/audio)
+[If you are looking for my audiobooks and audio work, go to this page.](/audio/)
+
+## Need a free library?
+
+[Queer Liberation Library](https://www.queerliberationlibrary.org/) is a digital library that uses the Libby app as their library platform. It’s free for anyone in the US to sign up, so [donate your money to Queer Liberation Library](https://givebutter.com/DLwIaj) or send someone the registration link below.
+
+## What genres/types of books do you read?
 
 There are all kinds of Romance and other genre books I enjoy, [as a Romance author and reader myself.](/writings)
-
-This page will change multiple times a year so check back often.
 
 The kinds of genres I read are [Middle Grade,](https://www.audible.com/tag/theme/Middle-Grade-Audiobooks/adbl_rec_tag_0-13-1074?ref_pageloadid=98fhxpskaHzkhOFA&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=XBR8HBXZZBDVDEQ5DGMF&pageLoadId=XPB4KJvfqf2MSxPE&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3) [Children's Audiobooks,](https://www.audible.com/cat/Childrens-Audiobooks-Audiobooks/18572091011?ref_pageloadid=98fhxpskaHzkhOFA&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=XBR8HBXZZBDVDEQ5DGMF&plink=IgTEnoavAqn6GCQL&pageLoadId=XPB4KJvfqf2MSxPE&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Insign_psu_bc) [YA Fiction,](https://www.audible.com/cat/Teen-Young-Adult-Audiobooks/18580715011?ref_pageloadid=Npo59QJMnoGvFSG4&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=XANT572E4E956Z44XCTA&plink=KKDugDmBGsbq8Fsd&pageLoadId=KImnBdge734lflKd&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Queen-_psu_bc) [Fantasy,](https://www.audible.com/tag/theme/Fantasy-Audiobooks/adbl_rec_tag_0-13-703?ref_pageloadid=Npo59QJMnoGvFSG4&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=XANT572E4E956Z44XCTA&pageLoadId=KImnBdge734lflKd&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3) [Cozy Fantasy,](https://www.audible.com/topic/audiobooks-cozy-fantasy) [LGBT+ Fiction,](https://www.audible.com/cat/LGBTQ-Audiobooks/18573743011?ref_pageloadid=DJXNYS4uqgrbOIfT&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=GZWK6DMA8AZA1QC64XYG&plink=lwSJ8X8nipPsnmCy&pageLoadId=yapsLVMJOuwNvSWZ&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3&ref=a_pd_Heated_psu_bc) and [Romance Fiction,](https://www.audible.com/tag/theme/Romance-Audiobooks/adbl_rec_tag_0-13-106?ref_pageloadid=Npo59QJMnoGvFSG4&pf_rd_p=ab633c2e-8d2c-45fb-a450-f371cc1a8dfc&pf_rd_r=XANT572E4E956Z44XCTA&pageLoadId=KImnBdge734lflKd&creativeId=0e5797a6-2dec-4ca4-a423-727d8382d5c3)
 

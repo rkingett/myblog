@@ -62,7 +62,7 @@
 			{%- include "pagination.njk" %}
 			<footer>
 				<p>&copy; {{ metadata.author.name }} {% currentBuildYear %} | <a href="/privacy">Privacy, disclaimers, disclosures.</a></p>
-				<p class="hidden"><a href="{{ metadata.author.fediverseUrl }}" rel="me">@WeirdWriter@caneandable.social</a></p>
+				<p class="hidden"><a href="{{ metadata.author.fediverseUrl }}" rel="me">{{ metadata.author.fediverse }}</a></p>
 			</footer>
 		</div>
     {%- if age_gate %}

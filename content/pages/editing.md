@@ -1,5 +1,6 @@
 ---
 title: Authenticity editing
+permalink: /editing/
 ---
 
 [For other media such as games, podcasts, films, or TV shows, get in touch with me to discuss rates.](/contact)

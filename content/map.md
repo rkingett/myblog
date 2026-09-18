@@ -1,5 +1,6 @@
 ---
 title: Site Map
+permalink: /map/
 redirect_from: archive
 eleventyNavigation:
   key: Site Map
@@ -12,22 +13,34 @@ eleventyNavigation:
 
 {% include 'tags.njk' %}
 
-<h2>All posts and pages</h2>
-
-The below list will list all the pages first, then it will list the posts.
+<h2>All Pages</h2>
 
 <ul>
-{%- for post in collections.all | reverse -%}
-<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- for item in collections.page -%}
+	<li>
+		<a href="{{ item.url }}">
+			{%- if item.data.title -%}
+				{{ item.data.title }}
+			{%- else -%}
+				{{ item.url }}
+			{%- endif -%}
+		</a>
+	</li>
 {%- endfor -%}
 </ul>
 
-<h2>Backup list</h2>
-
-This is just in case the above breaks, and is orgonized from earliest to latest.
+<h2>All Posts</h2>
 
 <ul>
-{%- for post in collections.all -%}
- <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
+{%- for item in collections.posts | reverse -%}
+	<li>
+		<a href="{{ item.url }}">
+			{%- if item.data.title -%}
+				{{ item.data.title }}
+			{%- else -%}
+				{{ item.url }}
+			{%- endif -%}
+		</a>
+	</li>
 {%- endfor -%}
 </ul>

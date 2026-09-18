@@ -1,5 +1,6 @@
 ---
 title: Tip me
+permalink: /tip/
 eleventyNavigation:
 key: Tip me
 order: 9

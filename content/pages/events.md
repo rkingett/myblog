@@ -1,5 +1,6 @@
 ---
 title: Events overview
+permalink: /events/
 redirect_from: ['/live/', '/calendar/']
 eleventyNavigation:
   key: Events
