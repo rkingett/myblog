@@ -14,7 +14,7 @@ git config --global core.editor "notepad"; CD "$home/documents/myblog" && Start-
 
 One without an interactive command.
 
-CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Moved pages into the pages folder, removed many newsletter posts, and added the Ray story in nonfiction"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
+CD $home/documents/myblog; Start-Service ssh-agent; rclone delete $home/documents/myblog/DistSite --rmdirs; rclone delete NFS: --rmdirs; npx @11ty/eleventy --quiet; git add .; git commit -am "Updated posts and pages"; git push; rclone delete $home/documents/myblog/DistSite --rmdirs
 
 One with interactive commit.
 
