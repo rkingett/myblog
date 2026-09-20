@@ -1,5 +1,6 @@
 ---
 title: Kingett's PodRoll.
+permalink: /podroll/
 ---
 
 # Podcasts I listen to.
