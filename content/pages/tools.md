@@ -12,12 +12,9 @@ redirect_from: tech
 
 I receive a lot of questions about what tools and or services I use on a daily basis. This page will update frequently, so check back here often throughout the year.
 
-[I use this screen reader for now.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
+I hate all social media with an algorithm so if you see my account on any recent mainstream social media, chances are I'm being impersonated.
 
-## Music I write to.
-
-[Go here to see the music I write to. I often write to a lot of internet radio stations](/writings/)
-
+[I use the NVDA screen reader.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
 ## Online services I use.
 
@@ -25,21 +22,11 @@ I receive a lot of questions about what tools and or services I use on a daily b
 
 [Audiobookshelf through PikaPods.](https://www.pikapods.com/apps#media) PikaPods isn't fully accessible, but I haven't found an alternative like it, so for now, this is where my Audiobookshelf instance rests. If you want to have access to it and don't want to make your own PikaPods account, I can rent you space on it so contact me to discuss renting.
 
-## Social media.
-
-[The Fediverse, because it has a wonderful accessibility and care culture that people hate.](/contact/) Providing Alt Text, content warnings, and far more quality of life features. The people that take these kinds of things seriously are why I remain in the Fediverse despite the haters.
-
-[The particular Fediverse platform](https://en.wikipedia.org/wiki/Fediverse) might change but the ecosystem will stay the same. You might find me using a different application/platform/service in the Fediverse but I'll still remain in the Fediverse.
-
-[fedra is the client I most use right now.](https://github.com/trypsynth/fedra)
-
-I hate all social media with an algorithm so if you see my account on any recent mainstream social media, chances are I'm being impersonated.
-
 ## Phones and phone providers.
 
 I use an iPhone. Right now, I use an iPhone SE 3 Gen because I like my home button and tech consumerism is boring to me, so I don't buy the latest and the greatest unless there are substantial updates I find valuable. None of the newer iPhone's meet my standards of quality so that's why I'm using a non supported phone.
 
-For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and because I'm poor, if I need to use a non VOIP number, [I use a provider that provides services through the Lifeline program in my country.](https://cnm.universalservice.org/)
+[For my phone provider, I use VOIP systems such as JMP](https://jmp.chat/) and [because I'm poor, if I need to use a non VOIP number, I use a provider that provides services through the Lifeline program in my country.](https://cnm.universalservice.org/)
 
 ## Unique mobile apps I love.
 
@@ -53,13 +40,15 @@ For my phone provider, I use [VOIP systems such as JMP](https://jmp.chat/) and b
 
 [Bookshare](https://www.bookshare.org/) and [NLS BARD.](https://www.loc.gov/nls/) Two libraries for the blind.
 
-[Apple podcasts, because I love podcasts, especially fiction podcasts](/podroll) and I haven't found a better app made for fiction podcast fans that's blind accessible.
+[Apple podcasts, because I love podcasts, especially fiction podcasts](/podroll/) and I haven't found a better app made for fiction podcast fans that's blind accessible.
 
 ## Desktop software I use.
 
 I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
 
-Aside from the below, [I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+[Aside from the below, I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[Fill, because it allows me to fill out PDFs using the keyboard and my screen reader](https://effortlessvi.com/fill)
 
 [Metapad, an old text editor that still works!](https://liquidninja.com/metapad/download.html)
 
@@ -69,7 +58,7 @@ Aside from the below, [I experiment with [a shit load of CLI apps because I don'
 
 [fedra is the client I most use to interact with the Fediverse.](https://github.com/trypsynth/fedra)
 
-[Libation, because Audible will never hold my purchased audiobooks hostage](https://github.com/rmcrackan/Libation/releases)
+[Libation, because Audible will never hold my purchased audiobooks hostage](https://github.com/rmcrackan/Libation/releases/latest/)
 
 [Most of these little tools including the code editor and tools such as TXT2IMG](https://github.com/trypsynth?tab=repositories)
 

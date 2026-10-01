@@ -25,39 +25,37 @@ My tastes are split between [fiction podcasts](https://www.theend.fyi/fully-comp
 
 Typically, I listen to fiction podcasts more than nonfiction podcasts.
 
-The styles of audio fiction I listen to vary quite a bit, but I tend to gravitate toward [fiction podcasts that center around relationships](https://www.theend.fyi/collection/love-is-in-on-the-air) or [smaller storylines that are slice of life,](https://www.theend.fyi/collection/reality-check) or [intimate tellings of events or themes,](https://www.theend.fyi/collection/comedy-gold) think a superhero show that focuses on how the superhero keeps friends when the friends feel small because they're saving the world every week. [I also enjoy podcast audiobooks as well.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
+The styles of audio fiction I listen to vary quite a bit, but I tend to gravitate toward [fiction podcasts that center around relationships](https://www.theend.fyi/collection/love-is-in-on-the-air) or [smaller storylines that are slice of life,](https://www.theend.fyi/collection/reality-check) or [intimate tellings of events or themes,](https://www.theend.fyi/collection/comedy-gold) think a superhero show that focuses on how the superhero keeps friends when the friends feel small because they're saving the world every week.
+
+[I also enjoy podcast audiobooks as well.](https://www.theend.fyi/narrated)
 
 Even with those pulls toward relationship based audio fiction, I'll generally try any fiction podcast once if I like the trailer or first episode or synopsis.
 
 I find my favorite fiction podcasts using [The End audio fiction directory](https://www.theend.fyi/) or [this audio drama directory that looks like Wikipedia.](http://www.audio-drama.com/doku.php/wiki/tag/narrated)
 
-[Sometimes the Fiction category in Apple podcasts nets me interesting shows](https://podcasts.apple.com/ca/genre/1483?l=en-CA)
+[Sometimes the Fiction category in Apple podcasts nets me interesting shows](https://podcasts.apple.com/us/genre/1483?l=en-US)
 
 [This helped me find podcasts based on TV shows and movies I like](https://tunedinaudio.com/get-matched)
 
 ### The fiction podcast list.
 
+[Almost everything in this Meet Cute Channel](https://podcasts.apple.com/us/channel/meet-cute/id6442462857)
+
+[Almost everything by ATypical Artists](https://podcasts.apple.com/us/channel/atypical-artists/id6442482568)
+
 [Torment](https://podcasts.apple.com/us/podcast/planescape-torment-the-unofficial-audio-series/id1665270791)
 
 This reimagines the game, and it is super fun!
 
-[Low Orbit Zine](https://loworbitpodcast.com/)
+[The Royals of Malibu](https://podcasts.apple.com/us/podcast/the-royals-of-malibu/id1658147728)
 
-They call themselves an audio magazine, but they always feature writers and otherwise I've never heard of. This podcast is always a fantastic listen. I only wish they would do more longform stuff though.
-
-[Almost everything in this Meet Cute Channel](https://podcasts.apple.com/us/channel/meet-cute/id6442462857)
-
-[Moonburn](https://podcasts.apple.com/us/podcast/moonburn/id1743095671)
-
-[Forties AF](https://podcasts.apple.com/us/podcast/forties-af/id1528063766)
-
-[Past Due Audio Series](https://podcasts.apple.com/us/podcast/past-due-audio-series/id1479098487)
+Ella Sinclair (Alyssa McKay) is a survivor. She’s fierce, brave, and jaded. She finds herself a teenage orphan trying to stay afloat and finish high school on her own. Enter The Royals. Through circumstances Ella can barely believe, wealthy father-of-two sons, Callum Royal, plucks Ella out of poverty and welcomes her into their posh lifestyle a world away in elegant Malibu. Even though both Royal boys are intriguing, the most magnetic is the oldest, Reed Royal. Reed seems determined to keep Ella from settling comfortably into her new charmed life amongst the rich kids of Malibu. But what is Reed hiding? Ella is just as determined to come through it all with her soul intact.
 
 [Owned by a Dragon, a Shifter Romance. The synopsis will tell you everything you need to know!](https://podcasts.apple.com/us/podcast/owned-by-a-dragon-a-shifter-romance-audiobook/id1857440021)
 
 [LeVar Burton Reads.](https://podcasts.apple.com/us/podcast/levar-burton-reads/id1244649384)
 
-Fun fact, [one of my Fiction stories almost made it onto this podcast.](/writings/)
+[Fun fact, one of my Fiction stories almost made it onto this podcast.](/writings/)
 
 LeVar Burton, my forever parasocial husband, reads short stories. Enough said. The podcast ended years ago but still, you won't be disappointed.
 
@@ -66,10 +64,6 @@ LeVar Burton, my forever parasocial husband, reads short stories. Enough said. T
 [Escape artists reads all kinds of short stories across multiple podcasts.](https://escapeartists.net/)
 
 [Graphic Audio New Release Samples](https://podcasts.apple.com/us/podcast/graphic-audio-new-release-samples/id1713720525)
-
-[Gay Erotica](https://podcasts.apple.com/us/podcast/gay-erotica-by-liam-williams/id1573137538)
-
-[Romance Weekly](https://podcasts.apple.com/de/podcast/romance-weekly-short-stories-of-love-erotic/id1709999820)
 
 [Forever Yours.](https://podcasts.apple.com/us/podcast/forever-yours/id1780403839)
 
