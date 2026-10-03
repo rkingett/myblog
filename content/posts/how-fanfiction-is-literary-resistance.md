@@ -2,7 +2,8 @@
 title: "How Fanfiction is Literary Resistance"
 date: '2026-01-20T11:56:29.893137+00:00'
 tags: [blog and journal]
-permalink: /how-fanfiction-is-literary-resistance/
+permalink: /posts/how-fanfiction-is-literary-resistance/
+redirect_from: /how-fanfiction-is-literary-resistance/
 ---
 
 Mood: Firery, cozy, and currently plotting the overthrow of capitalism via Romance tropes and cookies.

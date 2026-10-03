@@ -1,9 +1,8 @@
 ---
 title: Kingett's PodRoll.
 permalink: /podroll/
+redirect_from: ['/posts/fiction-podcasts-disabled/', '/posts/6603/']
 ---
-
-# Podcasts I listen to.
 
 [Go here if you want to learn about my podcast](/podcast/) and [Learn about my writings, here, including my audiobooks](/writings/)
 
@@ -42,6 +41,16 @@ I find my favorite fiction podcasts using [The End audio fiction directory](http
 [Almost everything in this Meet Cute Channel](https://podcasts.apple.com/us/channel/meet-cute/id6442462857)
 
 [Almost everything by ATypical Artists](https://podcasts.apple.com/us/channel/atypical-artists/id6442482568)
+
+[Earth Eclipsed.](https://www.eartheclipsed.com/) Blind protagonist. Note that [I was a sensitivity/authenticity reader for this show.](/editing)
+
+[Where the Stars Fell.](https://wherethestarsfell.com/) Dyslexia and ADHD representation.
+
+Dr. Edison Tucker is having a very weird life. Not being able to die tends to color things that way. Lucille Kensington is the literary scene’s biggest enigma. That’s just the way she likes it. When the pair find themselves sharing a cabin in the strangest town in America— Jerusalem, OR— they’re prepared for a housemate situation from hell. What they’re not expecting is tidings of a stranger sort: Ed is the antichrist, Lucy her guardian angel, and if they can’t find a way to work together soon, the rapture is set to take first the town, then the world… but neither of them know that yet. Welcome to Jerusalem, OR, where what doesn’t kill you is just another mystery.
+
+[Seen and Not Heard.](https://podcasts.apple.com/us/podcast/seen-and-not-heard/id1498117427) Deaf representation.
+
+What happens when you lose something you thought you'd always have? What happens when the thing you lose is one of your senses? Bet Kline is deaf. That wasn't the case a year ago. Now that her life has been upended, she has to figure out how to carve out a new path for herself and navigate her way down it. Easier said than done.
 
 [Torment](https://podcasts.apple.com/us/podcast/planescape-torment-the-unofficial-audio-series/id1665270791)
 

@@ -16,6 +16,10 @@ I hate all social media with an algorithm so if you see my account on any recent
 
 [I use the NVDA screen reader.](https://www.nvaccess.org/download/) Because I am blind, the software and tools I use have to work for me. If I still use a tool despite its accessibility problems, that is because the developer has made something work to the point where I can tolerate it. It never means a tool is accessible.
 
+Unfortunately, because the blind community needs LLMs, and is unable to code without an LLM, the blind developed software I use has been vibe coded, in whole, or in part. I am unable to control this.
+
+[I wish it wasn't so, but human developers that do not use LLMs leave me no choice because they do not make screen reader friendly software.](https://noailist.org/)
+
 ## Online services I use.
 
 [Libro FM. DRM Free audiobooks to buy.](https://libro.fm/wishlist/1038030)
@@ -47,6 +51,8 @@ I use an iPhone. Right now, I use an iPhone SE 3 Gen because I like my home butt
 I use things such as [Portable Apps](https://portableapps.com/download) [WinGet](https://winstall.app/) and [Chocolatey](https://chocolatey.org/install) to get all my software. Why? Because I am not that smart and they install all the components for me.
 
 [Aside from the below, I experiment with [a shit load of CLI apps because I don't need a GUI](https://winstall.app/apps?q=tags:%20cli)
+
+[ZBox Email client](https://github.com/iqdz/ZBox)
 
 [Fill, because it allows me to fill out PDFs using the keyboard and my screen reader](https://effortlessvi.com/fill)
 
