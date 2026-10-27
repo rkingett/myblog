@@ -1,6 +1,6 @@
 ---
-title: How to write a radio script in Fountain
-date: 2023-02-26T23:37:13.000Z
+title: How to write a fiction podcast script in Fountain
+date: 2026-10-27T23:37:13.000Z
 permalink: /posts/fountain-radio-scripts/
 tags:
   - blog and journal
@@ -13,7 +13,7 @@ Aside from [writing a bunch of books and short stories,](/writings/) I also [wri
 
 [I write all of my fiction podcast scripts in Fountain.](https://fountain.io/) It’s free, portable, literally, and can be converted to almost anything, even Word files.
 
-Sidebar, [here is where you can look at all the podcasts I love](/podroll/)
+[Sidebar, here is where you can look at all the podcasts I love](/podroll/)
 
 This isn’t going to be a guide on Fountain. [The Fountain syntax is the best place to learn how to write in Fountain.](https://fountain.io/syntax) This is a testimonial as to what I do after the writing process.
 
@@ -60,17 +60,17 @@ Even though Fountain is very portable, not every podcast producer I’ve worked 
 
 [There’s a fantastic open source tool to convert Fountain into HTML and PDF](https://github.com/Wraparound/wrap) but it doesn’t support converting to Docx format. Plus, even if Word can open PDF files, it just isn’t a solution for everybody. PDF doesn’t work well with screen readers unless tagged, and, this is just my personal opinion, it’s very clunky, bulky, and, ironically isn’t all that portable in my opinion. I like lightweight documents and lightweight workflows and PDF just doesn’t cut it for me.
 
-That being said, if your producer wants a PDF file, [Wrapped will be everything you need](https://github.com/Wraparound/wrap) and you can stop reading!
+[That being said, if your producer wants a PDF file, Wrapped will be everything you need](https://github.com/Wraparound/wrap) and you can stop reading!
 
 If you need a way to convert Fountain into Word, Pandoc can do this with a custom interpreter.
 
-First, you need to [get Pandoc for your operating system and install it.](https://pandoc.org/installing.html)
+[First, you need to get Pandoc for your operating system and install it.](https://pandoc.org/installing.html)
 
 Pandoc can convert a whole bunch of things, so I’d encourage [reading the user’s guide to Pandoc if you want to explore other capabilities.](https://pandoc.org/getting-started.html)
 
-Then, you need to download [this custom interpreter for Pandoc to convert Fountain to Docx files.](https://github.com/pandoc/pandoc-fountain)
+[Then, you need to download this custom interpreter for Pandoc to convert Fountain to Docx files.](https://github.com/pandoc/pandoc-fountain)
 
-If you don’t know how to download github repositories, expand the code, button, and then click on download as Zip.
+[If you don’t know how to download github repositories, my GitHub guide should bd help](posts/how-to-download-assets-from-github-using-a-screen-reader/)
 
 Unzip the file, and then make sure to put your script into the unzipped folder.
 

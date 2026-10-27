@@ -1,6 +1,6 @@
 ---
 title: "How to Download Assets from GitHub using a screen reader."
-date: '2026-09-12T19:28:50.020427+00:00'
+date: '2026-10-27T19:28:50.020427+00:00'
 tags: [blog and journal, new]
 permalink: "/posts/how-to-download-assets-from-github-using-a-screen-reader/"
 ---

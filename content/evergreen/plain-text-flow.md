@@ -1,6 +1,6 @@
 ---
 title: My plain text workflow as a fiction writer.
-date: 2023-10-03T08:49:26.000Z
+date: 2026-10-27T08:49:26.000Z
 permalink: /posts-plain-text/
 tags:
   - blog and journal
@@ -10,7 +10,7 @@ redirect_from: /posts/6121
 
 Like this post? [Donate to me so I can keep writing.](/tip)
 
-Ever since discovering that I could [write my novels in plain text and or Markdown,](/posts/5926) and also that I could [write my fiction podcast scripts in a plain text syntax called Fountain,](/posts/5913) I began wondering what other plain text avenues I could explore, and if I could adapt my workflow around plain text.
+[Ever since discovering that I could write my novels in plain text and or Markdown,](/posts/shun/) and [also that I could write my fiction podcast scripts in a plain text syntax called Fountain,](/posts/fountain-radio-scripts/) I began wondering what other plain text avenues I could explore, and if I could adapt my workflow around plain text.
 
 ## Why use plain text?
 
@@ -34,11 +34,11 @@ With those requirements in mind, I began hunting for workflows. Even in the plai
 
 ## Plain text software.
 
-I tried [many plain text software for Windows.](https://en.wikipedia.org/wiki/Category:Windows_text_editors) Some were screen reader accessible, while others weren’t screen reader accessible, at all. I didn’t try much of the terminal based text editors because I just can’t get the hang of writing romance novels in a terminal window, especially since I like to go back and review what I’ve written, and unless I’m missing a screen reader trick, it’s more trouble than it’s worth to review previous output in a terminal window.
+[I tried many plain text software for Windows.](https://en.wikipedia.org/wiki/Category:Windows_text_editors) Some were screen reader accessible, while others weren’t screen reader accessible, at all. I didn’t try much of the terminal based text editors because I just can’t get the hang of writing romance novels in a terminal window, especially since I like to go back and review what I’ve written, and unless I’m missing a screen reader trick, it’s more trouble than it’s worth to review previous output in a terminal window.
 
-I opted to use only [portable text editors for Windows,](https://portableapps.com/apps/development) editors that could run on a USB flash drive without installing anything and adding to my registry.
+[I opted to use only portable text editors for Windows,](https://portableapps.com/apps/development) editors that could run on a USB flash drive without installing anything and adding to my registry.
 
-I tried [all the text editors with a spell checker compared by Wikipedia.](https://en.wikipedia.org/wiki/Comparison_of_text_editors) None were fully accessible, but I did find some accessible graphical interfaced, GUI, based editors that are fully accessible to screen readers.
+[I tried all the text editors with a spell checker compared by Wikipedia.](https://en.wikipedia.org/wiki/Comparison_of_text_editors) None were fully accessible, but I did find some accessible graphical interfaced, GUI, based editors that are fully accessible to screen readers.
 
 ## What about text editors with autocorrect?
 
@@ -48,34 +48,24 @@ Few text editors I tried had autocorrect, except for a couple text editors. That
 
 I [downloaded AutoHotkey](https://www.autohotkey.com/) [and then I just edited this autocorrect script](https://github.com/kunkel321/AutoCorrect2) to fit my writing projects. Even so, it glitches out sometimes, so I’d still like a text editor with built in autocorrect/text replacement options other than the below editors.
 
-## Text editors with autocorrect/text replacements.
+## Text editors with autocorrect/text replacements I use.
 
-1.  [Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US&gl=US) gained autocorrect and spell check support in 2025.
-2.  [PSPad.](http://www.pspad.com/en/download.php) Has a lot of features but has some accessibility problems with controls and buttons.
-3.  [Jarte.](https://www.jarte.com/download.html) Best text editor I’ve found and is fully accessible. Autocorrect entries can be tricky to add, but this is the best text editor I’ve found while it still works.
-4.  [LibreOffice.](https://www.libreoffice.org/download/download-libreoffice/) While not quite a text editor, it’s a free alternative to Microsoft Word with superb text replacement capabilities. It’s not fully screen reader accessible though for many reasons but for creating drafts, this can work fine.
-5.  AutoHotkey can turn your whole PC into a text replacement workstation. [Download then install AutoHotkey first,](https://www.autohotkey.com/) then [download this AutoCorrect AutoHotkey script,](https://github.com/kunkel321/AutoCorrect2) then just run the script after editing the script to your liking. [The AutoHotkey manual can teach you how to edit scripts or create your own autocorrect script.](https://www.autohotkey.com/docs/)
-
-## Accessible text editors.
-
-The below text editors are fully accessible to screen readers. I didn’t include Mac ones because I don’t use Mac. I use Windows. As I try more editors, and if they meet my accessibility standards, they will go in the below list.
-
-Jarte is the only accessible text editor with autocorrect. The others in the below list don’t have autocorrect/text replacement capabilities but you can [make any text editor have autocorrect with AutoHotkey.](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=120220)
+Over the years, I am trying text editors less and less, so the below list will be the text editors I use, for now.
 
 A number of the below can be installed using the [WinGet Install commands.](http://https://learn.microsoft.com/en-us/windows/package-manager/winget/install.) [Learn about Winget on Wikipedia.](https://en.wikipedia.org/wiki/Winget)
 
-1.  [Notepad](https://apps.microsoft.com/detail/9msmlrh6lzf3?hl=en-US&gl=US) gained autocorrect support in 2025 so I use this now too. Accessibility isn’t stable, though.
-2.  [Jarte.](https://www.jarte.com/download.html) In addition to this being fully accessible, it has autocorrect capabilities but since Microsoft killed the WordPad engine, this won’t last long.
 3.  [Accessible Markdown editor.](https://github.com/stefano-pogliani/AME) Best screen reader friendly Markdown editor I could find. It’s not feature rich, but I don’t need it to have everything.
 4.  [MetaPad.](https://liquidninja.com/metapad/download.html) This is what Notepad should have been. This is blazing fast. It still works even though it hasn’t been updated in a while.
+3.  [Jarte.](https://www.jarte.com/download.html) Best text editor I’ve found and is fully accessible. Autocorrect entries can be tricky to add, but this is the best text editor I’ve found while it still works.
+4.  [LibreOffice.](https://www.libreoffice.org/download/download-libreoffice/) While not quite a text editor, it’s a free alternative to Microsoft Word with superb text replacement capabilities. It’s not fully screen reader accessible though for many reasons but for creating drafts, this can work fine.
+5.  AutoHotkey can turn your whole PC into a text replacement workstation. [Download then install AutoHotkey first,](https://www.autohotkey.com/) then [download this AutoCorrect AutoHotkey script,](https://github.com/kunkel321/AutoCorrect2) then just run the script after editing the script to your liking. [The AutoHotkey manual can teach you how to edit scripts or create your own autocorrect script.](https://www.autohotkey.com/docs/)
 5.  [Notepad++.](https://notepad-plus-plus.org/downloads/) I know this is accessible to many, but I just couldn’t find any decent starting points for using it as a fiction editor so I outline some starting points below. It does have [an NVDA add on for Notepad++](https://github.com/derekriemer/nvda-notepadPlusPlus) though if you want to give it a try.
-7.  [EdSharp.](https://github.com/EmpowermentZone/EdSharp) No longer updated but it works well.
-8.  [VSCodium.](https://github.com/VSCodium/vscodium) A fork of [VS Studio Code](https://code.visualstudio.com/) without the telemetry and Microsoft branding but I’ve found VS Code is just not fit for me. It feels like a web app rather than a native program to me but you may like it.
 
 ## Other text editors to try.
 
 The below text editor listings list inaccessible software so try at your own risk, or boredom! I included portable databases so you can just remove the folder if you don’t like a program rather than uninstalling it. If you really like the program, feel free to install it.
 
+7.  [EdSharp.](https://github.com/EmpowermentZone/EdSharp) No longer updated but it works well.
 1.  [Portable text editors by the Portable Freeware Collection.](https://www.portablefreeware.com/index.php?sc=14)
 2.  [Portable text editors by PortableApps.](https://portableapps.com/apps/development)
 3.  [List of text editors on Wikipedia.](https://en.wikipedia.org/wiki/List_of_text_editors)
@@ -85,10 +75,9 @@ The below text editor listings list inaccessible software so try at your own ris
 
 The below is my current workflow. If the below changes, I’ll update this blog post. I also talk about how I do text based accounting, as well, below, but this is how I write and export my work.
 
-1.  Start a draft in anything but then save it as a text, .TXT, file and if I’m going to write lengthy stuff without Jarte or MSWord or LibreOffice, I launch [my Autocorrect script.](https://www.autohotkey.com/boards/viewtopic.php?f=83&t=120220)
-2.  Save it as either plain text or Markdown. Because you can actually write Markdown in a plain .TXT file, saving it as a .TXT extension should do the trick.
+1. Write and save anything and everything in Markdown. 
 3.  Because I tend to just write without making paragraph breaks, I sometimes use [this online text cleanup tool to make paragraph breaks.](https://www.textfixer.com/tools/add-line-breaks.php) If needed, [this online tool removes messy paragraph breaks.](https://www.textfixer.com/tools/remove-line-breaks.php)
-4.  [Convert the file, with Pandoc, if needed.](https://pandoc.org/installing.html) [This is how I convert text into Shun Format.](/posts/5926) [This is how I convert plain text into formatted screenplays.](/posts/5913)
+4.  [Convert the file, with Pandoc, if needed.](https://pandoc.org/installing.html) [This is how I convert text into Shun Format.](/posts/shun/) [This is how I convert plain text into formatted screenplays.](/posts/fountain-radio-scripts/)
 5.  Because I often don’t use the shift key in dialog tags, I open the file up in MetaPad, select all with Control A, and convert everything to sentence case. That cleans up 99% of my grammar errors because almost all of my mistakes are not hitting the shift key when quoting someone.
 6.  If the book needs extensive editing before sending it off, because I haven’t found a screen reader friendly text editor with grammar checking, I run the Microsoft Word grammar checker on it. Microsoft, ironically, made Word the best grammar editor I could find to date. Otherwise, if I feel it doesn’t need that much editing, for the most part, this is where I just send it off and let the editors take care of it. If I feel something needs to be replaced, I just use the find and replace tool in Jarte.
 

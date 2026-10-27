@@ -1,6 +1,6 @@
 ---
 title: "How to convert Markdown to Shun manuscript format Using Pandoc"
-date: 2026-08-24T10:17:48.000Z
+date: 2026-10-27T10:17:48.000Z
 permalink: /posts/shun/
 redirect_from: /posts/5926
 tags:
