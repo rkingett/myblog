@@ -38,9 +38,13 @@ Houston TX, 77043-4718
 
 Most desired at the top.
 
-[This Hyper X Gaming headset](https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset)
+[Clicks Communicator Bluetooth Keyboard](https://clicks.tech/communicator)
 
-[
+[This wireless microphone](https://store.hollyland.com/products/lark-m2?variant=44805746524419&country=US&currency=USD)
+
+[This backup Wireless Microphone](https://rode.com/en-us/products/wireless-me)
+
+[This Hyper X Gaming headset](https://hyperx.com/products/hyperx-cloud-iii-wired-gaming-headset)
 
 [Any Oral B Pro Electric Toothbrush](https://oralb.com/en-us/products/electric-toothbrushes/pro-series/)
 
@@ -51,7 +55,5 @@ Most desired at the top.
 [Physical Marriot gift cards](https://gifts.marriott.com/gift-cards/)
 
 [Any one of these Thinkpad P Laptops](https://www.lenovo.com/us/en/c/laptops/thinkpad/thinkpadp/)
-
-[Any of these Bose noise canceling headphones for audiobooks](https://www.bose.com/c/headphones)
 
 [Any of these USB headsets](https://www.bestbuy.com/site/computer-accessories/headsets-microphones/pcmcat304600050012.c?id=pcmcat304600050012)

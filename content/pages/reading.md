@@ -38,7 +38,7 @@ A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search
 
 [A narrator/actor I have admired forever, LeVar Burton](https://www.audible.com/search?searchNarrator=LeVar+Burton&ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=9A08AWA81QXTFWVMWYGH&plink=0mC4naassMkrugly&pageLoadId=5U2BHhZrL7uyslUS&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_1_1)
 
-[Chance Smolders](https://www.audible.com/search?searchNarrator=Chance+Smolders&ref_pageloadid=Wz7KLTZe8T2tzZsO&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=TCWT5CK569WSG35R1RVZ&plink=diprcgBQjdnV5Kih&pageLoadId=ZURv7DHaWFlXZB6j&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_2_1)
+[Chance Smolders](https://www.audible.com/search?searchNarrator=Chance+Smolders&ref_pageloadid=fRtmkRVaALuKwNXQ&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=1A5S1WRQWGD4AG3YXAJS&plink=DD0MP9ZjudZPvcni&pageLoadId=wYZrE1oP9zsyLR65&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_1_2)
 
 [Savanah Peachwood](https://www.audible.com/search?searchNarrator=Savanah+Peachwood&ref_pageloadid=mMLe2mr4ZhRzWNrF&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=FQ4CM1RBW6S2940Z2A9T&plink=A00pBXl3z3FGVNrA&pageLoadId=h2gBTOaT2QLzQHKJ&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lNarrator_1_3_1)
 
@@ -67,6 +67,8 @@ A narrator I hope to meet one day, [Damian Lynch](https://www.audible.com/search
 ## Favorite authors.
 
 I will read **anything** by the below authors.
+
+[Amber Paige](https://www.amberpaigeauthor.com/)
 
 [Kennedy Ryan](https://www.audible.com/author/Kennedy-Ryan/B00HBHK09Q?ref_pageloadid=not_applicable&pf_rd_p=83218cca-c308-412f-bfcf-90198b687a2f&pf_rd_r=2F1C19Q36WCW0HPBMWAR&plink=256h9vB9ICaJqCFE&pageLoadId=oialba1vXoLYopPh&creativeId=0d6f6720-f41c-457e-a42b-8c8dceb62f2c&ref=a_search_c3_lAuthor_1_1_1)
 

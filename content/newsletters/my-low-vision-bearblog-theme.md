@@ -15,11 +15,9 @@ It's called Low Vision Reader. Of course, it was made with low vision readers in
 
 I wanted to give the Bear community something [since I read their discovery feed daily.](https://bearblog.dev/discover/?newest=true)
 
-Unfortunately, I've lost the link to the initial Repository and I lost the link to the person that worked with me to make this possible but it was a team effort.
+A while back, I hired [Travis Jeans to make the theme.](https://futurehorizondesign.net.au/about.html) [and the original repo is here, so go hire them!](https://futurehorizondesign.net.au/portfolio/cyanotypebearblogtheme.html)
 
 [I do like the changes Bear is making, though!](https://docs.bearblog.dev/changelog/) [Bear is making Blogging and hosting static sites easy and accessible to so many people](https://docs.bearblog.dev/changelog/) that I point new people there often when they tell me they want to blog.
-
-None of us that worked on the theme are Bear community bloggers. I like my little space on the web, here. I do have blogs on Bear but those are not blogs. They are more like directories that can live online but wouldn't be right for the Sightless Scribbles blog. I don't blog there like others over there but still, I love the community, and the discovery feed keeps me reading daily!
 
 [I especially enjoy finding the diamonds in the Most Recent portion of the Discovery feed.](https://bearblog.dev/discover/?newest=true)
 
